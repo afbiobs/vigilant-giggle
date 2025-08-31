@@ -1,0 +1,66 @@
+/* Minimal, GitHub Pages friendly styles */
+:root {
+  /* constrain line length and define a few colour variables */
+  --max: 68ch;
+  --pad: 1rem;
+  --fg: #111;
+  --muted: #666;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 16px/1.6 system-ui, "Segoe UI", Roboto, Arial, sans-serif;
+  color: var(--fg);
+  background: #fff;
+}
+
+.container {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: clamp(.75rem, 1.5vw, 1.25rem);
+}
+
+h1 {
+  margin: .25rem 0 0;
+}
+
+.meta {
+  color: var(--muted);
+  margin: .25rem 0 1rem;
+}
+
+.thought p {
+  margin: .5rem 0;
+}
+
+.thought a {
+  text-decoration: underline;
+}
+
+.red {
+  color: #c00;
+}
+
+.foot {
+  margin: 2rem 0;
+  color: var(--muted);
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #111;
+    color: #eee;
+  }
+  .meta,
+  .foot {
+    color: #aaa;
+  }
+}

@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Thought for the Day</title>
+  <!-- Preload and include our stylesheet -->
+  <link rel="preload" href="assets/styles.css" as="style">
+  <link rel="stylesheet" href="assets/styles.css">
+  <!-- Use the browser's light/dark mode preferences -->
+  <meta name="color-scheme" content="light dark">
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>Thought for the Day</h1>
+      <p id="meta" class="meta"></p>
+    </header>
+    <article id="thought" class="thought" aria-live="polite">
+      <noscript>Please enable JavaScript to see today’s thought.</noscript>
+    </article>
+    <footer class="foot">
+      <small>© <span id="year"></span> — Static site, client‑side only.</small>
+    </footer>
+  </main>
+  <!-- Our application logic -->
+  <script src="assets/app.js" defer></script>
+</body>
+</html>

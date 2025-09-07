@@ -2,12 +2,10 @@
 
 // Immediately invoked function expression to avoid polluting global scope
 (function() {
-  /*
-   * Path to our JSON data file.  A relative path is important so that
-   * the app works both locally and when hosted from a subdirectory on
-   * GitHub Pages.  The file must exist and contain a JSON array of
-   * objects as described in the project brief.
-   */
+  // Path to our JSON data file.  A relative path is important so that
+  // the app works both locally and when hosted from a subdirectory on
+  // GitHub Pages.  The file must exist and contain a JSON array of
+  // objects as described in the project brief.
   const DATA_URL = "data/thoughts.json";
 
   // We must always use the Europe/London time zone when computing
@@ -78,8 +76,15 @@
   async function load() {
     const metaEl = document.getElementById('meta');
     const thoughtEl = document.getElementById('thought');
-    const yearEl = document.getElementById('year');
-    yearEl.textContent = new Date().getFullYear();
+    const aboutBtn = document.getElementById('about-button');
+    const aboutSection = document.getElementById('about-section');
+    // Toggle about section
+    if (aboutBtn && aboutSection) {
+      aboutBtn.addEventListener('click', () => {
+        const isHidden = aboutSection.style.display === 'none';
+        aboutSection.style.display = isHidden ? 'block' : 'none';
+      });
+    }
     try {
       const res = await fetch(DATA_URL, { cache: 'no-store' });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -93,6 +98,17 @@
       state.idx = chooseIndex(state.thoughts.length);
       state.today = state.thoughts[state.idx];
       render(metaEl, thoughtEl);
+
+      // Set up previous button handler after successful load
+      const prevBtn = document.getElementById('prev-button');
+      if (prevBtn) {
+        prevBtn.addEventListener('click', () => {
+          if (!state.thoughts || state.thoughts.length === 0) return;
+          state.idx = (state.idx - 1 + state.thoughts.length) % state.thoughts.length;
+          state.today = state.thoughts[state.idx];
+          render(metaEl, thoughtEl);
+        });
+      }
     } catch (err) {
       console.warn('Load error', err);
       fallback(metaEl, thoughtEl);
@@ -110,7 +126,8 @@
       return;
     }
     const total = state.thoughts.length;
-    const label = t.title ? `${t.title}` : `Day ${t.id + 1}`;
+    // Use title if present, else use day (if available) or id+1
+    const label = t.title ? `${t.title}` : (t.day ? `Day ${t.day}` : `Day ${t.id + 1}`);
     metaEl.textContent = `${label} • entry ${state.idx + 1} of ${total}`;
     thoughtEl.innerHTML = t.html;
     // Normalise links: add noopener and open in new tab if not already specified
@@ -127,7 +144,7 @@
    */
   function fallback(metaEl, thoughtEl) {
     metaEl.textContent = 'Fallback';
-    thoughtEl.innerHTML = '<p><em>Today\'s entry is unavailable. Here\'s a timeless reminder:</em></p><p><span class="red" style="color:#c00">“You are loved.”</span> Take a moment to pray and give thanks.</p>';
+    thoughtEl.innerHTML = ' Today\'s entry is unavailable. Here\'s a timeless reminder: “You are loved.” Take a moment to pray and give thanks. ';
   }
 
   // Kick off the load once DOM has finished initial parsing

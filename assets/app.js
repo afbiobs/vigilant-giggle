@@ -5,7 +5,8 @@
   // Path to our JSON data file.  A relative path is important so that
   // the app works both locally and when hosted from a subdirectory on
   // GitHub Pages.  The file must exist and contain a JSON array of
-  // objects as described in the project brief.
+  // objects where each entry has the shape:
+  //   { "day": <number>, "body_text": <html string> }
   const DATA_URL = "data/thoughts.json";
 
   // We must always use the Europe/London time zone when computing
@@ -90,11 +91,11 @@
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const arr = await res.json();
       const clean = Array.isArray(arr)
-        ? arr.filter(o => o && Number.isInteger(o.id) && isValidHTML(o.html))
+        ? arr.filter(o => o && Number.isInteger(o.day) && isValidHTML(o.body_text))
         : [];
       if (clean.length === 0) throw new Error('No valid thoughts found');
-      // sort by id ascending just in case
-      state.thoughts = clean.sort((a, b) => a.id - b.id);
+      // sort by day ascending just in case
+      state.thoughts = clean.sort((a, b) => a.day - b.day);
       state.idx = chooseIndex(state.thoughts.length);
       state.today = state.thoughts[state.idx];
       render(metaEl, thoughtEl);
@@ -126,10 +127,9 @@
       return;
     }
     const total = state.thoughts.length;
-    // Use title if present, else use day (if available) or id+1
-    const label = t.title ? `${t.title}` : (t.day ? `Day ${t.day}` : `Day ${t.id + 1}`);
+    const label = `Day ${t.day}`;
     metaEl.textContent = `${label} • entry ${state.idx + 1} of ${total}`;
-    thoughtEl.innerHTML = t.html;
+    thoughtEl.innerHTML = t.body_text;
     // Normalise links: add noopener and open in new tab if not already specified
     thoughtEl.querySelectorAll('a[href]').forEach(a => {
       a.setAttribute('rel', 'noopener');

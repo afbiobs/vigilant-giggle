@@ -134,6 +134,13 @@
     const label = `Day ${t.day}`;
     metaEl.textContent = `${label} • entry ${state.idx + 1} of ${total}`;
     thoughtEl.innerHTML = t.body_text;
+    thoughtEl.querySelectorAll('span[style]').forEach(span => {
+      const style = span.getAttribute('style');
+      if (style && /color:\s*#C9211E/i.test(style)) {
+        span.classList.add('red-text');
+        span.removeAttribute('style');
+      }
+    });
     // Normalise links: add noopener and open in new tab if not already specified
     thoughtEl.querySelectorAll('a[href]').forEach(a => {
       a.setAttribute('rel', 'noopener');

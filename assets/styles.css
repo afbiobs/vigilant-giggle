@@ -49,6 +49,10 @@ h1 {
   color: #c00;
 }
 
+.red-text {
+  color: #C9211E;
+}
+
 .foot {
   margin: 2rem 0;
   color: var(--muted);

@@ -5,8 +5,7 @@ for the Day” devotional.  Entries were converted from the source
 document provided by the user and stored in `data/thoughts.json` as an
 array of objects.  Each object contains a `day` (1‑based) and a
 `body_text` field holding the complete HTML string for that day’s
-devotional.  The HTML must not include `<script>` or `<img>` tags or
-any inline event handlers; such entries are rejected at run time.
+devotional.
 
 The site consists of a single HTML page (`index.html`) with a small
 stylesheet (`assets/styles.css`) and a script (`assets/app.js`).  On

@@ -60,12 +60,16 @@
 
   /**
    * Minimal validation of HTML fragments.  Reject anything that
-   * contains script tags or inline event handlers.  We trust that
-   * entries were sanitised at build time.
+   * contains script tags, image tags or inline event handlers.  We trust
+   * that entries were sanitised at build time.
    */
   function isValidHTML(html) {
     if (typeof html !== "string" || !html.trim()) return false;
-    if (/<\s*script/i.test(html) || /on\w+\s*=/.test(html)) return false;
+    if (
+      /<\s*script/i.test(html) ||
+      /<\s*img/i.test(html) ||
+      /on\w+\s*=/.test(html)
+    ) return false;
     return true;
   }
 

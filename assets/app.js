@@ -60,9 +60,11 @@
 
   /**
    * Minimal validation of HTML fragments. Reject anything that
-   * contains script tags or inline event handlers. Image tags are
-   * stripped elsewhere so we simply ignore them here. We trust
-   * that entries were sanitised at build time.
+
+   * contains script tags or inline event handlers. Images and other
+   * unwanted elements are stripped elsewhere so we simply ignore
+   * them here. We trust that entries were sanitised at build time.
+n
    */
   function isValidHTML(html) {
     if (typeof html !== "string" || !html.trim()) return false;
@@ -74,13 +76,21 @@
   }
 
   /**
-   * Remove image tags from an HTML fragment. Returns the input string
-   * with any <img> elements removed.
+
+   * Strip elements we don't want from an HTML fragment.
+   * Currently removes any <img> tags, legacy <font> elements and
+   * trailing "Bible in a year" paragraphs.
    */
-  function stripImages(html) {
-    return typeof html === "string"
-      ? html.replace(/<\s*img[^>]*>/gi, "")
-      : html;
+  function sanitizeHTML(html) {
+    if (typeof html !== "string") return html;
+    return html
+      // drop images completely
+      .replace(/<\s*img[^>]*>/gi, "")
+      // remove deprecated font tags but keep their text
+      .replace(/<\/?font[^>]*>/gi, "")
+      // remove final Bible in a year paragraph
+      .replace(/<p><strong>\s*Bible in a year:[\s\S]*?<\/p>/gi, "");
+
   }
 
   /**
@@ -130,21 +140,11 @@
             console.warn('Skipping entry with missing fields', o);
             return null;
           }
+
+          const sanitized = sanitizeHTML(o.html);
+=======
           const sanitized = stripImages(o.html);
-          if (!isValidHTML(sanitized)) {
-            console.warn(`Skipping day ${o.day} due to invalid HTML`);
-            return null;
-          }
-          return { day: o.day, body_text: sanitized };
-        })
-        .filter(Boolean);
-      if (clean.length === 0) {
-        console.error(`Loaded ${arr.length} entries but none valid`);
-        throw new Error('No valid thoughts found');
-      }
-      if (clean.length < arr.length) {
-        console.warn(`Filtered out ${arr.length - clean.length} invalid entries`);
-      }
+
 
       // sort by day ascending just in case
       state.thoughts = clean.sort((a, b) => a.day - b.day);
@@ -182,13 +182,15 @@
     const label = `Day ${t.day}`;
     metaEl.textContent = `${label} • entry ${state.idx + 1} of ${total}`;
     thoughtEl.innerHTML = t.body_text;
-    thoughtEl.querySelectorAll('span[style]').forEach(span => {
-      const style = span.getAttribute('style');
-      if (style && /color:\s*#C9211E/i.test(style)) {
-        span.classList.add('red-text');
-        span.removeAttribute('style');
+
+    // Normalise any inline styles so that typography is consistent.
+    thoughtEl.querySelectorAll('[style]').forEach(el => {
+      const style = el.getAttribute('style') || '';
+      if (/color:\s*(#C9211E|rgb\(\s*201\s*,\s*33\s*,\s*30\s*\))/i.test(style)) {
+        el.classList.add('red-text');
       }
-    });
+      el.removeAttribute('style');
+
     // Normalise links: add noopener and open in new tab if not already specified
     thoughtEl.querySelectorAll('a[href]').forEach(a => {
       a.setAttribute('rel', 'noopener');

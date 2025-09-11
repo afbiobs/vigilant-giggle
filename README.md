@@ -3,8 +3,8 @@
 This repository contains a fully client‑side implementation of a “Thought
 for the Day” devotional.  Entries were converted from the source
 document provided by the user and stored in `data/thoughts.json` as an
-array of objects.  Each object contains a `day` (1‑based) and a
-`body_text` field holding the complete HTML string for that day’s
+array of objects.  Each object contains a `day` (1‑based) and an
+`html` field holding the complete HTML string for that day’s
 devotional.
 
 The site consists of a single HTML page (`index.html`) with a small

@@ -6,7 +6,7 @@
   // the app works both locally and when hosted from a subdirectory on
   // GitHub Pages.  The file must exist and contain a JSON array of
   // objects where each entry has the shape:
-  //   { "day": <number>, "body_text": <html string> }
+  //   { "day": <number>, "html": <html string> }
   const DATA_URL = "data/thoughts.json";
 
   // We must always use the Europe/London time zone when computing
@@ -107,8 +107,10 @@
       const clean = Array.isArray(arr)
         ? arr
             .map(o => {
-              if (!o || !Number.isInteger(o.day) || typeof o.body_text !== "string") return null;
-              const sanitized = stripImages(o.body_text);
+
+              if (!o || !Number.isInteger(o.day) || typeof o.html !== "string") return null;
+              const sanitized = stripImages(o.html);
+
               return isValidHTML(sanitized) ? { day: o.day, body_text: sanitized } : null;
             })
             .filter(Boolean)

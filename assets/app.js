@@ -6,7 +6,7 @@
   // the app works both locally and when hosted from a subdirectory on
   // GitHub Pages.  The file must exist and contain a JSON array of
   // objects where each entry has the shape:
-  //   { "day": <number>, "body_text": <html string> }
+  //   { "day": <number>, "html": <html string> }
   const DATA_URL = "data/thoughts.json";
 
   // We must always use the Europe/London time zone when computing
@@ -59,18 +59,34 @@
   }
 
   /**
-   * Minimal validation of HTML fragments.  Reject anything that
-   * contains script tags, image tags or inline event handlers.  We trust
-   * that entries were sanitised at build time.
+   * Minimal validation of HTML fragments. Reject anything that
+   * contains script tags or inline event handlers. Images and other
+   * unwanted elements are stripped elsewhere so we simply ignore
+   * them here. We trust that entries were sanitised at build time.
    */
   function isValidHTML(html) {
     if (typeof html !== "string" || !html.trim()) return false;
     if (
       /<\s*script/i.test(html) ||
-      /<\s*img/i.test(html) ||
       /on\w+\s*=/.test(html)
     ) return false;
     return true;
+  }
+
+  /**
+   * Strip elements we don't want from an HTML fragment.
+   * Currently removes any <img> tags, legacy <font> elements and
+   * trailing "Bible in a year" paragraphs.
+   */
+  function sanitizeHTML(html) {
+    if (typeof html !== "string") return html;
+    return html
+      // drop images completely
+      .replace(/<\s*img[^>]*>/gi, "")
+      // remove deprecated font tags but keep their text
+      .replace(/<\/?font[^>]*>/gi, "")
+      // remove final Bible in a year paragraph
+      .replace(/<p><strong>\s*Bible in a year:[\s\S]*?<\/p>/gi, "");
   }
 
   /**
@@ -91,13 +107,49 @@
       });
     }
     try {
-      const res = await fetch(DATA_URL, { cache: 'no-store' });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const arr = await res.json();
-      const clean = Array.isArray(arr)
-        ? arr.filter(o => o && Number.isInteger(o.day) && isValidHTML(o.body_text))
-        : [];
-      if (clean.length === 0) throw new Error('No valid thoughts found');
+      let res;
+      try {
+        res = await fetch(DATA_URL, { cache: 'no-store' });
+      } catch (netErr) {
+        console.error(`Failed to fetch ${DATA_URL}`, netErr);
+        throw netErr;
+      }
+      if (!res.ok) {
+        console.error(`Fetch to ${DATA_URL} returned HTTP ${res.status}`);
+        throw new Error(`HTTP ${res.status}`);
+      }
+      let arr;
+      try {
+        arr = await res.json();
+      } catch (parseErr) {
+        console.error(`Could not parse JSON from ${DATA_URL}`, parseErr);
+        throw parseErr;
+      }
+      if (!Array.isArray(arr)) {
+        console.error('Thoughts file did not contain an array', arr);
+        throw new Error('Invalid data format');
+      }
+      const clean = arr
+        .map(o => {
+          if (!o || !Number.isInteger(o.day) || typeof o.html !== "string") {
+            console.warn('Skipping entry with missing fields', o);
+            return null;
+          }
+          const sanitized = sanitizeHTML(o.html);
+          if (!isValidHTML(sanitized)) {
+            console.warn(`Skipping day ${o.day} due to invalid HTML`);
+            return null;
+          }
+          return { day: o.day, body_text: sanitized };
+        })
+        .filter(Boolean);
+      if (clean.length === 0) {
+        console.error(`Loaded ${arr.length} entries but none valid`);
+        throw new Error('No valid thoughts found');
+      }
+      if (clean.length < arr.length) {
+        console.warn(`Filtered out ${arr.length - clean.length} invalid entries`);
+      }
       // sort by day ascending just in case
       state.thoughts = clean.sort((a, b) => a.day - b.day);
       state.idx = chooseIndex(state.thoughts.length);
@@ -115,7 +167,7 @@
         });
       }
     } catch (err) {
-      console.warn('Load error', err);
+      console.error('Unable to load thoughts.json', err);
       fallback(metaEl, thoughtEl);
     }
   }
@@ -134,6 +186,14 @@
     const label = `Day ${t.day}`;
     metaEl.textContent = `${label} • entry ${state.idx + 1} of ${total}`;
     thoughtEl.innerHTML = t.body_text;
+    // Normalise any inline styles so that typography is consistent.
+    thoughtEl.querySelectorAll('[style]').forEach(el => {
+      const style = el.getAttribute('style') || '';
+      if (/color:\s*(#C9211E|rgb\(\s*201\s*,\s*33\s*,\s*30\s*\))/i.test(style)) {
+        el.classList.add('red-text');
+      }
+      el.removeAttribute('style');
+    });
     // Normalise links: add noopener and open in new tab if not already specified
     thoughtEl.querySelectorAll('a[href]').forEach(a => {
       a.setAttribute('rel', 'noopener');

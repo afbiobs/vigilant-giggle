@@ -59,18 +59,28 @@
   }
 
   /**
-   * Minimal validation of HTML fragments.  Reject anything that
-   * contains script tags, image tags or inline event handlers.  We trust
+   * Minimal validation of HTML fragments. Reject anything that
+   * contains script tags or inline event handlers. Image tags are
+   * stripped elsewhere so we simply ignore them here. We trust
    * that entries were sanitised at build time.
    */
   function isValidHTML(html) {
     if (typeof html !== "string" || !html.trim()) return false;
     if (
       /<\s*script/i.test(html) ||
-      /<\s*img/i.test(html) ||
       /on\w+\s*=/.test(html)
     ) return false;
     return true;
+  }
+
+  /**
+   * Remove image tags from an HTML fragment. Returns the input string
+   * with any <img> elements removed.
+   */
+  function stripImages(html) {
+    return typeof html === "string"
+      ? html.replace(/<\s*img[^>]*>/gi, "")
+      : html;
   }
 
   /**
@@ -95,7 +105,13 @@
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const arr = await res.json();
       const clean = Array.isArray(arr)
-        ? arr.filter(o => o && Number.isInteger(o.day) && isValidHTML(o.body_text))
+        ? arr
+            .map(o => {
+              if (!o || !Number.isInteger(o.day) || typeof o.body_text !== "string") return null;
+              const sanitized = stripImages(o.body_text);
+              return isValidHTML(sanitized) ? { day: o.day, body_text: sanitized } : null;
+            })
+            .filter(Boolean)
         : [];
       if (clean.length === 0) throw new Error('No valid thoughts found');
       // sort by day ascending just in case
@@ -134,6 +150,13 @@
     const label = `Day ${t.day}`;
     metaEl.textContent = `${label} • entry ${state.idx + 1} of ${total}`;
     thoughtEl.innerHTML = t.body_text;
+    thoughtEl.querySelectorAll('span[style]').forEach(span => {
+      const style = span.getAttribute('style');
+      if (style && /color:\s*#C9211E/i.test(style)) {
+        span.classList.add('red-text');
+        span.removeAttribute('style');
+      }
+    });
     // Normalise links: add noopener and open in new tab if not already specified
     thoughtEl.querySelectorAll('a[href]').forEach(a => {
       a.setAttribute('rel', 'noopener');

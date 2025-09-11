@@ -107,8 +107,10 @@
       const clean = Array.isArray(arr)
         ? arr
             .map(o => {
+
               if (!o || !Number.isInteger(o.day) || typeof o.html !== "string") return null;
               const sanitized = stripImages(o.html);
+
               return isValidHTML(sanitized) ? { day: o.day, body_text: sanitized } : null;
             })
             .filter(Boolean)

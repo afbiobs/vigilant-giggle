@@ -60,9 +60,11 @@
 
   /**
    * Minimal validation of HTML fragments. Reject anything that
+
    * contains script tags or inline event handlers. Images and other
    * unwanted elements are stripped elsewhere so we simply ignore
    * them here. We trust that entries were sanitised at build time.
+n
    */
   function isValidHTML(html) {
     if (typeof html !== "string" || !html.trim()) return false;
@@ -74,6 +76,7 @@
   }
 
   /**
+
    * Strip elements we don't want from an HTML fragment.
    * Currently removes any <img> tags, legacy <font> elements and
    * trailing "Bible in a year" paragraphs.
@@ -87,6 +90,7 @@
       .replace(/<\/?font[^>]*>/gi, "")
       // remove final Bible in a year paragraph
       .replace(/<p><strong>\s*Bible in a year:[\s\S]*?<\/p>/gi, "");
+
   }
 
   /**
@@ -107,6 +111,7 @@
       });
     }
     try {
+
       let res;
       try {
         res = await fetch(DATA_URL, { cache: 'no-store' });
@@ -135,21 +140,12 @@
             console.warn('Skipping entry with missing fields', o);
             return null;
           }
+
           const sanitized = sanitizeHTML(o.html);
-          if (!isValidHTML(sanitized)) {
-            console.warn(`Skipping day ${o.day} due to invalid HTML`);
-            return null;
-          }
-          return { day: o.day, body_text: sanitized };
-        })
-        .filter(Boolean);
-      if (clean.length === 0) {
-        console.error(`Loaded ${arr.length} entries but none valid`);
-        throw new Error('No valid thoughts found');
-      }
-      if (clean.length < arr.length) {
-        console.warn(`Filtered out ${arr.length - clean.length} invalid entries`);
-      }
+=======
+          const sanitized = stripImages(o.html);
+
+
       // sort by day ascending just in case
       state.thoughts = clean.sort((a, b) => a.day - b.day);
       state.idx = chooseIndex(state.thoughts.length);
@@ -186,6 +182,7 @@
     const label = `Day ${t.day}`;
     metaEl.textContent = `${label} • entry ${state.idx + 1} of ${total}`;
     thoughtEl.innerHTML = t.body_text;
+
     // Normalise any inline styles so that typography is consistent.
     thoughtEl.querySelectorAll('[style]').forEach(el => {
       const style = el.getAttribute('style') || '';
@@ -193,7 +190,7 @@
         el.classList.add('red-text');
       }
       el.removeAttribute('style');
-    });
+
     // Normalise links: add noopener and open in new tab if not already specified
     thoughtEl.querySelectorAll('a[href]').forEach(a => {
       a.setAttribute('rel', 'noopener');

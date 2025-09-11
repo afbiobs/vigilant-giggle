@@ -101,6 +101,7 @@
       });
     }
     try {
+
       let res;
       try {
         res = await fetch(DATA_URL, { cache: 'no-store' });
@@ -144,6 +145,7 @@
       if (clean.length < arr.length) {
         console.warn(`Filtered out ${arr.length - clean.length} invalid entries`);
       }
+
       // sort by day ascending just in case
       state.thoughts = clean.sort((a, b) => a.day - b.day);
       state.idx = chooseIndex(state.thoughts.length);

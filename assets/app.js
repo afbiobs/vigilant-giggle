@@ -101,21 +101,51 @@
       });
     }
     try {
-      const res = await fetch(DATA_URL, { cache: 'no-store' });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const arr = await res.json();
-      const clean = Array.isArray(arr)
-        ? arr
-            .map(o => {
 
-              if (!o || !Number.isInteger(o.day) || typeof o.html !== "string") return null;
-              const sanitized = stripImages(o.html);
+      let res;
+      try {
+        res = await fetch(DATA_URL, { cache: 'no-store' });
+      } catch (netErr) {
+        console.error(`Failed to fetch ${DATA_URL}`, netErr);
+        throw netErr;
+      }
+      if (!res.ok) {
+        console.error(`Fetch to ${DATA_URL} returned HTTP ${res.status}`);
+        throw new Error(`HTTP ${res.status}`);
+      }
+      let arr;
+      try {
+        arr = await res.json();
+      } catch (parseErr) {
+        console.error(`Could not parse JSON from ${DATA_URL}`, parseErr);
+        throw parseErr;
+      }
+      if (!Array.isArray(arr)) {
+        console.error('Thoughts file did not contain an array', arr);
+        throw new Error('Invalid data format');
+      }
+      const clean = arr
+        .map(o => {
+          if (!o || !Number.isInteger(o.day) || typeof o.html !== "string") {
+            console.warn('Skipping entry with missing fields', o);
+            return null;
+          }
+          const sanitized = stripImages(o.html);
+          if (!isValidHTML(sanitized)) {
+            console.warn(`Skipping day ${o.day} due to invalid HTML`);
+            return null;
+          }
+          return { day: o.day, body_text: sanitized };
+        })
+        .filter(Boolean);
+      if (clean.length === 0) {
+        console.error(`Loaded ${arr.length} entries but none valid`);
+        throw new Error('No valid thoughts found');
+      }
+      if (clean.length < arr.length) {
+        console.warn(`Filtered out ${arr.length - clean.length} invalid entries`);
+      }
 
-              return isValidHTML(sanitized) ? { day: o.day, body_text: sanitized } : null;
-            })
-            .filter(Boolean)
-        : [];
-      if (clean.length === 0) throw new Error('No valid thoughts found');
       // sort by day ascending just in case
       state.thoughts = clean.sort((a, b) => a.day - b.day);
       state.idx = chooseIndex(state.thoughts.length);
@@ -133,7 +163,7 @@
         });
       }
     } catch (err) {
-      console.warn('Load error', err);
+      console.error('Unable to load thoughts.json', err);
       fallback(metaEl, thoughtEl);
     }
   }

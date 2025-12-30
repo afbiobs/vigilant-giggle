@@ -97,17 +97,42 @@ class ThoughtApp {
         }
         
         // Calculate day of year in specified timezone
+        const zonedDate = this.getCurrentDateInTimezone();
+        const dayOfYear = this.getDayOfYear(zonedDate);
+
+        // Use current day if available, otherwise fallback to day 1
+        return this.isDayValid(dayOfYear) ? dayOfYear : 1;
+    }
+
+    /**
+     * Get the current date adjusted to the configured timezone
+     */
+    getCurrentDateInTimezone() {
         const now = new Date();
-        const start = new Date(now.getFullYear(), 0, 0);
-        const diff = now - start;
+        const formatter = new Intl.DateTimeFormat('en-US', {
+            timeZone: this.timezone,
+            year: 'numeric',
+            month: '2-digit',
+            day: '2-digit'
+        });
+
+        const parts = formatter.formatToParts(now);
+        const year = parseInt(parts.find(p => p.type === 'year').value, 10);
+        const month = parseInt(parts.find(p => p.type === 'month').value, 10);
+        const day = parseInt(parts.find(p => p.type === 'day').value, 10);
+
+        // Create a Date in UTC to avoid timezone drift when calculating day of year
+        return new Date(Date.UTC(year, month - 1, day));
+    }
+
+    /**
+     * Get the day of year (1-based) from a Date object
+     */
+    getDayOfYear(date) {
+        const startOfYear = Date.UTC(date.getUTCFullYear(), 0, 1);
+        const diff = date.getTime() - startOfYear;
         const oneDay = 1000 * 60 * 60 * 24;
-        const dayOfYear = Math.floor(diff / oneDay);
-        
-        // Map to available days (cycle through if needed)
-        const totalDays = this.index.total_days;
-        const targetDay = ((dayOfYear - 1) % totalDays) + 1;
-        
-        return this.isDayValid(targetDay) ? targetDay : 1;
+        return Math.floor(diff / oneDay) + 1;
     }
     
     /**
@@ -187,12 +212,13 @@ class ThoughtApp {
         this.elements.dateDay.textContent = `Day ${thought.day}`;
         
         // Update full date (current date)
-        const now = new Date();
+        const now = this.getCurrentDateInTimezone();
         const options = { 
             weekday: 'long', 
             year: 'numeric', 
             month: 'long', 
-            day: 'numeric'
+            day: 'numeric',
+            timeZone: this.timezone
         };
         this.elements.dateFull.textContent = now.toLocaleDateString('en-GB', options);
     }

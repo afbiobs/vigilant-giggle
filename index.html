@@ -1,31 +1,118 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Knowing Jesus Daily</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <link rel="stylesheet" href="assets/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description" content="Daily devotional thoughts and scripture readings">
+    <meta name="theme-color" content="#1a1a2e">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Daily Thought">
+    
+    <title>Thought for the Day</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>📖</text></svg>">
+    
+    <!-- Preload critical assets -->
+    <link rel="preload" href="assets/styles.css" as="style">
+    <link rel="preload" href="assets/app.js" as="script">
+    
+    <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Knowing Jesus Daily</h1>
-    <div id="meta" class="meta"></div>
-    <div id="thought" class="thought"></div>
-    <button id="prev-button" type="button">Back</button>
-    <button id="about-button" type="button">About this resource</button>
-    <div id="about-section" class="about" style="display:none; margin-top:1rem;">
-      <h2>About this resource</h2>
-      <p>ABOUT: Expositional devotions.</p>
-      <p>I don’t know about you, but sometimes I struggle with daily devotions. Struggling with daily bible reading does not mean that we are bad or unspiritual people, it just means that for most of us life is full and extremely busy. Often, through no fault of our own, when we come to read our bibles we are either exhausted or our concentration is not what it could or should be. I believe that the majority of Christians want to have quality meaningful times with God, and many carry much frustration and guilt because they are not engaging with God as they want to. The last thing any of us need is more guilt. So I want to offer you this resource in the hope it will deepen your love for Jesus and experience of God.</p>
-      <p>I have been thinking recently, that you could describe the Christian life as ‘the perpetual pursuit and discovery of Jesus.’ We can never know Jesus well enough.  As Christians our life's goal is to really know him; I don’t think there is anything more wonderful than that. To help us achieve that, I have created this resource.</p>
-      <p>Many of us,  through no fault of our own, have become the victims of an over familiarity with the story of Jesus.  We can have the same attitude as the people of Nazareth ‘All spoke well of him and were amazed at the gracious words that came from his lips. “Isn’t this Joseph’s son?” they asked. They used four words to sum up Jesus! “Isn’t this Joseph’s son?”  They maybe thought that they had Jesus sussed because they knew something about him. A good question to ask ourselves could be, ‘When did I last learn something new about Jesus?’ We should never have Jesus ‘sussed.’</p>
-      <p>The majority of these reflections are based on the life and teaching of Jesus as found in the Gospels. Usually we take a number of days to look at a passage or a topic. Each day concludes with a short one line prayer. These prayers are best used as ‘hooks’ where you can hang your own thoughts. This might lead to pray about areas of your life you would not usually pray about.  Also, each day ends with a bible reference for those who want to read the whole bible in a year. In the reflection we have covered topics like the nativity, the humanity of Jesus and Jesus and the Spirit, Spiritual formation (the process of becoming like Jesus). The reflections differ in lengths, some are a bit longer than others but none will take longer than 5–8 minutes to read.</p>
-      <p>I have tried to work within the context of each passage. Many daily devotions are inclined to remove passages or verses from their context. There is a ‘fun’ verse I like to share with people to teach the importance of context: – ‘When Abram came to Egypt, the Egyptians saw that she was a very beautiful woman.’ Genesis 12:14 NIV 1984.  Now if we were to take this verse out of context and read it as a stand alone verse we would come to some seriously wrong conclusions about Abram. I realise this is an extreme maybe ridiculous example, but it highlights the importance of context. If we were to take Genesis 12:14 in isolation devoid of context, we would have to conclude that according to this translation, Abram was a beautiful woman. Of course this is nonsense. Thankfully more recent translations have not made the same error.</p>
-      <p>Now let me share the same verse in context. Genesis 12:9–16 ‘Then Abram set out and continued toward the Negev.  Now there was a famine in the land, and Abram went down to Egypt to live there for a while because the famine was severe. As he was about to enter Egypt, he said to his wife Sarai, "I know what a beautiful woman you are. When the Egyptians see you, they will say, `This is his wife.' Then they will kill me but will let you live. Say you are my sister, so that I will be treated well for your sake and my life will be spared because of you." When Abram came to Egypt, the Egyptians saw that she was a very beautiful woman. And when Pharaoh's officials saw her, they praised her to Pharaoh, and she was taken into his palace. He treated Abram well for her sake, and Abram acquired sheep and cattle, male and female donkeys, menservants and maidservants, and camels.’ The context frames the verse and makes it more sensible. That is true of all scripture.</p>
-      <p>Having said all that, I do hope you find these reflections helpful and through them you will get to know Jesus better and love him more.</p>
+    <!-- Loading State -->
+    <div id="loading" class="loading-overlay">
+        <div class="loading-spinner"></div>
+        <p class="loading-text">Loading today's thought...</p>
     </div>
-    <div class="foot">&copy; — For more information or questions contact: XYZ.</div>
-  </div>
-  <script src="assets/app.js" defer></script>
+
+    <!-- App Container -->
+    <div id="app" class="app-container" style="display: none;">
+        
+        <!-- Header -->
+        <header class="app-header">
+            <div class="header-content">
+                <h1 class="app-title">Daily Thought</h1>
+                <div class="header-actions">
+                    <button id="nav-btn" class="icon-button" aria-label="Navigation">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="1"/>
+                            <circle cx="12" cy="5" r="1"/>
+                            <circle cx="12" cy="19" r="1"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            
+            <!-- Date Badge -->
+            <div class="date-badge" id="date-badge">
+                <div class="date-day" id="current-day">Day 1</div>
+                <div class="date-full" id="current-date">Loading...</div>
+            </div>
+
+            <!-- Thought Card -->
+            <article class="thought-card" id="thought-content">
+                <!-- Content injected by JavaScript -->
+            </article>
+
+            <!-- Navigation -->
+            <nav class="day-navigation">
+                <button id="prev-btn" class="nav-button nav-prev" aria-label="Previous day">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="15 18 9 12 15 6"></polyline>
+                    </svg>
+                    <span>Previous</span>
+                </button>
+                <button id="today-btn" class="nav-button nav-today">Today</button>
+                <button id="next-btn" class="nav-button nav-next" aria-label="Next day">
+                    <span>Next</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                </button>
+            </nav>
+
+        </main>
+
+        <!-- Navigation Menu (Slide-in) -->
+        <div id="nav-menu" class="nav-menu">
+            <div class="nav-menu-header">
+                <h2>Select a Day</h2>
+                <button id="close-menu-btn" class="icon-button" aria-label="Close menu">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+            <div id="day-list" class="day-list">
+                <!-- Days list injected by JavaScript -->
+            </div>
+        </div>
+
+        <!-- Menu Backdrop -->
+        <div id="menu-backdrop" class="menu-backdrop"></div>
+
+        <!-- Footer -->
+        <footer class="app-footer">
+            <p>Daily devotional readings</p>
+        </footer>
+
+    </div>
+
+    <!-- Error State -->
+    <div id="error" class="error-container" style="display: none;">
+        <div class="error-icon">⚠️</div>
+        <h2>Unable to Load</h2>
+        <p id="error-message">Something went wrong. Please try again.</p>
+        <button onclick="location.reload()" class="reload-button">Reload Page</button>
+    </div>
+
+    <script src="assets/app.js"></script>
 </body>
 </html>

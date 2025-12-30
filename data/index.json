@@ -1,221 +1,220 @@
 {
-  "generated": "2025-12-30T22:22:19.901456",
-  "total_days": 31,
+  "generated": "2025-12-30T22:48:43.228987",
   "days": [
     {
       "day": 1,
       "title": "THE WOMAN WITH THE ISSUE OF BLOOD Part 1",
-      "scripture_ref": "Luke 8:42b-48a",
-      "has_links": false,
-      "has_highlights": false
+      "file": "day-001.json",
+      "has_links": true,
+      "has_highlights": true
     },
     {
       "day": 2,
       "title": "THE WOMAN WITH THE ISSUE OF BLOOD Part 2",
-      "scripture_ref": "Luke 8:42b-48a",
+      "file": "day-002.json",
       "has_links": false,
-      "has_highlights": false
+      "has_highlights": true
     },
     {
       "day": 3,
       "title": "THE WOMAN WITH THE ISSUE OF BLOOD Part 3",
-      "scripture_ref": "Luke 8:42b-48",
+      "file": "day-003.json",
       "has_links": false,
-      "has_highlights": false
+      "has_highlights": true
     },
     {
       "day": 4,
       "title": "HAVE YOU ENOUGH FAITH TO STAY IN THE BOAT? Part 1",
-      "scripture_ref": "Matthew 14:22-31",
+      "file": "day-004.json",
       "has_links": false,
-      "has_highlights": false
+      "has_highlights": true
     },
     {
       "day": 5,
       "title": "HAVE YOU ENOUGH FAITH TO STAY IN THE BOAT? Part 2.",
-      "scripture_ref": "Matthew 14:22-31.",
+      "file": "day-005.json",
       "has_links": false,
-      "has_highlights": false
+      "has_highlights": true
     },
     {
       "day": 6,
       "title": "HAVE YOU ENOUGH FAITH TO STAY IN THE BOAT? Part 3.",
-      "scripture_ref": "Matthew 14:22-31.",
+      "file": "day-006.json",
       "has_links": false,
-      "has_highlights": false
+      "has_highlights": true
     },
     {
       "day": 7,
       "title": "HAVE YOU ENOUGH FAITH TO STAY IN THE BOAT? Part 4.",
-      "scripture_ref": "Matthew 14:22-33",
+      "file": "day-007.json",
       "has_links": false,
-      "has_highlights": false
+      "has_highlights": true
     },
     {
       "day": 8,
       "title": "HAVE YOU ENOUGH FAITH TO STAY IN THE BOAT? Part 5",
-      "scripture_ref": "Matthew 14:22-33",
+      "file": "day-008.json",
       "has_links": false,
-      "has_highlights": false
+      "has_highlights": true
     },
     {
       "day": 9,
       "title": "HAVE YOU ENOUGH FAITH TO STAY IN THE BOAT? Part 6",
-      "scripture_ref": "Matthew 14:22-33",
-      "has_links": false,
-      "has_highlights": false
+      "file": "day-009.json",
+      "has_links": true,
+      "has_highlights": true
     },
     {
       "day": 10,
       "title": "HAVE YOU ENOUGH FAITH TO STAY IN THE BOAT? Part 7",
-      "scripture_ref": "Matthew 14:22-33",
+      "file": "day-010.json",
       "has_links": false,
-      "has_highlights": false
+      "has_highlights": true
     },
     {
       "day": 11,
       "title": "HAVE YOU ENOUGH FAITH TO STAY IN THE BOAT? Part 8",
-      "scripture_ref": "Matthew 14:22-33",
+      "file": "day-011.json",
       "has_links": false,
-      "has_highlights": false
+      "has_highlights": true
     },
     {
       "day": 12,
       "title": "HAVE YOU ENOUGH FAITH TO STAY IN THE BOAT? Part 9.",
-      "scripture_ref": "Matthew 14:22-33",
+      "file": "day-012.json",
       "has_links": false,
-      "has_highlights": false
+      "has_highlights": true
     },
     {
       "day": 13,
       "title": "HAVE YOU ENOUGH FAITH TO STAY IN THE BOAT? Part 10",
-      "scripture_ref": "Matthew 14:22-33",
+      "file": "day-013.json",
       "has_links": false,
-      "has_highlights": false
+      "has_highlights": true
     },
     {
       "day": 14,
       "title": "HAVE ENOUGH FAITH TO STAY IN THE BOAT? Part 11",
-      "scripture_ref": "Matthew 14:22-33",
+      "file": "day-014.json",
       "has_links": false,
-      "has_highlights": false
+      "has_highlights": true
     },
     {
       "day": 15,
       "title": "THE PARABLE OF THE PERSISTENT WIDOW part 1",
-      "scripture_ref": "Luke 16:1-8",
+      "file": "day-015.json",
       "has_links": false,
-      "has_highlights": false
+      "has_highlights": true
     },
     {
       "day": 16,
       "title": "THE PARABLE OF THE PERSISTENT WIDOW part 2",
-      "scripture_ref": "Luke 16:1-8",
+      "file": "day-016.json",
       "has_links": false,
-      "has_highlights": false
+      "has_highlights": true
     },
     {
       "day": 17,
       "title": "THE PARABLE OF THE PERSISTENT WIDOW part 3",
-      "scripture_ref": "Luke 16:1-8",
-      "has_links": false,
-      "has_highlights": false
+      "file": "day-017.json",
+      "has_links": true,
+      "has_highlights": true
     },
     {
       "day": 18,
       "title": "THE PARABLE OF THE PERSISTENT WIDOW part 4",
-      "scripture_ref": "Luke 16:1-8",
+      "file": "day-018.json",
       "has_links": false,
-      "has_highlights": false
+      "has_highlights": true
     },
     {
       "day": 19,
       "title": "LAYING DOWN YOUR LIFE FOR THE SHEEP Part 1",
-      "scripture_ref": "John 10:11-18.",
+      "file": "day-019.json",
       "has_links": false,
-      "has_highlights": false
+      "has_highlights": true
     },
     {
       "day": 20,
       "title": "LAYING DOWN YOUR LIFE FOR THE SHEEP Part 2",
-      "scripture_ref": "John 10:11-18.",
+      "file": "day-020.json",
       "has_links": false,
-      "has_highlights": false
+      "has_highlights": true
     },
     {
       "day": 21,
       "title": "LAYING DOWN YOUR LIFE FOR THE SHEEP Part 3",
-      "scripture_ref": "John 10:11-18.",
-      "has_links": false,
-      "has_highlights": false
+      "file": "day-021.json",
+      "has_links": true,
+      "has_highlights": true
     },
     {
       "day": 22,
       "title": "LAYING DOWN YOUR LIFE FOR THE SHEEP Part 4",
-      "scripture_ref": "John 10:11-18.",
+      "file": "day-022.json",
       "has_links": false,
-      "has_highlights": false
+      "has_highlights": true
     },
     {
       "day": 23,
       "title": "LAYING DOWN YOUR LIFE FOR THE SHEEP Part 5",
-      "scripture_ref": "John 10:11-18.",
+      "file": "day-023.json",
       "has_links": false,
-      "has_highlights": false
+      "has_highlights": true
     },
     {
       "day": 24,
       "title": "JESUS FORGIVES AND HEALS A PARALYSED MAN. Part 1",
-      "scripture_ref": "Mark 2:1-12",
-      "has_links": false,
-      "has_highlights": false
+      "file": "day-024.json",
+      "has_links": true,
+      "has_highlights": true
     },
     {
       "day": 25,
       "title": "JESUS FORGIVES AND HEALS A PARALYSED MAN. Part 2",
-      "scripture_ref": "Mark 2:1-12",
-      "has_links": false,
-      "has_highlights": false
+      "file": "day-025.json",
+      "has_links": true,
+      "has_highlights": true
     },
     {
       "day": 26,
       "title": "JESUS FORGIVES AND HEALS A PARALYSED MAN. Part 3",
-      "scripture_ref": "Mark 2:1-12",
+      "file": "day-026.json",
       "has_links": false,
-      "has_highlights": false
+      "has_highlights": true
     },
     {
       "day": 27,
       "title": "JESUS FORGIVES AND HEALS A PARALYSED MAN. Part 4",
-      "scripture_ref": "Mark 2:1-12",
-      "has_links": false,
-      "has_highlights": false
+      "file": "day-027.json",
+      "has_links": true,
+      "has_highlights": true
     },
     {
       "day": 28,
       "title": "JESUS FORGIVES AND HEALS A PARALYSED MAN. Part 5",
-      "scripture_ref": "Mark 2:1-12",
+      "file": "day-028.json",
       "has_links": false,
-      "has_highlights": false
+      "has_highlights": true
     },
     {
       "day": 29,
       "title": "JESUS FORGIVES AND HEALS A PARALYSED MAN. Part 6",
-      "scripture_ref": "Mark 2:1-12",
+      "file": "day-029.json",
       "has_links": true,
       "has_highlights": true
     },
     {
       "day": 30,
-      "title": "JESUS’ ANGER EXPRESSED THROUGH A MIRACLE part 1",
-      "scripture_ref": "Mark 3:1-6",
-      "has_links": false,
+      "title": "JESUS\u2019 ANGER EXPRESSED THROUGH A MIRACLE part 1",
+      "file": "day-030.json",
+      "has_links": true,
       "has_highlights": true
     },
     {
       "day": 31,
-      "title": "JESUS’ ANGER EXPRESSED THROUGH A MIRACLE part 2",
-      "scripture_ref": "Mark 3:1-6",
+      "title": "JESUS\u2019 ANGER EXPRESSED THROUGH A MIRACLE part 2",
+      "file": "day-031.json",
       "has_links": false,
       "has_highlights": true
     }

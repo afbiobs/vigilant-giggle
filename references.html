@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description" content="Reference index for the Knowing Jesus Daily readings">
+    <meta name="theme-color" content="#1a1a2e">
+    <title>References | Knowing Jesus Daily</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <div class="page-shell">
+        <header class="app-header">
+            <div class="header-content">
+                <h1 class="app-title">Knowing Jesus Daily</h1>
+                <div class="header-actions">
+                    <nav class="header-links" aria-label="Secondary navigation">
+                        <a class="header-link" href="information.html">Information</a>
+                        <a class="header-link" href="references.html" aria-current="page">References</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <main class="page-main">
+            <a class="back-link" href="index.html">← Back to daily readings</a>
+
+            <section class="page-hero">
+                <p class="eyebrow">Reference index</p>
+                <h1>Index to study texts and topics</h1>
+                <p>Links jump to the available daily pages; upcoming items are marked as “Coming soon.”</p>
+            </section>
+
+            <section class="content-card">
+                <div class="content-section">
+                    <h2>Browse by day range</h2>
+                    <p>Active links cover the currently published days (1–31). Future entries are listed so you can see what is coming next and will unlock as new days are added.</p>
+                    <div class="note-card">
+                        <strong>Tip:</strong> Each link opens the first day in the range so you can begin the related reflections.
+                    </div>
+                </div>
+
+                <div id="reference-list" class="reference-list" aria-live="polite"></div>
+            </section>
+        </main>
+
+        <footer class="app-footer">
+            <p>Daily devotional readings</p>
+        </footer>
+    </div>
+
+    <script>
+        const references = [
+            { range: "Days 1-3", type: "Study text [1]", reference: "Luke 8:42b-48a", startDay: 1 },
+            { range: "Days 4-14", type: "Study text [2]", reference: "Matthew 14:22-31", startDay: 4 },
+            { range: "Days 15-18", type: "Study text [3]", reference: "Luke 16:1-8", startDay: 15 },
+            { range: "Days 19-23", type: "Study text [4]", reference: "John 10:11-18", startDay: 19 },
+            { range: "Days 24-29", type: "Study text [5]", reference: "Mark 2:1-12", startDay: 24 },
+            { range: "Days 30-34", type: "Study text [6]", reference: "Mark 3:1–6", startDay: 30 },
+            { range: "Days 35-39", type: "Study text [7]", reference: "Luke 10:17-20", startDay: 35 },
+            { range: "Days 40–68", type: "Study topic [1]", reference: "Humanity of Jesus", startDay: 40 },
+            { range: "Days 69-70", type: "Study text [8]", reference: "Luke 6:12-16", startDay: 69 },
+            { range: "Days 71-76", type: "Study text [9]", reference: "Luke 7:1-10", startDay: 71 },
+            { range: "Days 76-80", type: "Study text [10]", reference: "Matthew 5:1-12", startDay: 76 },
+            { range: "Days 81-84", type: "Study text [11]", reference: "Matthew 11:25-30", startDay: 81 },
+            { range: "Days 85-87", type: "Study text [12]", reference: "Mark 3:20-21, 30-34", startDay: 85 },
+            { range: "Days 88-91", type: "Study text [13]", reference: "Matthew 18:1-9; Mark 9:33-37", startDay: 88 },
+            { range: "Days 92-99", type: "Study text [14]", reference: "Matthew 4:1-11", startDay: 92 },
+            { range: "Days 100-103", type: "Study text [15]", reference: "Matthew 7:21-23", startDay: 100 },
+            { range: "Days 104-107", type: "Study text [16]", reference: "John 17:1-5", startDay: 104 },
+            { range: "Days 107-109", type: "Study text [17]", reference: "Matthew 6", startDay: 107 },
+            { range: "Days 110-112", type: "Study text [18]", reference: "Matthew 16:28-17:13", startDay: 110 },
+            { range: "Days 113-116", type: "Study text [19]", reference: "Luke 10:25-37", startDay: 113 },
+            { range: "Days 117-118", type: "Study text [20]", reference: "John 6:60-71", startDay: 117 },
+            { range: "Days 119-122", type: "Study text [21]", reference: "Matthew 3:13-17", startDay: 119 },
+            { range: "Days 123-140", type: "Study topic [2]", reference: "The Nativity", startDay: 123 },
+            { range: "Days 141-144", type: "Study text [22]", reference: "Luke 3:23-38", startDay: 141 },
+            { range: "Days 145-147", type: "Study text [23]", reference: "Matthew 1:23", startDay: 145 },
+            { range: "Days 148-150", type: "Study text [24]", reference: "John 21", startDay: 148 },
+            { range: "Days 151-152", type: "Study text [25]", reference: "Luke 1:36-38", startDay: 151 },
+            { range: "Days 153-154", type: "Study text [26]", reference: "Mark 15:21", startDay: 153 },
+            { range: "Days 155-157", type: "Study text [27]", reference: "Matthew 6:14-15", startDay: 155 },
+            { range: "Days 158-162", type: "Study text [28]", reference: "John 14:1-14", startDay: 158 },
+            { range: "Days 163-164", type: "Study text [29]", reference: "John 13:34-35", startDay: 163 },
+            { range: "Days 165-168", type: "Study text [30]", reference: "John 6:25-40, 53-66", startDay: 165 },
+            { range: "Days 169-172", type: "Study text [31]", reference: "John 15:12-17", startDay: 169 },
+            { range: "Days 173-194", type: "Study text [32]", reference: "Matthew 10:1-42", startDay: 173 },
+            { range: "Days 195-198", type: "Study text [33]", reference: "Luke 10:38-42", startDay: 195 },
+            { range: "Days 199-222", type: "Study topic [3]", reference: "The Spirit in the life of Jesus", startDay: 199 },
+            { range: "Days 223-225", type: "Study text [34]", reference: "Luke 7:36-50", startDay: 223 },
+            { range: "Days 226-228", type: "Study text [35]", reference: "Matthew 5:8", startDay: 226 },
+            { range: "Days 229-232", type: "Study text [36]", reference: "Matthew 11:1-15", startDay: 229 },
+            { range: "Days 233-236", type: "Study text [37]", reference: "John 9:1-7", startDay: 233 },
+            { range: "Days 237-240", type: "Study text [38]", reference: "John 3:1-17", startDay: 237 },
+            { range: "Days 241-243", type: "Study text [39]", reference: "Luke 15:25-32", startDay: 241 },
+            { range: "Days 244-248", type: "Study text [40]", reference: "John 18:28-19:16a", startDay: 244 },
+            { range: "Days 249-252", type: "Study text [41]", reference: "Matthew 16:23-27", startDay: 249 },
+            { range: "Days 253-255", type: "Study text [42]", reference: "John 16:12-15", startDay: 253 },
+            { range: "Days 256-257", type: "Study text [43]", reference: "Matthew 5-7", startDay: 256 },
+            { range: "Days 258-274", type: "Study topic [4]", reference: "Spiritual formation", startDay: 258 },
+            { range: "Days 275-278", type: "Study text [44]", reference: "Luke 8:1-4", startDay: 275 },
+            { range: "Days 279-283", type: "Study topic [5]", reference: "Generosity", startDay: 279 },
+            { range: "Days 284-287", type: "Study text [45]", reference: "Matthew 6:19-24", startDay: 284 },
+            { range: "Days 288-289", type: "Study text [46]", reference: "Mark 10:42-56", startDay: 288 },
+            { range: "Days 290-292", type: "Study text [47]", reference: "Luke 5:1-11", startDay: 290 },
+            { range: "Days 293-296", type: "Study text [48]", reference: "Matthew 26:31-35, 69-75", startDay: 293 },
+            { range: "Days 297-299", type: "Study text [49]", reference: "Luke 10:1-16", startDay: 297 },
+            { range: "Days 300-301", type: "Study text [50]", reference: "Matthew 6:1-34", startDay: 300 },
+            { range: "Days 302-304", type: "Study text [51]", reference: "Matthew 25:31-46", startDay: 302 },
+            { range: "Days 305-307", type: "Study text [52]", reference: "Matthew 25:1-13", startDay: 305 },
+            { range: "Days 308-310", type: "Study text [53]", reference: "Matthew 16:21-17:1-13", startDay: 308 },
+            { range: "Days 311-312", type: "Study text [54]", reference: "John 15:12-17", startDay: 311 },
+            { range: "Days 313-314", type: "Study text [55]", reference: "Mark 4:35-41", startDay: 313 },
+            { range: "Days 315-319", type: "Study text [56]", reference: "John 8:1-11", startDay: 315 },
+            { range: "Days 320-322", type: "Study text [57]", reference: "John 7:25-29", startDay: 320 },
+            { range: "Days 323-326", type: "Study text [58]", reference: "John 7:32-49", startDay: 323 },
+            { range: "Days 327-330", type: "Study text [59]", reference: "John 7:10-24", startDay: 327 },
+            { range: "Days 331-333", type: "Study text [60]", reference: "Matthew 6:1-18", startDay: 331 },
+            { range: "Days 334-337", type: "Study text [61]", reference: "Matthew 2:1-12", startDay: 334 },
+            { range: "Days 338-340", type: "Study text [62]", reference: "Luke 2:8-20", startDay: 338 },
+            { range: "Days 341-344", type: "Study text [63]", reference: "Luke 15:25-32 and Galatians 2:21", startDay: 341 },
+            { range: "Days 345-347", type: "Study topic [6]", reference: "Family life", startDay: 345 },
+            { range: "Days 348-349", type: "Study text [64]", reference: "Genesis 32:22-32", startDay: 348 },
+            { range: "Days 350-353", type: "Study text [65]", reference: "John 7:1-10", startDay: 350 },
+            { range: "Days 354-357", type: "Study topic [7]", reference: "The sanctity of work", startDay: 354 },
+            { range: "Days 358-364", type: "Study text [66]", reference: "Isaiah 52:13-53:12", startDay: 358 },
+            { range: "Day 365", type: "Study text [67]", reference: "Mark 12:41-44", startDay: 365 }
+        ];
+
+        const availableDayLimit = 31;
+        const referenceList = document.getElementById('reference-list');
+
+        references.forEach((item) => {
+            const wrapper = document.createElement('div');
+            wrapper.className = 'reference-item';
+
+            const info = document.createElement('div');
+            info.className = 'reference-info';
+
+            const range = document.createElement('div');
+            range.className = 'reference-range';
+            range.textContent = item.range;
+
+            const meta = document.createElement('div');
+            meta.className = 'reference-meta';
+
+            const typeChip = document.createElement('span');
+            typeChip.className = 'chip';
+            typeChip.textContent = item.type;
+
+            const refChip = document.createElement('span');
+            refChip.className = 'chip';
+            refChip.textContent = item.reference;
+
+            meta.appendChild(typeChip);
+            meta.appendChild(refChip);
+
+            info.appendChild(range);
+            info.appendChild(meta);
+
+            const link = document.createElement(item.startDay <= availableDayLimit ? 'a' : 'span');
+            link.className = 'reference-link';
+            link.textContent = item.startDay <= availableDayLimit ? `Go to Day ${item.startDay}` : 'Coming soon';
+
+            if (item.startDay <= availableDayLimit) {
+                link.href = `index.html?day=${item.startDay}`;
+            } else {
+                link.classList.add('is-disabled');
+                link.setAttribute('aria-disabled', 'true');
+            }
+
+            wrapper.appendChild(info);
+            wrapper.appendChild(link);
+            referenceList.appendChild(wrapper);
+        });
+    </script>
+</body>
+</html>

@@ -100,8 +100,14 @@ class ThoughtApp {
         const zonedDate = this.getCurrentDateInTimezone();
         const dayOfYear = this.getDayOfYear(zonedDate);
 
-        // Use current day if available, otherwise fallback to day 1
-        return this.isDayValid(dayOfYear) ? dayOfYear : 1;
+        // Use current day if available, otherwise map to the available range
+        if (this.isDayValid(dayOfYear)) {
+            return dayOfYear;
+        }
+
+        const sortedDays = [...this.index.days].sort((a, b) => a.day - b.day);
+        const dayIndex = (dayOfYear - 1) % sortedDays.length;
+        return sortedDays[dayIndex].day;
     }
 
     /**

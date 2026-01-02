@@ -115,10 +115,11 @@ body {
 .header-content {
     max-width: var(--max-width);
     margin: 0 auto;
-    padding: var(--spacing-md) var(--spacing-md);
+    padding: var(--spacing-sm) var(--spacing-md);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: var(--spacing-sm);
 }
 
 .app-title {
@@ -130,23 +131,24 @@ body {
 
 .header-actions {
     display: flex;
-    gap: var(--spacing-sm);
+    gap: var(--spacing-xs);
     align-items: center;
 }
 
 .header-links {
     display: flex;
     align-items: center;
-    gap: var(--spacing-xs);
+    gap: 0.35rem;
 }
 
 .header-link {
     color: var(--color-text-secondary);
     text-decoration: none;
     font-weight: 600;
-    padding: var(--spacing-xs) var(--spacing-sm);
+    padding: 0.35rem 0.6rem;
     border-radius: var(--border-radius-sm);
     transition: all var(--transition-fast);
+    font-size: var(--font-size-sm);
 }
 
 .header-link:hover,
@@ -160,7 +162,7 @@ body {
     border: none;
     color: var(--color-text-secondary);
     cursor: pointer;
-    padding: var(--spacing-xs);
+    padding: 0.35rem;
     border-radius: var(--border-radius-sm);
     transition: all var(--transition-fast);
     display: flex;
@@ -182,13 +184,13 @@ body {
     max-width: var(--max-width);
     width: 100%;
     margin: 0 auto;
-    padding: var(--spacing-lg) var(--spacing-md) var(--spacing-xl);
+    padding: var(--spacing-md) var(--spacing-md) var(--spacing-xl);
 }
 
 /* Date Badge */
 .date-badge {
     text-align: center;
-    margin-bottom: var(--spacing-lg);
+    margin-bottom: var(--spacing-md);
     animation: slideDown var(--transition-base);
 }
 
@@ -765,23 +767,15 @@ body {
     }
     
     .header-content {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: var(--spacing-xs);
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: var(--spacing-sm);
     }
     
     .header-actions {
-        width: 100%;
-        justify-content: space-between;
-    }
-    
-    .header-links {
-        gap: 0.25rem;
-    }
-    
-    .header-link {
-        padding: 0.35rem 0.5rem;
-        font-size: var(--font-size-sm);
+        width: auto;
+        margin-left: auto;
     }
     
     .page-hero,

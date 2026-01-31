@@ -68,17 +68,64 @@ class ThoughtApp {
      * Load the index file
      */
     async loadIndex() {
+        this.index = { days: [] };
+
         try {
             const response = await fetch('data/index.json');
             if (!response.ok) throw new Error('Index not found');
             this.index = await response.json();
-            
-            if (!this.index.days || this.index.days.length === 0) {
-                throw new Error('No days found in index');
-            }
         } catch (error) {
-            throw new Error(`Failed to load index: ${error.message}`);
+            console.warn('Index not found, falling back to discovery.', error);
         }
+
+        if (!this.index.days) {
+            this.index.days = [];
+        }
+
+        await this.extendIndexFromData();
+
+        if (this.index.days.length === 0) {
+            throw new Error('No days found in index');
+        }
+    }
+
+    /**
+     * Extend the index by discovering additional day files.
+     */
+    async extendIndexFromData() {
+        const existingDays = new Map(this.index.days.map(day => [day.day, day]));
+        const maxExistingDay = existingDays.size
+            ? Math.max(...existingDays.keys())
+            : 0;
+
+        const maxLookahead = 400;
+        const maxMisses = 3;
+        let misses = 0;
+
+        for (let day = Math.max(1, maxExistingDay + 1); day <= maxLookahead; day += 1) {
+            if (existingDays.has(day)) {
+                continue;
+            }
+
+            try {
+                const data = await this.loadDay(day);
+                existingDays.set(day, {
+                    day: data.day,
+                    title: data.title || `Day ${data.day}`,
+                    file: `day-${String(day).padStart(3, '0')}.json`,
+                    has_links: Boolean(data.has_links),
+                    has_highlights: Boolean(data.has_highlights)
+                });
+                misses = 0;
+            } catch (error) {
+                misses += 1;
+                if (misses >= maxMisses) {
+                    break;
+                }
+            }
+        }
+
+        this.index.days = Array.from(existingDays.values()).sort((a, b) => a.day - b.day);
     }
     
     /**

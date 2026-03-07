@@ -115,6 +115,24 @@ Check `data/validation_report.txt` for:
 4. **Access your site:**
    - URL will be: `https://username.github.io/repo-name/`
 
+
+## 🤖 Automate DOCX Processing with GitHub Actions
+
+Yes — this repository now includes a workflow at `.github/workflows/process-docx.yml` that can automatically process DOCX uploads into `data/`.
+
+### How to use it
+1. Put your `.docx` file in `source-docx/`.
+2. Commit and push.
+3. GitHub Actions runs `prepare_thoughts_v2.py` and regenerates `data/` JSON outputs.
+4. If outputs changed, the action commits them back to your branch.
+
+You can also run it manually from **Actions → Process DOCX to data/** and pass a specific file path.
+
+### Local equivalent command
+```bash
+python prepare_thoughts_v2.py "source-docx/YourFile.docx" data
+```
+
 ## 🎨 Customization
 
 ### Colors and Theming

@@ -1,0 +1,76 @@
+name: Process DOCX to data/
+
+on:
+  push:
+    paths:
+      - 'source-docx/**/*.docx'
+      - 'prepare_thoughts_v2.py'
+      - '.github/workflows/process-docx.yml'
+  workflow_dispatch:
+    inputs:
+      source_docx:
+        description: 'Path to .docx file in repository (example: source-docx/Day 67-90.docx)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+jobs:
+  process-docx:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip python-docx
+
+      - name: Resolve source document
+        id: resolve
+        shell: bash
+        run: |
+          set -euo pipefail
+          INPUT="${{ github.event.inputs.source_docx }}"
+
+          if [ -n "$INPUT" ]; then
+            if [ ! -f "$INPUT" ]; then
+              echo "Provided source_docx does not exist: $INPUT" >&2
+              exit 1
+            fi
+            DOCX_PATH="$INPUT"
+          else
+            DOCX_PATH=$(find source-docx -type f -name '*.docx' | sort | tail -n 1)
+            if [ -z "$DOCX_PATH" ]; then
+              echo "No .docx files found under source-docx/." >&2
+              exit 1
+            fi
+          fi
+
+          echo "docx_path=$DOCX_PATH" >> "$GITHUB_OUTPUT"
+          echo "Using DOCX: $DOCX_PATH"
+
+      - name: Process DOCX into data/
+        run: |
+          python prepare_thoughts_v2.py "${{ steps.resolve.outputs.docx_path }}" data
+
+      - name: Commit generated data files
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "chore(data): regenerate devotional JSON from DOCX"
+          git push

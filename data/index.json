@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-07T23:16:16.404222",
+  "generated": "2026-03-07T23:45:49.721400",
   "total_days": 24,
   "complete_days": 19,
   "incomplete_days": 5,
@@ -67,7 +67,7 @@
     },
     {
       "day": 72,
-      "title": "he Calling of the Apostles part 1",
+      "title": "The Calling of the Apostles part 1",
       "file": "day-072.json",
       "has_links": true,
       "has_highlights": false,
@@ -76,7 +76,7 @@
     },
     {
       "day": 73,
-      "title": "he Calling of the Apostles part 2",
+      "title": "The Calling of the Apostles part 2",
       "file": "day-073.json",
       "has_links": false,
       "has_highlights": false,
@@ -94,7 +94,7 @@
     },
     {
       "day": 75,
-      "title": "he Faith of the Centurion part 1",
+      "title": "The Faith of the Centurion part 1",
       "file": "day-075.json",
       "has_links": false,
       "has_highlights": false,
@@ -103,7 +103,7 @@
     },
     {
       "day": 76,
-      "title": "he Faith of the Centurion part 2",
+      "title": "The Faith of the Centurion part 2",
       "file": "day-076.json",
       "has_links": false,
       "has_highlights": true,
@@ -112,7 +112,7 @@
     },
     {
       "day": 77,
-      "title": "he Faith of the Centurion part 3",
+      "title": "The Faith of the Centurion part 3",
       "file": "day-077.json",
       "has_links": false,
       "has_highlights": true,
@@ -121,7 +121,7 @@
     },
     {
       "day": 78,
-      "title": "he Faith of the Centurion part 4",
+      "title": "The Faith of the Centurion part 4",
       "file": "day-078.json",
       "has_links": false,
       "has_highlights": true,
@@ -130,7 +130,7 @@
     },
     {
       "day": 79,
-      "title": "he Faith of the Centurion part 5",
+      "title": "The Faith of the Centurion part 5",
       "file": "day-079.json",
       "has_links": false,
       "has_highlights": true,
@@ -148,7 +148,7 @@
     },
     {
       "day": 81,
-      "title": "he Beatitudes Part 2",
+      "title": "The Beatitudes Part 2",
       "file": "day-081.json",
       "has_links": false,
       "has_highlights": true,
@@ -175,7 +175,7 @@
     },
     {
       "day": 84,
-      "title": "he Beatitudes part 5",
+      "title": "The Beatitudes part 5",
       "file": "day-084.json",
       "has_links": false,
       "has_highlights": true,
@@ -184,7 +184,7 @@
     },
     {
       "day": 85,
-      "title": "esus\u2019 first recorded prayer part 1",
+      "title": "Jesus\u2019 first recorded prayer part 1",
       "file": "day-085.json",
       "has_links": false,
       "has_highlights": true,
@@ -193,7 +193,7 @@
     },
     {
       "day": 86,
-      "title": "esus\u2019 first recorded prayer part 2",
+      "title": "Jesus\u2019 first recorded prayer part 2",
       "file": "day-086.json",
       "has_links": false,
       "has_highlights": true,
@@ -202,7 +202,7 @@
     },
     {
       "day": 87,
-      "title": "esus\u2019 first recorded prayer part 3",
+      "title": "Jesus\u2019 first recorded prayer part 3",
       "file": "day-087.json",
       "has_links": false,
       "has_highlights": true,
@@ -211,7 +211,7 @@
     },
     {
       "day": 88,
-      "title": "esus\u2019 first recorded prayer part 4",
+      "title": "Jesus\u2019 first recorded prayer part 4",
       "file": "day-088.json",
       "has_links": false,
       "has_highlights": true,

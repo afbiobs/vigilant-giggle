@@ -107,6 +107,12 @@ class RobustThoughtProcessor:
             result = pattern.sub('', result).strip()
         return result
 
+    def _normalize_prayer_text(self, text: str) -> str:
+        """Remove duplicated prayer labels from prayer content text."""
+        normalized = self._strip_label(text)
+        normalized = re.sub(r'^\*?\*?\s*prayer\*?\*?\s*[,:\-–—]?\s*', '', normalized, count=1, flags=re.IGNORECASE)
+        return normalized.strip()
+
     def _looks_like_scripture_reference(self, text: str) -> bool:
         scripture_patterns = [
             r'\d+\s*:\s*\d+',
@@ -295,7 +301,7 @@ class RobustThoughtProcessor:
                 state['awaiting_scripture_text'] = False
                 state['in_devotional'] = True
             elif classification == "PRAYER":
-                current_entry["prayer"] = self._strip_label(raw_text)
+                current_entry["prayer"] = self._normalize_prayer_text(raw_text)
                 state['in_devotional'] = False
             elif classification == "BIBLE_READING":
                 current_entry["bible_reading"] = self._strip_label(raw_text)

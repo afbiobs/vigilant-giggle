@@ -1,0 +1,570 @@
+{
+  "generated": "2026-03-07T23:16:16.404551",
+  "summary": {
+    "total_entries": 24,
+    "complete": 0,
+    "incomplete": 5
+  },
+  "issues": [
+    {
+      "day": 67,
+      "title": "STUDY THEME,  The Humanity of Jesus. Part 28",
+      "missing": [
+        "scripture_ref",
+        "scripture_text"
+      ],
+      "warnings": [],
+      "diagnostics": [
+        {
+          "para_index": 0,
+          "text_preview": "Day 67",
+          "classification": "DAY_MARKER",
+          "reason": "Matched day pattern: Day N"
+        },
+        {
+          "para_index": 2,
+          "text_preview": "STUDY THEME,  The Humanity of Jesus. Part 28",
+          "classification": "TITLE",
+          "reason": "First non-day paragraph after Day marker, interpreted as title"
+        },
+        {
+          "para_index": 4,
+          "text_preview": "Jesus’ resurrection teaches us that the power of God in our lives will restore a...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 5,
+          "text_preview": "Relationships are rescued when our lives are touched with the power of Jesus’ ne...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 6,
+          "text_preview": "The life of Jesus clearly demonstrates that the power of the resurrection is com...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 7,
+          "text_preview": "It is important to notice that every encounter Jesus had with people after his r...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 9,
+          "text_preview": "In our humanity we need the power of God to sanctify our scars.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 11,
+          "text_preview": "When Jesus appeared to his disciples, on two occasions he showed them his wounds...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 12,
+          "text_preview": "The wounds of Jesus will always remain an integral part of who he is and what he...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 13,
+          "text_preview": "Scars and wounds that were caused by cruelty were transformed by the resurrectio...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 15,
+          "text_preview": "Can you grasp how open and vulnerable Jesus must have felt?",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 17,
+          "text_preview": "It would have been very understandable if Jesus had wanted to protect himself, i...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 18,
+          "text_preview": "We have no control what wounds we will receive in life, but we have a choice how...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 19,
+          "text_preview": "Prayer, Father give me the grace to carry my wounds well",
+          "classification": "PRAYER",
+          "reason": "Matched prayer pattern: **Prayer**"
+        },
+        {
+          "para_index": 21,
+          "text_preview": "Bible in a year reading plan: Deuteronomy 32:15-34;12 Joshua 1:1-9",
+          "classification": "BIBLE_READING",
+          "reason": "Matched Bible reading pattern: Bible in a year"
+        }
+      ]
+    },
+    {
+      "day": 68,
+      "title": "STUDY THEME,  The Humanity of Jesus. Part 29",
+      "missing": [
+        "scripture_ref",
+        "scripture_text"
+      ],
+      "warnings": [],
+      "diagnostics": [
+        {
+          "para_index": 22,
+          "text_preview": "Day 68",
+          "classification": "DAY_MARKER",
+          "reason": "Matched day pattern: Day N"
+        },
+        {
+          "para_index": 23,
+          "text_preview": "STUDY THEME,  The Humanity of Jesus. Part 29",
+          "classification": "TITLE",
+          "reason": "First non-day paragraph after Day marker, interpreted as title"
+        },
+        {
+          "para_index": 24,
+          "text_preview": "We learn from the resurrection of Jesus that to be truly human we need to be com...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 25,
+          "text_preview": "What did Jesus do?",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 26,
+          "text_preview": "He appeared to a woman who would have been considered insignificant by the world...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 27,
+          "text_preview": "Let us be honest, we would rather experience glory than show compassion. There i...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 28,
+          "text_preview": "Jesus in all his risen power and glory, goes to a broken hearted insignificant w...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 30,
+          "text_preview": "There is a lot about the resurrection of Jesus that is unique; there are many th...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 31,
+          "text_preview": "I think that living in the power of the resurrection will affirm our humanity, b...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 33,
+          "text_preview": "Prayer. Father may my life be a clear reflection of loving resurrected power.",
+          "classification": "PRAYER",
+          "reason": "Matched prayer pattern: **Prayer**"
+        },
+        {
+          "para_index": 34,
+          "text_preview": "Bible in a year reading plan: Joshua 1:10-4:24",
+          "classification": "BIBLE_READING",
+          "reason": "Matched Bible reading pattern: Bible in a year"
+        }
+      ]
+    },
+    {
+      "day": 69,
+      "title": "STUDY THEME,  The Humanity of Jesus. Part 30",
+      "missing": [
+        "scripture_ref",
+        "scripture_text"
+      ],
+      "warnings": [],
+      "diagnostics": [
+        {
+          "para_index": 35,
+          "text_preview": "Day 69",
+          "classification": "DAY_MARKER",
+          "reason": "Matched day pattern: Day N"
+        },
+        {
+          "para_index": 37,
+          "text_preview": "STUDY THEME,  The Humanity of Jesus. Part 30",
+          "classification": "TITLE",
+          "reason": "First non-day paragraph after Day marker, interpreted as title"
+        },
+        {
+          "para_index": 39,
+          "text_preview": "The Ascension of Jesus and his humanity. Acts 1",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 40,
+          "text_preview": "My first car was a bit strange, it didn’t have a steering wheel and it only had ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 42,
+          "text_preview": "1.The Ascension of Jesus gives us a complete understanding of the gospel.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 44,
+          "text_preview": "There may be a number of reasons why we are less inclined to engage with the asc...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 45,
+          "text_preview": "a. The record of the actual ascension of Jesus is very limited. Only Luke gives ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 46,
+          "text_preview": "b. The story of the ascension feels a bit weird!  A bit ‘star trekkie’. Jesus ta...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 47,
+          "text_preview": "c. Perhaps the main reason why we find it difficult to engage with it is that it...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 48,
+          "text_preview": "The incarnation, death and resurrection are only complete and effective because ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 49,
+          "text_preview": "Up to the moment that Jesus ascended to heaven, the disciples seemed to be puzzl...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 50,
+          "text_preview": "Look at how Luke describes the affects of the ascension.  ‘They worshipped him’,...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 52,
+          "text_preview": "2. The ascension of Jesus is the catalyst for the church.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 53,
+          "text_preview": "It would be difficult to overstate the significance of the fact that the book of...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 54,
+          "text_preview": "We are often inclined to reduce the ascension of Jesus as him leaving the earth ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 55,
+          "text_preview": "Luke tells us that ‘He was taken up into a cloud.’ This is very important becaus...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 56,
+          "text_preview": "Daniel 7:13-14,“I saw in the night visions, and behold, with the clouds of heave...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 58,
+          "text_preview": "In Acts 2:32-35, Peter says these words:-",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 59,
+          "text_preview": "‘God has raised this Jesus to life, and we are all witnesses of it. Exalted to t...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 60,
+          "text_preview": "This truth should produce in us a great confidence. We can look at the church an...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 61,
+          "text_preview": "Prayer, Father thank you that the ascension of Jesus is a cause of great joy",
+          "classification": "PRAYER",
+          "reason": "Matched prayer pattern: **Prayer**"
+        },
+        {
+          "para_index": 63,
+          "text_preview": "Bible in a year reading plan: Joshua 5:1-8:23",
+          "classification": "BIBLE_READING",
+          "reason": "Matched Bible reading pattern: Bible in a year"
+        }
+      ]
+    },
+    {
+      "day": 70,
+      "title": "STUDY THEME,  The Humanity of Jesus. Part 31",
+      "missing": [
+        "scripture_ref",
+        "scripture_text",
+        "bible_reading"
+      ],
+      "warnings": [],
+      "diagnostics": [
+        {
+          "para_index": 64,
+          "text_preview": "Day 70",
+          "classification": "DAY_MARKER",
+          "reason": "Matched day pattern: Day N"
+        },
+        {
+          "para_index": 65,
+          "text_preview": "STUDY THEME,  The Humanity of Jesus. Part 31",
+          "classification": "TITLE",
+          "reason": "First non-day paragraph after Day marker, interpreted as title"
+        },
+        {
+          "para_index": 66,
+          "text_preview": "3. The Ascension dignifies our humanity.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 67,
+          "text_preview": "Would you be surprised if I told you that a human being is the ruler of the univ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 68,
+          "text_preview": "When Jesus sat on the throne of heaven he lost nothing of his humanity. He could...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 69,
+          "text_preview": "Some imagine that Christ shed himself of his humanity and returned to being a co...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 70,
+          "text_preview": "Jesus retains a human body and we will be like him. And that means that like him...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 72,
+          "text_preview": "4. The ascension ensures that we have the authority to be the people God wants u...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 74,
+          "text_preview": "In the day of Jesus, a victorious king would give gifts to his people to celebra...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 75,
+          "text_preview": "‘‘But you will receive power when the Holy Spirit comes on you; and you will be ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 77,
+          "text_preview": "The word ’witness,’ is a title given by God, to his servant in the book of Isaia...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 78,
+          "text_preview": "Isaiah 43:10",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 79,
+          "text_preview": "“You are my witnesses,” declares the Lord, “and my servant whom I have chosen, t...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 80,
+          "text_preview": "Isaiah 44:8",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 81,
+          "text_preview": "Fear not, nor be afraid; have I not told you from of old and declared it? And yo...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 82,
+          "text_preview": "The transforming power of the Spirit in our lives give us the godly character ne...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 84,
+          "text_preview": "Prayer, Father thank you for showing us that our bodies are something to be cele...",
+          "classification": "PRAYER",
+          "reason": "Matched prayer pattern: **Prayer**"
+        },
+        {
+          "para_index": 86,
+          "text_preview": "Bible reading in a year reading plan: -  Joshua 5:1-8:23",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        }
+      ]
+    },
+    {
+      "day": 71,
+      "title": "STUDY THEME, The Humanity of Jesus. Part 32",
+      "missing": [
+        "scripture_ref",
+        "scripture_text"
+      ],
+      "warnings": [],
+      "diagnostics": [
+        {
+          "para_index": 87,
+          "text_preview": "DAY 71.",
+          "classification": "DAY_MARKER",
+          "reason": "Matched day pattern: Day N"
+        },
+        {
+          "para_index": 88,
+          "text_preview": "STUDY THEME, The Humanity of Jesus. Part 32",
+          "classification": "TITLE",
+          "reason": "First non-day paragraph after Day marker, interpreted as title"
+        },
+        {
+          "para_index": 89,
+          "text_preview": "5. The ascension means we have the security and authority to bring the kingdom o...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 90,
+          "text_preview": "Look at what Jesus said:- ‘In Jerusalem, and in all Judea and Samaria, and to th...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 91,
+          "text_preview": "A lot of commentators understand this phrase as a geographical outline of the bo...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 92,
+          "text_preview": "Jerusalem, a place where Jesus lost his life, a place were the combined religiou...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 93,
+          "text_preview": "Judea, the place where the disciples had blown it. It was in Judea that they had...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 94,
+          "text_preview": "Samaria, that’s where the ‘they’ lived!! You know? Like ‘them and us’; the despi...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 96,
+          "text_preview": "The ends of the earth.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 97,
+          "text_preview": "For the Jewish people of Jesus’ day this would have been the last place they wou...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 98,
+          "text_preview": "God is displeased when Jews show hospitality to gentiles.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 99,
+          "text_preview": "For executing a gentile, only one person’s testimony is necessary. (To kill a Je...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 100,
+          "text_preview": "Jews may steal from Non-Jews",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 101,
+          "text_preview": "If a Jew finds an object lost by a gentile it does not have to be returned.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 103,
+          "text_preview": "Maybe, Jesus is saying that the sphere of your witnessing will for the most part...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 104,
+          "text_preview": "Do you remember when Jesus appeared to Mary after his resurrection? Mary tried t...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 106,
+          "text_preview": "Prayer, Father may all of my life be influenced by Jesus’ ascension.",
+          "classification": "PRAYER",
+          "reason": "Matched prayer pattern: **Prayer**"
+        },
+        {
+          "para_index": 108,
+          "text_preview": "Bible in a year reading plan: - Joshua 8:24-11:9",
+          "classification": "BIBLE_READING",
+          "reason": "Matched Bible reading pattern: Bible in a year"
+        }
+      ]
+    }
+  ]
+}

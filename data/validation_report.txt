@@ -1,0 +1,327 @@
+======================================================================
+THOUGHT PROCESSOR - VALIDATION REPORT
+======================================================================
+Generated: 2026-03-07 23:16:16
+Total entries processed: 24
+Complete entries: 19
+Entries with issues: 5
+======================================================================
+
+ENTRIES WITH MISSING SECTIONS OR WARNINGS:
+----------------------------------------------------------------------
+
+📅 DAY 67: STUDY THEME,  The Humanity of Jesus. Part 28
+----------------------------------------
+  ❌ MISSING SECTIONS: scripture_ref, scripture_text
+
+  PARAGRAPH ANALYSIS (what the parser saw):
+    🔢 [DAY_MARKER] Para #0
+       Text: "Day 67"
+       Why:  Matched day pattern: Day N
+    📌 [TITLE] Para #2
+       Text: "STUDY THEME,  The Humanity of Jesus. Part 28"
+       Why:  First non-day paragraph after Day marker, interpreted as title
+    💭 [DEVOTIONAL] Para #4
+       Text: "Jesus’ resurrection teaches us that the power of God in our lives will restore a..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #5
+       Text: "Relationships are rescued when our lives are touched with the power of Jesus’ ne..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #6
+       Text: "The life of Jesus clearly demonstrates that the power of the resurrection is com..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #7
+       Text: "It is important to notice that every encounter Jesus had with people after his r..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #9
+       Text: "In our humanity we need the power of God to sanctify our scars."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #11
+       Text: "When Jesus appeared to his disciples, on two occasions he showed them his wounds..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #12
+       Text: "The wounds of Jesus will always remain an integral part of who he is and what he..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #13
+       Text: "Scars and wounds that were caused by cruelty were transformed by the resurrectio..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #15
+       Text: "Can you grasp how open and vulnerable Jesus must have felt?"
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #17
+       Text: "It would have been very understandable if Jesus had wanted to protect himself, i..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #18
+       Text: "We have no control what wounds we will receive in life, but we have a choice how..."
+       Why:  No special markers found, classified as devotional content
+    🙏 [PRAYER] Para #19
+       Text: "Prayer, Father give me the grace to carry my wounds well"
+       Why:  Matched prayer pattern: **Prayer**
+    📚 [BIBLE_READING] Para #21
+       Text: "Bible in a year reading plan: Deuteronomy 32:15-34;12 Joshua 1:1-9"
+       Why:  Matched Bible reading pattern: Bible in a year
+
+  💡 SUGGESTIONS TO FIX:
+     - Add 'Study Text: [Book Chapter:Verse]' line after the title
+       Example: 'Study Text: John 3:16-18'
+     - Add the actual scripture quote after the reference line
+
+
+📅 DAY 68: STUDY THEME,  The Humanity of Jesus. Part 29
+----------------------------------------
+  ❌ MISSING SECTIONS: scripture_ref, scripture_text
+
+  PARAGRAPH ANALYSIS (what the parser saw):
+    🔢 [DAY_MARKER] Para #22
+       Text: "Day 68"
+       Why:  Matched day pattern: Day N
+    📌 [TITLE] Para #23
+       Text: "STUDY THEME,  The Humanity of Jesus. Part 29"
+       Why:  First non-day paragraph after Day marker, interpreted as title
+    💭 [DEVOTIONAL] Para #24
+       Text: "We learn from the resurrection of Jesus that to be truly human we need to be com..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #25
+       Text: "What did Jesus do?"
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #26
+       Text: "He appeared to a woman who would have been considered insignificant by the world..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #27
+       Text: "Let us be honest, we would rather experience glory than show compassion. There i..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #28
+       Text: "Jesus in all his risen power and glory, goes to a broken hearted insignificant w..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #30
+       Text: "There is a lot about the resurrection of Jesus that is unique; there are many th..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #31
+       Text: "I think that living in the power of the resurrection will affirm our humanity, b..."
+       Why:  No special markers found, classified as devotional content
+    🙏 [PRAYER] Para #33
+       Text: "Prayer. Father may my life be a clear reflection of loving resurrected power."
+       Why:  Matched prayer pattern: **Prayer**
+    📚 [BIBLE_READING] Para #34
+       Text: "Bible in a year reading plan: Joshua 1:10-4:24"
+       Why:  Matched Bible reading pattern: Bible in a year
+
+  💡 SUGGESTIONS TO FIX:
+     - Add 'Study Text: [Book Chapter:Verse]' line after the title
+       Example: 'Study Text: John 3:16-18'
+     - Add the actual scripture quote after the reference line
+
+
+📅 DAY 69: STUDY THEME,  The Humanity of Jesus. Part 30
+----------------------------------------
+  ❌ MISSING SECTIONS: scripture_ref, scripture_text
+
+  PARAGRAPH ANALYSIS (what the parser saw):
+    🔢 [DAY_MARKER] Para #35
+       Text: "Day 69"
+       Why:  Matched day pattern: Day N
+    📌 [TITLE] Para #37
+       Text: "STUDY THEME,  The Humanity of Jesus. Part 30"
+       Why:  First non-day paragraph after Day marker, interpreted as title
+    💭 [DEVOTIONAL] Para #39
+       Text: "The Ascension of Jesus and his humanity. Acts 1"
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #40
+       Text: "My first car was a bit strange, it didn’t have a steering wheel and it only had ..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #42
+       Text: "1.The Ascension of Jesus gives us a complete understanding of the gospel."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #44
+       Text: "There may be a number of reasons why we are less inclined to engage with the asc..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #45
+       Text: "a. The record of the actual ascension of Jesus is very limited. Only Luke gives ..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #46
+       Text: "b. The story of the ascension feels a bit weird!  A bit ‘star trekkie’. Jesus ta..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #47
+       Text: "c. Perhaps the main reason why we find it difficult to engage with it is that it..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #48
+       Text: "The incarnation, death and resurrection are only complete and effective because ..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #49
+       Text: "Up to the moment that Jesus ascended to heaven, the disciples seemed to be puzzl..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #50
+       Text: "Look at how Luke describes the affects of the ascension.  ‘They worshipped him’,..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #52
+       Text: "2. The ascension of Jesus is the catalyst for the church."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #53
+       Text: "It would be difficult to overstate the significance of the fact that the book of..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #54
+       Text: "We are often inclined to reduce the ascension of Jesus as him leaving the earth ..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #55
+       Text: "Luke tells us that ‘He was taken up into a cloud.’ This is very important becaus..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #56
+       Text: "Daniel 7:13-14,“I saw in the night visions, and behold, with the clouds of heave..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #58
+       Text: "In Acts 2:32-35, Peter says these words:-"
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #59
+       Text: "‘God has raised this Jesus to life, and we are all witnesses of it. Exalted to t..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #60
+       Text: "This truth should produce in us a great confidence. We can look at the church an..."
+       Why:  No special markers found, classified as devotional content
+    🙏 [PRAYER] Para #61
+       Text: "Prayer, Father thank you that the ascension of Jesus is a cause of great joy"
+       Why:  Matched prayer pattern: **Prayer**
+    📚 [BIBLE_READING] Para #63
+       Text: "Bible in a year reading plan: Joshua 5:1-8:23"
+       Why:  Matched Bible reading pattern: Bible in a year
+
+  💡 SUGGESTIONS TO FIX:
+     - Add 'Study Text: [Book Chapter:Verse]' line after the title
+       Example: 'Study Text: John 3:16-18'
+     - Add the actual scripture quote after the reference line
+
+
+📅 DAY 70: STUDY THEME,  The Humanity of Jesus. Part 31
+----------------------------------------
+  ❌ MISSING SECTIONS: scripture_ref, scripture_text, bible_reading
+
+  PARAGRAPH ANALYSIS (what the parser saw):
+    🔢 [DAY_MARKER] Para #64
+       Text: "Day 70"
+       Why:  Matched day pattern: Day N
+    📌 [TITLE] Para #65
+       Text: "STUDY THEME,  The Humanity of Jesus. Part 31"
+       Why:  First non-day paragraph after Day marker, interpreted as title
+    💭 [DEVOTIONAL] Para #66
+       Text: "3. The Ascension dignifies our humanity."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #67
+       Text: "Would you be surprised if I told you that a human being is the ruler of the univ..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #68
+       Text: "When Jesus sat on the throne of heaven he lost nothing of his humanity. He could..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #69
+       Text: "Some imagine that Christ shed himself of his humanity and returned to being a co..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #70
+       Text: "Jesus retains a human body and we will be like him. And that means that like him..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #72
+       Text: "4. The ascension ensures that we have the authority to be the people God wants u..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #74
+       Text: "In the day of Jesus, a victorious king would give gifts to his people to celebra..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #75
+       Text: "‘‘But you will receive power when the Holy Spirit comes on you; and you will be ..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #77
+       Text: "The word ’witness,’ is a title given by God, to his servant in the book of Isaia..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #78
+       Text: "Isaiah 43:10"
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #79
+       Text: "“You are my witnesses,” declares the Lord, “and my servant whom I have chosen, t..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #80
+       Text: "Isaiah 44:8"
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #81
+       Text: "Fear not, nor be afraid; have I not told you from of old and declared it? And yo..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #82
+       Text: "The transforming power of the Spirit in our lives give us the godly character ne..."
+       Why:  No special markers found, classified as devotional content
+    🙏 [PRAYER] Para #84
+       Text: "Prayer, Father thank you for showing us that our bodies are something to be cele..."
+       Why:  Matched prayer pattern: **Prayer**
+    💭 [DEVOTIONAL] Para #86
+       Text: "Bible reading in a year reading plan: -  Joshua 5:1-8:23"
+       Why:  No special markers found, classified as devotional content
+
+  💡 SUGGESTIONS TO FIX:
+     - Add 'Study Text: [Book Chapter:Verse]' line after the title
+       Example: 'Study Text: John 3:16-18'
+     - Add the actual scripture quote after the reference line
+     - Add 'Bible in a year: [references]' or 'Bible reading plan: [refs]'
+
+
+📅 DAY 71: STUDY THEME, The Humanity of Jesus. Part 32
+----------------------------------------
+  ❌ MISSING SECTIONS: scripture_ref, scripture_text
+
+  PARAGRAPH ANALYSIS (what the parser saw):
+    🔢 [DAY_MARKER] Para #87
+       Text: "DAY 71."
+       Why:  Matched day pattern: Day N
+    📌 [TITLE] Para #88
+       Text: "STUDY THEME, The Humanity of Jesus. Part 32"
+       Why:  First non-day paragraph after Day marker, interpreted as title
+    💭 [DEVOTIONAL] Para #89
+       Text: "5. The ascension means we have the security and authority to bring the kingdom o..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #90
+       Text: "Look at what Jesus said:- ‘In Jerusalem, and in all Judea and Samaria, and to th..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #91
+       Text: "A lot of commentators understand this phrase as a geographical outline of the bo..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #92
+       Text: "Jerusalem, a place where Jesus lost his life, a place were the combined religiou..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #93
+       Text: "Judea, the place where the disciples had blown it. It was in Judea that they had..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #94
+       Text: "Samaria, that’s where the ‘they’ lived!! You know? Like ‘them and us’; the despi..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #96
+       Text: "The ends of the earth."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #97
+       Text: "For the Jewish people of Jesus’ day this would have been the last place they wou..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #98
+       Text: "God is displeased when Jews show hospitality to gentiles."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #99
+       Text: "For executing a gentile, only one person’s testimony is necessary. (To kill a Je..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #100
+       Text: "Jews may steal from Non-Jews"
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #101
+       Text: "If a Jew finds an object lost by a gentile it does not have to be returned."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #103
+       Text: "Maybe, Jesus is saying that the sphere of your witnessing will for the most part..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #104
+       Text: "Do you remember when Jesus appeared to Mary after his resurrection? Mary tried t..."
+       Why:  No special markers found, classified as devotional content
+    🙏 [PRAYER] Para #106
+       Text: "Prayer, Father may all of my life be influenced by Jesus’ ascension."
+       Why:  Matched prayer pattern: **Prayer**
+    📚 [BIBLE_READING] Para #108
+       Text: "Bible in a year reading plan: - Joshua 8:24-11:9"
+       Why:  Matched Bible reading pattern: Bible in a year
+
+  💡 SUGGESTIONS TO FIX:
+     - Add 'Study Text: [Book Chapter:Verse]' line after the title
+       Example: 'Study Text: John 3:16-18'
+     - Add the actual scripture quote after the reference line
+
+======================================================================
+END OF REPORT
+======================================================================

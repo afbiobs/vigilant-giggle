@@ -90,7 +90,7 @@ class RobustThoughtProcessor:
             re.IGNORECASE,
         )
         self.scripture_ref_from_header_pattern = re.compile(
-            r'^(?P<ref>(?:[1-3]\s+)?[A-Za-z]+(?:\s+[A-Za-z]+)*\s+\d+\s*:\s*\d+(?:\s*[a-z])?(?:\s*[-–—]\s*\d+(?:\s*[a-z])?)?)\s*(?P<title>.*)$',
+            r'^(?P<ref>(?:[1-3]\s+)?[A-Za-z]+(?:\s+[A-Za-z]+)*\s+\d+\s*:\s*\d+(?:[a-z])?(?:\s*[-–—]\s*\d+(?:[a-z])?)?)\s*(?P<title>.*)$',
             re.IGNORECASE,
         )
 
@@ -357,7 +357,7 @@ class RobustThoughtProcessor:
 
             entry["html"] = (
                 f"<h2 class='thought-title'>{html.escape(entry['title'])}</h2>"
-                f"<div class='scripture-ref'>{html.escape(entry['scripture_ref'])}</div>"
+                f"<div class='scripture-ref'><b>Study Text:</b> {html.escape(entry['scripture_ref'])}</div>"
                 f"<div class='scripture-text'>{entry['scripture_text']}</div>"
                 f"<div class='devotional'>{entry['devotional']}</div>"
                 f"<div class='prayer'><b>Prayer:</b> {html.escape(entry['prayer'])}</div>"

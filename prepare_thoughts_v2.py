@@ -85,6 +85,15 @@ class RobustThoughtProcessor:
             re.compile(r'^study\s*text\s*[:\-–—]*\s*', re.IGNORECASE),
         ]
 
+        self.study_text_inline_pattern = re.compile(
+            r'^(?:study\s*text|scripture\s*ref(?:erence)?|text|reading|verse|passage)\s*[:.,\-–—]*\s*(.+)$',
+            re.IGNORECASE,
+        )
+        self.scripture_ref_from_header_pattern = re.compile(
+            r'^(?P<ref>(?:[1-3]\s+)?[A-Za-z]+(?:\s+[A-Za-z]+)*\s+\d+\s*:\s*\d+(?:\s*[a-z])?(?:\s*[-–—]\s*\d+(?:\s*[a-z])?)?)\s*(?P<title>.*)$',
+            re.IGNORECASE,
+        )
+
     def _match_any_pattern(self, text: str, patterns: list):
         for pattern, desc in patterns:
             match = pattern.search(text)
@@ -104,6 +113,24 @@ class RobustThoughtProcessor:
             r'\b(Genesis|Exodus|Leviticus|Numbers|Deuteronomy|Joshua|Judges|Ruth|Samuel|Kings|Chronicles|Ezra|Nehemiah|Esther|Job|Psalms?|Proverbs|Ecclesiastes|Song|Isaiah|Jeremiah|Lamentations|Ezekiel|Daniel|Hosea|Joel|Amos|Obadiah|Jonah|Micah|Nahum|Habakkuk|Zephaniah|Haggai|Zechariah|Malachi|Matthew|Mark|Luke|John|Acts|Romans|Corinthians|Galatians|Ephesians|Philippians|Colossians|Thessalonians|Timothy|Titus|Philemon|Hebrews|James|Peter|Jude|Revelation)\b',
         ]
         return any(re.search(pat, text, re.IGNORECASE) for pat in scripture_patterns)
+
+    def _parse_study_text_header(self, text: str) -> tuple[Optional[str], Optional[str]]:
+        """Extract inline scripture reference and optional title from a Study Text line."""
+        match = self.study_text_inline_pattern.match(text.strip())
+        if not match:
+            return None, None
+
+        remainder = match.group(1).strip()
+        if not remainder:
+            return None, None
+
+        ref_match = self.scripture_ref_from_header_pattern.match(remainder)
+        if not ref_match:
+            return None, None
+
+        scripture_ref = ref_match.group("ref").strip()
+        trailing_title = ref_match.group("title").strip(" .,-–—") or None
+        return scripture_ref, trailing_title
 
     def apply_formatting(self, text: str, run, entry_meta: dict) -> str:
         if not text:
@@ -245,6 +272,14 @@ class RobustThoughtProcessor:
             elif classification == "STUDY_TEXT_HEADER":
                 state['awaiting_scripture_ref'] = True
                 state['awaiting_title'] = False
+                scripture_ref, possible_title = self._parse_study_text_header(raw_text)
+                if scripture_ref:
+                    current_entry["scripture_ref"] = scripture_ref
+                    state['awaiting_scripture_ref'] = False
+                    state['awaiting_scripture_text'] = True
+                if possible_title and not current_entry["title"]:
+                    current_entry["title"] = possible_title
+                    current_validation.title = possible_title
                 if ":" in raw_text:
                     after_colon = raw_text.split(":", 1)[1].strip()
                     if after_colon and self._looks_like_scripture_reference(after_colon):

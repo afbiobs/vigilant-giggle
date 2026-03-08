@@ -94,36 +94,46 @@ class ThoughtApp {
      */
     async extendIndexFromData() {
         const existingDays = new Map(this.index.days.map(day => [day.day, day]));
+        const minExistingDay = existingDays.size
+            ? Math.min(...existingDays.keys())
+            : 1;
         const maxExistingDay = existingDays.size
             ? Math.max(...existingDays.keys())
-            : 0;
+            : 1;
 
         const maxLookahead = 400;
         const maxMisses = 3;
-        let misses = 0;
 
-        for (let day = Math.max(1, maxExistingDay + 1); day <= maxLookahead; day += 1) {
-            if (existingDays.has(day)) {
-                continue;
-            }
+        const discoverRange = async (start, end, step) => {
+            let misses = 0;
 
-            try {
-                const data = await this.loadDay(day);
-                existingDays.set(day, {
-                    day: data.day,
-                    title: data.title || `Day ${data.day}`,
-                    file: `day-${String(day).padStart(3, '0')}.json`,
-                    has_links: Boolean(data.has_links),
-                    has_highlights: Boolean(data.has_highlights)
-                });
-                misses = 0;
-            } catch (error) {
-                misses += 1;
-                if (misses >= maxMisses) {
-                    break;
+            for (let day = start; step > 0 ? day <= end : day >= end; day += step) {
+                if (existingDays.has(day)) {
+                    misses = 0;
+                    continue;
+                }
+
+                try {
+                    const data = await this.loadDay(day);
+                    existingDays.set(day, {
+                        day: data.day,
+                        title: data.title || `Day ${data.day}`,
+                        file: `day-${String(day).padStart(3, '0')}.json`,
+                        has_links: Boolean(data.has_links),
+                        has_highlights: Boolean(data.has_highlights)
+                    });
+                    misses = 0;
+                } catch (error) {
+                    misses += 1;
+                    if (misses >= maxMisses) {
+                        break;
+                    }
                 }
             }
-        }
+        };
+
+        await discoverRange(minExistingDay - 1, 1, -1);
+        await discoverRange(maxExistingDay + 1, maxLookahead, 1);
 
         this.index.days = Array.from(existingDays.values()).sort((a, b) => a.day - b.day);
     }
@@ -143,6 +153,14 @@ class ThoughtApp {
             }
         }
         
+        // Fall back to today's day of year in configured timezone
+        return this.getTodayDay();
+    }
+
+    /**
+     * Get today's day-of-year (1-based) mapped to available content
+     */
+    getTodayDay() {
         // Calculate day of year in specified timezone
         const zonedDate = this.getCurrentDateInTimezone();
         const dayOfYear = this.getDayOfYear(zonedDate);
@@ -263,17 +281,18 @@ class ThoughtApp {
     updateDateDisplay(thought) {
         // Update day number
         this.elements.dateDay.textContent = `Day ${thought.day}`;
-        
-        // Update full date (current date)
-        const now = this.getCurrentDateInTimezone();
+
+        // Update full date based on the displayed day-of-year for the current year
+        const baseDate = this.getCurrentDateInTimezone();
+        const targetDate = new Date(Date.UTC(baseDate.getUTCFullYear(), 0, thought.day));
         const options = { 
             weekday: 'long', 
             year: 'numeric', 
             month: 'long', 
             day: 'numeric',
-            timeZone: this.timezone
+            timeZone: 'UTC'
         };
-        this.elements.dateFull.textContent = now.toLocaleDateString('en-GB', options);
+        this.elements.dateFull.textContent = targetDate.toLocaleDateString('en-GB', options);
     }
     
     /**
@@ -315,7 +334,7 @@ class ThoughtApp {
      * Navigate to today's day
      */
     async gotoToday() {
-        const todayDay = this.determineDayToShow();
+        const todayDay = this.getTodayDay();
         await this.showDay(todayDay);
     }
     

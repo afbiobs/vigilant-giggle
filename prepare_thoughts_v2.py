@@ -90,7 +90,14 @@ class RobustThoughtProcessor:
             re.IGNORECASE,
         )
         self.scripture_ref_from_header_pattern = re.compile(
-            r'^(?P<ref>(?:[1-3]\s+)?[A-Za-z]+(?:\s+[A-Za-z]+)*\s+\d+\s*:\s*\d+(?:[a-z])?(?:\s*[-–—]\s*\d+(?:[a-z])?)?)\s*(?P<title>.*)$',
+            r'^'
+            r'(?P<ref>'
+            r'(?:[1-3]\s+)?[A-Za-z]+(?:\s+[A-Za-z]+)*\s+'  # Book name
+            r'\d+\s*:\s*\d+(?:[a-z])?'                    # Chapter:verse start
+            r'(?:\s*[-–—]\s*\d+(?:[a-z])?)?'              # Optional first range (e.g. 12-16)
+            r'(?:\s*,\s*\d+(?:[a-z])?(?:\s*[-–—]\s*\d+(?:[a-z])?)?)*'  # Extra verse parts (e.g. ,21,31-34)
+            r')'
+            r'\s*(?P<title>.*)$',
             re.IGNORECASE,
         )
 
@@ -137,6 +144,19 @@ class RobustThoughtProcessor:
         scripture_ref = ref_match.group("ref").strip()
         trailing_title = ref_match.group("title").strip(" .,-–—") or None
         return scripture_ref, trailing_title
+
+    def _extract_leading_scripture_reference(self, text: str) -> tuple[Optional[str], Optional[str]]:
+        """Extract a leading scripture reference and return (ref, trailing_text)."""
+        if not text:
+            return None, None
+
+        match = self.scripture_ref_from_header_pattern.match(text.strip())
+        if not match:
+            return None, None
+
+        ref = match.group("ref").strip()
+        trailing = match.group("title").strip(" .,-–—") or None
+        return ref, trailing
 
     def apply_formatting(self, text: str, run, entry_meta: dict) -> str:
         if not text:
@@ -288,14 +308,23 @@ class RobustThoughtProcessor:
                     current_validation.title = possible_title
                 if ":" in raw_text:
                     after_colon = raw_text.split(":", 1)[1].strip()
-                    if after_colon and self._looks_like_scripture_reference(after_colon):
-                        current_entry["scripture_ref"] = after_colon
+                    parsed_ref, parsed_title = self._extract_leading_scripture_reference(after_colon)
+                    if parsed_ref:
+                        current_entry["scripture_ref"] = parsed_ref
                         state['awaiting_scripture_ref'] = False
                         state['awaiting_scripture_text'] = True
+                        if parsed_title and not current_entry["title"]:
+                            current_entry["title"] = parsed_title
+                            current_validation.title = parsed_title
             elif classification == "SCRIPTURE_REF" and state.get('awaiting_scripture_ref'):
-                current_entry["scripture_ref"] = self._strip_label(raw_text)
+                stripped_text = self._strip_label(raw_text)
+                parsed_ref, parsed_title = self._extract_leading_scripture_reference(stripped_text)
+                current_entry["scripture_ref"] = parsed_ref or stripped_text
                 state['awaiting_scripture_ref'] = False
                 state['awaiting_scripture_text'] = True
+                if parsed_title and not current_entry["title"]:
+                    current_entry["title"] = parsed_title
+                    current_validation.title = parsed_title
             elif classification == "SCRIPTURE_TEXT" and state.get('awaiting_scripture_text'):
                 current_entry["scripture_text"] = p_html
                 state['awaiting_scripture_text'] = False

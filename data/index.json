@@ -1,236 +1,49 @@
 {
-  "generated": "2026-03-08T00:07:13.525631",
-  "total_days": 24,
-  "complete_days": 19,
-  "incomplete_days": 5,
+  "generated": "2026-03-30T17:06:17.631340",
+  "total_days": 5,
+  "complete_days": 5,
+  "incomplete_days": 0,
   "days": [
     {
-      "day": 67,
-      "title": "STUDY THEME,  The Humanity of Jesus. Part 28",
-      "file": "day-067.json",
-      "has_links": false,
-      "has_highlights": false,
-      "is_complete": false,
-      "missing_sections": [
-        "scripture_ref",
-        "scripture_text"
-      ]
-    },
-    {
-      "day": 68,
-      "title": "STUDY THEME,  The Humanity of Jesus. Part 29",
-      "file": "day-068.json",
-      "has_links": false,
-      "has_highlights": false,
-      "is_complete": false,
-      "missing_sections": [
-        "scripture_ref",
-        "scripture_text"
-      ]
-    },
-    {
-      "day": 69,
-      "title": "STUDY THEME,  The Humanity of Jesus. Part 30",
-      "file": "day-069.json",
-      "has_links": true,
-      "has_highlights": false,
-      "is_complete": false,
-      "missing_sections": [
-        "scripture_ref",
-        "scripture_text"
-      ]
-    },
-    {
-      "day": 70,
-      "title": "STUDY THEME,  The Humanity of Jesus. Part 31",
-      "file": "day-070.json",
-      "has_links": false,
-      "has_highlights": false,
-      "is_complete": false,
-      "missing_sections": [
-        "scripture_ref",
-        "scripture_text",
-        "bible_reading"
-      ]
-    },
-    {
-      "day": 71,
-      "title": "STUDY THEME, The Humanity of Jesus. Part 32",
-      "file": "day-071.json",
-      "has_links": false,
-      "has_highlights": true,
-      "is_complete": false,
-      "missing_sections": [
-        "scripture_ref",
-        "scripture_text"
-      ]
-    },
-    {
-      "day": 72,
-      "title": "The Calling of the Apostles part 1",
-      "file": "day-072.json",
-      "has_links": true,
-      "has_highlights": false,
-      "is_complete": true,
-      "missing_sections": []
-    },
-    {
-      "day": 73,
-      "title": "The Calling of the Apostles part 2",
-      "file": "day-073.json",
-      "has_links": false,
-      "has_highlights": false,
-      "is_complete": true,
-      "missing_sections": []
-    },
-    {
-      "day": 74,
-      "title": "The Calling of the Apostles part 3",
-      "file": "day-074.json",
-      "has_links": false,
-      "has_highlights": false,
-      "is_complete": true,
-      "missing_sections": []
-    },
-    {
-      "day": 75,
-      "title": "The Faith of the Centurion part 1",
-      "file": "day-075.json",
-      "has_links": false,
-      "has_highlights": false,
-      "is_complete": true,
-      "missing_sections": []
-    },
-    {
-      "day": 76,
-      "title": "The Faith of the Centurion part 2",
-      "file": "day-076.json",
+      "day": 91,
+      "title": "The family of Jesus part 3",
+      "file": "day-091.json",
       "has_links": false,
       "has_highlights": true,
       "is_complete": true,
       "missing_sections": []
     },
     {
-      "day": 77,
-      "title": "The Faith of the Centurion part 3",
-      "file": "day-077.json",
+      "day": 92,
+      "title": "Mark 9v33-37.",
+      "file": "day-092.json",
       "has_links": false,
       "has_highlights": true,
       "is_complete": true,
       "missing_sections": []
     },
     {
-      "day": 78,
-      "title": "The Faith of the Centurion part 4",
-      "file": "day-078.json",
+      "day": 93,
+      "title": "Mark 9v33-37.",
+      "file": "day-093.json",
       "has_links": false,
       "has_highlights": true,
       "is_complete": true,
       "missing_sections": []
     },
     {
-      "day": 79,
-      "title": "The Faith of the Centurion part 5",
-      "file": "day-079.json",
+      "day": 94,
+      "title": "Mark 9v33-37.",
+      "file": "day-094.json",
       "has_links": false,
       "has_highlights": true,
       "is_complete": true,
       "missing_sections": []
     },
     {
-      "day": 80,
-      "title": "What advice would you give to those who were about to embark on full time service?",
-      "file": "day-080.json",
-      "has_links": false,
-      "has_highlights": true,
-      "is_complete": true,
-      "missing_sections": []
-    },
-    {
-      "day": 81,
-      "title": "The Beatitudes Part 2",
-      "file": "day-081.json",
-      "has_links": false,
-      "has_highlights": true,
-      "is_complete": true,
-      "missing_sections": []
-    },
-    {
-      "day": 82,
-      "title": "The Pharisees did not feel a need to seek for righteousness; they viewed themselves as being righteous.",
-      "file": "day-082.json",
-      "has_links": false,
-      "has_highlights": true,
-      "is_complete": true,
-      "missing_sections": []
-    },
-    {
-      "day": 83,
-      "title": "The Pharisees were not pure in heart. \"Purity of heart\" is not merely the avoidance of \"impure thoughts\" (e.g. sexual fantasies), but refers to the single-minded devotion to God.",
-      "file": "day-083.json",
-      "has_links": false,
-      "has_highlights": true,
-      "is_complete": true,
-      "missing_sections": []
-    },
-    {
-      "day": 84,
-      "title": "The Beatitudes part 5",
-      "file": "day-084.json",
-      "has_links": false,
-      "has_highlights": true,
-      "is_complete": true,
-      "missing_sections": []
-    },
-    {
-      "day": 85,
-      "title": "Jesus\u2019 first recorded prayer part 1",
-      "file": "day-085.json",
-      "has_links": false,
-      "has_highlights": true,
-      "is_complete": true,
-      "missing_sections": []
-    },
-    {
-      "day": 86,
-      "title": "Jesus\u2019 first recorded prayer part 2",
-      "file": "day-086.json",
-      "has_links": false,
-      "has_highlights": true,
-      "is_complete": true,
-      "missing_sections": []
-    },
-    {
-      "day": 87,
-      "title": "Jesus\u2019 first recorded prayer part 3",
-      "file": "day-087.json",
-      "has_links": false,
-      "has_highlights": true,
-      "is_complete": true,
-      "missing_sections": []
-    },
-    {
-      "day": 88,
-      "title": "Jesus\u2019 first recorded prayer part 4",
-      "file": "day-088.json",
-      "has_links": false,
-      "has_highlights": true,
-      "is_complete": true,
-      "missing_sections": []
-    },
-    {
-      "day": 89,
-      "title": "The family of Jesus part 1",
-      "file": "day-089.json",
-      "has_links": false,
-      "has_highlights": true,
-      "is_complete": true,
-      "missing_sections": []
-    },
-    {
-      "day": 90,
-      "title": "The family of Jesus part 2",
-      "file": "day-090.json",
+      "day": 95,
+      "title": "\u2018\u2019At that time the disciples came to Jesus and asked, \u201cWho, then, is the greatest in the kingdom of heaven?\u201d He called a little child to him, and placed the child among them And he said \u201cTruly I tell you, unless you change and become like little children, you will never enter the kingdom of heaven. Therefore, whoever takes the lowly position of this child is the greatest in the kingdom of heaven And whoever welcomes one such child in my name welcomes me  \u201cIf anyone causes one of these little ones\u2014those who believe in me\u2014to stumble, it would be better for them to have a large millstone hung around their neck and to be drowned in the depths of the sea. Woe to the world because of the things that cause people to stumble! Such things must come, but woe to the person through whom they come! If your hand or your foot causes you to stumble, cut it off and throw it away. It is better for you to enter life maimed or crippled than to have two hands or two feet and be thrown into eternal fire. And if your eye causes you to stumble, gouge it out and throw it away. It is better for you to enter life with one eye than to have two eyes and be thrown into the fire of hell.",
+      "file": "day-095.json",
       "has_links": false,
       "has_highlights": true,
       "is_complete": true,

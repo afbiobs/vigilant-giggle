@@ -93,7 +93,7 @@ class RobustThoughtProcessor:
             r'^'
             r'(?P<ref>'
             r'(?:[1-3]\s+)?[A-Za-z]+(?:\s+[A-Za-z]+)*\s+'  # Book name
-            r'\d+\s*:\s*\d+(?:[a-z])?'                    # Chapter:verse start
+            r'\d+\s*[:\sv]\s*\d+(?:[a-z])?'               # Chapter:verse (colon or v separator)
             r'(?:\s*[-–—]\s*\d+(?:[a-z])?)?'              # Optional first range (e.g. 12-16)
             r'(?:\s*,\s*\d+(?:[a-z])?(?:\s*[-–—]\s*\d+(?:[a-z])?)?)*'  # Extra verse parts (e.g. ,21,31-34)
             r')'
@@ -123,9 +123,45 @@ class RobustThoughtProcessor:
     def _looks_like_scripture_reference(self, text: str) -> bool:
         scripture_patterns = [
             r'\d+\s*:\s*\d+',
+            r'\d+\s*v\s*\d+',
             r'\b(Genesis|Exodus|Leviticus|Numbers|Deuteronomy|Joshua|Judges|Ruth|Samuel|Kings|Chronicles|Ezra|Nehemiah|Esther|Job|Psalms?|Proverbs|Ecclesiastes|Song|Isaiah|Jeremiah|Lamentations|Ezekiel|Daniel|Hosea|Joel|Amos|Obadiah|Jonah|Micah|Nahum|Habakkuk|Zephaniah|Haggai|Zechariah|Malachi|Matthew|Mark|Luke|John|Acts|Romans|Corinthians|Galatians|Ephesians|Philippians|Colossians|Thessalonians|Timothy|Titus|Philemon|Hebrews|James|Peter|Jude|Revelation)\b',
         ]
         return any(re.search(pat, text, re.IGNORECASE) for pat in scripture_patterns)
+
+    def _extract_all_scripture_references(self, text: str) -> tuple[Optional[str], Optional[str]]:
+        """Extract one or more scripture references from text, returning (combined_refs, trailing_title).
+
+        Handles lines like 'Matthew 18v1-9. Mark 9v33-37. The disciples argue part 2'
+        by iteratively extracting references separated by periods.
+        """
+        if not text:
+            return None, None
+
+        refs = []
+        remaining = text.strip()
+
+        while remaining:
+            match = self.scripture_ref_from_header_pattern.match(remaining)
+            if not match:
+                break
+
+            refs.append(match.group("ref").strip())
+            trailing = match.group("title").strip()
+
+            # Check if trailing text starts with a period-separated next reference
+            next_text = trailing.lstrip(" .,-–—").strip()
+            if next_text and self.scripture_ref_from_header_pattern.match(next_text):
+                remaining = next_text
+            else:
+                remaining = trailing
+                break
+
+        if not refs:
+            return None, None
+
+        combined_ref = ". ".join(refs)
+        trailing_title = remaining.strip(" .,-–—") or None
+        return combined_ref, trailing_title
 
     def _parse_study_text_header(self, text: str) -> tuple[Optional[str], Optional[str]]:
         """Extract inline scripture reference and optional title from a Study Text line."""
@@ -137,26 +173,11 @@ class RobustThoughtProcessor:
         if not remainder:
             return None, None
 
-        ref_match = self.scripture_ref_from_header_pattern.match(remainder)
-        if not ref_match:
-            return None, None
-
-        scripture_ref = ref_match.group("ref").strip()
-        trailing_title = ref_match.group("title").strip(" .,-–—") or None
-        return scripture_ref, trailing_title
+        return self._extract_all_scripture_references(remainder)
 
     def _extract_leading_scripture_reference(self, text: str) -> tuple[Optional[str], Optional[str]]:
         """Extract a leading scripture reference and return (ref, trailing_text)."""
-        if not text:
-            return None, None
-
-        match = self.scripture_ref_from_header_pattern.match(text.strip())
-        if not match:
-            return None, None
-
-        ref = match.group("ref").strip()
-        trailing = match.group("title").strip(" .,-–—") or None
-        return ref, trailing
+        return self._extract_all_scripture_references(text)
 
     def apply_formatting(self, text: str, run, entry_meta: dict) -> str:
         if not text:
@@ -292,9 +313,14 @@ class RobustThoughtProcessor:
             p_html = self.get_paragraph_content(para, current_entry)
 
             if classification == "TITLE" and not current_entry["title"]:
-                current_entry["title"] = raw_text
-                current_validation.title = raw_text
-                state['awaiting_title'] = False
+                if len(raw_text) > 200:
+                    # Too long for a title - likely scripture text or devotional content misplaced before the Study Text header
+                    current_entry["temp_devotional_list"].append(f"<p>{p_html}</p>")
+                    state['awaiting_title'] = True  # keep waiting for a real title
+                else:
+                    current_entry["title"] = raw_text
+                    current_validation.title = raw_text
+                    state['awaiting_title'] = False
             elif classification == "STUDY_TEXT_HEADER":
                 state['awaiting_scripture_ref'] = True
                 state['awaiting_title'] = False
@@ -326,6 +352,12 @@ class RobustThoughtProcessor:
                     current_entry["title"] = parsed_title
                     current_validation.title = parsed_title
             elif classification == "SCRIPTURE_TEXT" and state.get('awaiting_scripture_text'):
+                # Skip short lines that just repeat the scripture reference (e.g. "Matthew 18v1-9.")
+                stripped_raw = raw_text.strip(" .'\"")
+                ref_match = self.scripture_ref_from_header_pattern.match(stripped_raw)
+                if ref_match and len(stripped_raw) < 80 and not ref_match.group("title").strip(" .,-–—"):
+                    # This is just a reference label, not actual scripture text - skip it
+                    continue
                 current_entry["scripture_text"] = p_html
                 state['awaiting_scripture_text'] = False
                 state['in_devotional'] = True

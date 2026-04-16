@@ -1,77 +1,59 @@
 {
-  "generated": "2026-04-05T09:11:31.320083",
-  "total_days": 8,
-  "complete_days": 8,
+  "generated": "2026-04-16T14:26:28.667545",
+  "total_days": 6,
+  "complete_days": 6,
   "incomplete_days": 0,
   "days": [
     {
-      "day": 96,
-      "title": "The disciples argue part 5",
-      "file": "day-096.json",
+      "day": 104,
+      "title": "The temptation of Jesus part 8",
+      "file": "day-104.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 105,
+      "title": "The temptation of Jesus part 9",
+      "file": "day-105.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 106,
+      "title": "Standing before Jesus part 1",
+      "file": "day-106.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 107,
+      "title": "Standing before Jesus part 2",
+      "file": "day-107.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 108,
+      "title": "Standing before Jesus part 3",
+      "file": "day-108.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 109,
+      "title": "The triumphant entry part 1",
+      "file": "day-109.json",
       "has_links": true,
-      "has_highlights": true,
-      "is_complete": true,
-      "missing_sections": []
-    },
-    {
-      "day": 97,
-      "title": "The temptation of Jesus part 1",
-      "file": "day-097.json",
-      "has_links": false,
-      "has_highlights": true,
-      "is_complete": true,
-      "missing_sections": []
-    },
-    {
-      "day": 98,
-      "title": "The temptation of Jesus part 2",
-      "file": "day-098.json",
-      "has_links": false,
-      "has_highlights": true,
-      "is_complete": true,
-      "missing_sections": []
-    },
-    {
-      "day": 99,
-      "title": "The temptation of Jesus part 3",
-      "file": "day-099.json",
-      "has_links": false,
-      "has_highlights": true,
-      "is_complete": true,
-      "missing_sections": []
-    },
-    {
-      "day": 100,
-      "title": "The temptation of Jesus part 4",
-      "file": "day-100.json",
-      "has_links": true,
-      "has_highlights": true,
-      "is_complete": true,
-      "missing_sections": []
-    },
-    {
-      "day": 101,
-      "title": "The temptation of Jesus part 5",
-      "file": "day-101.json",
-      "has_links": true,
-      "has_highlights": true,
-      "is_complete": true,
-      "missing_sections": []
-    },
-    {
-      "day": 102,
-      "title": "The Temptation of Jesus part 6",
-      "file": "day-102.json",
-      "has_links": false,
-      "has_highlights": true,
-      "is_complete": true,
-      "missing_sections": []
-    },
-    {
-      "day": 103,
-      "title": "The temptation of Jesus part 7",
-      "file": "day-103.json",
-      "has_links": false,
       "has_highlights": true,
       "is_complete": true,
       "missing_sections": []

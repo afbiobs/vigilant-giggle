@@ -69,11 +69,13 @@ class ThoughtApp {
      */
     async loadIndex() {
         this.index = { days: [] };
+        let indexLoaded = false;
 
         try {
             const response = await fetch('data/index.json');
             if (!response.ok) throw new Error('Index not found');
             this.index = await response.json();
+            indexLoaded = true;
         } catch (error) {
             console.warn('Index not found, falling back to discovery.', error);
         }
@@ -82,7 +84,10 @@ class ThoughtApp {
             this.index.days = [];
         }
 
-        await this.extendIndexFromData();
+        // Only probe for extra days when the index didn't load or is empty
+        if (!indexLoaded || this.index.days.length === 0) {
+            await this.extendIndexFromData();
+        }
 
         if (this.index.days.length === 0) {
             throw new Error('No days found in index');
@@ -438,11 +443,9 @@ class ThoughtApp {
      * Show the app (hide loading)
      */
     showApp() {
-        setTimeout(() => {
-            this.elements.loading.style.display = 'none';
-            this.elements.app.style.display = 'block';
-            this.elements.error.style.display = 'none';
-        }, 300); // Small delay for smooth transition
+        this.elements.loading.style.display = 'none';
+        this.elements.app.style.display = 'block';
+        this.elements.error.style.display = 'none';
     }
     
     /**

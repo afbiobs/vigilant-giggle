@@ -1,59 +1,104 @@
 {
-  "generated": "2026-04-17T15:50:03.098659",
-  "total_days": 6,
-  "complete_days": 6,
+  "generated": "2026-04-18T21:36:13.583324",
+  "total_days": 11,
+  "complete_days": 11,
   "incomplete_days": 0,
   "days": [
     {
-      "day": 104,
-      "title": "The temptation of Jesus part 8",
-      "file": "day-104.json",
-      "has_links": false,
-      "has_highlights": true,
-      "is_complete": true,
-      "missing_sections": []
-    },
-    {
-      "day": 105,
-      "title": "The temptation of Jesus part 9",
-      "file": "day-105.json",
-      "has_links": false,
-      "has_highlights": true,
-      "is_complete": true,
-      "missing_sections": []
-    },
-    {
-      "day": 106,
-      "title": "Standing before Jesus part 1",
-      "file": "day-106.json",
-      "has_links": false,
-      "has_highlights": true,
-      "is_complete": true,
-      "missing_sections": []
-    },
-    {
-      "day": 107,
-      "title": "Standing before Jesus part 2",
-      "file": "day-107.json",
-      "has_links": false,
-      "has_highlights": true,
-      "is_complete": true,
-      "missing_sections": []
-    },
-    {
-      "day": 108,
-      "title": "Standing before Jesus part 3",
-      "file": "day-108.json",
-      "has_links": false,
-      "has_highlights": true,
-      "is_complete": true,
-      "missing_sections": []
-    },
-    {
-      "day": 109,
-      "title": "The triumphant entry part 1",
-      "file": "day-109.json",
+      "day": 110,
+      "title": "The triumphant entry part 2",
+      "file": "day-110.json",
       "has_links": true,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 111,
+      "title": "The triumphant entry part 3",
+      "file": "day-111.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 112,
+      "title": "Jesus\u2019 love for his Father part 1",
+      "file": "day-112.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 113,
+      "title": "Jesus love for his father part 2",
+      "file": "day-113.json",
+      "has_links": true,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 114,
+      "title": "Jesus love for his father part 3",
+      "file": "day-114.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 115,
+      "title": "Jesus\u2019 love for his father part 4",
+      "file": "day-115.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 116,
+      "title": "One of the ways we shipwreck our faith is sometimes we forget who we really are, we forget that we are children of the living God. Sometimes the storms of life cause us to hit the rocks and we feel that we have been \u2018beached\u2019 or stuck and we can\u2019t move.",
+      "file": "day-116.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 117,
+      "title": "In the Old Testament, the Jewish people had some kind of concept of God being a loving Father; however, this understanding of God was not often used. They saw God more as the Father of the nation, but not the individual.",
+      "file": "day-117.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 118,
+      "title": "It is so easy to reduce our relationship with God into a religious box-ticking exercise where reputation becomes more important than intimacy. These people became religious, doing the right things in the wrong way, and gradually they became trapped in a need to get their affirmation and approval from others because they had not grasped that God is their father. When people loose their way spiritually it is not because they are bad people, but their waywardness can be traced back to the fact that they have ceased to believe that God is a loving father.",
+      "file": "day-118.json",
+      "has_links": true,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 119,
+      "title": ":1-13 The transfiguration part 1",
+      "file": "day-119.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 120,
+      "title": ":1-13 The transfiguration part 2",
+      "file": "day-120.json",
+      "has_links": false,
       "has_highlights": true,
       "is_complete": true,
       "missing_sections": []

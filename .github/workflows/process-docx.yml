@@ -45,7 +45,7 @@ jobs:
             fi
             DOCX_PATH="$INPUT"
           else
-            DOCX_PATH=$(find source-docx -type f -name '*.docx' | sort | tail -n 1)
+            DOCX_PATH=$(find source-docx -type f -name '*.docx' | sort -fV | tail -n 1)
             if [ -z "$DOCX_PATH" ]; then
               echo "No .docx files found under source-docx/." >&2
               exit 1

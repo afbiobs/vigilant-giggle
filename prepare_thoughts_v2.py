@@ -92,10 +92,13 @@ class RobustThoughtProcessor:
         self.scripture_ref_from_header_pattern = re.compile(
             r'^'
             r'(?P<ref>'
-            r'(?:[1-3]\s+)?[A-Za-z]+(?:\s+[A-Za-z]+)*\s+'  # Book name
-            r'\d+\s*[:\sv]\s*\d+(?:[a-z])?'               # Chapter:verse (colon or v separator)
-            r'(?:\s*[-–—]\s*\d+(?:[a-z])?)?'              # Optional first range (e.g. 12-16)
+            r'(?:[1-3]\s+)?[A-Za-z]+(?:\s+[A-Za-z]+)*\s+'             # Book name
+            r'\d+'                                                      # Chapter
+            r'(?:'                                                      # Optional verse part
+            r'\s*[:\sv]\s*\d+(?:[a-z])?'                              # :verse / v verse / space-separated
+            r'(?:\s*[-–—]\s*\d+(?:\s*[:v]\s*\d+)?(?:[a-z])?)*'         # Ranges incl. cross-chapter (e.g. -17:1 then -13)
             r'(?:\s*,\s*\d+(?:[a-z])?(?:\s*[-–—]\s*\d+(?:[a-z])?)?)*'  # Extra verse parts (e.g. ,21,31-34)
+            r')?'                                                       # verse part is optional (chapter-only allowed)
             r')'
             r'\s*(?P<title>.*)$',
             re.IGNORECASE,
@@ -120,13 +123,18 @@ class RobustThoughtProcessor:
         normalized = re.sub(r'^\*?\*?\s*prayer\*?\*?\s*[,:\-–—]?\s*', '', normalized, count=1, flags=re.IGNORECASE)
         return normalized.strip()
 
+    BIBLE_BOOKS_PATTERN = r'\b(Genesis|Exodus|Leviticus|Numbers|Deuteronomy|Joshua|Judges|Ruth|Samuel|Kings|Chronicles|Ezra|Nehemiah|Esther|Job|Psalms?|Proverbs|Ecclesiastes|Song|Isaiah|Jeremiah|Lamentations|Ezekiel|Daniel|Hosea|Joel|Amos|Obadiah|Jonah|Micah|Nahum|Habakkuk|Zephaniah|Haggai|Zechariah|Malachi|Matthew|Mark|Luke|John|Acts|Romans|Corinthians|Galatians|Ephesians|Philippians|Colossians|Thessalonians|Timothy|Titus|Philemon|Hebrews|James|Peter|Jude|Revelation)\b'
+
     def _looks_like_scripture_reference(self, text: str) -> bool:
         scripture_patterns = [
             r'\d+\s*:\s*\d+',
             r'\d+\s*v\s*\d+',
-            r'\b(Genesis|Exodus|Leviticus|Numbers|Deuteronomy|Joshua|Judges|Ruth|Samuel|Kings|Chronicles|Ezra|Nehemiah|Esther|Job|Psalms?|Proverbs|Ecclesiastes|Song|Isaiah|Jeremiah|Lamentations|Ezekiel|Daniel|Hosea|Joel|Amos|Obadiah|Jonah|Micah|Nahum|Habakkuk|Zephaniah|Haggai|Zechariah|Malachi|Matthew|Mark|Luke|John|Acts|Romans|Corinthians|Galatians|Ephesians|Philippians|Colossians|Thessalonians|Timothy|Titus|Philemon|Hebrews|James|Peter|Jude|Revelation)\b',
+            self.BIBLE_BOOKS_PATTERN,
         ]
         return any(re.search(pat, text, re.IGNORECASE) for pat in scripture_patterns)
+
+    def _ref_contains_known_book(self, ref: str) -> bool:
+        return bool(re.search(self.BIBLE_BOOKS_PATTERN, ref, re.IGNORECASE))
 
     def _extract_all_scripture_references(self, text: str) -> tuple[Optional[str], Optional[str]]:
         """Extract one or more scripture references from text, returning (combined_refs, trailing_title).
@@ -145,8 +153,15 @@ class RobustThoughtProcessor:
             if not match:
                 break
 
-            refs.append(match.group("ref").strip())
+            candidate_ref = match.group("ref").strip()
             trailing = match.group("title").strip()
+
+            # Reject matches whose "book" isn't actually a known Bible book;
+            # otherwise greedy matching consumes titles like "The triumphant entry part 2".
+            if not self._ref_contains_known_book(candidate_ref):
+                break
+
+            refs.append(candidate_ref)
 
             # Check if trailing text starts with a period-separated next reference
             next_text = trailing.lstrip(" .,-–—").strip()
@@ -202,23 +217,55 @@ class RobustThoughtProcessor:
         return formatted
 
     def get_paragraph_content(self, paragraph, entry_meta: dict) -> str:
-        p_html = ""
+        parts = self.split_paragraph_by_newlines(paragraph, entry_meta)
+        return "".join(part["html"] for part in parts)
+
+    def split_paragraph_by_newlines(self, paragraph, entry_meta: dict):
+        """Split a paragraph into logical sub-paragraphs on embedded newlines.
+
+        Returns a list of {"text": str, "html": str} dicts (with text stripped).
+        Empty segments are filtered out.
+        """
+        from docx.text.run import Run
+
+        rel_ns = '{http://schemas.openxmlformats.org/officeDocument/2006/relationships}'
+        wml_ns = '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}'
+
+        segments_text = [""]
+        segments_html = [""]
+
         for child in paragraph._element.getchildren():
             if child.tag.endswith('hyperlink'):
-                r_id = child.get('{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id')
+                r_id = child.get(rel_ns + 'id')
                 if r_id and r_id in paragraph.part.rels:
                     url = paragraph.part.rels[r_id].target_ref
                     link_text = "".join([
-                        node.text for node in child.findall('.//{http://schemas.openxmlformats.org/wordprocessingml/2006/main}t') if node.text
+                        node.text for node in child.findall(f'.//{wml_ns}t') if node.text
                     ])
-                    p_html += f'<a href="{url}" target="_blank">{html.escape(link_text)}</a>'
+                    segments_html[-1] += f'<a href="{url}" target="_blank">{html.escape(link_text)}</a>'
+                    segments_text[-1] += link_text
                     entry_meta['has_links'] = True
             elif child.tag.endswith('r'):
-                from docx.text.run import Run
-
                 run_obj = Run(child, paragraph)
-                p_html += self.apply_formatting(run_obj.text, run_obj, entry_meta)
-        return p_html
+                run_text = run_obj.text or ""
+                if '\n' in run_text:
+                    pieces = run_text.split('\n')
+                    for i, piece in enumerate(pieces):
+                        if i > 0:
+                            segments_text.append("")
+                            segments_html.append("")
+                        if piece:
+                            segments_html[-1] += self.apply_formatting(piece, run_obj, entry_meta)
+                            segments_text[-1] += piece
+                else:
+                    segments_html[-1] += self.apply_formatting(run_text, run_obj, entry_meta)
+                    segments_text[-1] += run_text
+
+        return [
+            {"text": t.strip(), "html": h}
+            for t, h in zip(segments_text, segments_html)
+            if t.strip()
+        ]
 
     def classify_paragraph(self, raw_text: str, para_index: int, state: dict):
         for pattern, desc in self.day_patterns:
@@ -270,118 +317,129 @@ class RobustThoughtProcessor:
             state['in_devotional'] = False
 
         for para_index, para in enumerate(doc.paragraphs):
-            raw_text = para.text.strip()
-            if not raw_text:
+            if not para.text.strip():
                 continue
 
-            classification, diagnostic = self.classify_paragraph(raw_text, para_index, state)
+            # Collect segments first so we can probe for entry_meta hooks safely;
+            # use a placeholder meta for splits that happen before an entry exists
+            placeholder_meta = current_entry if current_entry else {"has_links": False, "has_highlights": False}
+            segments = self.split_paragraph_by_newlines(para, placeholder_meta)
+            if not segments:
+                continue
 
-            if classification == "DAY_MARKER":
-                if current_entry:
-                    entries.append(current_entry)
-                if current_validation:
-                    validations.append(current_validation)
+            for segment in segments:
+                raw_text = segment["text"]
+                p_html = segment["html"]
+                if not raw_text:
+                    continue
 
-                day_num = None
-                for pattern, _ in self.day_patterns:
-                    match = pattern.match(raw_text)
-                    if match:
-                        day_num = int(match.group(1))
-                        break
+                classification, diagnostic = self.classify_paragraph(raw_text, para_index, state)
 
-                current_entry = {
-                    "day": day_num,
-                    "title": "",
-                    "scripture_ref": "",
-                    "scripture_text": "",
-                    "devotional": "",
-                    "prayer": "",
-                    "bible_reading": "",
-                    "has_links": False,
-                    "has_highlights": False,
-                    "temp_devotional_list": [],
-                }
-                current_validation = EntryValidation(day=day_num, title="")
+                if classification == "DAY_MARKER":
+                    if current_entry:
+                        entries.append(current_entry)
+                    if current_validation:
+                        validations.append(current_validation)
+
+                    day_num = None
+                    for pattern, _ in self.day_patterns:
+                        match = pattern.match(raw_text)
+                        if match:
+                            day_num = int(match.group(1))
+                            break
+
+                    current_entry = {
+                        "day": day_num,
+                        "title": "",
+                        "scripture_ref": "",
+                        "scripture_text": "",
+                        "devotional": "",
+                        "prayer": "",
+                        "bible_reading": "",
+                        "has_links": False,
+                        "has_highlights": False,
+                        "temp_devotional_list": [],
+                    }
+                    current_validation = EntryValidation(day=day_num, title="")
+                    current_validation.diagnostics.append(diagnostic)
+                    reset_state()
+                    continue
+
+                if not current_entry:
+                    continue
+
                 current_validation.diagnostics.append(diagnostic)
-                reset_state()
-                continue
 
-            if not current_entry:
-                continue
-
-            current_validation.diagnostics.append(diagnostic)
-            p_html = self.get_paragraph_content(para, current_entry)
-
-            if classification == "TITLE" and not current_entry["title"]:
-                if len(raw_text) > 200:
-                    # Too long for a title - likely scripture text or devotional content misplaced before the Study Text header
-                    current_entry["temp_devotional_list"].append(f"<p>{p_html}</p>")
-                    state['awaiting_title'] = True  # keep waiting for a real title
-                else:
-                    current_entry["title"] = raw_text
-                    current_validation.title = raw_text
+                if classification == "TITLE" and not current_entry["title"]:
+                    if len(raw_text) > 200:
+                        # Too long for a title - likely scripture text or devotional content misplaced before the Study Text header
+                        current_entry["temp_devotional_list"].append(f"<p>{p_html}</p>")
+                        state['awaiting_title'] = True  # keep waiting for a real title
+                    else:
+                        current_entry["title"] = raw_text
+                        current_validation.title = raw_text
+                        state['awaiting_title'] = False
+                elif classification == "STUDY_TEXT_HEADER":
+                    state['awaiting_scripture_ref'] = True
                     state['awaiting_title'] = False
-            elif classification == "STUDY_TEXT_HEADER":
-                state['awaiting_scripture_ref'] = True
-                state['awaiting_title'] = False
-                scripture_ref, possible_title = self._parse_study_text_header(raw_text)
-                if scripture_ref:
-                    current_entry["scripture_ref"] = scripture_ref
-                    state['awaiting_scripture_ref'] = False
-                    state['awaiting_scripture_text'] = True
-                if possible_title and not current_entry["title"]:
-                    current_entry["title"] = possible_title
-                    current_validation.title = possible_title
-                if ":" in raw_text:
-                    after_colon = raw_text.split(":", 1)[1].strip()
-                    parsed_ref, parsed_title = self._extract_leading_scripture_reference(after_colon)
-                    if parsed_ref:
-                        current_entry["scripture_ref"] = parsed_ref
+                    scripture_ref, possible_title = self._parse_study_text_header(raw_text)
+                    if scripture_ref:
+                        current_entry["scripture_ref"] = scripture_ref
                         state['awaiting_scripture_ref'] = False
                         state['awaiting_scripture_text'] = True
-                        if parsed_title and not current_entry["title"]:
-                            current_entry["title"] = parsed_title
-                            current_validation.title = parsed_title
-            elif classification == "SCRIPTURE_REF" and state.get('awaiting_scripture_ref'):
-                stripped_text = self._strip_label(raw_text)
-                parsed_ref, parsed_title = self._extract_leading_scripture_reference(stripped_text)
-                current_entry["scripture_ref"] = parsed_ref or stripped_text
-                state['awaiting_scripture_ref'] = False
-                state['awaiting_scripture_text'] = True
-                if parsed_title and not current_entry["title"]:
-                    current_entry["title"] = parsed_title
-                    current_validation.title = parsed_title
-            elif classification == "SCRIPTURE_TEXT" and state.get('awaiting_scripture_text'):
-                # Skip short lines that just repeat the scripture reference (e.g. "Matthew 18v1-9.")
-                stripped_raw = raw_text.strip(" .'\"")
-                ref_match = self.scripture_ref_from_header_pattern.match(stripped_raw)
-                if ref_match and len(stripped_raw) < 80 and not ref_match.group("title").strip(" .,-–—"):
-                    # This is just a reference label, not actual scripture text - skip it
-                    continue
-                current_entry["scripture_text"] = p_html
-                state['awaiting_scripture_text'] = False
-                state['in_devotional'] = True
-            elif classification == "PRAYER":
-                current_entry["prayer"] = self._normalize_prayer_text(raw_text)
-                state['in_devotional'] = False
-            elif classification == "BIBLE_READING":
-                current_entry["bible_reading"] = self._strip_label(raw_text)
-                state['in_devotional'] = False
-            elif classification == "DEVOTIONAL":
-                if not current_entry["title"]:
-                    current_entry["title"] = raw_text
-                    current_validation.title = raw_text
-                    state['awaiting_title'] = False
-                else:
-                    current_entry["temp_devotional_list"].append(f"<p>{p_html}</p>")
+                    if possible_title and not current_entry["title"]:
+                        current_entry["title"] = possible_title
+                        current_validation.title = possible_title
+                    if ":" in raw_text:
+                        after_colon = raw_text.split(":", 1)[1].strip()
+                        parsed_ref, parsed_title = self._extract_leading_scripture_reference(after_colon)
+                        if parsed_ref:
+                            current_entry["scripture_ref"] = parsed_ref
+                            state['awaiting_scripture_ref'] = False
+                            state['awaiting_scripture_text'] = True
+                            if parsed_title and not current_entry["title"]:
+                                current_entry["title"] = parsed_title
+                                current_validation.title = parsed_title
+                elif classification == "SCRIPTURE_REF" and state.get('awaiting_scripture_ref'):
+                    stripped_text = self._strip_label(raw_text)
+                    parsed_ref, parsed_title = self._extract_leading_scripture_reference(stripped_text)
+                    current_entry["scripture_ref"] = parsed_ref or stripped_text
+                    state['awaiting_scripture_ref'] = False
+                    state['awaiting_scripture_text'] = True
+                    if parsed_title and not current_entry["title"]:
+                        current_entry["title"] = parsed_title
+                        current_validation.title = parsed_title
+                elif classification == "SCRIPTURE_TEXT" and state.get('awaiting_scripture_text'):
+                    # Skip short lines that just repeat the scripture reference (e.g. "Matthew 18v1-9.")
+                    stripped_raw = raw_text.strip(" .'\"")
+                    ref_match = self.scripture_ref_from_header_pattern.match(stripped_raw)
+                    if ref_match and len(stripped_raw) < 80 and not ref_match.group("title").strip(" .,-–—"):
+                        # This is just a reference label, not actual scripture text - skip it
+                        continue
+                    current_entry["scripture_text"] = p_html
+                    state['awaiting_scripture_text'] = False
                     state['in_devotional'] = True
-            else:
-                if state.get('awaiting_title') and not current_entry["title"]:
-                    current_entry["title"] = raw_text
-                    current_validation.title = raw_text
-                    state['awaiting_title'] = False
+                elif classification == "PRAYER":
+                    current_entry["prayer"] = self._normalize_prayer_text(raw_text)
+                    state['in_devotional'] = False
+                elif classification == "BIBLE_READING":
+                    current_entry["bible_reading"] = self._strip_label(raw_text)
+                    state['in_devotional'] = False
+                elif classification == "DEVOTIONAL":
+                    if not current_entry["title"]:
+                        current_entry["title"] = raw_text
+                        current_validation.title = raw_text
+                        state['awaiting_title'] = False
+                    else:
+                        current_entry["temp_devotional_list"].append(f"<p>{p_html}</p>")
+                        state['in_devotional'] = True
                 else:
-                    current_entry["temp_devotional_list"].append(f"<p>{p_html}</p>")
+                    if state.get('awaiting_title') and not current_entry["title"]:
+                        current_entry["title"] = raw_text
+                        current_validation.title = raw_text
+                        state['awaiting_title'] = False
+                    else:
+                        current_entry["temp_devotional_list"].append(f"<p>{p_html}</p>")
 
         if current_entry:
             entries.append(current_entry)
@@ -458,13 +516,31 @@ class RobustThoughtProcessor:
                     ],
                 })
 
-        with open(output_path / "index.json", 'w', encoding='utf-8') as f:
+        index_path = output_path / "index.json"
+        merged_days_by_num = {}
+        if index_path.exists():
+            try:
+                with open(index_path, 'r', encoding='utf-8') as f:
+                    existing_index = json.load(f)
+                for existing in existing_index.get("days", []):
+                    day_num = existing.get("day")
+                    if day_num is not None:
+                        merged_days_by_num[day_num] = existing
+            except (json.JSONDecodeError, OSError):
+                pass
+
+        for entry in master_index:
+            merged_days_by_num[entry["day"]] = entry
+
+        merged_days = sorted(merged_days_by_num.values(), key=lambda d: d["day"])
+
+        with open(index_path, 'w', encoding='utf-8') as f:
             json.dump({
                 "generated": datetime.now().isoformat(),
-                "total_days": len(entries),
-                "complete_days": sum(1 for e in master_index if e["is_complete"]),
-                "incomplete_days": sum(1 for e in master_index if not e["is_complete"]),
-                "days": master_index,
+                "total_days": len(merged_days),
+                "complete_days": sum(1 for e in merged_days if e.get("is_complete")),
+                "incomplete_days": sum(1 for e in merged_days if not e.get("is_complete")),
+                "days": merged_days,
             }, f, indent=2)
 
         with open(output_path / "validation_report.json", 'w', encoding='utf-8') as f:

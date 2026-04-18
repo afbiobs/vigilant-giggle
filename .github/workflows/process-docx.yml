@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'source-docx/**/*.docx'
+      - 'source-docx/**/*.DOCX'
       - 'prepare_thoughts_v2.py'
       - '.github/workflows/process-docx.yml'
   workflow_dispatch:
@@ -45,7 +46,7 @@ jobs:
             fi
             DOCX_PATH="$INPUT"
           else
-            DOCX_PATH=$(find source-docx -type f -name '*.docx' | sort -fV | tail -n 1)
+            DOCX_PATH=$(find source-docx -type f -iname '*.docx' | sort -fV | tail -n 1)
             if [ -z "$DOCX_PATH" ]; then
               echo "No .docx files found under source-docx/." >&2
               exit 1

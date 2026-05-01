@@ -5,12 +5,10 @@ on:
     paths:
       - 'source-docx/**/*.docx'
       - 'source-docx/**/*.DOCX'
-      - 'prepare_thoughts_v2.py'
-      - '.github/workflows/process-docx.yml'
   workflow_dispatch:
     inputs:
       source_docx:
-        description: 'Path to .docx file in repository (example: source-docx/Day 67-90.docx)'
+        description: 'Path to a specific .docx file (e.g. source-docx/Day 67-90.docx). Leave blank to process all files under source-docx/.'
         required: false
         default: ''
 
@@ -23,6 +21,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -32,42 +32,68 @@ jobs:
       - name: Install dependencies
         run: python -m pip install --upgrade pip python-docx
 
-      - name: Resolve source document
+      - name: Resolve changed DOCX files
         id: resolve
         shell: bash
         run: |
           set -euo pipefail
+
           INPUT="${{ github.event.inputs.source_docx }}"
 
           if [ -n "$INPUT" ]; then
+            # Manual dispatch with explicit path
             if [ ! -f "$INPUT" ]; then
               echo "Provided source_docx does not exist: $INPUT" >&2
               exit 1
             fi
-            DOCX_PATH="$INPUT"
+            DOCX_LIST="$INPUT"
+          elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            # Manual dispatch with no path — process every docx in the folder
+            DOCX_LIST=$(find source-docx -type f \( -iname '*.docx' \) | sort -fV)
           else
-            DOCX_PATH=$(find source-docx -type f -iname '*.docx' | sort -fV | tail -n 1)
-            if [ -z "$DOCX_PATH" ]; then
-              echo "No .docx files found under source-docx/." >&2
-              exit 1
+            # Push event — process only the files that changed in this push
+            DOCX_LIST=$(git diff --name-only HEAD~1 HEAD -- 'source-docx/*.docx' 'source-docx/*.DOCX' \
+              | grep -iE '\.docx$' \
+              | sort -fV || true)
+
+            # Fallback: if diff fails (e.g. first commit), process all
+            if [ -z "$DOCX_LIST" ]; then
+              DOCX_LIST=$(find source-docx -type f \( -iname '*.docx' \) | sort -fV)
             fi
           fi
 
-          echo "docx_path=$DOCX_PATH" >> "$GITHUB_OUTPUT"
-          echo "Using DOCX: $DOCX_PATH"
+          if [ -z "$DOCX_LIST" ]; then
+            echo "No .docx files to process."
+            echo "docx_list=" >> "$GITHUB_OUTPUT"
+          else
+            echo "Will process:"
+            echo "$DOCX_LIST"
+            # Encode as newline-separated, base64 to survive GITHUB_OUTPUT safely
+            ENCODED=$(echo "$DOCX_LIST" | base64 -w 0)
+            echo "docx_list=$ENCODED" >> "$GITHUB_OUTPUT"
+          fi
 
-      - name: Process DOCX into data/
+      - name: Process DOCX files into data/
+        if: steps.resolve.outputs.docx_list != ''
+        shell: bash
         run: |
-          python prepare_thoughts_v2.py "${{ steps.resolve.outputs.docx_path }}" data
+          set -euo pipefail
+          DOCX_LIST=$(echo "${{ steps.resolve.outputs.docx_list }}" | base64 -d)
+          while IFS= read -r DOCX_PATH; do
+            [ -z "$DOCX_PATH" ] && continue
+            echo "Processing: $DOCX_PATH"
+            python prepare_thoughts_v2.py "$DOCX_PATH" data
+          done <<< "$DOCX_LIST"
 
       - name: Commit generated data files
+        if: steps.resolve.outputs.docx_list != ''
         shell: bash
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add data
+          git add data/
           if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0

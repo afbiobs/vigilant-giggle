@@ -55,7 +55,7 @@ class RobustThoughtProcessor:
             (re.compile(r'study\s*text', re.IGNORECASE), "study text"),
             (re.compile(r'scripture\s*ref', re.IGNORECASE), "scripture ref"),
             (re.compile(r'text\s*:\s*', re.IGNORECASE), "text:"),
-            (re.compile(r'reading\s*:\s*', re.IGNORECASE), "reading:"),
+            (re.compile(r'^\s*reading\s*:\s*', re.IGNORECASE), "reading:"),
             (re.compile(r'verse\s*:\s*', re.IGNORECASE), "verse:"),
             (re.compile(r'passage\s*:\s*', re.IGNORECASE), "passage:"),
         ]
@@ -79,7 +79,8 @@ class RobustThoughtProcessor:
 
         self.label_strip_patterns = [
             re.compile(r'^prayer\s*[:\-–—]+\s*', re.IGNORECASE),
-            re.compile(r'^bible\s+(in|on)\s+a?\s*year\s*(reading\s*plan)?\s*[:\-–—]*\s*', re.IGNORECASE),
+            re.compile(r'^bible\s+(in|on)\s+a?\s*year\s*(?:reading\s*(?:plan)?)?\s*[:\-–—]*\s*', re.IGNORECASE),
+            re.compile(r'^bible\s+reading\s*(?:plan)?\s*[:\-–—]*\s*', re.IGNORECASE),
             re.compile(r'^(daily|today.?s?|further|additional)\s+reading\s*[:\-–—]*\s*', re.IGNORECASE),
             re.compile(r'^read\s+also\s*[:\-–—]*\s*', re.IGNORECASE),
             re.compile(r'^study\s*text\s*[:\-–—]*\s*', re.IGNORECASE),
@@ -291,6 +292,9 @@ class RobustThoughtProcessor:
         if state.get('awaiting_scripture_ref'):
             if self._looks_like_scripture_reference(raw_text):
                 return "SCRIPTURE_REF", ParseDiagnostic(para_index, raw_text, "SCRIPTURE_REF", "Looks like a scripture reference (contains book name or chapter:verse pattern)")
+            if state.get('in_study_topic_mode'):
+                # In STUDY TOPIC mode, non-scripture lines before the ref are intro content
+                return "DEVOTIONAL", ParseDiagnostic(para_index, raw_text, "DEVOTIONAL", "STUDY TOPIC mode: intro line before scripture reference, treated as devotional content")
             return "SCRIPTURE_REF", ParseDiagnostic(para_index, raw_text, "SCRIPTURE_REF", "Expected scripture reference position (after Study Text header), but text doesn't look like typical reference - please verify")
 
         if state.get('awaiting_scripture_text'):
@@ -308,13 +312,14 @@ class RobustThoughtProcessor:
         current_entry = None
         current_validation = None
 
-        state = {'awaiting_title': False, 'awaiting_scripture_ref': False, 'awaiting_scripture_text': False, 'in_devotional': False}
+        state = {'awaiting_title': False, 'awaiting_scripture_ref': False, 'awaiting_scripture_text': False, 'in_devotional': False, 'in_study_topic_mode': False}
 
         def reset_state():
             state['awaiting_title'] = True
             state['awaiting_scripture_ref'] = False
             state['awaiting_scripture_text'] = False
             state['in_devotional'] = False
+            state['in_study_topic_mode'] = False
 
         for para_index, para in enumerate(doc.paragraphs):
             if not para.text.strip():
@@ -379,6 +384,11 @@ class RobustThoughtProcessor:
                         current_entry["title"] = raw_text
                         current_validation.title = raw_text
                         state['awaiting_title'] = False
+                        # "STUDY TOPIC:" entries have no explicit Study Text: header;
+                        # activate scripture-awaiting mode so the ref/quote get captured.
+                        if re.match(r'^study\s+topic\s*[:\-–—]', raw_text, re.IGNORECASE):
+                            state['awaiting_scripture_ref'] = True
+                            state['in_study_topic_mode'] = True
                 elif classification == "STUDY_TEXT_HEADER":
                     state['awaiting_scripture_ref'] = True
                     state['awaiting_title'] = False
@@ -406,6 +416,7 @@ class RobustThoughtProcessor:
                     current_entry["scripture_ref"] = parsed_ref or stripped_text
                     state['awaiting_scripture_ref'] = False
                     state['awaiting_scripture_text'] = True
+                    state['in_study_topic_mode'] = False
                     if parsed_title and not current_entry["title"]:
                         current_entry["title"] = parsed_title
                         current_validation.title = parsed_title

@@ -1,8 +1,8 @@
 {
-  "generated": "2026-05-08T08:20:53.170279",
+  "generated": "2026-05-08T08:49:09.820704",
   "total_days": 140,
-  "complete_days": 100,
-  "incomplete_days": 40,
+  "complete_days": 109,
+  "incomplete_days": 31,
   "days": [
     {
       "day": 1,
@@ -1283,11 +1283,8 @@
       "file": "day-132.json",
       "has_links": false,
       "has_highlights": false,
-      "is_complete": false,
-      "missing_sections": [
-        "scripture_ref",
-        "scripture_text"
-      ]
+      "is_complete": true,
+      "missing_sections": []
     },
     {
       "day": 133,
@@ -1295,11 +1292,8 @@
       "file": "day-133.json",
       "has_links": true,
       "has_highlights": false,
-      "is_complete": false,
-      "missing_sections": [
-        "scripture_ref",
-        "scripture_text"
-      ]
+      "is_complete": true,
+      "missing_sections": []
     },
     {
       "day": 134,
@@ -1307,11 +1301,8 @@
       "file": "day-134.json",
       "has_links": true,
       "has_highlights": false,
-      "is_complete": false,
-      "missing_sections": [
-        "scripture_ref",
-        "scripture_text"
-      ]
+      "is_complete": true,
+      "missing_sections": []
     },
     {
       "day": 135,
@@ -1319,11 +1310,8 @@
       "file": "day-135.json",
       "has_links": false,
       "has_highlights": false,
-      "is_complete": false,
-      "missing_sections": [
-        "scripture_ref",
-        "scripture_text"
-      ]
+      "is_complete": true,
+      "missing_sections": []
     },
     {
       "day": 136,
@@ -1331,11 +1319,8 @@
       "file": "day-136.json",
       "has_links": false,
       "has_highlights": false,
-      "is_complete": false,
-      "missing_sections": [
-        "scripture_ref",
-        "scripture_text"
-      ]
+      "is_complete": true,
+      "missing_sections": []
     },
     {
       "day": 137,
@@ -1343,11 +1328,8 @@
       "file": "day-137.json",
       "has_links": true,
       "has_highlights": true,
-      "is_complete": false,
-      "missing_sections": [
-        "scripture_text",
-        "bible_reading"
-      ]
+      "is_complete": true,
+      "missing_sections": []
     },
     {
       "day": 138,
@@ -1355,11 +1337,8 @@
       "file": "day-138.json",
       "has_links": false,
       "has_highlights": false,
-      "is_complete": false,
-      "missing_sections": [
-        "scripture_ref",
-        "scripture_text"
-      ]
+      "is_complete": true,
+      "missing_sections": []
     },
     {
       "day": 139,
@@ -1367,11 +1346,8 @@
       "file": "day-139.json",
       "has_links": false,
       "has_highlights": false,
-      "is_complete": false,
-      "missing_sections": [
-        "scripture_ref",
-        "scripture_text"
-      ]
+      "is_complete": true,
+      "missing_sections": []
     },
     {
       "day": 140,
@@ -1379,11 +1355,8 @@
       "file": "day-140.json",
       "has_links": false,
       "has_highlights": false,
-      "is_complete": false,
-      "missing_sections": [
-        "scripture_ref",
-        "scripture_text"
-      ]
+      "is_complete": true,
+      "missing_sections": []
     }
   ]
 }

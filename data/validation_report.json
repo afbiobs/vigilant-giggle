@@ -1,9 +1,1063 @@
 {
-  "generated": "2026-05-01T11:04:25.795601",
+  "generated": "2026-05-08T08:20:53.171420",
   "summary": {
-    "total_entries": 6,
+    "total_entries": 14,
     "complete": 0,
-    "incomplete": 0
+    "incomplete": 9
   },
-  "issues": []
+  "issues": [
+    {
+      "day": 132,
+      "title": "STUDY TOPIC: - Nativity part 1",
+      "missing": [
+        "scripture_ref",
+        "scripture_text"
+      ],
+      "warnings": [],
+      "diagnostics": [
+        {
+          "para_index": 151,
+          "text_preview": "Day 132",
+          "classification": "DAY_MARKER",
+          "reason": "Matched day pattern: Day N"
+        },
+        {
+          "para_index": 153,
+          "text_preview": "STUDY TOPIC: - Nativity part 1",
+          "classification": "TITLE",
+          "reason": "First non-day paragraph after Day marker, interpreted as title"
+        },
+        {
+          "para_index": 155,
+          "text_preview": "Introducing Joseph.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 157,
+          "text_preview": "Matthew 1:18-25",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 159,
+          "text_preview": "‘’This is how the birth of Jesus the Messiah came about.  His mother Mary was pl...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 162,
+          "text_preview": "Loving, when family does not look as it should.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 164,
+          "text_preview": "The greatest joy in life is often found in the context of family, where love and...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 166,
+          "text_preview": "However for some, the family is far from a safe place, it is not a place of love...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 168,
+          "text_preview": "At other times God sends circumstances into our lives that bring chaos, confusio...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 170,
+          "text_preview": "We are going to take a look at the Christmas story and try to learn how we can l...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 172,
+          "text_preview": "If you think about it for a moment, there was nothing special about the family J...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 174,
+          "text_preview": "However, God wanted His Son to live in an ordinary family, like ours.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 176,
+          "text_preview": "Joseph is a very interesting person, when we think of the Christmas story Joseph...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 178,
+          "text_preview": "It may be, that one of the reasons why we find it easy to ignore Joseph is becau...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 180,
+          "text_preview": "Prayer, Father may Jesus feel loved in our family",
+          "classification": "PRAYER",
+          "reason": "Matched prayer pattern: **Prayer**"
+        },
+        {
+          "para_index": 182,
+          "text_preview": "Bible in a year reading plan: - 2 Chronicles 22-24",
+          "classification": "BIBLE_READING",
+          "reason": "Matched Bible reading pattern: Bible in a year"
+        }
+      ]
+    },
+    {
+      "day": 133,
+      "title": "STUDY TOPIC: - Nativity part 2",
+      "missing": [
+        "scripture_ref",
+        "scripture_text"
+      ],
+      "warnings": [],
+      "diagnostics": [
+        {
+          "para_index": 185,
+          "text_preview": "Day 133",
+          "classification": "DAY_MARKER",
+          "reason": "Matched day pattern: Day N"
+        },
+        {
+          "para_index": 187,
+          "text_preview": "STUDY TOPIC: - Nativity part 2",
+          "classification": "TITLE",
+          "reason": "First non-day paragraph after Day marker, interpreted as title"
+        },
+        {
+          "para_index": 189,
+          "text_preview": "Matthew 1:18-25",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 191,
+          "text_preview": "‘’This is how the birth of Jesus the Messiah came about.  His mother Mary was pl...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 193,
+          "text_preview": "1. Joseph and Mary were betrothed. Understanding betrothal.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 195,
+          "text_preview": "The first stage of the betrothal was finding a suitable spouse for the bride or ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 197,
+          "text_preview": "The second stage was the betrothal ceremony. I remember when I was growing up I ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 199,
+          "text_preview": "So it was during this time that Mary conceived, and that is a problem for Joseph...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 201,
+          "text_preview": "2. Joseph needed to find the balance between justice and mercy.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 202,
+          "text_preview": "Joseph was a righteous man, he was what was known in Judaism a tsaddiyq The NIV ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 204,
+          "text_preview": "‘Biblical righteousness is inevitably social, because it is about relationships....",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 206,
+          "text_preview": "John Ortberg speaking about tsaddiyq says ‘Joseph did not eat unclean food. He d...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 208,
+          "text_preview": "Before we unpack the dilemma Joseph was experiencing, let me give you two questi...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 210,
+          "text_preview": "Joseph’s dilemma is this, he wants to be righteous and do what the law requires,...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 212,
+          "text_preview": "What should he do?",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 213,
+          "text_preview": "He sees his wife pregnant, and he knows that he is not the father, what is he fe...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 215,
+          "text_preview": "I think this is amazing, Joseph wants to do what is right, he wants to be truthf...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 217,
+          "text_preview": "Prayer, Father thank you that love and righteousness are always compatible",
+          "classification": "PRAYER",
+          "reason": "Matched prayer pattern: **Prayer**"
+        },
+        {
+          "para_index": 219,
+          "text_preview": "Bible in a year reading plan: - 2 Chronicles 25-27",
+          "classification": "BIBLE_READING",
+          "reason": "Matched Bible reading pattern: Bible in a year"
+        }
+      ]
+    },
+    {
+      "day": 134,
+      "title": "STUDY TOPIC: - Nativity part 3",
+      "missing": [
+        "scripture_ref",
+        "scripture_text"
+      ],
+      "warnings": [],
+      "diagnostics": [
+        {
+          "para_index": 222,
+          "text_preview": "Day 134",
+          "classification": "DAY_MARKER",
+          "reason": "Matched day pattern: Day N"
+        },
+        {
+          "para_index": 224,
+          "text_preview": "STUDY TOPIC: - Nativity part 3",
+          "classification": "TITLE",
+          "reason": "First non-day paragraph after Day marker, interpreted as title"
+        },
+        {
+          "para_index": 226,
+          "text_preview": "Matthew 1:18-25",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 228,
+          "text_preview": "‘’This is how the birth of Jesus the Messiah came about. His mother Mary was ple...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 230,
+          "text_preview": "Sometimes as Christians we can be too black and white in our thinking, we can le...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 232,
+          "text_preview": "John Ortberg says: -",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 233,
+          "text_preview": "‘‘Is it possible that anxiety removal is not God's number one goal for Joseph—or...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 234,
+          "text_preview": "I love that!",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 236,
+          "text_preview": "Maybe the reason we find it difficult to show grace to others is because we don’...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 237,
+          "text_preview": "Prayer, Father the present circumstances you have placed me require me to displa...",
+          "classification": "PRAYER",
+          "reason": "Matched prayer pattern: **Prayer**"
+        },
+        {
+          "para_index": 238,
+          "text_preview": "Bible in a year reading plan: - 2 Chronicles 28-30",
+          "classification": "BIBLE_READING",
+          "reason": "Matched Bible reading pattern: Bible in a year"
+        }
+      ]
+    },
+    {
+      "day": 135,
+      "title": "STUDY TOPIC: - Nativity part 4",
+      "missing": [
+        "scripture_ref",
+        "scripture_text"
+      ],
+      "warnings": [],
+      "diagnostics": [
+        {
+          "para_index": 240,
+          "text_preview": "Day 135",
+          "classification": "DAY_MARKER",
+          "reason": "Matched day pattern: Day N"
+        },
+        {
+          "para_index": 242,
+          "text_preview": "STUDY TOPIC: - Nativity part 4",
+          "classification": "TITLE",
+          "reason": "First non-day paragraph after Day marker, interpreted as title"
+        },
+        {
+          "para_index": 244,
+          "text_preview": "Matthew 1:18-25",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 245,
+          "text_preview": "‘’This is how the birth of Jesus the Messiah came about. His mother Mary was ple...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 247,
+          "text_preview": "Joseph's anger.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 249,
+          "text_preview": "In Matthew 1:20 we read these words: - ‘But after he considered this, an angel o...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 251,
+          "text_preview": "If you are anything like me, it is very easy to allow your emotions to become a ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 253,
+          "text_preview": "Sometimes justified anger can lead to wrong decisions, even sinful decisions. In...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 255,
+          "text_preview": "If we want to protect the life of Jesus in our families, then there can be no pl...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 256,
+          "text_preview": "Joseph thought his way through his anger and in doing so was able to embrace God...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 257,
+          "text_preview": "Prayer, Father, if I am angry about your will for my life, help me to work throu...",
+          "classification": "PRAYER",
+          "reason": "Matched prayer pattern: **Prayer**"
+        },
+        {
+          "para_index": 258,
+          "text_preview": "Bible in a year reading plan: - 2 Chronicles 31-33",
+          "classification": "BIBLE_READING",
+          "reason": "Matched Bible reading pattern: Bible in a year"
+        }
+      ]
+    },
+    {
+      "day": 136,
+      "title": "STUDY TOPIC: - Nativity part 5",
+      "missing": [
+        "scripture_ref",
+        "scripture_text"
+      ],
+      "warnings": [],
+      "diagnostics": [
+        {
+          "para_index": 261,
+          "text_preview": "Day 136",
+          "classification": "DAY_MARKER",
+          "reason": "Matched day pattern: Day N"
+        },
+        {
+          "para_index": 262,
+          "text_preview": "STUDY TOPIC: - Nativity part 5",
+          "classification": "TITLE",
+          "reason": "First non-day paragraph after Day marker, interpreted as title"
+        },
+        {
+          "para_index": 264,
+          "text_preview": "Matthew 1:18-25",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 266,
+          "text_preview": "‘’This is how the birth of Jesus the Messiah came about.  His mother Mary was pl...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 268,
+          "text_preview": "Joseph’s revelation. Let us look again at verses",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 270,
+          "text_preview": "19-20 Because Joseph her husband was faithful to the law, and yet did not want t...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 272,
+          "text_preview": "Do you notice anything strange about these two verses? They seem to be the wrong...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 274,
+          "text_preview": "One writer wrote this: -",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 276,
+          "text_preview": "‘‘The circumstances in which this mystery is revealed to him, precisely when he ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 278,
+          "text_preview": "Joseph was full of fear, he knew that he could never marry Mary now, for to do s...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 280,
+          "text_preview": "Joseph I want you to do the very thing you are afraid to do, but I want you to k...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 282,
+          "text_preview": "J C Ryle writes that Immanuel promises to be \"with us daily to pardon and forgiv...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 284,
+          "text_preview": "The name Immanuel sums up God’s heart, and all his purposes for his Son Jesus. I...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 287,
+          "text_preview": "Maybe you can identify with Joseph, you have all these conflicting emotions ragi...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 289,
+          "text_preview": "For Joseph this was a spiritual rite of passage, it was Gods way of bringing him...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 291,
+          "text_preview": "Prayer, Father thank you that the life of Joseph teaches us that your presence i...",
+          "classification": "PRAYER",
+          "reason": "Matched prayer pattern: **Prayer**"
+        },
+        {
+          "para_index": 293,
+          "text_preview": "Bible in a year reading plan: - 2 Chronicles 34-36",
+          "classification": "BIBLE_READING",
+          "reason": "Matched Bible reading pattern: Bible in a year"
+        }
+      ]
+    },
+    {
+      "day": 137,
+      "title": "STUDY TOPIC: - Nativity part 6",
+      "missing": [
+        "scripture_text",
+        "bible_reading"
+      ],
+      "warnings": [],
+      "diagnostics": [
+        {
+          "para_index": 295,
+          "text_preview": "Day 137",
+          "classification": "DAY_MARKER",
+          "reason": "Matched day pattern: Day N"
+        },
+        {
+          "para_index": 297,
+          "text_preview": "STUDY TOPIC: - Nativity part 6",
+          "classification": "TITLE",
+          "reason": "First non-day paragraph after Day marker, interpreted as title"
+        },
+        {
+          "para_index": 299,
+          "text_preview": "Matthew 1:18-25",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 300,
+          "text_preview": "‘’This is how the birth of Jesus the Messiah came about. His mother Mary was ple...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 302,
+          "text_preview": "I wonder if you have ever been deeply challenged or disturbed by the ‘Christmas’...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 303,
+          "text_preview": "But if we were to take a closer look we will discover that the Christmas story i...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 305,
+          "text_preview": "Joseph and Mary did not live in some kind of utopia where it was easy to love Go...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 307,
+          "text_preview": "1. Joseph needed to see Mary the way God saw her.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 308,
+          "text_preview": "When the angel of the Lord appeared to Joseph in a dream, Joseph was able to hav...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 310,
+          "text_preview": "Joseph needed to get past all his cultural upbringing and his rigid understandin...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 311,
+          "text_preview": "How we see people is the number one test of our spirituality. How we see others ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 312,
+          "text_preview": "Let’s think through the consequences of this. What difference would it make if w...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 314,
+          "text_preview": "We live in a culture where people think it is funny or clever to belittle or dem...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 316,
+          "text_preview": "Emotional abuse is not someone losing their temper in an argument or having a he...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 318,
+          "text_preview": "Emotional abuse often uses verbal abuse, which could include angry outbursts, sc...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 320,
+          "text_preview": "Jesus categorizes verbal abuse as a serious offence with eternal consequences: “...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 322,
+          "text_preview": "God’s desire is that we “encourage one another and build each other up” (1 Thess...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 323,
+          "text_preview": "God intends that our words and our relationships be healthy and life giving. Enc...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 324,
+          "text_preview": "In seeing Mary from God’s perspective meant that Joseph was able to marry her, a...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 326,
+          "text_preview": "Prayer, Father help us to always view our spouse as you do.",
+          "classification": "PRAYER",
+          "reason": "Matched prayer pattern: **Prayer**"
+        },
+        {
+          "para_index": 328,
+          "text_preview": "Bible in a year reading: Ezra 1-3",
+          "classification": "STUDY_TEXT_HEADER",
+          "reason": "Matched study text pattern: reading:"
+        }
+      ]
+    },
+    {
+      "day": 138,
+      "title": "STUDY TOPIC: Nativity part 7",
+      "missing": [
+        "scripture_ref",
+        "scripture_text"
+      ],
+      "warnings": [],
+      "diagnostics": [
+        {
+          "para_index": 331,
+          "text_preview": "Day 138",
+          "classification": "DAY_MARKER",
+          "reason": "Matched day pattern: Day N"
+        },
+        {
+          "para_index": 333,
+          "text_preview": "STUDY TOPIC: Nativity part 7",
+          "classification": "TITLE",
+          "reason": "First non-day paragraph after Day marker, interpreted as title"
+        },
+        {
+          "para_index": 335,
+          "text_preview": "Matthew 1:18-25",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 337,
+          "text_preview": "‘’This is how the birth of Jesus the Messiah came about. His mother Mary was ple...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 339,
+          "text_preview": "Joseph needed to create space so God could work in Mary’s life.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 340,
+          "text_preview": "God was asking Joseph to make choices that would enhance and encourage what God ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 342,
+          "text_preview": "Marriage should never be tit-for-tat.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 343,
+          "text_preview": "Do we hold our spouse accountable for moral, upright behaviour? Yes!",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 344,
+          "text_preview": "Do we withhold our love when we feel we are not being loved? No!",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 345,
+          "text_preview": "Christ’s invitation to love is without limits, without strings attached. We are ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 346,
+          "text_preview": "Are we prepared to make substantial and continuous sacrifice so God can produce ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 347,
+          "text_preview": "I wonder what kind of concern or care do we have for the spiritual lives of thos...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 348,
+          "text_preview": "For Joseph and Mary the very centre of their marriage was the activity of God an...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 349,
+          "text_preview": "Here are a few suggestions.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 350,
+          "text_preview": "a. Pray about each others spiritual life and their relationship with God, rememb...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 351,
+          "text_preview": "b. Pray together, not as some kind of formal activity, but spontaneously, for ex...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 352,
+          "text_preview": "c. Be intentional in wanting to encourage your spouse spiritually, make it a del...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 353,
+          "text_preview": "d. Explore the word of God together, talk about what you hear in church, ask que...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 354,
+          "text_preview": "e. Offer assistance. Just ask is there anything I can do to help you? Take on pr...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 355,
+          "text_preview": "f. Plan spiritual activities together. It could a morning praying together, or g...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 356,
+          "text_preview": "g. Be prepared to make sacrifices and go out of your way to encourage others spi...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 358,
+          "text_preview": "Joseph displayed a heart like Jesus. When you look at the life of Joseph you get...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 359,
+          "text_preview": "Joseph, like Jesus did not live out of an ego. He knew that he could make a diff...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 360,
+          "text_preview": "Joseph embodied this same kind of attitude. Being a father to the Son of God cou...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 362,
+          "text_preview": "Humility is found in many forms such as modesty, meekness, humbleness, lowliness...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 364,
+          "text_preview": "I think the most important lesson we can learn from Joseph is that life is essen...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 366,
+          "text_preview": "Prayer, Father may our homes be places were we display encouraging humble love.",
+          "classification": "PRAYER",
+          "reason": "Matched prayer pattern: **Prayer**"
+        },
+        {
+          "para_index": 368,
+          "text_preview": "Bible in a year reading plan: - Ezra 4-7",
+          "classification": "BIBLE_READING",
+          "reason": "Matched Bible reading pattern: Bible in a year"
+        }
+      ]
+    },
+    {
+      "day": 139,
+      "title": "STUDY TOPIC: - Nativity part 8",
+      "missing": [
+        "scripture_ref",
+        "scripture_text"
+      ],
+      "warnings": [],
+      "diagnostics": [
+        {
+          "para_index": 371,
+          "text_preview": "Day 139",
+          "classification": "DAY_MARKER",
+          "reason": "Matched day pattern: Day N"
+        },
+        {
+          "para_index": 373,
+          "text_preview": "STUDY TOPIC: - Nativity part 8",
+          "classification": "TITLE",
+          "reason": "First non-day paragraph after Day marker, interpreted as title"
+        },
+        {
+          "para_index": 375,
+          "text_preview": "Luke 1:26-38",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 376,
+          "text_preview": "‘’In the sixth month of Elizabeth’s pregnancy, God sent the angel Gabriel to Naz...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 378,
+          "text_preview": "Sometimes in life we can get some really good news, and we get excited and feel ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 380,
+          "text_preview": "The Good news is, that Jesus was to be born of Mary.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 381,
+          "text_preview": "Jesus, the creator of the universe became a tiny cluster of cells in a womb of a...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 382,
+          "text_preview": "‘It is by far the most amazing miracle in the whole Bible – far more amazing tha...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 385,
+          "text_preview": "The Word became flesh! God became human! The invisible became visible! The untou...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 387,
+          "text_preview": "We should be people who rejoice and glory in the incarnation of Jesus, we have a...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 389,
+          "text_preview": "However, the good news of Jesus’ birth is also challenging and confronting. It w...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 391,
+          "text_preview": "Prayer, Father may my life echo the nativity story, may Jesus be formed in me.",
+          "classification": "PRAYER",
+          "reason": "Matched prayer pattern: **Prayer**"
+        },
+        {
+          "para_index": 393,
+          "text_preview": "Bible in a year reading plan: Ezra 8-10",
+          "classification": "BIBLE_READING",
+          "reason": "Matched Bible reading pattern: Bible in a year"
+        }
+      ]
+    },
+    {
+      "day": 140,
+      "title": "STUDY TOPIC: -Nativity part 9",
+      "missing": [
+        "scripture_ref",
+        "scripture_text"
+      ],
+      "warnings": [],
+      "diagnostics": [
+        {
+          "para_index": 394,
+          "text_preview": "Day 140",
+          "classification": "DAY_MARKER",
+          "reason": "Matched day pattern: Day N"
+        },
+        {
+          "para_index": 396,
+          "text_preview": "STUDY TOPIC: -Nativity part 9",
+          "classification": "TITLE",
+          "reason": "First non-day paragraph after Day marker, interpreted as title"
+        },
+        {
+          "para_index": 398,
+          "text_preview": "Luke 1:26-38",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 399,
+          "text_preview": "‘’In the sixth month of Elizabeth’s pregnancy, God sent the angel Gabriel to Naz...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 401,
+          "text_preview": "Location does not determine influence.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 403,
+          "text_preview": "The passage begins with these words. ‘‘In the sixth month of Elizabeth’s pregnan...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 404,
+          "text_preview": "This is the second time Gabriel is mentioned in this chapter. The first time we ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 406,
+          "text_preview": "The Nativity story teaches us, that in our obscurity and isolation we need an en...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 407,
+          "text_preview": "In a small cottage by the roadside in the village of Barvas lived two elderly wo...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 408,
+          "text_preview": "One night Peggy had a revelation, revival was coming and the church of her fathe...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 409,
+          "text_preview": "Look at these words regarding the revival:-",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 410,
+          "text_preview": "‘There was a fear to count the converted, as ministers didn’t want to fall into ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 410,
+          "text_preview": "Duncan Campbell indicated that 75% of those saved during the Hebrides Revival we...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 411,
+          "text_preview": "Plans are expendable.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 412,
+          "text_preview": "Mary was a young girl between the age of 12-15 who was betrothed to a man called...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 413,
+          "text_preview": "There are two important things I want to say about this.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 414,
+          "text_preview": "At their essence most of the plans we make, especially life changing plans, like...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 415,
+          "text_preview": "Have you ever thought that Mary could have said no, just as much as we have the ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 416,
+          "text_preview": "There will be times in our lives when we will have to engage in ‘the nativity st...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 417,
+          "text_preview": "Also we need to come to a heart conviction that it is better to live a difficult...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 418,
+          "text_preview": "Prayer, Father I pray that the obscurity of my life will not become a comfort zo...",
+          "classification": "PRAYER",
+          "reason": "Matched prayer pattern: **Prayer**"
+        },
+        {
+          "para_index": 419,
+          "text_preview": "Bible reading plan: Nehemiah 1-3",
+          "classification": "BIBLE_READING",
+          "reason": "Matched Bible reading pattern: Bible reading plan"
+        }
+      ]
+    }
+  ]
 }

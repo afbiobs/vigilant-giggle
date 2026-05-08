@@ -1,8 +1,8 @@
 {
-  "generated": "2026-05-01T11:04:25.792981",
-  "total_days": 126,
-  "complete_days": 95,
-  "incomplete_days": 31,
+  "generated": "2026-05-08T08:20:53.170279",
+  "total_days": 140,
+  "complete_days": 100,
+  "incomplete_days": 40,
   "days": [
     {
       "day": 1,
@@ -1231,6 +1231,159 @@
       "has_highlights": true,
       "is_complete": true,
       "missing_sections": []
+    },
+    {
+      "day": 127,
+      "title": "\u2018You do not want to leave me too, do you?\u2019 part 2",
+      "file": "day-127.json",
+      "has_links": true,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 128,
+      "title": "The Fathers love for His Son. Part 1",
+      "file": "day-128.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 129,
+      "title": "The Fathers love for His Son. Part 2",
+      "file": "day-129.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 130,
+      "title": "The Fathers love for His Son. Part 3",
+      "file": "day-130.json",
+      "has_links": true,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 131,
+      "title": "The Fathers love for His Son. Part 4",
+      "file": "day-131.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 132,
+      "title": "STUDY TOPIC: - Nativity part 1",
+      "file": "day-132.json",
+      "has_links": false,
+      "has_highlights": false,
+      "is_complete": false,
+      "missing_sections": [
+        "scripture_ref",
+        "scripture_text"
+      ]
+    },
+    {
+      "day": 133,
+      "title": "STUDY TOPIC: - Nativity part 2",
+      "file": "day-133.json",
+      "has_links": true,
+      "has_highlights": false,
+      "is_complete": false,
+      "missing_sections": [
+        "scripture_ref",
+        "scripture_text"
+      ]
+    },
+    {
+      "day": 134,
+      "title": "STUDY TOPIC: - Nativity part 3",
+      "file": "day-134.json",
+      "has_links": true,
+      "has_highlights": false,
+      "is_complete": false,
+      "missing_sections": [
+        "scripture_ref",
+        "scripture_text"
+      ]
+    },
+    {
+      "day": 135,
+      "title": "STUDY TOPIC: - Nativity part 4",
+      "file": "day-135.json",
+      "has_links": false,
+      "has_highlights": false,
+      "is_complete": false,
+      "missing_sections": [
+        "scripture_ref",
+        "scripture_text"
+      ]
+    },
+    {
+      "day": 136,
+      "title": "STUDY TOPIC: - Nativity part 5",
+      "file": "day-136.json",
+      "has_links": false,
+      "has_highlights": false,
+      "is_complete": false,
+      "missing_sections": [
+        "scripture_ref",
+        "scripture_text"
+      ]
+    },
+    {
+      "day": 137,
+      "title": "STUDY TOPIC: - Nativity part 6",
+      "file": "day-137.json",
+      "has_links": true,
+      "has_highlights": true,
+      "is_complete": false,
+      "missing_sections": [
+        "scripture_text",
+        "bible_reading"
+      ]
+    },
+    {
+      "day": 138,
+      "title": "STUDY TOPIC: Nativity part 7",
+      "file": "day-138.json",
+      "has_links": false,
+      "has_highlights": false,
+      "is_complete": false,
+      "missing_sections": [
+        "scripture_ref",
+        "scripture_text"
+      ]
+    },
+    {
+      "day": 139,
+      "title": "STUDY TOPIC: - Nativity part 8",
+      "file": "day-139.json",
+      "has_links": false,
+      "has_highlights": false,
+      "is_complete": false,
+      "missing_sections": [
+        "scripture_ref",
+        "scripture_text"
+      ]
+    },
+    {
+      "day": 140,
+      "title": "STUDY TOPIC: -Nativity part 9",
+      "file": "day-140.json",
+      "has_links": false,
+      "has_highlights": false,
+      "is_complete": false,
+      "missing_sections": [
+        "scripture_ref",
+        "scripture_text"
+      ]
     }
   ]
 }

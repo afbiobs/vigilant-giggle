@@ -1,9 +1,93 @@
 {
-  "generated": "2026-05-08T08:49:09.822011",
+  "generated": "2026-05-08T16:33:09.633080",
   "summary": {
-    "total_entries": 14,
+    "total_entries": 10,
     "complete": 0,
-    "incomplete": 0
+    "incomplete": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "day": 141,
+      "title": "STUDY TOPIC Nativity part 10",
+      "missing": [
+        "scripture_ref",
+        "scripture_text"
+      ],
+      "warnings": [],
+      "diagnostics": [
+        {
+          "para_index": 0,
+          "text_preview": "Day 141",
+          "classification": "DAY_MARKER",
+          "reason": "Matched day pattern: Day N"
+        },
+        {
+          "para_index": 2,
+          "text_preview": "STUDY TOPIC Nativity part 10",
+          "classification": "TITLE",
+          "reason": "First non-day paragraph after Day marker, interpreted as title"
+        },
+        {
+          "para_index": 4,
+          "text_preview": "Luke 1:26-38",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 5,
+          "text_preview": "‘’In the sixth month of Elizabeth’s pregnancy, God sent the angel Gabriel to Naz...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 7,
+          "text_preview": "You are totally accepted.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 8,
+          "text_preview": "What I find fascinating about Mary is the thing that caused her to be confused a...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 9,
+          "text_preview": "The appearance of the angel Gabriel did not disturb her, but what he said about ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 11,
+          "text_preview": "We know in our heads that God loves and accepts us, but we live and think as if ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 13,
+          "text_preview": "‘Mary, God the father has a wonderful plan for your life, but before you know th...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 15,
+          "text_preview": "Read this out loud so you can hear it being spoken over you. ‘God’s love is so g...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 16,
+          "text_preview": "Prayer, Father help me to accept your love so I can do your will.",
+          "classification": "PRAYER",
+          "reason": "Matched prayer pattern: **Prayer**"
+        },
+        {
+          "para_index": 17,
+          "text_preview": "Bible in a year reading plan: Nehemiah 4-6",
+          "classification": "BIBLE_READING",
+          "reason": "Matched Bible reading pattern: Bible in a year"
+        }
+      ]
+    }
+  ]
 }

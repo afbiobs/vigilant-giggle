@@ -1,10 +1,62 @@
 ======================================================================
 THOUGHT PROCESSOR - VALIDATION REPORT
 ======================================================================
-Generated: 2026-05-08 08:49:09
-Total entries processed: 14
-Complete entries: 14
-Entries with issues: 0
+Generated: 2026-05-08 16:33:09
+Total entries processed: 10
+Complete entries: 9
+Entries with issues: 1
 ======================================================================
 
-✅ All entries are complete! No issues found.
+ENTRIES WITH MISSING SECTIONS OR WARNINGS:
+----------------------------------------------------------------------
+
+📅 DAY 141: STUDY TOPIC Nativity part 10
+----------------------------------------
+  ❌ MISSING SECTIONS: scripture_ref, scripture_text
+
+  PARAGRAPH ANALYSIS (what the parser saw):
+    🔢 [DAY_MARKER] Para #0
+       Text: "Day 141"
+       Why:  Matched day pattern: Day N
+    📌 [TITLE] Para #2
+       Text: "STUDY TOPIC Nativity part 10"
+       Why:  First non-day paragraph after Day marker, interpreted as title
+    💭 [DEVOTIONAL] Para #4
+       Text: "Luke 1:26-38"
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #5
+       Text: "‘’In the sixth month of Elizabeth’s pregnancy, God sent the angel Gabriel to Naz..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #7
+       Text: "You are totally accepted."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #8
+       Text: "What I find fascinating about Mary is the thing that caused her to be confused a..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #9
+       Text: "The appearance of the angel Gabriel did not disturb her, but what he said about ..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #11
+       Text: "We know in our heads that God loves and accepts us, but we live and think as if ..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #13
+       Text: "‘Mary, God the father has a wonderful plan for your life, but before you know th..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #15
+       Text: "Read this out loud so you can hear it being spoken over you. ‘God’s love is so g..."
+       Why:  No special markers found, classified as devotional content
+    🙏 [PRAYER] Para #16
+       Text: "Prayer, Father help me to accept your love so I can do your will."
+       Why:  Matched prayer pattern: **Prayer**
+    📚 [BIBLE_READING] Para #17
+       Text: "Bible in a year reading plan: Nehemiah 4-6"
+       Why:  Matched Bible reading pattern: Bible in a year
+
+  💡 SUGGESTIONS TO FIX:
+     - Add 'Study Text: [Book Chapter:Verse]' line after the title
+       Example: 'Study Text: John 3:16-18'
+     - Add the actual scripture quote after the reference line
+
+======================================================================
+END OF REPORT
+======================================================================

@@ -1,8 +1,8 @@
 {
-  "generated": "2026-05-08T08:49:09.820704",
-  "total_days": 140,
-  "complete_days": 109,
-  "incomplete_days": 31,
+  "generated": "2026-05-08T16:33:09.631807",
+  "total_days": 150,
+  "complete_days": 118,
+  "incomplete_days": 32,
   "days": [
     {
       "day": 1,
@@ -1353,6 +1353,99 @@
       "day": 140,
       "title": "STUDY TOPIC: -Nativity part 9",
       "file": "day-140.json",
+      "has_links": false,
+      "has_highlights": false,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 141,
+      "title": "STUDY TOPIC Nativity part 10",
+      "file": "day-141.json",
+      "has_links": false,
+      "has_highlights": false,
+      "is_complete": false,
+      "missing_sections": [
+        "scripture_ref",
+        "scripture_text"
+      ]
+    },
+    {
+      "day": 142,
+      "title": "STUDY TOPIC: - Nativity part 11",
+      "file": "day-142.json",
+      "has_links": false,
+      "has_highlights": false,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 143,
+      "title": "Some version translate verse 7 as \u2018No room in the Inn.",
+      "file": "day-143.json",
+      "has_links": false,
+      "has_highlights": false,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 144,
+      "title": "STUDY TOPIC: - Nativity part 13",
+      "file": "day-144.json",
+      "has_links": true,
+      "has_highlights": false,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 145,
+      "title": "STUDY TOPIC: - Nativity part 14",
+      "file": "day-145.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 146,
+      "title": "STUDY TOPIC: - Nativity part 15",
+      "file": "day-146.json",
+      "has_links": false,
+      "has_highlights": false,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 147,
+      "title": "STUDY TOPIC: - Nativity part 16",
+      "file": "day-147.json",
+      "has_links": true,
+      "has_highlights": false,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 148,
+      "title": "STUDY TOPIC: - Nativity part 17",
+      "file": "day-148.json",
+      "has_links": false,
+      "has_highlights": false,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 149,
+      "title": "STUDY TOPIC: -Nativity part 18",
+      "file": "day-149.json",
+      "has_links": false,
+      "has_highlights": false,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 150,
+      "title": "Finding your place in the story of Jesus. Part 1",
+      "file": "day-150.json",
       "has_links": false,
       "has_highlights": false,
       "is_complete": true,

@@ -1,7 +1,7 @@
 {
-  "generated": "2026-05-08T16:33:09.631807",
-  "total_days": 150,
-  "complete_days": 118,
+  "generated": "2026-05-29T10:50:08.426187",
+  "total_days": 167,
+  "complete_days": 135,
   "incomplete_days": 32,
   "days": [
     {
@@ -1448,6 +1448,159 @@
       "file": "day-150.json",
       "has_links": false,
       "has_highlights": false,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 151,
+      "title": "Finding your place in the story of Jesus. Part 2",
+      "file": "day-151.json",
+      "has_links": false,
+      "has_highlights": false,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 152,
+      "title": "Finding your place in the story of Jesus. Part 3",
+      "file": "day-152.json",
+      "has_links": true,
+      "has_highlights": false,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 153,
+      "title": "Finding your place in the story of Jesus. Part 4",
+      "file": "day-153.json",
+      "has_links": false,
+      "has_highlights": false,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 154,
+      "title": "Immanuel part 1",
+      "file": "day-154.json",
+      "has_links": false,
+      "has_highlights": false,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 155,
+      "title": "Immanuel part 2",
+      "file": "day-155.json",
+      "has_links": true,
+      "has_highlights": false,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 156,
+      "title": "Immanuel part 3",
+      "file": "day-156.json",
+      "has_links": false,
+      "has_highlights": false,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 157,
+      "title": "Jesus who restores part 1",
+      "file": "day-157.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 158,
+      "title": "Jesus who restores part 2",
+      "file": "day-158.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 159,
+      "title": "Jesus who restores part 3",
+      "file": "day-159.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 160,
+      "title": "Anna part 1",
+      "file": "day-160.json",
+      "has_links": true,
+      "has_highlights": false,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 161,
+      "title": "Anna part 2",
+      "file": "day-161.json",
+      "has_links": true,
+      "has_highlights": false,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 162,
+      "title": "Simon from Cyrene part 1",
+      "file": "day-162.json",
+      "has_links": false,
+      "has_highlights": false,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 163,
+      "title": "Simon from Cyrene part 2",
+      "file": "day-163.json",
+      "has_links": false,
+      "has_highlights": false,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 164,
+      "title": "Forgiving others part 1",
+      "file": "day-164.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 165,
+      "title": "Forgiving others part 2",
+      "file": "day-165.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 166,
+      "title": "Forgiving others part 3",
+      "file": "day-166.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 167,
+      "title": "Jesus our groom part 1",
+      "file": "day-167.json",
+      "has_links": false,
+      "has_highlights": true,
       "is_complete": true,
       "missing_sections": []
     }

@@ -1,7 +1,7 @@
 {
-  "generated": "2026-05-29T10:50:08.426187",
-  "total_days": 167,
-  "complete_days": 135,
+  "generated": "2026-06-15T22:55:25.262399",
+  "total_days": 181,
+  "complete_days": 149,
   "incomplete_days": 32,
   "days": [
     {
@@ -1599,6 +1599,132 @@
       "day": 167,
       "title": "Jesus our groom part 1",
       "file": "day-167.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 168,
+      "title": "Jesus our groom part 2",
+      "file": "day-168.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 169,
+      "title": "Jesus our groom part 3",
+      "file": "day-169.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 170,
+      "title": "Jesus our groom part 4",
+      "file": "day-170.json",
+      "has_links": true,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 171,
+      "title": "Jesus our groom part 5",
+      "file": "day-171.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 172,
+      "title": "Loving others part 1",
+      "file": "day-172.json",
+      "has_links": true,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 173,
+      "title": "Loving others part 2",
+      "file": "day-173.json",
+      "has_links": true,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 174,
+      "title": "The bread of life part 1",
+      "file": "day-174.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 175,
+      "title": "The bread of life part 2",
+      "file": "day-175.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 176,
+      "title": "The bread of life part 3",
+      "file": "day-176.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 177,
+      "title": "The bread of life part 4",
+      "file": "day-177.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 178,
+      "title": "Doing life together Part 1",
+      "file": "day-178.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 179,
+      "title": "Doing life together Part 2",
+      "file": "day-179.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 180,
+      "title": "Doing life together Part 2",
+      "file": "day-180.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 181,
+      "title": "Doing life together Part 2",
+      "file": "day-181.json",
       "has_links": false,
       "has_highlights": true,
       "is_complete": true,

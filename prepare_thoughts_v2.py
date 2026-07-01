@@ -195,6 +195,21 @@ class RobustThoughtProcessor:
         """Extract a leading scripture reference and return (ref, trailing_text)."""
         return self._extract_all_scripture_references(text)
 
+    def _friendly_url_label(self, url: str) -> str:
+        """Return a short, human-friendly label for a URL (domain name only).
+
+        Long, percent-encoded URLs (e.g. goodreads "copy link to highlight"
+        links) render as unreadable strings that break the layout, so we show
+        just the domain while keeping the full URL in the href.
+        """
+        match = re.match(r'https?://([^/\s]+)', url)
+        if not match:
+            return url
+        domain = match.group(1)
+        if domain.lower().startswith('www.'):
+            domain = domain[4:]
+        return domain or url
+
     def apply_formatting(self, text: str, run, entry_meta: dict) -> str:
         if not text:
             return ""
@@ -203,7 +218,8 @@ class RobustThoughtProcessor:
         def link_repl(match):
             entry_meta['has_links'] = True
             url = match.group(1)
-            return f'<a href="{url}" target="_blank">{url}</a>'
+            label = html.escape(self._friendly_url_label(html.unescape(url)))
+            return f'<a href="{url}" target="_blank">{label}</a>'
 
         formatted = re.sub(self.url_regex, link_repl, formatted)
 
@@ -243,7 +259,10 @@ class RobustThoughtProcessor:
                     link_text = "".join([
                         node.text for node in child.findall(f'.//{wml_ns}t') if node.text
                     ])
-                    segments_html[-1] += f'<a href="{url}" target="_blank">{html.escape(link_text)}</a>'
+                    display_text = link_text
+                    if re.match(r'^\s*https?://', link_text):
+                        display_text = self._friendly_url_label(link_text.strip())
+                    segments_html[-1] += f'<a href="{url}" target="_blank">{html.escape(display_text)}</a>'
                     segments_text[-1] += link_text
                     entry_meta['has_links'] = True
             elif child.tag.endswith('r'):

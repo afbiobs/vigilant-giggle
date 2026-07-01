@@ -1,10 +1,203 @@
 ======================================================================
 THOUGHT PROCESSOR - VALIDATION REPORT
 ======================================================================
-Generated: 2026-06-15 22:55:25
-Total entries processed: 14
-Complete entries: 14
-Entries with issues: 0
+Generated: 2026-07-01 21:48:47
+Total entries processed: 7
+Complete entries: 4
+Entries with issues: 3
 ======================================================================
 
-✅ All entries are complete! No issues found.
+ENTRIES WITH MISSING SECTIONS OR WARNINGS:
+----------------------------------------------------------------------
+
+📅 DAY 186: STUDY TOPIC JESUS AND THE SPIRIT. Part 1
+----------------------------------------
+  ❌ MISSING SECTIONS: scripture_ref, scripture_text
+
+  PARAGRAPH ANALYSIS (what the parser saw):
+    🔢 [DAY_MARKER] Para #107
+       Text: "Day 186"
+       Why:  Matched day pattern: Day N
+    📌 [TITLE] Para #109
+       Text: "STUDY TOPIC JESUS AND THE SPIRIT. Part 1"
+       Why:  First non-day paragraph after Day marker, interpreted as title
+    💭 [DEVOTIONAL] Para #111
+       Text: "As Christians we are called to love, know and follow Jesus. Loving, knowing and ..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #113
+       Text: "But let us start with three important foundation principles:-"
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #115
+       Text: "1. Jesus’ relationship with the Holy Spirit helps us understand who Jesus is."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #117
+       Text: "As a man, Jesus lived a life that needed the work of the Holy Spirit. He did wha..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #119
+       Text: "Peter said  ‘You know… how God anointed Jesus of Nazareth with the Holy Spirit a..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #121
+       Text: "It would be very easy for us to think that Jesus did all his great works because..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #123
+       Text: "Paul is not saying that the eternal Son of God gave up or surrendered any attrib..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #124
+       Text: "In Jesus, we see a human being doing super-human things and ask “How?”"
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #125
+       Text: "The answer is: Not from the power of his own divine nature, but through the powe..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #127
+       Text: "In fact, Jesus himself said that his ministry was because he was anointed with t..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #129
+       Text: "Luke 4:16-19 ‘When he came to the village of Nazareth, his boyhood home, he went..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #131
+       Text: "Jesus lived normally within the confines of his human limitations, relying predo..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #133
+       Text: "“The Holy Spirit was the divine power by which Jesus overcame his human limitati..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #135
+       Text: "If Jesus was to use his Divine power and authority as a man, he would have cease..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #137
+       Text: "You could say that Jesus’ humanity was defined by his continual dependence upon ..."
+       Why:  No special markers found, classified as devotional content
+    🙏 [PRAYER] Para #139
+       Text: "Prayer, Father thank you that to be truly human we need the continual growing wo..."
+       Why:  Matched prayer pattern: **Prayer**
+    📚 [BIBLE_READING] Para #140
+       Text: "Bible in a year reading plan: - Psalms 88-90"
+       Why:  Matched Bible reading pattern: Bible in a year
+
+  💡 SUGGESTIONS TO FIX:
+     - Add 'Study Text: [Book Chapter:Verse]' line after the title
+       Example: 'Study Text: John 3:16-18'
+     - Add the actual scripture quote after the reference line
+
+
+📅 DAY 187: STUDY TOPIC JESUS AND THE SPIRIT. Part 2
+----------------------------------------
+  ❌ MISSING SECTIONS: scripture_ref, scripture_text
+
+  PARAGRAPH ANALYSIS (what the parser saw):
+    🔢 [DAY_MARKER] Para #141
+       Text: "Day 187"
+       Why:  Matched day pattern: Day N
+    📌 [TITLE] Para #142
+       Text: "STUDY TOPIC JESUS AND THE SPIRIT. Part 2"
+       Why:  First non-day paragraph after Day marker, interpreted as title
+    💭 [DEVOTIONAL] Para #144
+       Text: "The Spirit was active in Jesus’ conception and birth."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #146
+       Text: "“The Holy Spirit will come upon you, and the power of the Most High will oversha..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #149
+       Text: "The Holy Spirit was active in Jesus’ baptism."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #151
+       Text: "Luke 3:22 – ‘And the Holy Spirit descended on him in bodily form, like a dove; a..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #153
+       Text: "The Holy Spirit initiated his conflict with Satan."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #155
+       Text: "Mark 1:12-13 ‘The Spirit then compelled Jesus to go into the wilderness. Where h..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #157
+       Text: "The Holy Spirit was active in Jesus’ ministry."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #159
+       Text: "Luke 4:14 ‘And Jesus returned in the power of the Spirit to Galilee, and a repor..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #160
+       Text: "Acts 10:37-38 – ‘You know what has happened throughout Judea, beginning in Galil..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #162
+       Text: "The Holy Spirit was active in Jesus’ death."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #164
+       Text: "Hebrews 9:14 – ‘How much more will the blood of Christ, who through the eternal ..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #166
+       Text: "The Spirit was active at Jesus’ resurrection."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #168
+       Text: "Romans 8:11 – ‘If the Spirit of him who raised Jesus from the dead dwells in you..."
+       Why:  No special markers found, classified as devotional content
+    🙏 [PRAYER] Para #169
+       Text: "Prayer, Father in every area of my life I need the ministry of the Spirit."
+       Why:  Matched prayer pattern: **Prayer**
+    📚 [BIBLE_READING] Para #171
+       Text: "Bible in a year reading plan Psalms 91-94"
+       Why:  Matched Bible reading pattern: Bible in a year
+
+  💡 SUGGESTIONS TO FIX:
+     - Add 'Study Text: [Book Chapter:Verse]' line after the title
+       Example: 'Study Text: John 3:16-18'
+     - Add the actual scripture quote after the reference line
+
+
+📅 DAY 188: STUDY TOPIC JESUS AND THE SPIRIT. Part 3
+----------------------------------------
+  ❌ MISSING SECTIONS: scripture_ref, scripture_text
+
+  PARAGRAPH ANALYSIS (what the parser saw):
+    🔢 [DAY_MARKER] Para #173
+       Text: "Day 188"
+       Why:  Matched day pattern: Day N
+    📌 [TITLE] Para #175
+       Text: "STUDY TOPIC JESUS AND THE SPIRIT. Part 3"
+       Why:  First non-day paragraph after Day marker, interpreted as title
+    💭 [DEVOTIONAL] Para #177
+       Text: "Jesus’ life teaches us that dependence upon the Holy Spirit is more necessary th..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #179
+       Text: "We do not expect to think of Jesus in terms of weakness. When Paul says ‘We, too..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #181
+       Text: "We live in an age of the ‘Marvel movie.’ were we are presented with superhumans ..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #183
+       Text: "Jesus’ relationship with the Holy Spirit, helps us understand who the Spirit is."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #185
+       Text: "The life and teaching of Jesus gives us a clear understanding of the character a..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #186
+       Text: "On this point, Mark Jones in the book Knowing God said, “Any Christians wanting ..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #188
+       Text: "If we are going to understand what the Holy Spirit wants to do in our lives, we ..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #190
+       Text: "“Not only is Jesus their Saviour because of who he was and because of his own co..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #193
+       Text: "As we look at Jesus’ relationship with the Holy Spirit we are going to discover ..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #195
+       Text: "Jesus’ relationship with the Holy Spirit helps us understand who we are."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #197
+       Text: "As a perfect man, living in dependence on the Holy Spirit and in the power of th..."
+       Why:  No special markers found, classified as devotional content
+    🙏 [PRAYER] Para #199
+       Text: "Prayer, Father thank you that our weakness is part of your design for our lives"
+       Why:  Matched prayer pattern: **Prayer**
+    📚 [BIBLE_READING] Para #201
+       Text: "Bible in a year reading plan Psalms 95-98"
+       Why:  Matched Bible reading pattern: Bible in a year
+
+  💡 SUGGESTIONS TO FIX:
+     - Add 'Study Text: [Book Chapter:Verse]' line after the title
+       Example: 'Study Text: John 3:16-18'
+     - Add the actual scripture quote after the reference line
+
+======================================================================
+END OF REPORT
+======================================================================

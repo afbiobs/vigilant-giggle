@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-15T22:55:25.262399",
-  "total_days": 181,
-  "complete_days": 149,
-  "incomplete_days": 32,
+  "generated": "2026-07-01T21:48:47.357898",
+  "total_days": 188,
+  "complete_days": 153,
+  "incomplete_days": 35,
   "days": [
     {
       "day": 1,
@@ -1729,6 +1729,78 @@
       "has_highlights": true,
       "is_complete": true,
       "missing_sections": []
+    },
+    {
+      "day": 182,
+      "title": "Mary and Martha part 1",
+      "file": "day-182.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 183,
+      "title": "Mary and Martha part 2",
+      "file": "day-183.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 184,
+      "title": "Mary and Martha part 3",
+      "file": "day-184.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 185,
+      "title": "Mary and Martha part 4",
+      "file": "day-185.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 186,
+      "title": "STUDY TOPIC JESUS AND THE SPIRIT. Part 1",
+      "file": "day-186.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": false,
+      "missing_sections": [
+        "scripture_ref",
+        "scripture_text"
+      ]
+    },
+    {
+      "day": 187,
+      "title": "STUDY TOPIC JESUS AND THE SPIRIT. Part 2",
+      "file": "day-187.json",
+      "has_links": false,
+      "has_highlights": false,
+      "is_complete": false,
+      "missing_sections": [
+        "scripture_ref",
+        "scripture_text"
+      ]
+    },
+    {
+      "day": 188,
+      "title": "STUDY TOPIC JESUS AND THE SPIRIT. Part 3",
+      "file": "day-188.json",
+      "has_links": true,
+      "has_highlights": true,
+      "is_complete": false,
+      "missing_sections": [
+        "scripture_ref",
+        "scripture_text"
+      ]
     }
   ]
 }

@@ -1,9 +1,349 @@
 {
-  "generated": "2026-06-15T22:55:25.263953",
+  "generated": "2026-07-01T21:48:47.359440",
   "summary": {
-    "total_entries": 14,
+    "total_entries": 7,
     "complete": 0,
-    "incomplete": 0
+    "incomplete": 3
   },
-  "issues": []
+  "issues": [
+    {
+      "day": 186,
+      "title": "STUDY TOPIC JESUS AND THE SPIRIT. Part 1",
+      "missing": [
+        "scripture_ref",
+        "scripture_text"
+      ],
+      "warnings": [],
+      "diagnostics": [
+        {
+          "para_index": 107,
+          "text_preview": "Day 186",
+          "classification": "DAY_MARKER",
+          "reason": "Matched day pattern: Day N"
+        },
+        {
+          "para_index": 109,
+          "text_preview": "STUDY TOPIC JESUS AND THE SPIRIT. Part 1",
+          "classification": "TITLE",
+          "reason": "First non-day paragraph after Day marker, interpreted as title"
+        },
+        {
+          "para_index": 111,
+          "text_preview": "As Christians we are called to love, know and follow Jesus. Loving, knowing and ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 113,
+          "text_preview": "But let us start with three important foundation principles:-",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 115,
+          "text_preview": "1. Jesus’ relationship with the Holy Spirit helps us understand who Jesus is.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 117,
+          "text_preview": "As a man, Jesus lived a life that needed the work of the Holy Spirit. He did wha...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 119,
+          "text_preview": "Peter said  ‘You know… how God anointed Jesus of Nazareth with the Holy Spirit a...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 121,
+          "text_preview": "It would be very easy for us to think that Jesus did all his great works because...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 123,
+          "text_preview": "Paul is not saying that the eternal Son of God gave up or surrendered any attrib...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 124,
+          "text_preview": "In Jesus, we see a human being doing super-human things and ask “How?”",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 125,
+          "text_preview": "The answer is: Not from the power of his own divine nature, but through the powe...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 127,
+          "text_preview": "In fact, Jesus himself said that his ministry was because he was anointed with t...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 129,
+          "text_preview": "Luke 4:16-19 ‘When he came to the village of Nazareth, his boyhood home, he went...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 131,
+          "text_preview": "Jesus lived normally within the confines of his human limitations, relying predo...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 133,
+          "text_preview": "“The Holy Spirit was the divine power by which Jesus overcame his human limitati...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 135,
+          "text_preview": "If Jesus was to use his Divine power and authority as a man, he would have cease...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 137,
+          "text_preview": "You could say that Jesus’ humanity was defined by his continual dependence upon ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 139,
+          "text_preview": "Prayer, Father thank you that to be truly human we need the continual growing wo...",
+          "classification": "PRAYER",
+          "reason": "Matched prayer pattern: **Prayer**"
+        },
+        {
+          "para_index": 140,
+          "text_preview": "Bible in a year reading plan: - Psalms 88-90",
+          "classification": "BIBLE_READING",
+          "reason": "Matched Bible reading pattern: Bible in a year"
+        }
+      ]
+    },
+    {
+      "day": 187,
+      "title": "STUDY TOPIC JESUS AND THE SPIRIT. Part 2",
+      "missing": [
+        "scripture_ref",
+        "scripture_text"
+      ],
+      "warnings": [],
+      "diagnostics": [
+        {
+          "para_index": 141,
+          "text_preview": "Day 187",
+          "classification": "DAY_MARKER",
+          "reason": "Matched day pattern: Day N"
+        },
+        {
+          "para_index": 142,
+          "text_preview": "STUDY TOPIC JESUS AND THE SPIRIT. Part 2",
+          "classification": "TITLE",
+          "reason": "First non-day paragraph after Day marker, interpreted as title"
+        },
+        {
+          "para_index": 144,
+          "text_preview": "The Spirit was active in Jesus’ conception and birth.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 146,
+          "text_preview": "“The Holy Spirit will come upon you, and the power of the Most High will oversha...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 149,
+          "text_preview": "The Holy Spirit was active in Jesus’ baptism.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 151,
+          "text_preview": "Luke 3:22 – ‘And the Holy Spirit descended on him in bodily form, like a dove; a...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 153,
+          "text_preview": "The Holy Spirit initiated his conflict with Satan.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 155,
+          "text_preview": "Mark 1:12-13 ‘The Spirit then compelled Jesus to go into the wilderness. Where h...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 157,
+          "text_preview": "The Holy Spirit was active in Jesus’ ministry.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 159,
+          "text_preview": "Luke 4:14 ‘And Jesus returned in the power of the Spirit to Galilee, and a repor...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 160,
+          "text_preview": "Acts 10:37-38 – ‘You know what has happened throughout Judea, beginning in Galil...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 162,
+          "text_preview": "The Holy Spirit was active in Jesus’ death.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 164,
+          "text_preview": "Hebrews 9:14 – ‘How much more will the blood of Christ, who through the eternal ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 166,
+          "text_preview": "The Spirit was active at Jesus’ resurrection.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 168,
+          "text_preview": "Romans 8:11 – ‘If the Spirit of him who raised Jesus from the dead dwells in you...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 169,
+          "text_preview": "Prayer, Father in every area of my life I need the ministry of the Spirit.",
+          "classification": "PRAYER",
+          "reason": "Matched prayer pattern: **Prayer**"
+        },
+        {
+          "para_index": 171,
+          "text_preview": "Bible in a year reading plan Psalms 91-94",
+          "classification": "BIBLE_READING",
+          "reason": "Matched Bible reading pattern: Bible in a year"
+        }
+      ]
+    },
+    {
+      "day": 188,
+      "title": "STUDY TOPIC JESUS AND THE SPIRIT. Part 3",
+      "missing": [
+        "scripture_ref",
+        "scripture_text"
+      ],
+      "warnings": [],
+      "diagnostics": [
+        {
+          "para_index": 173,
+          "text_preview": "Day 188",
+          "classification": "DAY_MARKER",
+          "reason": "Matched day pattern: Day N"
+        },
+        {
+          "para_index": 175,
+          "text_preview": "STUDY TOPIC JESUS AND THE SPIRIT. Part 3",
+          "classification": "TITLE",
+          "reason": "First non-day paragraph after Day marker, interpreted as title"
+        },
+        {
+          "para_index": 177,
+          "text_preview": "Jesus’ life teaches us that dependence upon the Holy Spirit is more necessary th...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 179,
+          "text_preview": "We do not expect to think of Jesus in terms of weakness. When Paul says ‘We, too...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 181,
+          "text_preview": "We live in an age of the ‘Marvel movie.’ were we are presented with superhumans ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 183,
+          "text_preview": "Jesus’ relationship with the Holy Spirit, helps us understand who the Spirit is.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 185,
+          "text_preview": "The life and teaching of Jesus gives us a clear understanding of the character a...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 186,
+          "text_preview": "On this point, Mark Jones in the book Knowing God said, “Any Christians wanting ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 188,
+          "text_preview": "If we are going to understand what the Holy Spirit wants to do in our lives, we ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 190,
+          "text_preview": "“Not only is Jesus their Saviour because of who he was and because of his own co...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 193,
+          "text_preview": "As we look at Jesus’ relationship with the Holy Spirit we are going to discover ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 195,
+          "text_preview": "Jesus’ relationship with the Holy Spirit helps us understand who we are.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 197,
+          "text_preview": "As a perfect man, living in dependence on the Holy Spirit and in the power of th...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 199,
+          "text_preview": "Prayer, Father thank you that our weakness is part of your design for our lives",
+          "classification": "PRAYER",
+          "reason": "Matched prayer pattern: **Prayer**"
+        },
+        {
+          "para_index": 201,
+          "text_preview": "Bible in a year reading plan Psalms 95-98",
+          "classification": "BIBLE_READING",
+          "reason": "Matched Bible reading pattern: Bible in a year"
+        }
+      ]
+    }
+  ]
 }

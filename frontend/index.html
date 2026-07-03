@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Alan — a devotional companion</title>
+  <meta name="description" content="A devotional companion grounded in scripture and the daily readings of knowingjesusdaily.com." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>%E2%9C%92</text></svg>" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark">✦</span>
+      <span class="brand-name">Alan</span>
+    </div>
+    <p class="tagline">A devotional companion for the journey of knowing Jesus daily.</p>
+  </header>
+
+  <main class="chat-shell">
+    <div id="messages" class="messages" aria-live="polite">
+      <div class="message assistant">
+        <div class="role">Alan</div>
+        <div class="bubble">
+          Hello. I am here to walk with you through scripture, slowly.
+          Ask me about a passage, a question you have been carrying, or what today's reflection might be about.
+        </div>
+      </div>
+    </div>
+
+    <form id="composer" class="composer" autocomplete="off">
+      <textarea
+        id="input"
+        name="question"
+        rows="1"
+        placeholder="Ask a question, or share what is on your mind…"
+        maxlength="2000"
+        required
+      ></textarea>
+      <button id="send" type="submit" aria-label="Send">
+        <span class="send-label">Send</span>
+        <span class="send-spinner" hidden></span>
+      </button>
+    </form>
+
+    <p class="hint">Alan draws only on the Bible and the daily devotionals at knowingjesusdaily.com. Where the context is thin, he will say so.</p>
+  </main>
+
+  <footer class="footer">
+    <p>Built as a Cloudflare Worker + Vectorize RAG. All sources are public-domain.</p>
+  </footer>
+
+  <script src="app.js" type="module"></script>
+</body>
+</html>

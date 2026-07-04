@@ -39,7 +39,7 @@
     greeting:
       'Hello. I am here to walk with you through scripture, slowly.\n' +
       'Ask me about a passage, a question you have been carrying, or what today\'s reflection might be about.',
-    accent: '#4a90e2',
+    accent: '#6b4a2b',
     mode: 'auto',  // "auto" | "inline" | "floating"
   };
 
@@ -71,20 +71,19 @@
 :root { --alan-accent: ${accent}; }
 
 .alan-root {
-  --alan-page-bg: var(--color-bg, #f8f9fa);
-  --alan-bg: var(--color-bg, #f8f9fa);
-  --alan-bg-elev: var(--color-surface, #ffffff);
-  --alan-ink: var(--color-text-primary, #1a1a2e);
-  --alan-ink-soft: var(--color-text-secondary, #6c757d);
-  --alan-ink-faint: var(--color-text-secondary, #6c757d);
-  --alan-line: var(--color-border, #e1e4e8);
-  --alan-user-bubble: rgba(74, 144, 226, 0.12);
-  --alan-bubble: var(--color-surface, #ffffff);
-  --alan-shadow: 0 2px 8px var(--color-shadow, rgba(0, 0, 0, 0.1));
-  --alan-radius: var(--border-radius, 12px);
-  --alan-radius-sm: var(--border-radius-sm, 8px);
-  --alan-serif: var(--font-serif, Georgia, 'Times New Roman', serif);
-  --alan-sans: var(--font-sans, -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif);
+  --alan-bg: #faf7f2;
+  --alan-bg-elev: #ffffff;
+  --alan-ink: #1c1d22;
+  --alan-ink-soft: #4a4f5a;
+  --alan-ink-faint: #7d8290;
+  --alan-accent-soft: #d8c2a5;
+  --alan-line: #ece5d8;
+  --alan-user-bubble: #e8e1d2;
+  --alan-bubble: #ffffff;
+  --alan-shadow: 0 1px 2px rgba(28,29,34,0.04), 0 8px 24px rgba(28,29,34,0.08);
+  --alan-radius: 14px;
+  --alan-serif: 'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif;
+  --alan-sans: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
 
   color: var(--alan-ink);
   font-family: var(--alan-sans);
@@ -96,9 +95,16 @@
 
 @media (prefers-color-scheme: dark) {
   .alan-root {
-    --alan-user-bubble: rgba(96, 165, 250, 0.18);
-    --alan-bubble: var(--color-surface, #16213e);
-    --alan-shadow: 0 2px 8px var(--color-shadow, rgba(0, 0, 0, 0.3));
+    --alan-bg: #16151a;
+    --alan-bg-elev: #1f1e25;
+    --alan-ink: #ece8df;
+    --alan-ink-soft: #b5b0a3;
+    --alan-ink-faint: #807a6e;
+    --alan-accent-soft: #6b4a2b;
+    --alan-line: #2c2a32;
+    --alan-user-bubble: #2a2832;
+    --alan-bubble: #1f1e25;
+    --alan-shadow: 0 1px 2px rgba(0,0,0,0.4), 0 8px 24px rgba(0,0,0,0.3);
   }
 }
 
@@ -106,9 +112,8 @@
 .alan-root.alan-inline {
   display: flex;
   flex-direction: column;
-  width: calc(100% - 2rem);
-  max-width: var(--max-width, 680px);
-  margin: 2rem auto;
+  max-width: 760px;
+  margin: 2.5rem auto;
   border: 1px solid var(--alan-line);
   border-radius: var(--alan-radius);
   overflow: hidden;
@@ -116,13 +121,7 @@
   box-shadow: var(--alan-shadow);
 }
 .alan-root.alan-inline .alan-launcher { display: none; }
-.alan-root.alan-inline .alan-window {
-  display: flex;
-  flex-direction: column;
-  height: min(520px, calc(100dvh - 8rem));
-  min-height: 360px;
-  max-height: 560px;
-}
+.alan-root.alan-inline .alan-window { display: flex; }
 
 /* --- floating mode (default if no target div) --- */
 .alan-root.alan-floating { position: fixed; z-index: 2147483000; }
@@ -173,12 +172,13 @@
 }
 .alan-header-text { flex: 1; min-width: 0; }
 .alan-header-title {
-  font-family: var(--alan-sans);
-  font-size: 1rem; font-weight: 600;
+  font-family: var(--alan-serif);
+  font-size: 1.15rem; font-weight: 600;
   color: var(--alan-ink); line-height: 1.2;
 }
 .alan-header-tagline {
-  font-family: var(--alan-sans);
+  font-family: var(--alan-serif);
+  font-style: italic;
   font-size: 0.82rem;
   color: var(--alan-ink-faint);
   white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
@@ -187,7 +187,7 @@
   background: transparent; border: 0; cursor: pointer;
   color: var(--alan-ink-faint);
   width: 32px; height: 32px;
-  border-radius: var(--alan-radius-sm);
+  border-radius: 8px;
   display: flex; align-items: center; justify-content: center;
   font-size: 1.1rem; line-height: 1;
 }
@@ -199,14 +199,13 @@
 /* --- messages --- */
 .alan-messages {
   flex: 1;
-  min-height: 0;
   overflow-y: auto;
   padding: 1rem;
   display: flex; flex-direction: column; gap: 0.85rem;
   background: var(--alan-bg);
   scroll-behavior: smooth;
 }
-.alan-msg { display: flex; flex-direction: column; gap: 0.2rem; max-width: 92%; }
+.alan-msg { display: flex; flex-direction: column; gap: 0.2rem; max-width: 90%; }
 .alan-msg-user   { align-self: flex-end; }
 .alan-msg-assistant { align-self: flex-start; }
 .alan-msg-role {
@@ -215,21 +214,20 @@
 }
 .alan-bubble {
   padding: 0.7rem 0.95rem;
-  border-radius: var(--alan-radius-sm);
+  border-radius: var(--alan-radius);
   background: var(--alan-bubble);
-  border: 1px solid var(--alan-line);
+  box-shadow: 0 1px 2px rgba(28,29,34,0.04);
   white-space: pre-wrap;
   overflow-wrap: anywhere;
-  font-size: 0.95rem; line-height: 1.55;
+  font-size: 0.96rem; line-height: 1.55;
 }
 .alan-msg-user .alan-bubble {
   background: var(--alan-user-bubble);
-  border-color: transparent;
   border-bottom-right-radius: 4px;
 }
 .alan-msg-assistant .alan-bubble {
   border-bottom-left-radius: 4px;
-  border-left: 4px solid var(--alan-accent);
+  border-left: 3px solid var(--alan-accent-soft);
 }
 .alan-bubble.alan-thinking {
   color: var(--alan-ink-faint);
@@ -259,39 +257,32 @@
 /* --- composer --- */
 .alan-composer {
   display: flex; gap: 0.5rem; align-items: flex-end;
-  padding: 0.65rem;
+  padding: 0.6rem;
   background: var(--alan-bg-elev);
   border-top: 1px solid var(--alan-line);
   flex-shrink: 0;
 }
 .alan-composer textarea {
   flex: 1;
-  min-width: 0;
-  border: 1px solid var(--alan-line);
-  border-radius: var(--alan-radius-sm);
-  background: var(--alan-bg);
+  border: 0; background: transparent;
   resize: none;
   font-family: inherit; font-size: 0.95rem; line-height: 1.45;
   color: var(--alan-ink);
   outline: none;
-  max-height: 110px;
-  padding: 0.55rem 0.65rem;
-}
-.alan-composer textarea:focus {
-  border-color: var(--alan-accent);
+  max-height: 120px;
+  padding: 0.35rem 0.2rem;
 }
 .alan-composer textarea::placeholder { color: var(--alan-ink-faint); }
 .alan-send {
   background: var(--alan-accent); color: #fff;
-  border: 1px solid var(--alan-accent); border-radius: var(--alan-radius-sm);
-  padding: 0.55rem 0.9rem;
-  font-size: 0.9rem; font-weight: 600;
+  border: 0; border-radius: 10px;
+  padding: 0.5rem 0.95rem;
+  font-size: 0.9rem; font-weight: 500;
   cursor: pointer;
-  display: inline-flex; align-items: center; justify-content: center; gap: 0.35rem;
-  min-height: 40px;
-  transition: opacity 0.15s, transform 0.15s;
+  display: inline-flex; align-items: center; gap: 0.35rem;
+  min-height: 36px;
+  transition: opacity 0.15s;
 }
-.alan-send:hover:not(:disabled) { transform: translateY(-1px); }
 .alan-send:disabled { opacity: 0.5; cursor: not-allowed; }
 .alan-spinner {
   width: 12px; height: 12px;
@@ -302,23 +293,41 @@
 }
 @keyframes alan-spin { to { transform: rotate(360deg); } }
 
-/* --- mobile sizing --- */
-@media (max-width: 540px) {
-  .alan-root.alan-inline {
-    width: calc(100% - 2rem);
-    margin: 1.5rem auto;
-  }
-  .alan-root.alan-inline .alan-window {
-    height: min(430px, calc(100dvh - 5rem));
-    min-height: 320px;
-  }
-  .alan-header { padding: 0.75rem 0.85rem; }
-  .alan-messages { padding: 0.75rem; gap: 0.7rem; }
-  .alan-msg { max-width: 96%; }
-  .alan-bubble { padding: 0.65rem 0.75rem; font-size: 0.92rem; }
-  .alan-composer { padding: 0.55rem; }
-  .alan-send { padding: 0.55rem 0.75rem; }
+/* --- email transcript --- */
+.alan-email-row {
+  padding: 0.35rem 0.75rem 0.55rem;
+  background: var(--alan-bg-elev);
+  border-top: 1px dashed var(--alan-line);
+  flex-shrink: 0;
+  font-size: 0.8rem;
+}
+.alan-email-toggle {
+  background: none; border: 0; padding: 0;
+  color: var(--alan-ink-faint); cursor: pointer;
+  font-size: 0.78rem; font-family: inherit;
+}
+.alan-email-toggle:hover { color: var(--alan-accent); }
+.alan-email-form { display: none; gap: 0.4rem; margin-top: 0.4rem; }
+.alan-email-row.alan-email-open .alan-email-form { display: flex; }
+.alan-email-form input {
+  flex: 1; min-width: 0;
+  border: 1px solid var(--alan-line); border-radius: 8px;
+  padding: 0.35rem 0.5rem;
+  font-family: inherit; font-size: 0.85rem;
+  color: var(--alan-ink); background: var(--alan-bg);
+  outline: none;
+}
+.alan-email-form button {
+  background: var(--alan-accent); color: #fff;
+  border: 0; border-radius: 8px;
+  padding: 0.35rem 0.7rem;
+  font-size: 0.82rem; cursor: pointer;
+}
+.alan-email-form button:disabled { opacity: 0.5; cursor: not-allowed; }
+.alan-email-status { margin-top: 0.3rem; color: var(--alan-ink-faint); }
 
+/* --- floating-mode full-screen on small viewports --- */
+@media (max-width: 540px) {
   .alan-root.alan-floating.alan-pos-br {
     right: 0; bottom: 0; left: 0;
   }
@@ -364,6 +373,14 @@
             <span class="alan-spinner" hidden></span>
           </button>
         </form>
+        <div class="alan-email-row">
+          <button class="alan-email-toggle" type="button">✉ Email me this conversation</button>
+          <form class="alan-email-form" autocomplete="on">
+            <input type="email" name="email" placeholder="you@example.com" maxlength="254" aria-label="Your email address" required>
+            <button type="submit">Send copy</button>
+          </form>
+          <div class="alan-email-status" role="status"></div>
+        </div>
       </section>
     `;
     root.querySelector('.alan-header-title').textContent = config.title;
@@ -395,6 +412,9 @@
 
     // State
     let inFlight = false;
+    // Conversation transcript, kept in memory only (never persisted) so the
+    // visitor can email themselves a copy.
+    const transcript = [];
 
     // Element refs
     const messagesEl = root.querySelector('.alan-messages');
@@ -406,12 +426,20 @@
     const launcherEl = root.querySelector('.alan-launcher');
     const closeBtn   = root.querySelector('.alan-close');
     const resetBtn   = root.querySelector('.alan-reset');
+    const emailRow    = root.querySelector('.alan-email-row');
+    const emailToggle = root.querySelector('.alan-email-toggle');
+    const emailForm   = root.querySelector('.alan-email-form');
+    const emailInput  = emailForm.querySelector('input');
+    const emailSend   = emailForm.querySelector('button');
+    const emailStatus = root.querySelector('.alan-email-status');
 
     // Greeting
     function showGreeting() {
       messagesEl.innerHTML = '';
       const m = makeAssistantBubble(config.greeting, []);
       messagesEl.appendChild(m);
+      transcript.length = 0;
+      transcript.push({ role: 'assistant', text: config.greeting });
     }
     showGreeting();
 
@@ -429,6 +457,9 @@
       showGreeting();
       inputEl.value = '';
       inputEl.style.height = 'auto';
+      emailInput.value = '';
+      emailStatus.textContent = '';
+      emailRow.classList.remove('alan-email-open');
     }
 
     if (launcherEl) launcherEl.addEventListener('click', open);
@@ -446,10 +477,49 @@
     // Reset
     if (resetBtn) resetBtn.addEventListener('click', reset);
 
+    // Email-me-this-conversation. The address is POSTed for the send and
+    // cleared immediately; it is never stored client- or server-side.
+    emailToggle.addEventListener('click', () => {
+      emailRow.classList.toggle('alan-email-open');
+      emailStatus.textContent = '';
+      if (emailRow.classList.contains('alan-email-open')) emailInput.focus();
+    });
+
+    emailForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const email = emailInput.value.trim();
+      if (!email) return;
+      if (!transcript.some(m => m.role === 'user')) {
+        emailStatus.textContent = 'Nothing to send yet — ask Alan something first.';
+        return;
+      }
+      emailSend.disabled = true;
+      emailStatus.textContent = 'Sending…';
+      try {
+        const res = await fetch(config.api + '/api/email-transcript', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email, messages: transcript }),
+        });
+        emailInput.value = '';
+        if (res.ok) {
+          emailStatus.textContent = 'Sent — check your inbox.';
+          emailRow.classList.remove('alan-email-open');
+        } else {
+          const errText = await safeReadError(res);
+          emailStatus.textContent = `Could not send${errText || ' — please try again.'}`;
+        }
+      } catch {
+        emailStatus.textContent = 'Could not send — please try again.';
+      } finally {
+        emailSend.disabled = false;
+      }
+    });
+
     // Auto-grow textarea
     inputEl.addEventListener('input', () => {
       inputEl.style.height = 'auto';
-      inputEl.style.height = Math.min(inputEl.scrollHeight, 110) + 'px';
+      inputEl.style.height = Math.min(inputEl.scrollHeight, 120) + 'px';
     });
 
     // Enter to send
@@ -469,6 +539,7 @@
       if (!question) return;
 
       addUserBubble(question);
+      transcript.push({ role: 'user', text: question });
       inputEl.value = '';
       inputEl.style.height = 'auto';
 
@@ -489,6 +560,7 @@
         }
         const data = await res.json();
         thinking.replaceWith(makeAssistantBubble(data.answer || '(no answer)', data.sources || []));
+        transcript.push({ role: 'assistant', text: data.answer || '(no answer)' });
       } catch (err) {
         thinking.replaceWith(makeErrorBubble(`The request failed. ${err.message || err}`));
       } finally {

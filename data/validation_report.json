@@ -1,14 +1,14 @@
 {
-  "generated": "2026-07-01T21:48:47.359440",
+  "generated": "2026-07-04T23:20:56.682692",
   "summary": {
-    "total_entries": 7,
+    "total_entries": 14,
     "complete": 0,
-    "incomplete": 3
+    "incomplete": 14
   },
   "issues": [
     {
-      "day": 186,
-      "title": "STUDY TOPIC JESUS AND THE SPIRIT. Part 1",
+      "day": 189,
+      "title": "STUDY TOPIC JESUS AND THE SPIRIT. Part 4",
       "missing": [
         "scripture_ref",
         "scripture_text"
@@ -16,330 +16,2090 @@
       "warnings": [],
       "diagnostics": [
         {
-          "para_index": 107,
-          "text_preview": "Day 186",
+          "para_index": 0,
+          "text_preview": "Day 189",
           "classification": "DAY_MARKER",
           "reason": "Matched day pattern: Day N"
         },
         {
-          "para_index": 109,
-          "text_preview": "STUDY TOPIC JESUS AND THE SPIRIT. Part 1",
+          "para_index": 2,
+          "text_preview": "STUDY TOPIC JESUS AND THE SPIRIT. Part 4",
           "classification": "TITLE",
           "reason": "First non-day paragraph after Day marker, interpreted as title"
         },
         {
-          "para_index": 111,
-          "text_preview": "As Christians we are called to love, know and follow Jesus. Loving, knowing and ...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 113,
-          "text_preview": "But let us start with three important foundation principles:-",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 115,
-          "text_preview": "1. Jesus’ relationship with the Holy Spirit helps us understand who Jesus is.",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 117,
-          "text_preview": "As a man, Jesus lived a life that needed the work of the Holy Spirit. He did wha...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 119,
-          "text_preview": "Peter said  ‘You know… how God anointed Jesus of Nazareth with the Holy Spirit a...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 121,
-          "text_preview": "It would be very easy for us to think that Jesus did all his great works because...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 123,
-          "text_preview": "Paul is not saying that the eternal Son of God gave up or surrendered any attrib...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 124,
-          "text_preview": "In Jesus, we see a human being doing super-human things and ask “How?”",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 125,
-          "text_preview": "The answer is: Not from the power of his own divine nature, but through the powe...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 127,
-          "text_preview": "In fact, Jesus himself said that his ministry was because he was anointed with t...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 129,
-          "text_preview": "Luke 4:16-19 ‘When he came to the village of Nazareth, his boyhood home, he went...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 131,
-          "text_preview": "Jesus lived normally within the confines of his human limitations, relying predo...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 133,
-          "text_preview": "“The Holy Spirit was the divine power by which Jesus overcame his human limitati...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 135,
-          "text_preview": "If Jesus was to use his Divine power and authority as a man, he would have cease...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 137,
-          "text_preview": "You could say that Jesus’ humanity was defined by his continual dependence upon ...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 139,
-          "text_preview": "Prayer, Father thank you that to be truly human we need the continual growing wo...",
-          "classification": "PRAYER",
-          "reason": "Matched prayer pattern: **Prayer**"
-        },
-        {
-          "para_index": 140,
-          "text_preview": "Bible in a year reading plan: - Psalms 88-90",
-          "classification": "BIBLE_READING",
-          "reason": "Matched Bible reading pattern: Bible in a year"
-        }
-      ]
-    },
-    {
-      "day": 187,
-      "title": "STUDY TOPIC JESUS AND THE SPIRIT. Part 2",
-      "missing": [
-        "scripture_ref",
-        "scripture_text"
-      ],
-      "warnings": [],
-      "diagnostics": [
-        {
-          "para_index": 141,
-          "text_preview": "Day 187",
-          "classification": "DAY_MARKER",
-          "reason": "Matched day pattern: Day N"
-        },
-        {
-          "para_index": 142,
-          "text_preview": "STUDY TOPIC JESUS AND THE SPIRIT. Part 2",
-          "classification": "TITLE",
-          "reason": "First non-day paragraph after Day marker, interpreted as title"
-        },
-        {
-          "para_index": 144,
-          "text_preview": "The Spirit was active in Jesus’ conception and birth.",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 146,
-          "text_preview": "“The Holy Spirit will come upon you, and the power of the Most High will oversha...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 149,
-          "text_preview": "The Holy Spirit was active in Jesus’ baptism.",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 151,
-          "text_preview": "Luke 3:22 – ‘And the Holy Spirit descended on him in bodily form, like a dove; a...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 153,
-          "text_preview": "The Holy Spirit initiated his conflict with Satan.",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 155,
-          "text_preview": "Mark 1:12-13 ‘The Spirit then compelled Jesus to go into the wilderness. Where h...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 157,
-          "text_preview": "The Holy Spirit was active in Jesus’ ministry.",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 159,
-          "text_preview": "Luke 4:14 ‘And Jesus returned in the power of the Spirit to Galilee, and a repor...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 160,
-          "text_preview": "Acts 10:37-38 – ‘You know what has happened throughout Judea, beginning in Galil...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 162,
-          "text_preview": "The Holy Spirit was active in Jesus’ death.",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 164,
-          "text_preview": "Hebrews 9:14 – ‘How much more will the blood of Christ, who through the eternal ...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 166,
-          "text_preview": "The Spirit was active at Jesus’ resurrection.",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 168,
-          "text_preview": "Romans 8:11 – ‘If the Spirit of him who raised Jesus from the dead dwells in you...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 169,
-          "text_preview": "Prayer, Father in every area of my life I need the ministry of the Spirit.",
-          "classification": "PRAYER",
-          "reason": "Matched prayer pattern: **Prayer**"
-        },
-        {
-          "para_index": 171,
-          "text_preview": "Bible in a year reading plan Psalms 91-94",
-          "classification": "BIBLE_READING",
-          "reason": "Matched Bible reading pattern: Bible in a year"
-        }
-      ]
-    },
-    {
-      "day": 188,
-      "title": "STUDY TOPIC JESUS AND THE SPIRIT. Part 3",
-      "missing": [
-        "scripture_ref",
-        "scripture_text"
-      ],
-      "warnings": [],
-      "diagnostics": [
-        {
-          "para_index": 173,
-          "text_preview": "Day 188",
-          "classification": "DAY_MARKER",
-          "reason": "Matched day pattern: Day N"
-        },
-        {
-          "para_index": 175,
-          "text_preview": "STUDY TOPIC JESUS AND THE SPIRIT. Part 3",
-          "classification": "TITLE",
-          "reason": "First non-day paragraph after Day marker, interpreted as title"
-        },
-        {
-          "para_index": 177,
-          "text_preview": "Jesus’ life teaches us that dependence upon the Holy Spirit is more necessary th...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 179,
-          "text_preview": "We do not expect to think of Jesus in terms of weakness. When Paul says ‘We, too...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 181,
-          "text_preview": "We live in an age of the ‘Marvel movie.’ were we are presented with superhumans ...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 183,
-          "text_preview": "Jesus’ relationship with the Holy Spirit, helps us understand who the Spirit is.",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 185,
-          "text_preview": "The life and teaching of Jesus gives us a clear understanding of the character a...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 186,
-          "text_preview": "On this point, Mark Jones in the book Knowing God said, “Any Christians wanting ...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 188,
-          "text_preview": "If we are going to understand what the Holy Spirit wants to do in our lives, we ...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 190,
-          "text_preview": "“Not only is Jesus their Saviour because of who he was and because of his own co...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 193,
-          "text_preview": "As we look at Jesus’ relationship with the Holy Spirit we are going to discover ...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 195,
+          "para_index": 4,
           "text_preview": "Jesus’ relationship with the Holy Spirit helps us understand who we are.",
           "classification": "DEVOTIONAL",
           "reason": "No special markers found, classified as devotional content"
         },
         {
-          "para_index": 197,
+          "para_index": 6,
           "text_preview": "As a perfect man, living in dependence on the Holy Spirit and in the power of th...",
           "classification": "DEVOTIONAL",
           "reason": "No special markers found, classified as devotional content"
         },
         {
-          "para_index": 199,
-          "text_preview": "Prayer, Father thank you that our weakness is part of your design for our lives",
+          "para_index": 8,
+          "text_preview": "Living life in the Spirit gives us an opportunity to be ourselves, to embrace an...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 10,
+          "text_preview": "We need to develop a theological and biblical anthropology, (anthropology being ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 12,
+          "text_preview": "The fruit of the Spirit is far more than replacements for the works of the flesh...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 14,
+          "text_preview": "Joy is LOVE rejoicing,",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 15,
+          "text_preview": "Peace is LOVE at rest,",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 16,
+          "text_preview": "Patience is LOVE waiting,",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 17,
+          "text_preview": "Kindness is LOVE interacting,",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 18,
+          "text_preview": "Goodness is LOVE initiating,",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 19,
+          "text_preview": "Faithfulness is LOVE keeping it’s word,",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 20,
+          "text_preview": "Gentleness is LOVE empathising,",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 21,
+          "text_preview": "Self-Control is LOVE resisting temptation.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 23,
+          "text_preview": "The gifts of the Spirit are far more than a demonstration of God’s power, they a...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 25,
+          "text_preview": "A proper use of the gifts of the Spirit should increase our ability to give and ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 26,
+          "text_preview": "gifts of the Spirit. It is important that we see chapters 12,13 and 14 as dealin...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 27,
+          "text_preview": "Chapter 13, Paul’s famous passage on love describes God’s intended effect of spi...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 29,
+          "text_preview": "Many people often ask the question, ‘What is my spiritual gift?’",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 31,
+          "text_preview": "This is not a bad question to ask, however I think a better way to get the answe...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 33,
+          "text_preview": "I think you could honestly say that the work of Spirit in us, makes us more huma...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 35,
+          "text_preview": "Living a Spirit dependant life is one of the ways, maybe the most essential way,...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 36,
+          "text_preview": "If we were to think of a Spirit-filled life as a means of identifying our love f...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 37,
+          "text_preview": "I hope our understanding of who the Spirit is will be transformed, and our relat...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 39,
+          "text_preview": "Prayer, Father thank you for the truth that authentic humanity needs to be Spiri...",
           "classification": "PRAYER",
           "reason": "Matched prayer pattern: **Prayer**"
         },
         {
-          "para_index": 201,
-          "text_preview": "Bible in a year reading plan Psalms 95-98",
+          "para_index": 41,
+          "text_preview": "Bible in a year reading plan: - Psalm 99-102",
+          "classification": "BIBLE_READING",
+          "reason": "Matched Bible reading pattern: Bible in a year"
+        }
+      ]
+    },
+    {
+      "day": 190,
+      "title": "STUDY TOPIC JESUS AND THE SPIRIT. Part 5",
+      "missing": [
+        "scripture_ref",
+        "scripture_text"
+      ],
+      "warnings": [],
+      "diagnostics": [
+        {
+          "para_index": 43,
+          "text_preview": "Day 190",
+          "classification": "DAY_MARKER",
+          "reason": "Matched day pattern: Day N"
+        },
+        {
+          "para_index": 45,
+          "text_preview": "STUDY TOPIC JESUS AND THE SPIRIT. Part 5",
+          "classification": "TITLE",
+          "reason": "First non-day paragraph after Day marker, interpreted as title"
+        },
+        {
+          "para_index": 47,
+          "text_preview": "The Spirit at the conception of Jesus.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 49,
+          "text_preview": "We all know and love the Christmas story, we are familiar with the main characte...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 51,
+          "text_preview": "Luke tells us that Gabriel spoke to Mary.  ‘Mary asked the angel, “But how can t...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 53,
+          "text_preview": "Matthew tells us that the angel of the Lord spoke to Joseph. ‘As he considered t...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 54,
+          "text_preview": "I think we need to consider the significance of this. The same message about the...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 56,
+          "text_preview": "There may be a number of reasons why we are not too inclined to consider the rol...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 57,
+          "text_preview": "1. We find it easier to relate to the human characters of the story.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 59,
+          "text_preview": "We are familiar with Mary and Joseph, we know their backstory, we know that she ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 59,
+          "text_preview": "This is a drama, a story that catches our imagination and pulls on our emotions....",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 60,
+          "text_preview": "2.Maybe the uniqueness of this event causes us to overlook the role of the Spiri...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 61,
+          "text_preview": "We all know that there will never be an other miraculous conception. What the Ho...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 63,
+          "text_preview": "3. A third possible reason why we ignore the role of the Holy Spirit in the nati...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 65,
+          "text_preview": "We need to keep in mind that Mary and Joseph lived at a time when Rabbinical tea...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 66,
+          "text_preview": "‘For centuries according to many of the rabbis, those teachers who most influenc...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 68,
+          "text_preview": "It was a common belief that the Holy Spirit had departed from Israel so when the...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 70,
+          "text_preview": "Prayer, Father, thank you that the work of the Spirit may be unusual, but will n...",
+          "classification": "PRAYER",
+          "reason": "Matched prayer pattern: **Prayer**"
+        },
+        {
+          "para_index": 72,
+          "text_preview": "Bible in a year reading plan Psalm 103-105",
+          "classification": "BIBLE_READING",
+          "reason": "Matched Bible reading pattern: Bible in a year"
+        }
+      ]
+    },
+    {
+      "day": 191,
+      "title": "STUDY TOPIC JESUS AND THE SPIRIT. Part 6",
+      "missing": [
+        "scripture_ref",
+        "scripture_text",
+        "prayer"
+      ],
+      "warnings": [],
+      "diagnostics": [
+        {
+          "para_index": 75,
+          "text_preview": "Day 191",
+          "classification": "DAY_MARKER",
+          "reason": "Matched day pattern: Day N"
+        },
+        {
+          "para_index": 77,
+          "text_preview": "STUDY TOPIC JESUS AND THE SPIRIT. Part 6",
+          "classification": "TITLE",
+          "reason": "First non-day paragraph after Day marker, interpreted as title"
+        },
+        {
+          "para_index": 79,
+          "text_preview": "Mary was to understand that God’s will for her life could only be accomplished b...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 80,
+          "text_preview": "As we have said, what God did through Mary was very unique and will never be rep...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 81,
+          "text_preview": "We will not be able to do the will of God for our lives without the ongoing crea...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 82,
+          "text_preview": "The fascinating thing about the birth announcement of Jesus is that it is not ve...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 84,
+          "text_preview": "Often when it comes to accomplishing God’s will, for us knowing details is often...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 86,
+          "text_preview": "The will of God for our lives should make us more open to the work of the Holy S...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 87,
+          "text_preview": "I am coming to believe that God’s will for every individual is one of the things...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 89,
+          "text_preview": "Let me point a number of lessons from the work of the Spirit in the life of Mary...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 91,
+          "text_preview": "1. There will be glory and pain of the work of the Spirit in our lives.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 93,
+          "text_preview": "The nativity story teaches us that the work of the Spirit in our lives is glorio...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 94,
+          "text_preview": "Consider these words:-",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 95,
+          "text_preview": "‘The Word became flesh! God became human! The invisible became visible! The unto...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 97,
+          "text_preview": "Think about how amazing, how wonderful, how fantastic,  how glorious, how marvel...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 99,
+          "text_preview": "The glorious work of the Spirit in a persons life will never make them immune to...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 101,
+          "text_preview": "Mary was a young girl between the age of 12-15 who was betrothed to a man called...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 103,
+          "text_preview": "There are two important things I want to say about this.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 104,
+          "text_preview": "At their essence most of the plans we make, especially life changing plans, like...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 106,
+          "text_preview": "Have you ever thought that Mary could have said no, just as much as we have the ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 108,
+          "text_preview": "Also we need to come to a heart conviction that it is better to live a difficult...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 110,
+          "text_preview": "Bible in a year reading plan: Psalm 106-107",
+          "classification": "BIBLE_READING",
+          "reason": "Matched Bible reading pattern: Bible in a year"
+        }
+      ]
+    },
+    {
+      "day": 192,
+      "title": "STUDY TOPIC JESUS AND THE SPIRIT. Part 7",
+      "missing": [
+        "scripture_ref",
+        "scripture_text"
+      ],
+      "warnings": [],
+      "diagnostics": [
+        {
+          "para_index": 111,
+          "text_preview": "Day 192",
+          "classification": "DAY_MARKER",
+          "reason": "Matched day pattern: Day N"
+        },
+        {
+          "para_index": 113,
+          "text_preview": "STUDY TOPIC JESUS AND THE SPIRIT. Part 7",
+          "classification": "TITLE",
+          "reason": "First non-day paragraph after Day marker, interpreted as title"
+        },
+        {
+          "para_index": 115,
+          "text_preview": "There were lots of reasons why Mary could have said no, she could have played it...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 117,
+          "text_preview": "But not only is Mary going to know the pain of the life of the Spirit but she is...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 119,
+          "text_preview": "For Mary the work of the Holy Spirit in her life did not protect her from the pa...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 121,
+          "text_preview": "The work of the Holy Spirit in the life of Mary teaches us that submission is mo...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 122,
+          "text_preview": "If you were to really think about it, Mary is probably the least likely person w...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 123,
+          "text_preview": "Nazareth is not mentioned in the Old Testament nor is it among the sixty-three v...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 125,
+          "text_preview": "I read one source that explained that Nazareth evolved into the major refuge sit...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 126,
+          "text_preview": "The Nativity story teaches us, that in our obscurity and isolation we need an en...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 127,
+          "text_preview": "Sometimes we can feel so isolated, so cut of from others and we can be tempted t...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 128,
+          "text_preview": "D L Moody said, “The world has yet to see what God can do with a man fully conse...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 129,
+          "text_preview": "Mary was seemingly a nobody from a despised place, but because of her submission...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 131,
+          "text_preview": "The work of the Holy Spirit in our lives needs to sanctify the ordinary.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 133,
+          "text_preview": "After the angel Gabriel came to Mary, everything in her world changed. The futur...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 135,
+          "text_preview": "It was in the mundane ordinariness of the every day that God found the space to ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 137,
+          "text_preview": "The work of the Holy Spirit in our lives will challenge how we think about ourse...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 139,
+          "text_preview": "What is going on here? The English words “highly favoured” in the verse above ar...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 140,
+          "text_preview": "‘Mary you are highly favoured!’ for Mary this did not add up. She would never ha...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 141,
+          "text_preview": "I love the fact that the work of the Spirit in a persons life will always affirm...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 143,
+          "text_preview": "Just like many of us, Mary struggled with the fact that she was favoured by God....",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 145,
+          "text_preview": "We know in our heads that God loves and accepts us, but we live and think as if ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 146,
+          "text_preview": "One of the crucial roles, if not THE MOST crucial role of the Spirit is to affir...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 148,
+          "text_preview": "Prayer, Father may the Holy Spirit help me to receive your love and encouragemen...",
+          "classification": "PRAYER",
+          "reason": "Matched prayer pattern: **Prayer**"
+        },
+        {
+          "para_index": 150,
+          "text_preview": "Bible in a year reading plan: - Psalm 108-111",
+          "classification": "BIBLE_READING",
+          "reason": "Matched Bible reading pattern: Bible in a year"
+        }
+      ]
+    },
+    {
+      "day": 193,
+      "title": "STUDY TOPIC JESUS AND THE SPIRIT. Part 8",
+      "missing": [
+        "scripture_ref",
+        "scripture_text"
+      ],
+      "warnings": [],
+      "diagnostics": [
+        {
+          "para_index": 153,
+          "text_preview": "Day 193",
+          "classification": "DAY_MARKER",
+          "reason": "Matched day pattern: Day N"
+        },
+        {
+          "para_index": 155,
+          "text_preview": "STUDY TOPIC JESUS AND THE SPIRIT. Part 8",
+          "classification": "TITLE",
+          "reason": "First non-day paragraph after Day marker, interpreted as title"
+        },
+        {
+          "para_index": 157,
+          "text_preview": "The Baptism Of Jesus. Matthew 3:13-16",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 159,
+          "text_preview": "Many people, both Christians and non Christians are living with an acute crisis ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 161,
+          "text_preview": "‘Most Christians do not know who they are in Christ, to one degree of another. W...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 163,
+          "text_preview": "Knowing who we are before God is essential for a holy and effective life. Many o...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 165,
+          "text_preview": "As we are going to see from the life of Jesus, the role of the Holy Spirit in ou...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 166,
+          "text_preview": "Paul said it this way in Romans 8:15-16 ‘’So you have not received a spirit that...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 167,
+          "text_preview": "We need to get our minds around this. As it was for Jesus so it needs to be for ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 169,
+          "text_preview": "We know that Jesus did his ministry through the power of the Spirit, see Acts 10...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 170,
+          "text_preview": "But this power of the Spirit for ministry was an expression of him knowing his F...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 171,
+          "text_preview": "‘’There was no identity crisis in the life of Jesus Christ. He knew who He was. ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 173,
+          "text_preview": "The Holy Spirit at the Baptism of Jesus",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 175,
+          "text_preview": "1. Let’s consider the heart attitude as Jesus got baptised.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 177,
+          "text_preview": "a. Humility.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 178,
+          "text_preview": "Jesus went to John to be baptized. This is very strange because John was baptizi...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 179,
+          "text_preview": "We know that Jesus had lived a life free from sin, he lived a life in continual ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 181,
+          "text_preview": "b. Prayer.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 182,
+          "text_preview": "Luke tells us, ‘As he was praying the heavens opened.’ we do not know what Jesus...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 184,
+          "text_preview": "Isaiah 64:1-4",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 185,
+          "text_preview": "‘Oh, that you would rend the heavens and come down, that the mountains would tre...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 187,
+          "text_preview": "It is interesting to note that the prayer recorded in Isaiah 64:1-4 is that God ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 189,
+          "text_preview": "Prayer, Father please help me to know that my identity is in you, not in the wor...",
+          "classification": "PRAYER",
+          "reason": "Matched prayer pattern: **Prayer**"
+        },
+        {
+          "para_index": 190,
+          "text_preview": "Bible in a year reading plan: Psalm 112 – 115.",
+          "classification": "BIBLE_READING",
+          "reason": "Matched Bible reading pattern: Bible in a year"
+        }
+      ]
+    },
+    {
+      "day": 194,
+      "title": "STUDY TOPIC JESUS AND THE SPIRIT. Part 9",
+      "missing": [
+        "scripture_ref",
+        "scripture_text"
+      ],
+      "warnings": [],
+      "diagnostics": [
+        {
+          "para_index": 192,
+          "text_preview": "Day 194",
+          "classification": "DAY_MARKER",
+          "reason": "Matched day pattern: Day N"
+        },
+        {
+          "para_index": 194,
+          "text_preview": "STUDY TOPIC JESUS AND THE SPIRIT. Part 9",
+          "classification": "TITLE",
+          "reason": "First non-day paragraph after Day marker, interpreted as title"
+        },
+        {
+          "para_index": 196,
+          "text_preview": "The Holy Spirit in bodily form descended on him like a dove.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 198,
+          "text_preview": "I don’t think this was Jesus’ first experience of the Spirit. Although we are no...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 200,
+          "text_preview": "There has been a lot of debate about the significance of the Spirit descending o...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 202,
+          "text_preview": "Jesus lived his entire human life in a country that was under the aggressive aut...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 204,
+          "text_preview": "The voice of the Father",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 205,
+          "text_preview": "I don’t know if you have ever seen the film ‘The King’s Speech?’  It tells the s...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 207,
+          "text_preview": "‘My father was frightened of his mother; I was frightened of my father, and I am...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 209,
+          "text_preview": "Imagine [maybe you don’t have to imagine it.] being brought up in atmosphere of ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 211,
+          "text_preview": "I wonder what you think of this quote by J I Packer.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 212,
+          "text_preview": "“You sum up the whole of New Testament religion if you describe it as the knowle...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 213,
+          "text_preview": "https://www.goodreads.com/quotes/958523-you-sum-up-the-whole-of-new-testament-re...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 215,
+          "text_preview": "Many of us are happy to relate to God as Lord, or Saviour, or King, but not fath...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 217,
+          "text_preview": "In the New Testament, Father was the word Jesus used most often when speaking ab...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 219,
+          "text_preview": "The word Abba that Jesus used in Mark 14:36 which reads. Abba, Father,” he said,...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 221,
+          "text_preview": "This is an incomplete understanding of the word. The word was also used by adult...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 223,
+          "text_preview": "Sometimes the voice of the Father is the most difficult voice to hear, we are mo...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 224,
+          "text_preview": "Sometimes we allow the lies of the enemy to control our minds, and we cannot rea...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 226,
+          "text_preview": "Prayer, Father thank you that you love and enjoy being my Father",
+          "classification": "PRAYER",
+          "reason": "Matched prayer pattern: **Prayer**"
+        },
+        {
+          "para_index": 228,
+          "text_preview": "Bible in a year reading plan: - Psalm 116-118",
+          "classification": "BIBLE_READING",
+          "reason": "Matched Bible reading pattern: Bible in a year"
+        }
+      ]
+    },
+    {
+      "day": 195,
+      "title": "STUDY TOPIC JESUS AND THE SPIRIT. Part 10",
+      "missing": [
+        "scripture_ref",
+        "scripture_text"
+      ],
+      "warnings": [],
+      "diagnostics": [
+        {
+          "para_index": 230,
+          "text_preview": "Day 195",
+          "classification": "DAY_MARKER",
+          "reason": "Matched day pattern: Day N"
+        },
+        {
+          "para_index": 233,
+          "text_preview": "STUDY TOPIC JESUS AND THE SPIRIT. Part 10",
+          "classification": "TITLE",
+          "reason": "First non-day paragraph after Day marker, interpreted as title"
+        },
+        {
+          "para_index": 236,
+          "text_preview": "Through the ministry of the Spirit, the Father expressed his love by affirming J...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 238,
+          "text_preview": "As we have been saying, knowing who we are and accepting who we are can be a dif...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 240,
+          "text_preview": "Biblically a persons identity has nothing to do with what we do, or what we achi...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 242,
+          "text_preview": "For Jesus accepting his identity was about him being able to be the person his F...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 243,
+          "text_preview": "Most of the time when we find ourselves far from God, it can usually be traced b...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 245,
+          "text_preview": "The Father also expressed his pleasure with his Son.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 247,
+          "text_preview": "I find this amazing, God the Father did not think, ‘Jesus knows how I feel about...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 249,
+          "text_preview": "It would be very easy to read this incident in the life of Jesus, and think, its...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 252,
+          "text_preview": "In Psalm 2 7-9 we read 7 ‘I will proclaim the Lord’s decree:  He said to me, “Yo...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 254,
+          "text_preview": "The second passage that is alluded to is Genesis 22 look at what it says, Some t...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 256,
+          "text_preview": "The third passage is Isaiah 42:1 “Here is my servant, whom I uphold,",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 256,
+          "text_preview": "my chosen one in whom I delight. Isaiah 42:1-4 is the first reference of four th...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 258,
+          "text_preview": "As Jesus listened to his father speak, he not only heard affirming words of enco...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 261,
+          "text_preview": "‘There was no identity crisis in the life of Jesus Christ. He knew who He was. H...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 262,
+          "text_preview": "Howard G. Hendricks https://quotefancy.com/quote/1591744/Howard-G-Hendricks-Ther...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 263,
+          "text_preview": "Prayer, Father thank you we find the courage to do your will when we discover an...",
+          "classification": "PRAYER",
+          "reason": "Matched prayer pattern: **Prayer**"
+        },
+        {
+          "para_index": 264,
+          "text_preview": "Bible in a year reading plan Psalm 119:1-48",
+          "classification": "BIBLE_READING",
+          "reason": "Matched Bible reading pattern: Bible in a year"
+        }
+      ]
+    },
+    {
+      "day": 196,
+      "title": "STUDY TOPIC The Spirit in the life of Jesus part 1...",
+      "missing": [
+        "scripture_ref",
+        "scripture_text"
+      ],
+      "warnings": [],
+      "diagnostics": [
+        {
+          "para_index": 268,
+          "text_preview": "Day 196",
+          "classification": "DAY_MARKER",
+          "reason": "Matched day pattern: Day N"
+        },
+        {
+          "para_index": 270,
+          "text_preview": "STUDY TOPIC The Spirit in the life of Jesus part 11",
+          "classification": "TITLE",
+          "reason": "First non-day paragraph after Day marker, interpreted as title"
+        },
+        {
+          "para_index": 272,
+          "text_preview": "The Holy Spirits involvement in Jesus’ temptation in the wilderness.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 274,
+          "text_preview": "It is very surprising what happened to Jesus after he experienced the Holy Spiri...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 275,
+          "text_preview": "It is as if Jesus as a man, needed to experience the life and work of the Spirit...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 276,
+          "text_preview": "Or to put it an other way, the work of the Spirit in Jesus’ personal life was a ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 278,
+          "text_preview": "Jesus was submitted to the Spirit.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 279,
+          "text_preview": "As we have seen before. The word translated compelled is ekballo in Mark 1:12 is...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 282,
+          "text_preview": "We are not told how the Spirit did this. But as a man, Jesus made a conscious ch...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 284,
+          "text_preview": "The word for wilderness (eremos) means lonesome, solitary, uninhabited, uncultiv...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 285,
+          "text_preview": "In this remote, largely uninhabited area, Jesus might be more alone than anywher...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 287,
+          "text_preview": "I love the fact that Luke speaks about Jesus being loved by the Father before be...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 289,
+          "text_preview": "We must not overthink or allow our insecurities to prevent us from acting. Knowi...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 291,
+          "text_preview": "I think I have fallen into the trap of thinking, that the work of the Spirit in ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 293,
+          "text_preview": "It is amazing that if you read through Luke’s gospel you will notice that Jesus ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 295,
+          "text_preview": "Prayer, Father help me to accept the fact that sometimes the wilderness is compl...",
+          "classification": "PRAYER",
+          "reason": "Matched prayer pattern: **Prayer**"
+        },
+        {
+          "para_index": 297,
+          "text_preview": "Bible in a year reading plan: - Psalm 119:49-96",
+          "classification": "BIBLE_READING",
+          "reason": "Matched Bible reading pattern: Bible in a year"
+        }
+      ]
+    },
+    {
+      "day": 197,
+      "title": "STUDY TOPIC The Spirit in the life of Jesus part 1...",
+      "missing": [
+        "scripture_ref",
+        "scripture_text"
+      ],
+      "warnings": [],
+      "diagnostics": [
+        {
+          "para_index": 300,
+          "text_preview": "Day 197",
+          "classification": "DAY_MARKER",
+          "reason": "Matched day pattern: Day N"
+        },
+        {
+          "para_index": 302,
+          "text_preview": "STUDY TOPIC The Spirit in the life of Jesus part 12",
+          "classification": "TITLE",
+          "reason": "First non-day paragraph after Day marker, interpreted as title"
+        },
+        {
+          "para_index": 304,
+          "text_preview": "There is something else we need to consider about the wilderness/ethmos. It was ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 306,
+          "text_preview": "Back to our word ekballo in Mark 1:12. As we have mentioned before, it was mostl...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 308,
+          "text_preview": "It is interesting that Mark 1:12 uses the word ekballo for Jesus being led/drive...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 311,
+          "text_preview": "When we compare what Luke tells us about Jesus being led by the Spirit into the ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 312,
+          "text_preview": "Prayer, Father thank you, like you did with Jesus, sometimes you want to lead us...",
+          "classification": "PRAYER",
+          "reason": "Matched prayer pattern: **Prayer**"
+        },
+        {
+          "para_index": 313,
+          "text_preview": "Bible in a year reading plan: - Psalm 119:97-144",
+          "classification": "BIBLE_READING",
+          "reason": "Matched Bible reading pattern: Bible in a year"
+        }
+      ]
+    },
+    {
+      "day": 198,
+      "title": "STUDY TOPIC The Spirit in the life of Jesus part 1...",
+      "missing": [
+        "scripture_ref",
+        "scripture_text"
+      ],
+      "warnings": [],
+      "diagnostics": [
+        {
+          "para_index": 318,
+          "text_preview": "Day 198",
+          "classification": "DAY_MARKER",
+          "reason": "Matched day pattern: Day N"
+        },
+        {
+          "para_index": 320,
+          "text_preview": "STUDY TOPIC The Spirit in the life of Jesus part 13",
+          "classification": "TITLE",
+          "reason": "First non-day paragraph after Day marker, interpreted as title"
+        },
+        {
+          "para_index": 322,
+          "text_preview": "It may be good to ask the question, ‘What did it look like for Jesus in the wild...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 324,
+          "text_preview": "The gospel writers do not explicitly tell us but they do give us some clues: -",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 326,
+          "text_preview": "1.He was biblically minded.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 328,
+          "text_preview": "If you listen to what Jesus said at this time in the wilderness, all the words w...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 330,
+          "text_preview": "2. He was self controlled.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 332,
+          "text_preview": "This was a physically challenging time for Jesus, he was hungry and tired, livin...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 334,
+          "text_preview": "3. He trusted his Father.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 336,
+          "text_preview": "As we have said, Jesus had divine power, and with a word he could have turned th...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 338,
+          "text_preview": "This is both amazing and extremely relevant. Here was Jesus, the creator of the ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 340,
+          "text_preview": "Like Jesus we need to learn what it means to be led by the Spirit, especially at...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 341,
+          "text_preview": "Maybe it is in the grit of our personal wildernesses that we learn what it means...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 342,
+          "text_preview": "Could it be that the wilderness is Gods training ground where we learn the ways ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 343,
+          "text_preview": "Could it be that God-initiated spiritual warfare, is one of the things God choos...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 345,
+          "text_preview": "Let me conclude with a quote used by David Johnson in Gasping for breath",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 346,
+          "text_preview": "In his book, Backpacking with the saints, Belden Lane asks. ‘What happens when a...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 348,
+          "text_preview": "This is why it is so important to submit to the leading of the Spirit no matter ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 350,
+          "text_preview": "Prayer, Father thank you that there is something holy about the vulnerability of...",
+          "classification": "PRAYER",
+          "reason": "Matched prayer pattern: **Prayer**"
+        },
+        {
+          "para_index": 352,
+          "text_preview": "Bible in a year reading plan Psalm 119:145-176",
+          "classification": "BIBLE_READING",
+          "reason": "Matched Bible reading pattern: Bible in a year"
+        }
+      ]
+    },
+    {
+      "day": 199,
+      "title": "STUDY TOPIC The Spirit in the life of Jesus part 1...",
+      "missing": [
+        "scripture_ref",
+        "scripture_text"
+      ],
+      "warnings": [],
+      "diagnostics": [
+        {
+          "para_index": 354,
+          "text_preview": "Day 199",
+          "classification": "DAY_MARKER",
+          "reason": "Matched day pattern: Day N"
+        },
+        {
+          "para_index": 356,
+          "text_preview": "STUDY TOPIC The Spirit in the life of Jesus part 14",
+          "classification": "TITLE",
+          "reason": "First non-day paragraph after Day marker, interpreted as title"
+        },
+        {
+          "para_index": 358,
+          "text_preview": "The role of the Holy Spirit in the Ministry of Jesus.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 360,
+          "text_preview": "I wonder how you understand ministry? How would you define Christian ministry? W...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 362,
+          "text_preview": "On June 13th 1995 The Chicago Tribune ran a story about a man named",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 362,
+          "text_preview": "Russell Edward Herman died at the age of 67 and in his will he left trillions of...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 362,
+          "text_preview": "• $1.5 Billion for “projects” in southeastern Illinois",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 362,
+          "text_preview": "• $6 Trillion to the Federal Reserve Board to pay off the National Debt.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 362,
+          "text_preview": "• $6 Trillion to the U. S. Treasury to get the country back on track.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 362,
+          "text_preview": "• $2.41 Billion for national forests",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 362,
+          "text_preview": "• $2.41 Billion to the Ohio River Town of Cave-In Rock",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 362,
+          "text_preview": "• $189 Trillion for the “rehabilitation of states’ rights”",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 362,
+          "text_preview": "• $1 Million in American Gold Dollars to each person who has lived in Gallatin C...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 364,
+          "text_preview": "What was the catch?  Russell Edward Herman didn’t have trillions of dollars. He ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 366,
+          "text_preview": "Although we can see the funny side of this, something like this can often happen...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 367,
+          "text_preview": "I don’t believe for one moment that people who see their ministry decline into s...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 368,
+          "text_preview": "However, I will never forget a missionary in France telling me he was happy ‘to ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 369,
+          "text_preview": "Sadly many who are involved in ministry have succumb to the same attitude.  List...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 370,
+          "text_preview": "“I guess it comes down to a simple choice Billy, Get busy living or get busy dyi...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 372,
+          "text_preview": "Sadly some ministries have got busy dying. They have lots of activities, lots of...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 373,
+          "text_preview": "This is why this passage in Luke 4:14-21 is an essential requirement if we are g...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 375,
+          "text_preview": "All ministry requires a distinctiveness that can only be explained by the power ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 376,
+          "text_preview": "It is good to ask the question, If a ministry is not empowered and sustained by ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 378,
+          "text_preview": "With this is mind let’s look at our passage, Luke 4:14-21.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 380,
+          "text_preview": "‘’Jesus returned to Galilee in the power of the Spirit, and news about him sprea...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 381,
+          "text_preview": "“The Spirit of the Lord is on me,",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 381,
+          "text_preview": "because he has anointed me",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 381,
+          "text_preview": "to proclaim good news to the poor.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 381,
+          "text_preview": "He has sent me to proclaim freedom for the prisoners",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 381,
+          "text_preview": "and recovery of sight for the blind,",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 381,
+          "text_preview": "to set the oppressed free,",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 381,
+          "text_preview": "to proclaim the year of the Lord’s favour.”",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 383,
+          "text_preview": "Then he rolled up the scroll, gave it back to the attendant and sat down. The ey...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 384,
+          "text_preview": "What was Jesus saying here?",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 385,
+          "text_preview": "This was a proclamation from Jesus, letting the listeners know that His ministry...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 386,
+          "text_preview": "Prayer, Father help me to have a Spirit-filled ministry.",
+          "classification": "PRAYER",
+          "reason": "Matched prayer pattern: **Prayer**"
+        },
+        {
+          "para_index": 387,
+          "text_preview": "Bible in a year reading plan: - Psalm 120-125",
+          "classification": "BIBLE_READING",
+          "reason": "Matched Bible reading pattern: Bible in a year"
+        }
+      ]
+    },
+    {
+      "day": 200,
+      "title": "STUDY TOPIC The Spirit in the life of Jesus part 1...",
+      "missing": [
+        "scripture_ref",
+        "scripture_text"
+      ],
+      "warnings": [],
+      "diagnostics": [
+        {
+          "para_index": 390,
+          "text_preview": "Day 200",
+          "classification": "DAY_MARKER",
+          "reason": "Matched day pattern: Day N"
+        },
+        {
+          "para_index": 392,
+          "text_preview": "STUDY TOPIC The Spirit in the life of Jesus part 15",
+          "classification": "TITLE",
+          "reason": "First non-day paragraph after Day marker, interpreted as title"
+        },
+        {
+          "para_index": 394,
+          "text_preview": "The role of the Holy Spirit in the Ministry of Jesus (Luke 4 14-30)",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 396,
+          "text_preview": "Jesus chose to preach this sermon to those who thought they knew him best.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 398,
+          "text_preview": "Why would he do that?",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 399,
+          "text_preview": "He was teaching us that through the presence and power of the Spirit, God can us...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 401,
+          "text_preview": "Initially everyone was amazed at his teaching, however that soon changed!!",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 403,
+          "text_preview": "‘’All spoke well of him and were amazed at the gracious words that came from his...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 405,
+          "text_preview": "‘Isn’t this Joseph’s son?’",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 407,
+          "text_preview": "If we were to think about this, this must have taken a lot of courage on Jesus’ ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 408,
+          "text_preview": "This was a significant moment in the life of Jesus. In the face being rejected, ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 409,
+          "text_preview": "influenced more by the work of the Spirit in his life, than the wrong opinions, ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 411,
+          "text_preview": "If we continually live out of our insecurities,  and have a constant need for th...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 413,
+          "text_preview": "‘’All the people in the synagogue were furious when they heard this. They got up...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 415,
+          "text_preview": "Even though Jesus’ ministry was Spirit led, that didn’t guarantee success or eff...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 417,
+          "text_preview": "Prayer, Father please help me to bring everything before you even my hurt and di...",
+          "classification": "PRAYER",
+          "reason": "Matched prayer pattern: **Prayer**"
+        },
+        {
+          "para_index": 418,
+          "text_preview": "Bible in a year plan Psalm 126-129",
+          "classification": "BIBLE_READING",
+          "reason": "Matched Bible reading pattern: Bible in a year"
+        }
+      ]
+    },
+    {
+      "day": 201,
+      "title": "STUDY TOPIC The Spirit in the life of Jesus part 1...",
+      "missing": [
+        "scripture_ref",
+        "scripture_text"
+      ],
+      "warnings": [],
+      "diagnostics": [
+        {
+          "para_index": 421,
+          "text_preview": "Day 201",
+          "classification": "DAY_MARKER",
+          "reason": "Matched day pattern: Day N"
+        },
+        {
+          "para_index": 423,
+          "text_preview": "STUDY TOPIC The Spirit in the life of Jesus part 16",
+          "classification": "TITLE",
+          "reason": "First non-day paragraph after Day marker, interpreted as title"
+        },
+        {
+          "para_index": 425,
+          "text_preview": "The role of the Holy Spirit in the Ministry of Jesus",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 427,
+          "text_preview": "What does a Spirit filled ministry look like?",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 429,
+          "text_preview": "What can we learn from Jesus’ understanding of his ministry?",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 431,
+          "text_preview": "1. A Spirit filled ministry gives people a right understanding about God by reve...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 432,
+          "text_preview": "Before Jesus came, people had been wondering what God is really like... There ha...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 434,
+          "text_preview": "And then God became a man and we could see what He was like. He came for the poo...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 435,
+          "text_preview": "Jesus’ ministry, corrected and changed peoples understanding of God. Ministry sh...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 437,
+          "text_preview": "The bible has many verses that say we should be continually caring for the poor ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 438,
+          "text_preview": "Deuteronomy 15:7",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 438,
+          "text_preview": "“But if there are any poor Israelites in your towns when you arrive in the land ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 439,
+          "text_preview": "Deuteronomy 15:10",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 439,
+          "text_preview": "“Give generously to the poor, not grudgingly, for the Lord your God will bless y...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 440,
+          "text_preview": "Deuteronomy 15:11",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 440,
+          "text_preview": "“There will always be some in the land who are poor. That is why I am commanding...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 441,
+          "text_preview": "Deuteronomy 24:14",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 441,
+          "text_preview": "“Never take advantage of poor and destitute labourers, whether they are fellow I...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 442,
+          "text_preview": "Deuteronomy 27:19",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 442,
+          "text_preview": "“Cursed is the man who withholds justice from the alien, the fatherless or the w...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 443,
+          "text_preview": "Proverbs 14:31",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 443,
+          "text_preview": "“He who oppresses the poor shows contempt for their Maker, but whoever is kind t...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 445,
+          "text_preview": "Ezekiel 18:5-9",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 446,
+          "text_preview": "“Suppose there is a righteous man who does what is just and right. He does not e...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 447,
+          "text_preview": "The implications of these verses are, if we do not care for the poor we are guil...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 448,
+          "text_preview": "The power of the Spirit in our lives will always cause a connection with those w...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 450,
+          "text_preview": "2. A spirit filled ministry enhances our humanity by compensating for our limita...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 452,
+          "text_preview": "Let me read you a quote.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 454,
+          "text_preview": "‘Jesus was indeed a human being, a genuine human person, owning all the limitati...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 456,
+          "text_preview": "We have got limitations, sometimes we complain and moan about them. We often thi...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 457,
+          "text_preview": "Matthew 6:1-2, teaches us that giving to the poor is an act of righteousness, an...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 459,
+          "text_preview": "Prayer, Father may the Work of the Holy Spirit in me produce a continuous genero...",
+          "classification": "PRAYER",
+          "reason": "Matched prayer pattern: **Prayer**"
+        },
+        {
+          "para_index": 461,
+          "text_preview": "Bible in a year reading plan: Psalm 130-133",
+          "classification": "BIBLE_READING",
+          "reason": "Matched Bible reading pattern: Bible in a year"
+        }
+      ]
+    },
+    {
+      "day": 202,
+      "title": "STUDY TOPIC The Spirit in the life of Jesus part 1...",
+      "missing": [
+        "scripture_ref",
+        "scripture_text"
+      ],
+      "warnings": [],
+      "diagnostics": [
+        {
+          "para_index": 462,
+          "text_preview": "Day 202",
+          "classification": "DAY_MARKER",
+          "reason": "Matched day pattern: Day N"
+        },
+        {
+          "para_index": 464,
+          "text_preview": "STUDY TOPIC The Spirit in the life of Jesus part 17",
+          "classification": "TITLE",
+          "reason": "First non-day paragraph after Day marker, interpreted as title"
+        },
+        {
+          "para_index": 466,
+          "text_preview": "A Spirit filled ministry redefines our understanding of the gospel.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 467,
+          "text_preview": "The problem with Luke 4:18-19, is that many people have over spiritualised it. S...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 469,
+          "text_preview": "When it comes to sharing the gospel there are two indispensable parts, there is ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 471,
+          "text_preview": "When we reduce the ministry of the Spirit down to the words that we say, then we...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 473,
+          "text_preview": "For Jesus, the gospel was a radical expression of relevance, it was holistic, it...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 475,
+          "text_preview": "Life in the Spirit is explicitly incarnational and practical. It give us the abi...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 477,
+          "text_preview": "In 2008, David Knepprath and Josh Guisinger moved into the rough-and-tumble down...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 480,
+          "text_preview": "Life in the Spirit needs to be consistent with biblical truth.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 482,
+          "text_preview": "Jesus described his experience of the Spirit with biblical language. He quotes I...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 484,
+          "text_preview": "I think that there is a possibility that we have a too subjective understanding ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 486,
+          "text_preview": "Life in the Spirit requires great courage.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 488,
+          "text_preview": "To live a Spirit filled life that will produce an effective ministry will mean t...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 489,
+          "text_preview": "This sermon of Jesus at Nazareth is a description and expectation of authentic m...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 491,
+          "text_preview": "Martin Niemöller (1892–1984) was a prominent Lutheran pastor in Germany. In the ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 492,
+          "text_preview": "First they came for the Communists",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 492,
+          "text_preview": "And I did not speak out",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 492,
+          "text_preview": "Because I was not a Communist",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 492,
+          "text_preview": "Then they came for the Socialists",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 492,
+          "text_preview": "And I did not speak out",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 492,
+          "text_preview": "Because I was not a Socialist",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 492,
+          "text_preview": "Then they came for the trade unionists",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 492,
+          "text_preview": "And I did not speak out",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 492,
+          "text_preview": "Because I was not a trade unionist",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 492,
+          "text_preview": "Then they came for the Jews",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 492,
+          "text_preview": "And I did not speak out",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 492,
+          "text_preview": "Because I was not a Jew",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 492,
+          "text_preview": "Then they came for me",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 492,
+          "text_preview": "And there was no one left to speak out for me.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 493,
+          "text_preview": "https://hmd.org.uk/resource/first-they-came-by-pastor-martin-niemoller/",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 495,
+          "text_preview": "Jesus said, ‘“The Spirit of the Lord is upon me, for he has anointed me to bring...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 496,
+          "text_preview": "May it be the same for us.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 498,
+          "text_preview": "Prayer, Father thank you that a Spirit’s life will cause us to be practical in o...",
+          "classification": "PRAYER",
+          "reason": "Matched prayer pattern: **Prayer**"
+        },
+        {
+          "para_index": 499,
+          "text_preview": "Bible in a year reading plan: Psalm 134-139",
           "classification": "BIBLE_READING",
           "reason": "Matched Bible reading pattern: Bible in a year"
         }

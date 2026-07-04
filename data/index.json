@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-01T21:48:47.357898",
-  "total_days": 188,
+  "generated": "2026-07-04T23:20:56.681396",
+  "total_days": 202,
   "complete_days": 153,
-  "incomplete_days": 35,
+  "incomplete_days": 49,
   "days": [
     {
       "day": 1,
@@ -1794,6 +1794,175 @@
       "day": 188,
       "title": "STUDY TOPIC JESUS AND THE SPIRIT. Part 3",
       "file": "day-188.json",
+      "has_links": true,
+      "has_highlights": true,
+      "is_complete": false,
+      "missing_sections": [
+        "scripture_ref",
+        "scripture_text"
+      ]
+    },
+    {
+      "day": 189,
+      "title": "STUDY TOPIC JESUS AND THE SPIRIT. Part 4",
+      "file": "day-189.json",
+      "has_links": false,
+      "has_highlights": false,
+      "is_complete": false,
+      "missing_sections": [
+        "scripture_ref",
+        "scripture_text"
+      ]
+    },
+    {
+      "day": 190,
+      "title": "STUDY TOPIC JESUS AND THE SPIRIT. Part 5",
+      "file": "day-190.json",
+      "has_links": false,
+      "has_highlights": false,
+      "is_complete": false,
+      "missing_sections": [
+        "scripture_ref",
+        "scripture_text"
+      ]
+    },
+    {
+      "day": 191,
+      "title": "STUDY TOPIC JESUS AND THE SPIRIT. Part 6",
+      "file": "day-191.json",
+      "has_links": false,
+      "has_highlights": false,
+      "is_complete": false,
+      "missing_sections": [
+        "scripture_ref",
+        "scripture_text",
+        "prayer"
+      ]
+    },
+    {
+      "day": 192,
+      "title": "STUDY TOPIC JESUS AND THE SPIRIT. Part 7",
+      "file": "day-192.json",
+      "has_links": false,
+      "has_highlights": false,
+      "is_complete": false,
+      "missing_sections": [
+        "scripture_ref",
+        "scripture_text"
+      ]
+    },
+    {
+      "day": 193,
+      "title": "STUDY TOPIC JESUS AND THE SPIRIT. Part 8",
+      "file": "day-193.json",
+      "has_links": true,
+      "has_highlights": true,
+      "is_complete": false,
+      "missing_sections": [
+        "scripture_ref",
+        "scripture_text"
+      ]
+    },
+    {
+      "day": 194,
+      "title": "STUDY TOPIC JESUS AND THE SPIRIT. Part 9",
+      "file": "day-194.json",
+      "has_links": true,
+      "has_highlights": true,
+      "is_complete": false,
+      "missing_sections": [
+        "scripture_ref",
+        "scripture_text"
+      ]
+    },
+    {
+      "day": 195,
+      "title": "STUDY TOPIC JESUS AND THE SPIRIT. Part 10",
+      "file": "day-195.json",
+      "has_links": true,
+      "has_highlights": false,
+      "is_complete": false,
+      "missing_sections": [
+        "scripture_ref",
+        "scripture_text"
+      ]
+    },
+    {
+      "day": 196,
+      "title": "STUDY TOPIC The Spirit in the life of Jesus part 11",
+      "file": "day-196.json",
+      "has_links": false,
+      "has_highlights": false,
+      "is_complete": false,
+      "missing_sections": [
+        "scripture_ref",
+        "scripture_text"
+      ]
+    },
+    {
+      "day": 197,
+      "title": "STUDY TOPIC The Spirit in the life of Jesus part 12",
+      "file": "day-197.json",
+      "has_links": true,
+      "has_highlights": false,
+      "is_complete": false,
+      "missing_sections": [
+        "scripture_ref",
+        "scripture_text"
+      ]
+    },
+    {
+      "day": 198,
+      "title": "STUDY TOPIC The Spirit in the life of Jesus part 13",
+      "file": "day-198.json",
+      "has_links": false,
+      "has_highlights": false,
+      "is_complete": false,
+      "missing_sections": [
+        "scripture_ref",
+        "scripture_text"
+      ]
+    },
+    {
+      "day": 199,
+      "title": "STUDY TOPIC The Spirit in the life of Jesus part 14",
+      "file": "day-199.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": false,
+      "missing_sections": [
+        "scripture_ref",
+        "scripture_text"
+      ]
+    },
+    {
+      "day": 200,
+      "title": "STUDY TOPIC The Spirit in the life of Jesus part 15",
+      "file": "day-200.json",
+      "has_links": false,
+      "has_highlights": false,
+      "is_complete": false,
+      "missing_sections": [
+        "scripture_ref",
+        "scripture_text"
+      ]
+    },
+    {
+      "day": 201,
+      "title": "STUDY TOPIC The Spirit in the life of Jesus part 16",
+      "file": "day-201.json",
+      "has_links": false,
+      "has_highlights": false,
+      "is_complete": false,
+      "missing_sections": [
+        "scripture_ref",
+        "scripture_text"
+      ]
+    },
+    {
+      "day": 202,
+      "title": "STUDY TOPIC The Spirit in the life of Jesus part 17",
+      "file": "day-202.json",
       "has_links": true,
       "has_highlights": true,
       "is_complete": false,

@@ -71,7 +71,7 @@ class ThoughtApp {
         this.index = { days: [] };
 
         try {
-            const response = await fetch('data/index.json');
+            const response = await fetch('data/index.json', { cache: 'no-store' });
             if (!response.ok) throw new Error('Index not found');
             this.index = await response.json();
         } catch (error) {
@@ -226,7 +226,7 @@ class ThoughtApp {
         
         try {
             const filename = `data/day-${String(dayNum).padStart(3, '0')}.json`;
-            const response = await fetch(filename);
+            const response = await fetch(filename, { cache: 'no-store' });
             
             if (!response.ok) {
                 throw new Error(`Day ${dayNum} not found`);
@@ -247,17 +247,22 @@ class ThoughtApp {
     /**
      * Display a specific day
      */
-    async showDay(dayNum) {
+    async showDay(dayNum, updateUrl = false) {
         try {
             const thought = await this.loadDay(dayNum);
-            
+
             // Update current day
             this.currentDay = dayNum;
-            
-            // Update URL without reloading
-            const url = new URL(window.location);
-            url.searchParams.set('day', dayNum);
-            window.history.pushState({}, '', url);
+
+            // Only write ?day= for explicit navigation. The automatic
+            // initial load must not write it: when today's reading is
+            // missing the app falls back to another day, and persisting
+            // that in the URL made restored tabs reopen on the fallback.
+            if (updateUrl) {
+                const url = new URL(window.location);
+                url.searchParams.set('day', dayNum);
+                window.history.pushState({}, '', url);
+            }
             
             // Update date display
             this.updateDateDisplay(thought);
@@ -317,7 +322,7 @@ class ThoughtApp {
         const currentIndex = this.index.days.findIndex(d => d.day === this.currentDay);
         if (currentIndex > 0) {
             const prevDay = this.index.days[currentIndex - 1].day;
-            await this.showDay(prevDay);
+            await this.showDay(prevDay, true);
         }
     }
     
@@ -328,7 +333,7 @@ class ThoughtApp {
         const currentIndex = this.index.days.findIndex(d => d.day === this.currentDay);
         if (currentIndex < this.index.days.length - 1) {
             const nextDay = this.index.days[currentIndex + 1].day;
-            await this.showDay(nextDay);
+            await this.showDay(nextDay, true);
         }
     }
     
@@ -338,6 +343,10 @@ class ThoughtApp {
     async gotoToday() {
         const todayDay = this.getTodayDay();
         await this.showDay(todayDay);
+        // Drop any ?day= so a bookmarked/restored URL follows the date again
+        const url = new URL(window.location);
+        url.searchParams.delete('day');
+        window.history.pushState({}, '', url);
     }
     
     /**
@@ -373,7 +382,7 @@ class ThoughtApp {
                 <div class="day-item-title">${this.escapeHtml(day.title)}</div>
             `;
             button.addEventListener('click', async () => {
-                await this.showDay(day.day);
+                await this.showDay(day.day, true);
                 this.closeMenu();
             });
             this.elements.dayList.appendChild(button);
@@ -472,11 +481,6 @@ if (document.readyState === 'loading') {
     new ThoughtApp();
 }
 
-// Service Worker registration for PWA (optional)
-if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/sw.js').catch(() => {
-            // Silent fail - service worker is optional
-        });
-    });
-}
+// No service worker: the site intentionally serves fresh content on every
+// visit. /sw.js is kept deployed as a kill-switch that uninstalls the old
+// caching worker from returning visitors' browsers.

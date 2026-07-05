@@ -26,7 +26,10 @@ class ThoughtApp {
             closeMenuBtn: document.getElementById('close-menu-btn'),
             navMenu: document.getElementById('nav-menu'),
             menuBackdrop: document.getElementById('menu-backdrop'),
-            dayList: document.getElementById('day-list')
+            dayList: document.getElementById('day-list'),
+            listenBar: document.getElementById('listen-bar'),
+            listenBtn: document.getElementById('listen-btn'),
+            dayAudio: document.getElementById('day-audio')
         };
         
         this.init();
@@ -269,6 +272,9 @@ class ThoughtApp {
             
             // Update content
             this.elements.thoughtContent.innerHTML = thought.html;
+
+            // Point the audio player at this day's recording
+            this.setupAudio(dayNum);
             
             // Update navigation buttons
             this.updateNavigationButtons();
@@ -350,6 +356,40 @@ class ThoughtApp {
     }
     
     /**
+     * Point the audio element at this day's MP3 and reset the player.
+     * Nothing is downloaded until the user presses Listen (preload="none").
+     */
+    setupAudio(dayNum) {
+        const audio = this.elements.dayAudio;
+        if (!audio) return;
+
+        audio.pause();
+        audio.hidden = true;
+        audio.src = `data/audio/day-${String(dayNum).padStart(3, '0')}.mp3`;
+
+        // Show the button again in case a previous day had no audio
+        this.elements.listenBar.hidden = false;
+        this.elements.listenBtn.hidden = false;
+    }
+
+    /**
+     * Start playback: swap the button for the native player so the
+     * listener can pause, scrub and adjust volume.
+     */
+    async startListening() {
+        const audio = this.elements.dayAudio;
+        try {
+            await audio.play();
+            this.elements.listenBtn.hidden = true;
+            audio.hidden = false;
+        } catch (error) {
+            // No recording for this day (or playback blocked): hide the bar
+            this.elements.listenBar.hidden = true;
+            console.warn('Audio unavailable for this day:', error);
+        }
+    }
+
+    /**
      * Preload adjacent days for faster navigation
      */
     async preloadAdjacentDays(dayNum) {
@@ -398,6 +438,9 @@ class ThoughtApp {
         this.elements.nextBtn.addEventListener('click', () => this.gotoNextDay());
         this.elements.todayBtn.addEventListener('click', () => this.gotoToday());
         
+        // Listen button
+        this.elements.listenBtn.addEventListener('click', () => this.startListening());
+
         // Menu toggle
         this.elements.navBtn.addEventListener('click', () => this.openMenu());
         this.elements.closeMenuBtn.addEventListener('click', () => this.closeMenu());

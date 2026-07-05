@@ -59,6 +59,17 @@
                 <div class="date-full" id="current-date">Loading...</div>
             </div>
 
+            <!-- Listen to this day's thought -->
+            <div class="listen-bar" id="listen-bar">
+                <button id="listen-btn" class="listen-button" type="button">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <polygon points="6 3 20 12 6 21 6 3"></polygon>
+                    </svg>
+                    <span>Listen to this thought</span>
+                </button>
+                <audio id="day-audio" preload="none" controls hidden></audio>
+            </div>
+
             <!-- Thought Card -->
             <article class="thought-card" id="thought-content">
                 <!-- Content injected by JavaScript -->

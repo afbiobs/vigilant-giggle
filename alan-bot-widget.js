@@ -400,7 +400,7 @@
           </button>
         </form>
         <div class="alan-email-row">
-          <button class="alan-email-toggle" type="button">✉ Email me this conversation</button>
+          <button class="alan-email-toggle" type="button">✉ Email me this conversation. Email is not saved or used for spam!</button>
           <form class="alan-email-form" autocomplete="on">
             <input type="email" name="email" placeholder="you@example.com" maxlength="254" aria-label="Your email address" required>
             <button type="submit">Send copy</button>

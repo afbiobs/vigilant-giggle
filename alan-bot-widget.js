@@ -316,6 +316,10 @@
   font-size: 0.78rem; font-family: inherit;
 }
 .alan-email-toggle:hover { color: var(--alan-accent); }
+.alan-email-icon {
+  font-size: 1.3rem; line-height: 1;
+  vertical-align: -0.2em; margin-right: 0.3em;
+}
 .alan-email-form { display: none; gap: 0.4rem; margin-top: 0.4rem; }
 .alan-email-row.alan-email-open .alan-email-form { display: flex; }
 .alan-email-form input {
@@ -400,7 +404,7 @@
           </button>
         </form>
         <div class="alan-email-row">
-          <button class="alan-email-toggle" type="button">✉ Email me this conversation. Email is not saved or used for spam!</button>
+          <button class="alan-email-toggle" type="button"><span class="alan-email-icon">✉</span>Email me this conversation. Email addresses are not saved or used for spam!</button>
           <form class="alan-email-form" autocomplete="on">
             <input type="email" name="email" placeholder="you@example.com" maxlength="254" aria-label="Your email address" required>
             <button type="submit">Send copy</button>

@@ -9,6 +9,7 @@ class ThoughtApp {
         this.index = null;
         this.cache = new Map(); // Cache loaded thoughts
         this.timezone = 'Europe/London';
+        this.apiBase = 'https://api.knowingjesusdaily.com';
         
         // DOM elements
         this.elements = {
@@ -29,7 +30,12 @@ class ThoughtApp {
             dayList: document.getElementById('day-list'),
             listenBar: document.getElementById('listen-bar'),
             listenBtn: document.getElementById('listen-btn'),
-            dayAudio: document.getElementById('day-audio')
+            dayAudio: document.getElementById('day-audio'),
+            emailToggleBtn: document.getElementById('email-toggle-btn'),
+            emailForm: document.getElementById('email-form'),
+            emailInput: document.getElementById('email-input'),
+            emailSendBtn: document.getElementById('email-send-btn'),
+            emailStatus: document.getElementById('email-status')
         };
         
         this.init();
@@ -390,6 +396,41 @@ class ThoughtApp {
     }
 
     /**
+     * Email the currently displayed thought to the visitor. The address is
+     * POSTed for the send only; the backend never stores or logs it.
+     */
+    async sendThoughtEmail() {
+        const email = this.elements.emailInput.value.trim();
+        if (!email || !this.currentDay) return;
+
+        this.elements.emailSendBtn.disabled = true;
+        this.elements.emailStatus.textContent = 'Sending…';
+        try {
+            const response = await fetch(`${this.apiBase}/api/email-thought`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ email, day: this.currentDay })
+            });
+            if (response.ok) {
+                this.elements.emailInput.value = '';
+                this.elements.emailForm.hidden = true;
+                this.elements.emailStatus.textContent = 'Sent — check your inbox.';
+            } else {
+                let detail = '';
+                try {
+                    const data = await response.json();
+                    if (data.error) detail = `: ${data.error}`;
+                } catch (_) { /* keep generic message */ }
+                this.elements.emailStatus.textContent = `Could not send${detail || ' — please try again.'}`;
+            }
+        } catch (error) {
+            this.elements.emailStatus.textContent = 'Could not send — please try again.';
+        } finally {
+            this.elements.emailSendBtn.disabled = false;
+        }
+    }
+
+    /**
      * Preload adjacent days for faster navigation
      */
     async preloadAdjacentDays(dayNum) {
@@ -440,6 +481,18 @@ class ThoughtApp {
         
         // Listen button
         this.elements.listenBtn.addEventListener('click', () => this.startListening());
+
+        // Email-me-this-thought
+        this.elements.emailToggleBtn.addEventListener('click', () => {
+            const form = this.elements.emailForm;
+            form.hidden = !form.hidden;
+            this.elements.emailStatus.textContent = '';
+            if (!form.hidden) this.elements.emailInput.focus();
+        });
+        this.elements.emailForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            this.sendThoughtEmail();
+        });
 
         // Menu toggle
         this.elements.navBtn.addEventListener('click', () => this.openMenu());

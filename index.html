@@ -92,6 +92,19 @@
                 </button>
             </nav>
 
+            <!-- Email this day's thought -->
+            <div class="email-bar" id="email-bar">
+                <button id="email-toggle-btn" class="email-toggle-button" type="button">
+                    <span class="email-icon" aria-hidden="true">✉</span>
+                    <span>Email me this thought. Email addresses are not saved or used for spam!</span>
+                </button>
+                <form id="email-form" class="email-form" autocomplete="on" hidden>
+                    <input type="email" id="email-input" name="email" placeholder="you@example.com" maxlength="254" aria-label="Your email address" required>
+                    <button type="submit" id="email-send-btn">Send</button>
+                </form>
+                <div id="email-status" class="email-status" role="status"></div>
+            </div>
+
         </main>
 
         <!-- Navigation Menu (Slide-in) -->
@@ -129,8 +142,13 @@
     </div>
 
     <script src="assets/app.js"></script>
-    <!-- Alan bot chat widget -->
-    <div data-alan-bot></div>
-    <script src="/alan-bot-widget.js"></script>
+    <!-- Alan bot chat widget: mothballed 2026-07-06. The backend Worker and
+         /alan-bot-widget.js remain deployed. To reinstate, restore these two
+         lines here:
+           div with data-alan-bot attribute
+           script src="/alan-bot-widget.js"
+    -->
+
+
 </body>
 </html>

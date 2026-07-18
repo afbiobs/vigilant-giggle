@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="theme-color" content="#1a1a2e">
+    <title>Persona Test — Knowing Jesus Daily</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>📖</text></svg>">
+    <style>
+        :root {
+            --color-bg: #f8f9fa;
+            --color-surface: #ffffff;
+            --color-text-primary: #1a1a2e;
+            --color-text-secondary: #6c757d;
+            --color-accent: #4a90e2;
+            --color-accent-hover: #357abd;
+            --color-border: #e1e4e8;
+            --color-shadow: rgba(0, 0, 0, 0.1);
+            --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            --font-serif: Georgia, 'Times New Roman', serif;
+            --border-radius: 12px;
+            --border-radius-sm: 8px;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --color-bg: #1a1a2e;
+                --color-surface: #16213e;
+                --color-text-primary: #e4e4e7;
+                --color-text-secondary: #a1a1aa;
+                --color-accent: #60a5fa;
+                --color-accent-hover: #3b82f6;
+                --color-border: #27293d;
+                --color-shadow: rgba(0, 0, 0, 0.3);
+            }
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: var(--font-sans);
+            background: var(--color-bg);
+            color: var(--color-text-primary);
+            line-height: 1.6;
+            padding: 1.5rem 1rem 4rem;
+        }
+        .wrap { max-width: 960px; margin: 0 auto; }
+        h1 { font-size: 1.5rem; margin-bottom: 0.25rem; }
+        .subtitle { color: var(--color-text-secondary); font-size: 0.875rem; margin-bottom: 1.5rem; }
+        .ask-box {
+            background: var(--color-surface);
+            border: 1px solid var(--color-border);
+            border-radius: var(--border-radius);
+            padding: 1rem;
+            box-shadow: 0 2px 8px var(--color-shadow);
+            margin-bottom: 2rem;
+        }
+        textarea {
+            width: 100%;
+            min-height: 4.5rem;
+            resize: vertical;
+            border: 1px solid var(--color-border);
+            border-radius: var(--border-radius-sm);
+            background: var(--color-bg);
+            color: var(--color-text-primary);
+            font: inherit;
+            padding: 0.75rem;
+        }
+        textarea:focus { outline: 2px solid var(--color-accent); outline-offset: 1px; }
+        .ask-actions { display: flex; justify-content: flex-end; margin-top: 0.75rem; }
+        button {
+            font: inherit;
+            cursor: pointer;
+            border: none;
+            border-radius: var(--border-radius-sm);
+        }
+        .btn-primary {
+            background: var(--color-accent);
+            color: #fff;
+            padding: 0.6rem 1.5rem;
+            font-weight: 600;
+            transition: background 150ms ease;
+        }
+        .btn-primary:hover:not(:disabled) { background: var(--color-accent-hover); }
+        .btn-primary:disabled { opacity: 0.5; cursor: not-allowed; }
+        .card {
+            background: var(--color-surface);
+            border: 1px solid var(--color-border);
+            border-radius: var(--border-radius);
+            box-shadow: 0 2px 8px var(--color-shadow);
+            padding: 1.25rem;
+            margin-bottom: 1.5rem;
+        }
+        .card-question {
+            font-family: var(--font-serif);
+            font-size: 1.05rem;
+            font-style: italic;
+            margin-bottom: 1rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 1px solid var(--color-border);
+        }
+        .panels { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+        @media (max-width: 700px) { .panels { grid-template-columns: 1fr; } }
+        .panel {
+            border: 1px solid var(--color-border);
+            border-radius: var(--border-radius-sm);
+            padding: 0.9rem;
+            display: flex;
+            flex-direction: column;
+        }
+        .panel h3 {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            color: var(--color-text-secondary);
+            margin-bottom: 0.5rem;
+        }
+        .panel-answer {
+            font-family: var(--font-serif);
+            white-space: pre-wrap;
+            flex: 1;
+            margin-bottom: 0.9rem;
+            font-size: 0.95rem;
+        }
+        .panel-answer.loading { color: var(--color-text-secondary); font-style: italic; }
+        .panel-answer.error { color: #dc2626; font-family: var(--font-sans); font-size: 0.875rem; }
+        .stars { display: flex; gap: 0.2rem; }
+        .stars button {
+            background: none;
+            font-size: 1.6rem;
+            line-height: 1;
+            color: var(--color-border);
+            padding: 0.1rem;
+            transition: color 100ms ease, transform 100ms ease;
+        }
+        .stars button:hover { transform: scale(1.15); }
+        .stars button.on { color: #f5a623; }
+        .stars button:focus-visible { outline: 2px solid var(--color-accent); border-radius: 4px; }
+        .card-footer {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        .card-status { font-size: 0.875rem; color: var(--color-text-secondary); }
+        .card-status.saved { color: #16a34a; font-weight: 600; }
+        .card-status.error { color: #dc2626; }
+        .card.locked .stars button { pointer-events: none; opacity: 0.8; }
+    </style>
+</head>
+<body>
+<div class="wrap">
+    <h1>Persona test</h1>
+    <p class="subtitle">Ask a question. Two different versions answer — rate each reply from 1 to 5 stars, then submit. You can ask as many questions as you like.</p>
+
+    <div class="ask-box">
+        <textarea id="question" maxlength="2000" placeholder="e.g. What does 1 John 1 say about fellowship with God?"></textarea>
+        <div class="ask-actions">
+            <button class="btn-primary" id="ask">Ask</button>
+        </div>
+    </div>
+
+    <div id="cards"></div>
+</div>
+
+<script>
+(function () {
+    'use strict';
+
+    // ?api=http://localhost:8787 overrides the backend for local testing.
+    const API = new URLSearchParams(location.search).get('api') || 'https://api.knowingjesusdaily.com';
+    const VARIANTS = ['companion', 'teacher'];
+    const sessionId = (crypto.randomUUID && crypto.randomUUID()) ||
+        String(Date.now()) + '-' + Math.random().toString(36).slice(2);
+
+    const askBtn = document.getElementById('ask');
+    const questionEl = document.getElementById('question');
+    const cardsEl = document.getElementById('cards');
+
+    askBtn.addEventListener('click', ask);
+    questionEl.addEventListener('keydown', e => {
+        if (e.key === 'Enter' && (e.metaKey || e.ctrlKey)) ask();
+    });
+
+    async function ask() {
+        const question = questionEl.value.trim();
+        if (!question) { questionEl.focus(); return; }
+        askBtn.disabled = true;
+        questionEl.value = '';
+
+        // Randomize which persona appears as "Response 1" to avoid position bias.
+        const order = Math.random() < 0.5 ? [VARIANTS[0], VARIANTS[1]] : [VARIANTS[1], VARIANTS[0]];
+        const card = buildCard(question, order);
+        cardsEl.prepend(card.root);
+
+        await Promise.allSettled(order.map((variant, slot) => fetchAnswer(card, question, variant, slot)));
+        askBtn.disabled = false;
+        card.maybeEnableSubmit();
+    }
+
+    async function fetchAnswer(card, question, variant, slot) {
+        try {
+            const res = await fetch(API + '/api/chat', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ question, variant }),
+            });
+            const data = await res.json();
+            if (!res.ok || !data.answer) {
+                throw new Error(data.error || ('request failed (' + res.status + ')'));
+            }
+            card.setAnswer(slot, variant, data.answer);
+        } catch (err) {
+            card.setError(slot, String(err.message || err));
+        }
+    }
+
+    function buildCard(question, order) {
+        const root = document.createElement('div');
+        root.className = 'card';
+
+        const state = {
+            question,
+            order,               // order[0] is shown as "Response 1"
+            answers: {},         // variant -> answer text
+            ratings: {},         // variant -> 1..5
+            locked: false,
+        };
+
+        const q = document.createElement('div');
+        q.className = 'card-question';
+        q.textContent = question;
+        root.appendChild(q);
+
+        const panels = document.createElement('div');
+        panels.className = 'panels';
+        root.appendChild(panels);
+
+        const slots = order.map((variant, i) => {
+            const panel = document.createElement('div');
+            panel.className = 'panel';
+
+            const h = document.createElement('h3');
+            h.textContent = 'Response ' + (i + 1);
+            panel.appendChild(h);
+
+            const answer = document.createElement('div');
+            answer.className = 'panel-answer loading';
+            answer.textContent = 'Thinking…';
+            panel.appendChild(answer);
+
+            const stars = buildStars(rating => {
+                if (state.locked) return;
+                state.ratings[variant] = rating;
+                maybeEnableSubmit();
+            });
+            panel.appendChild(stars.root);
+
+            panels.appendChild(panel);
+            return { panel, answer, stars };
+        });
+
+        const footer = document.createElement('div');
+        footer.className = 'card-footer';
+        const status = document.createElement('span');
+        status.className = 'card-status';
+        status.textContent = 'Rate both responses to submit';
+        const submit = document.createElement('button');
+        submit.className = 'btn-primary';
+        submit.textContent = 'Submit ratings';
+        submit.disabled = true;
+        submit.addEventListener('click', () => submitRatings());
+        footer.appendChild(status);
+        footer.appendChild(submit);
+        root.appendChild(footer);
+
+        function setAnswer(slot, variant, text) {
+            state.answers[variant] = text;
+            const el = slots[slot].answer;
+            el.className = 'panel-answer';
+            el.textContent = text;
+        }
+
+        function setError(slot, message) {
+            const el = slots[slot].answer;
+            el.className = 'panel-answer error';
+            el.textContent = 'Sorry — this response failed: ' + message;
+        }
+
+        function maybeEnableSubmit() {
+            const bothAnswered = VARIANTS.every(v => state.answers[v]);
+            const bothRated = VARIANTS.every(v => state.ratings[v] >= 1);
+            submit.disabled = state.locked || !(bothAnswered && bothRated);
+            if (!state.locked && bothAnswered) {
+                status.textContent = bothRated ? 'Ready to submit' : 'Rate both responses to submit';
+            }
+        }
+
+        async function submitRatings() {
+            submit.disabled = true;
+            status.className = 'card-status';
+            status.textContent = 'Saving…';
+            try {
+                const res = await fetch(API + '/api/feedback', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        session_id: sessionId,
+                        question: state.question,
+                        answer_companion: state.answers.companion || '',
+                        answer_teacher: state.answers.teacher || '',
+                        rating_companion: state.ratings.companion,
+                        rating_teacher: state.ratings.teacher,
+                        first_shown: state.order[0],
+                    }),
+                });
+                const data = await res.json();
+                if (!res.ok || !data.ok) throw new Error(data.error || ('request failed (' + res.status + ')'));
+                state.locked = true;
+                root.classList.add('locked');
+                status.className = 'card-status saved';
+                status.textContent = 'Saved — thank you';
+            } catch (err) {
+                status.className = 'card-status error';
+                status.textContent = 'Could not save: ' + String(err.message || err);
+                submit.disabled = false;
+            }
+        }
+
+        return { root, setAnswer, setError, maybeEnableSubmit };
+    }
+
+    function buildStars(onRate) {
+        const root = document.createElement('div');
+        root.className = 'stars';
+        root.setAttribute('role', 'radiogroup');
+        root.setAttribute('aria-label', 'Rating from 1 to 5 stars');
+        const buttons = [];
+        for (let i = 1; i <= 5; i++) {
+            const b = document.createElement('button');
+            b.type = 'button';
+            b.textContent = '★';
+            b.setAttribute('aria-label', i + (i === 1 ? ' star' : ' stars'));
+            b.addEventListener('click', () => {
+                buttons.forEach((btn, j) => btn.classList.toggle('on', j < i));
+                onRate(i);
+            });
+            buttons.push(b);
+            root.appendChild(b);
+        }
+        return { root };
+    }
+})();
+</script>
+</body>
+</html>

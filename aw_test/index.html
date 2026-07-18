@@ -145,12 +145,47 @@
         .card-status.saved { color: #16a34a; font-weight: 600; }
         .card-status.error { color: #dc2626; }
         .card.locked .stars button { pointer-events: none; opacity: 0.8; }
+        .reading {
+            background: var(--color-surface);
+            border: 1px solid var(--color-border);
+            border-radius: var(--border-radius);
+            box-shadow: 0 2px 8px var(--color-shadow);
+            margin-bottom: 1rem;
+            padding: 0.25rem 1rem;
+        }
+        .reading summary {
+            cursor: pointer;
+            font-weight: 600;
+            padding: 0.6rem 0;
+            color: var(--color-accent);
+        }
+        .reading-body { font-family: var(--font-serif); padding: 0 0 1rem; }
+        .reading-body .ref { font-weight: bold; margin-bottom: 0.4rem; }
+        .reading-body .scripture { font-style: italic; border-left: 3px solid var(--color-border); padding-left: 0.75rem; margin-bottom: 0.9rem; }
+        .btn-retry {
+            background: none;
+            border: 1px solid var(--color-accent);
+            color: var(--color-accent);
+            padding: 0.3rem 0.9rem;
+            font-size: 0.85rem;
+            margin-top: 0.5rem;
+            align-self: flex-start;
+        }
     </style>
 </head>
 <body>
 <div class="wrap">
     <h1>Persona test</h1>
     <p class="subtitle">Ask a question. Two different versions answer — rate each reply from 1 to 5 stars, then submit. You can ask as many questions as you like.</p>
+
+    <details class="reading" id="reading" hidden>
+        <summary id="reading-title">Today's thought</summary>
+        <div class="reading-body">
+            <div class="ref" id="reading-ref"></div>
+            <div class="scripture" id="reading-scripture"></div>
+            <div id="reading-devotional"></div>
+        </div>
+    </details>
 
     <div class="ask-box">
         <textarea id="question" maxlength="2000" placeholder="e.g. What does 1 John 1 say about fellowship with God?"></textarea>
@@ -181,6 +216,36 @@
         if (e.key === 'Enter' && (e.metaKey || e.ctrlKey)) ask();
     });
 
+    // --- Today's reading: shown as a spur for questions, and its day number
+    // is sent with each question so the bot knows the likely subject.
+    let readingDay = null;
+
+    function todayDayOfYear() {
+        // Same convention as the main site: day-of-year in Europe/London.
+        const parts = new Intl.DateTimeFormat('en-CA', {
+            timeZone: 'Europe/London', year: 'numeric', month: '2-digit', day: '2-digit',
+        }).format(new Date());
+        const [y, m, d] = parts.split('-').map(Number);
+        return Math.round((Date.UTC(y, m - 1, d) - Date.UTC(y, 0, 1)) / 86400000) + 1;
+    }
+
+    (async function loadReading() {
+        const day = parseInt(new URLSearchParams(location.search).get('day'), 10) || todayDayOfYear();
+        try {
+            const res = await fetch('/data/day-' + String(day).padStart(3, '0') + '.json');
+            if (!res.ok) return;
+            const t = await res.json();
+            readingDay = t.day;
+            document.getElementById('reading-title').textContent =
+                "Today's thought — Day " + t.day + ': ' + t.title;
+            document.getElementById('reading-ref').textContent = t.scripture_ref;
+            // scripture_text / devotional are HTML authored by the site itself.
+            document.getElementById('reading-scripture').innerHTML = t.scripture_text;
+            document.getElementById('reading-devotional').innerHTML = t.devotional;
+            document.getElementById('reading').hidden = false;
+        } catch (e) { /* no reading available — leave the box hidden */ }
+    })();
+
     async function ask() {
         const question = questionEl.value.trim();
         if (!question) { questionEl.focus(); return; }
@@ -198,11 +263,17 @@
     }
 
     async function fetchAnswer(card, question, variant, slot) {
+        card.setLoading(slot);
         try {
+            const body = { question, variant };
+            if (readingDay) body.day = readingDay;
+            // The model intermittently stalls for 60s+; give up at 90s so the
+            // panel offers a retry instead of "Thinking…" forever.
             const res = await fetch(API + '/api/chat', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ question, variant }),
+                body: JSON.stringify(body),
+                signal: AbortSignal.timeout(90000),
             });
             const data = await res.json();
             if (!res.ok || !data.answer) {
@@ -210,7 +281,10 @@
             }
             card.setAnswer(slot, variant, data.answer);
         } catch (err) {
-            card.setError(slot, String(err.message || err));
+            const msg = (err && err.name === 'TimeoutError')
+                ? 'the model took too long to answer'
+                : String(err.message || err);
+            card.setError(slot, msg, () => fetchAnswer(card, question, variant, slot).then(() => card.maybeEnableSubmit()));
         }
     }
 
@@ -273,6 +347,12 @@
         footer.appendChild(submit);
         root.appendChild(footer);
 
+        function setLoading(slot) {
+            const el = slots[slot].answer;
+            el.className = 'panel-answer loading';
+            el.textContent = 'Thinking…';
+        }
+
         function setAnswer(slot, variant, text) {
             state.answers[variant] = text;
             const el = slots[slot].answer;
@@ -280,10 +360,18 @@
             el.textContent = text;
         }
 
-        function setError(slot, message) {
+        function setError(slot, message, onRetry) {
             const el = slots[slot].answer;
             el.className = 'panel-answer error';
             el.textContent = 'Sorry — this response failed: ' + message;
+            if (onRetry) {
+                const retry = document.createElement('button');
+                retry.className = 'btn-retry';
+                retry.textContent = 'Retry';
+                retry.addEventListener('click', onRetry);
+                el.appendChild(document.createElement('br'));
+                el.appendChild(retry);
+            }
         }
 
         function maybeEnableSubmit() {
@@ -326,7 +414,7 @@
             }
         }
 
-        return { root, setAnswer, setError, maybeEnableSubmit };
+        return { root, setLoading, setAnswer, setError, maybeEnableSubmit };
     }
 
     function buildStars(onRate) {

@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-04T23:20:56.681396",
-  "total_days": 202,
-  "complete_days": 153,
-  "incomplete_days": 49,
+  "generated": "2026-07-18T21:54:20.962873",
+  "total_days": 215,
+  "complete_days": 161,
+  "incomplete_days": 54,
   "days": [
     {
       "day": 1,
@@ -1970,6 +1970,138 @@
         "scripture_ref",
         "scripture_text"
       ]
+    },
+    {
+      "day": 203,
+      "title": "STUDY TOPIC The Spirit in the life of Jesus part 18",
+      "file": "day-203.json",
+      "has_links": true,
+      "has_highlights": true,
+      "is_complete": false,
+      "missing_sections": [
+        "scripture_ref",
+        "scripture_text"
+      ]
+    },
+    {
+      "day": 204,
+      "title": "STUDY TOPIC The Spirit in the life of Jesus part 19",
+      "file": "day-204.json",
+      "has_links": false,
+      "has_highlights": false,
+      "is_complete": false,
+      "missing_sections": [
+        "scripture_ref",
+        "scripture_text"
+      ]
+    },
+    {
+      "day": 205,
+      "title": "STUDY TOPIC The Spirit in the life of Jesus part 20",
+      "file": "day-205.json",
+      "has_links": false,
+      "has_highlights": false,
+      "is_complete": false,
+      "missing_sections": [
+        "scripture_ref",
+        "scripture_text"
+      ]
+    },
+    {
+      "day": 206,
+      "title": "STUDY TOPIC The Spirit in the life of Jesus part 21",
+      "file": "day-206.json",
+      "has_links": true,
+      "has_highlights": true,
+      "is_complete": false,
+      "missing_sections": [
+        "scripture_ref",
+        "scripture_text"
+      ]
+    },
+    {
+      "day": 207,
+      "title": "STUDY TOPIC The Spirit in the life of Jesus part 22",
+      "file": "day-207.json",
+      "has_links": false,
+      "has_highlights": false,
+      "is_complete": false,
+      "missing_sections": [
+        "scripture_ref",
+        "scripture_text"
+      ]
+    },
+    {
+      "day": 208,
+      "title": "Jesus and the \u2018prostitute.\u2019 part 1",
+      "file": "day-208.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 209,
+      "title": "Jesus and the \u2018prostitute.\u2019 part 2",
+      "file": "day-209.json",
+      "has_links": true,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 210,
+      "title": "Jesus and the \u2018prostitute.\u2019 part 3",
+      "file": "day-210.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 211,
+      "title": "A W Tozer Said \u201cWhat comes into our minds when we think about God is the most important thing about us.\u201d",
+      "file": "day-211.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 212,
+      "title": "However being pure in heart has a lot to do with our attitude towards our own personal sin. Being pure in heart begins with a realistic self awareness. It starts with the acknowledgement that we cannot stay the way we are and we need to experience the ongoing transformational power of the gospel. Salvation is more about what God is doing in our hearts in the present rather than what he did in the past.",
+      "file": "day-212.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 213,
+      "title": "Can you imagine living a life that has been purified from shame and guilt?",
+      "file": "day-213.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 214,
+      "title": "Learning How to Doubt. Part 1",
+      "file": "day-214.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 215,
+      "title": "Learning How to Doubt. Part 2",
+      "file": "day-215.json",
+      "has_links": true,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
     }
   ]
 }

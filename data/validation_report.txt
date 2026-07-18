@@ -1,100 +1,70 @@
 ======================================================================
 THOUGHT PROCESSOR - VALIDATION REPORT
 ======================================================================
-Generated: 2026-07-04 23:20:56
-Total entries processed: 14
-Complete entries: 0
-Entries with issues: 14
+Generated: 2026-07-18 21:54:20
+Total entries processed: 13
+Complete entries: 8
+Entries with issues: 5
 ======================================================================
 
 ENTRIES WITH MISSING SECTIONS OR WARNINGS:
 ----------------------------------------------------------------------
 
-📅 DAY 189: STUDY TOPIC JESUS AND THE SPIRIT. Part 4
+📅 DAY 203: STUDY TOPIC The Spirit in the life of Jesus part 1...
 ----------------------------------------
   ❌ MISSING SECTIONS: scripture_ref, scripture_text
 
   PARAGRAPH ANALYSIS (what the parser saw):
     🔢 [DAY_MARKER] Para #0
-       Text: "Day 189"
+       Text: "Day 203"
        Why:  Matched day pattern: Day N
     📌 [TITLE] Para #2
-       Text: "STUDY TOPIC JESUS AND THE SPIRIT. Part 4"
+       Text: "STUDY TOPIC The Spirit in the life of Jesus part 18"
        Why:  First non-day paragraph after Day marker, interpreted as title
     💭 [DEVOTIONAL] Para #4
-       Text: "Jesus’ relationship with the Holy Spirit helps us understand who we are."
+       Text: "We have been learning how all of Jesus’ life was determined by his relationship ..."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #6
-       Text: "As a perfect man, living in dependence on the Holy Spirit and in the power of th..."
+       Text: "The Holy Spirit at the death of Jesus."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #8
-       Text: "Living life in the Spirit gives us an opportunity to be ourselves, to embrace an..."
+       Text: "In Hebrews 9:14 we read  “the blood of Christ, who through the eternal Spirit of..."
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #10
-       Text: "We need to develop a theological and biblical anthropology, (anthropology being ..."
+    💭 [DEVOTIONAL] Para #11
+       Text: "Some commentators think that the eternal spirit in this verse is referring to Je..."
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #12
-       Text: "The fruit of the Spirit is far more than replacements for the works of the flesh..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #14
-       Text: "Joy is LOVE rejoicing,"
+    💭 [DEVOTIONAL] Para #13
+       Text: "Writing about this, Gerald F Hawthorne says:-"
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #15
-       Text: "Peace is LOVE at rest,"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #16
-       Text: "Patience is LOVE waiting,"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #17
-       Text: "Kindness is LOVE interacting,"
+       Text: "‘Did he not begin his epistle with a most exalted view of Jesus, describing him ..."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #18
-       Text: "Goodness is LOVE initiating,"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #19
-       Text: "Faithfulness is LOVE keeping it’s word,"
+       Text: "John MacArthur puts it this way "Jesus did everything He did on earth in obedien..."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #20
-       Text: "Gentleness is LOVE empathising,"
+       Text: "This is the only time in the New Testament that speaks of the role of the Holy S..."
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #21
-       Text: "Self-Control is LOVE resisting temptation."
+    💭 [DEVOTIONAL] Para #22
+       Text: "In the face of the terrifying cruelty of the cross, the Power of the Holy Spirit..."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #23
-       Text: "The gifts of the Spirit are far more than a demonstration of God’s power, they a..."
+       Text: "It is significant that it is the writer to the Hebrews that tells us that it was..."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #25
-       Text: "A proper use of the gifts of the Spirit should increase our ability to give and ..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #26
-       Text: "gifts of the Spirit. It is important that we see chapters 12,13 and 14 as dealin..."
+       Text: "‘This magnificent letter to the Hebrews was written to a group of first-century ..."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #27
-       Text: "Chapter 13, Paul’s famous passage on love describes God’s intended effect of spi..."
+       Text: "At times in all of our lives we will find ourselves in a situation where God may..."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #29
-       Text: "Many people often ask the question, ‘What is my spiritual gift?’"
+       Text: "In a lesser, but in a very real way, the recipients of the letter to the Hebrews..."
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #31
-       Text: "This is not a bad question to ask, however I think a better way to get the answe..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #33
-       Text: "I think you could honestly say that the work of Spirit in us, makes us more huma..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #35
-       Text: "Living a Spirit dependant life is one of the ways, maybe the most essential way,..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #36
-       Text: "If we were to think of a Spirit-filled life as a means of identifying our love f..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #37
-       Text: "I hope our understanding of who the Spirit is will be transformed, and our relat..."
-       Why:  No special markers found, classified as devotional content
-    🙏 [PRAYER] Para #39
-       Text: "Prayer, Father thank you for the truth that authentic humanity needs to be Spiri..."
+    🙏 [PRAYER] Para #31
+       Text: "Prayer, Father may the Holy Spirit give me the courage I need to completely offe..."
        Why:  Matched prayer pattern: **Prayer**
-    📚 [BIBLE_READING] Para #41
-       Text: "Bible in a year reading plan: - Psalm 99-102"
+    📚 [BIBLE_READING] Para #32
+       Text: "Bible in a year reading plan: - Psalm 140 -144"
        Why:  Matched Bible reading pattern: Bible in a year
 
   💡 SUGGESTIONS TO FIX:
@@ -103,67 +73,100 @@ ENTRIES WITH MISSING SECTIONS OR WARNINGS:
      - Add the actual scripture quote after the reference line
 
 
-📅 DAY 190: STUDY TOPIC JESUS AND THE SPIRIT. Part 5
+📅 DAY 204: STUDY TOPIC The Spirit in the life of Jesus part 1...
 ----------------------------------------
   ❌ MISSING SECTIONS: scripture_ref, scripture_text
 
   PARAGRAPH ANALYSIS (what the parser saw):
-    🔢 [DAY_MARKER] Para #43
-       Text: "Day 190"
+    🔢 [DAY_MARKER] Para #34
+       Text: "Day 204"
        Why:  Matched day pattern: Day N
-    📌 [TITLE] Para #45
-       Text: "STUDY TOPIC JESUS AND THE SPIRIT. Part 5"
+    📌 [TITLE] Para #36
+       Text: "STUDY TOPIC The Spirit in the life of Jesus part 19"
        Why:  First non-day paragraph after Day marker, interpreted as title
-    💭 [DEVOTIONAL] Para #47
-       Text: "The Spirit at the conception of Jesus."
+    💭 [DEVOTIONAL] Para #38
+       Text: "I think we need to be biblical and realistic and accept the fact that there will..."
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #49
-       Text: "We all know and love the Christmas story, we are familiar with the main characte..."
+    💭 [DEVOTIONAL] Para #40
+       Text: "But there is a problem, because many Christians believe that God will never ask ..."
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #51
-       Text: "Luke tells us that Gabriel spoke to Mary.  ‘Mary asked the angel, “But how can t..."
+    💭 [DEVOTIONAL] Para #42
+       Text: "Many people teaching that “God won’t give you more than you can handle” explain ..."
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #53
-       Text: "Matthew tells us that the angel of the Lord spoke to Joseph. ‘As he considered t..."
+    💭 [DEVOTIONAL] Para #44
+       Text: "However, when we look to the context of the passage to determine which meaning P..."
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #54
-       Text: "I think we need to consider the significance of this. The same message about the..."
+    💭 [DEVOTIONAL] Para #46
+       Text: "This verse is ensuring us that God will provide an escape from the temptation of..."
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #56
-       Text: "There may be a number of reasons why we are not too inclined to consider the rol..."
+    💭 [DEVOTIONAL] Para #48
+       Text: "There is one other thing we need to mention. The word ‘offered’ in this verse is..."
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #57
-       Text: "1. We find it easier to relate to the human characters of the story."
+    💭 [DEVOTIONAL] Para #50
+       Text: "Wouldn’t it be amazing if the power of the Spirit in our lives were to transform..."
        Why:  No special markers found, classified as devotional content
+    🙏 [PRAYER] Para #52
+       Text: "Prayer, Father thank you that you always provide a way to escape from sinning"
+       Why:  Matched prayer pattern: **Prayer**
+    📚 [BIBLE_READING] Para #54
+       Text: "Bible in a year reading plan: Psalm 145 – 150"
+       Why:  Matched Bible reading pattern: Bible in a year
+
+  💡 SUGGESTIONS TO FIX:
+     - Add 'Study Text: [Book Chapter:Verse]' line after the title
+       Example: 'Study Text: John 3:16-18'
+     - Add the actual scripture quote after the reference line
+
+
+📅 DAY 205: STUDY TOPIC The Spirit in the life of Jesus part 2...
+----------------------------------------
+  ❌ MISSING SECTIONS: scripture_ref, scripture_text
+
+  PARAGRAPH ANALYSIS (what the parser saw):
+    🔢 [DAY_MARKER] Para #55
+       Text: "Day 205"
+       Why:  Matched day pattern: Day N
+    📌 [TITLE] Para #57
+       Text: "STUDY TOPIC The Spirit in the life of Jesus part 20"
+       Why:  First non-day paragraph after Day marker, interpreted as title
     💭 [DEVOTIONAL] Para #59
-       Text: "We are familiar with Mary and Joseph, we know their backstory, we know that she ..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #59
-       Text: "This is a drama, a story that catches our imagination and pulls on our emotions...."
+       Text: "The Holy Spirit at Jesus’ resurrection."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #60
-       Text: "2.Maybe the uniqueness of this event causes us to overlook the role of the Spiri..."
+       Text: "When we think about the resurrection we are not inclined to think much about the..."
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #61
-       Text: "We all know that there will never be an other miraculous conception. What the Ho..."
+    💭 [DEVOTIONAL] Para #62
+       Text: "The question is how did God do this?"
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #63
-       Text: "3. A third possible reason why we ignore the role of the Holy Spirit in the nati..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #65
-       Text: "We need to keep in mind that Mary and Joseph lived at a time when Rabbinical tea..."
+    💭 [DEVOTIONAL] Para #64
+       Text: "He did it through the power of His Spirit."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #66
-       Text: "‘For centuries according to many of the rabbis, those teachers who most influenc..."
+       Text: "1 Peter 3:18 says 18 ‘’Christ suffered for our sins once for all time. He never ..."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #68
-       Text: "It was a common belief that the Holy Spirit had departed from Israel so when the..."
+       Text: "Romans 8:11 says ‘’The Spirit of God, who raised Jesus from the dead, lives in y..."
        Why:  No special markers found, classified as devotional content
-    🙏 [PRAYER] Para #70
-       Text: "Prayer, Father, thank you that the work of the Spirit may be unusual, but will n..."
+    💭 [DEVOTIONAL] Para #70
+       Text: "So according to Paul, The Spirit of God who raised Jesus lives in us. But what d..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #71
+       Text: "Or to put it another way, through our mortal physical bodies the Holy Spirit wan..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #73
+       Text: "The resurrection of Jesus may well be the greatest expression of the Spirits pow..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #74
+       Text: "Because the Spirit who raised Jesus from the dead lives in us, the story of our ..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #75
+       Text: "The power of the resurrection that brings Jesus great glory. The Spirit filled l..."
+       Why:  No special markers found, classified as devotional content
+    🙏 [PRAYER] Para #77
+       Text: "Prayer, Father may the story of our lives reflect the glorious victory of Jesus"
        Why:  Matched prayer pattern: **Prayer**
-    📚 [BIBLE_READING] Para #72
-       Text: "Bible in a year reading plan Psalm 103-105"
+    📚 [BIBLE_READING] Para #79
+       Text: "Bible in a year reading plan: - Proverbs 1-3"
        Why:  Matched Bible reading pattern: Bible in a year
 
   💡 SUGGESTIONS TO FIX:
@@ -172,977 +175,175 @@ ENTRIES WITH MISSING SECTIONS OR WARNINGS:
      - Add the actual scripture quote after the reference line
 
 
-📅 DAY 191: STUDY TOPIC JESUS AND THE SPIRIT. Part 6
+📅 DAY 206: STUDY TOPIC The Spirit in the life of Jesus part 2...
 ----------------------------------------
-  ❌ MISSING SECTIONS: scripture_ref, scripture_text, prayer
+  ❌ MISSING SECTIONS: scripture_ref, scripture_text
 
   PARAGRAPH ANALYSIS (what the parser saw):
-    🔢 [DAY_MARKER] Para #75
-       Text: "Day 191"
+    🔢 [DAY_MARKER] Para #80
+       Text: "Day 206"
        Why:  Matched day pattern: Day N
-    📌 [TITLE] Para #77
-       Text: "STUDY TOPIC JESUS AND THE SPIRIT. Part 6"
+    📌 [TITLE] Para #82
+       Text: "STUDY TOPIC The Spirit in the life of Jesus part 21"
        Why:  First non-day paragraph after Day marker, interpreted as title
-    💭 [DEVOTIONAL] Para #79
-       Text: "Mary was to understand that God’s will for her life could only be accomplished b..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #80
-       Text: "As we have said, what God did through Mary was very unique and will never be rep..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #81
-       Text: "We will not be able to do the will of God for our lives without the ongoing crea..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #82
-       Text: "The fascinating thing about the birth announcement of Jesus is that it is not ve..."
-       Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #84
-       Text: "Often when it comes to accomplishing God’s will, for us knowing details is often..."
+       Text: "The Holy Spirit and the ascension of Jesus. Acts 1 and 2"
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #85
+       Text: "We want to finish off this study topic by looking at the Holy Spirit and the asc..."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #86
-       Text: "The will of God for our lives should make us more open to the work of the Holy S..."
+       Text: "As we look at this, there are two truths we need to keep in mind: -"
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #87
-       Text: "I am coming to believe that God’s will for every individual is one of the things..."
+    💭 [DEVOTIONAL] Para #88
+       Text: "Firstly, the church as a collection of individuals make up the body of Christ, a..."
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #89
-       Text: "Let me point a number of lessons from the work of the Spirit in the life of Mary..."
+    💭 [DEVOTIONAL] Para #90
+       Text: "Secondly, we need to view Jesus’ ascension as his enthronement and Pentecost is ..."
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #91
-       Text: "1. There will be glory and pain of the work of the Spirit in our lives."
+    💭 [DEVOTIONAL] Para #92
+       Text: "The background to Pentecost."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #93
-       Text: "The nativity story teaches us that the work of the Spirit in our lives is glorio..."
+       Text: "Originally Pentecost was a Jewish feast or celebration which comes in the early ..."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #94
-       Text: "Consider these words:-"
+       Text: "We know from the Old Testament that this feast was originally ordained by God so..."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #95
-       Text: "‘The Word became flesh! God became human! The invisible became visible! The unto..."
+       Text: "For Christians, Pentecost should be a very important day, although sadly the pro..."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #97
-       Text: "Think about how amazing, how wonderful, how fantastic,  how glorious, how marvel..."
+       Text: "What can we learn from the day of Pentecost? What can it teach us?"
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #99
-       Text: "The glorious work of the Spirit in a persons life will never make them immune to..."
+       Text: "1. Pentecost is God’s victory cry."
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #101
-       Text: "Mary was a young girl between the age of 12-15 who was betrothed to a man called..."
+    💭 [DEVOTIONAL] Para #100
+       Text: "The coming of the Holy Spirit is tangible evidence that Jesus is Lord. It is one..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #102
+       Text: "When we compare the coming of the Holy Spirit at Pentecost, with the coming of t..."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #103
-       Text: "There are two important things I want to say about this."
+       Text: "Luke says, in Acts 2:2 ‘And suddenly from heaven there came a sound like the rus..."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #104
-       Text: "At their essence most of the plans we make, especially life changing plans, like..."
+       Text: "The activity of the Spirit within the church will always demonstrate the victory..."
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #106
-       Text: "Have you ever thought that Mary could have said no, just as much as we have the ..."
+    💭 [DEVOTIONAL] Para #105
+       Text: "Someone has said. ‘The Ascension activates Christ’s victory in history.’  And at..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #107
+       Text: "Through the coming Spirit, God began to fill the world with a new knowledge of H..."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #108
-       Text: "Also we need to come to a heart conviction that it is better to live a difficult..."
+       Text: "Before the day of Pentecost the Holy Spirit was active on the earth. In the Old ..."
        Why:  No special markers found, classified as devotional content
-    📚 [BIBLE_READING] Para #110
-       Text: "Bible in a year reading plan: Psalm 106-107"
-       Why:  Matched Bible reading pattern: Bible in a year
-
-  💡 SUGGESTIONS TO FIX:
-     - Add 'Study Text: [Book Chapter:Verse]' line after the title
-       Example: 'Study Text: John 3:16-18'
-     - Add the actual scripture quote after the reference line
-     - Add 'Prayer:- [prayer text]' or 'Prayer: [prayer text]'
-
-
-📅 DAY 192: STUDY TOPIC JESUS AND THE SPIRIT. Part 7
-----------------------------------------
-  ❌ MISSING SECTIONS: scripture_ref, scripture_text
-
-  PARAGRAPH ANALYSIS (what the parser saw):
-    🔢 [DAY_MARKER] Para #111
-       Text: "Day 192"
-       Why:  Matched day pattern: Day N
-    📌 [TITLE] Para #113
-       Text: "STUDY TOPIC JESUS AND THE SPIRIT. Part 7"
-       Why:  First non-day paragraph after Day marker, interpreted as title
+    💭 [DEVOTIONAL] Para #110
+       Text: "The day of Pentecost is the inauguration of God’s new creation."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #111
+       Text: "The events that are recorded for us in Acts 2 not only have its roots in the Sha..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #112
+       Text: "‘In the beginning God created the heavens and the earth. 2 Now the earth was for..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #114
+       Text: "Look at the descriptive words that are used in this verse, formless, empty and d..."
+       Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #115
-       Text: "There were lots of reasons why Mary could have said no, she could have played it..."
+       Text: "If we are going to understand the church and God’s intention and plan for His ch..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #116
+       Text: "The character and work of the church should be an expression and an extension of..."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #117
-       Text: "But not only is Mary going to know the pain of the life of the Spirit but she is..."
+       Text: "‘If the Holy Spirit was withdrawn from the church today, 95 percent of what we d..."
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #119
-       Text: "For Mary the work of the Holy Spirit in her life did not protect her from the pa..."
+    💭 [DEVOTIONAL] Para #118
+       Text: "A.W.Tozer.https://www.thejesusgathering.org/aw-tozer.html accessed 4/04/2025"
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #121
-       Text: "The work of the Holy Spirit in the life of Mary teaches us that submission is mo..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #122
-       Text: "If you were to really think about it, Mary is probably the least likely person w..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #123
-       Text: "Nazareth is not mentioned in the Old Testament nor is it among the sixty-three v..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #125
-       Text: "I read one source that explained that Nazareth evolved into the major refuge sit..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #126
-       Text: "The Nativity story teaches us, that in our obscurity and isolation we need an en..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #127
-       Text: "Sometimes we can feel so isolated, so cut of from others and we can be tempted t..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #128
-       Text: "D L Moody said, “The world has yet to see what God can do with a man fully conse..."
-       Why:  No special markers found, classified as devotional content
+    🙏 [PRAYER] Para #121
+       Text: "Prayer, Father thank you that the day of Pentecost is a declaration of Jesus’ gr..."
+       Why:  Matched prayer pattern: **Prayer**
+    📚 [BIBLE_READING] Para #123
+       Text: "Bible in a year reading plan: - Proverbs 4-6"
+       Why:  Matched Bible reading pattern: Bible in a year
+
+  💡 SUGGESTIONS TO FIX:
+     - Add 'Study Text: [Book Chapter:Verse]' line after the title
+       Example: 'Study Text: John 3:16-18'
+     - Add the actual scripture quote after the reference line
+
+
+📅 DAY 207: STUDY TOPIC The Spirit in the life of Jesus part 2...
+----------------------------------------
+  ❌ MISSING SECTIONS: scripture_ref, scripture_text
+
+  PARAGRAPH ANALYSIS (what the parser saw):
+    🔢 [DAY_MARKER] Para #124
+       Text: "Day 207"
+       Why:  Matched day pattern: Day N
+    📌 [TITLE] Para #126
+       Text: "STUDY TOPIC The Spirit in the life of Jesus part 22"
+       Why:  First non-day paragraph after Day marker, interpreted as title
     💭 [DEVOTIONAL] Para #129
-       Text: "Mary was seemingly a nobody from a despised place, but because of her submission..."
+       Text: "The Holy Spirit empowers people to be authentic witnesses. See Acts 1:8."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #131
-       Text: "The work of the Holy Spirit in our lives needs to sanctify the ordinary."
+       Text: "Think about how this power transformed the first-century believers. Prior to Pen..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #132
+       Text: "We need to try and understand what the bible means when it is speaking about us ..."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #133
-       Text: "After the angel Gabriel came to Mary, everything in her world changed. The futur..."
+       Text: "This development of the word is described in the Encyclopaedia Britannica."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #134
+       Text: "‘The original meaning of the Greek word martys was ‘witness’; in this sense it i..."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #135
-       Text: "It was in the mundane ordinariness of the every day that God found the space to ..."
+       Text: "When the Holy Spirit really touches a person’s life, that person develops the at..."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #137
-       Text: "The work of the Holy Spirit in our lives will challenge how we think about ourse..."
+       Text: "The Holy Spirit makes the church relevant."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #138
+       Text: "On the day of Pentecost the disciples began to speak in other languages, languag..."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #139
-       Text: "What is going on here? The English words “highly favoured” in the verse above ar..."
+       Text: "These disciples were able to relate to and communicate with people who were beyo..."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #140
-       Text: "‘Mary you are highly favoured!’ for Mary this did not add up. She would never ha..."
+       Text: "Just before we go on let me mention that if you read the gospels you will notice..."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #141
-       Text: "I love the fact that the work of the Spirit in a persons life will always affirm..."
+       Text: "Was Jesus being naive? no, not at all, because He knew that the Holy Spirit that..."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #143
-       Text: "Just like many of us, Mary struggled with the fact that she was favoured by God...."
+       Text: "The work of the Holy Spirit in the church will cause the world to ask questions."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #145
-       Text: "We know in our heads that God loves and accepts us, but we live and think as if ..."
+       Text: "I think sometimes we believe that being relevant means that we make people feel ..."
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #146
-       Text: "One of the crucial roles, if not THE MOST crucial role of the Spirit is to affir..."
+    💭 [DEVOTIONAL] Para #147
+       Text: "The power of the Spirit is for all who love Jesus."
        Why:  No special markers found, classified as devotional content
-    🙏 [PRAYER] Para #148
-       Text: "Prayer, Father may the Holy Spirit help me to receive your love and encouragemen..."
+    💭 [DEVOTIONAL] Para #149
+       Text: "If we are used to thinking that God only wants to use a certain type of person, ..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #150
+       Text: "At Pentecost all the institutional norms were abolished. There was no more spiri..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #151
+       Text: "On the Day of Pentecost all the disciples were gathered together in one place, s..."
+       Why:  No special markers found, classified as devotional content
+    🙏 [PRAYER] Para #153
+       Text: "Prayer, Father please give your church a new experience of your Spirit."
        Why:  Matched prayer pattern: **Prayer**
-    📚 [BIBLE_READING] Para #150
-       Text: "Bible in a year reading plan: - Psalm 108-111"
-       Why:  Matched Bible reading pattern: Bible in a year
-
-  💡 SUGGESTIONS TO FIX:
-     - Add 'Study Text: [Book Chapter:Verse]' line after the title
-       Example: 'Study Text: John 3:16-18'
-     - Add the actual scripture quote after the reference line
-
-
-📅 DAY 193: STUDY TOPIC JESUS AND THE SPIRIT. Part 8
-----------------------------------------
-  ❌ MISSING SECTIONS: scripture_ref, scripture_text
-
-  PARAGRAPH ANALYSIS (what the parser saw):
-    🔢 [DAY_MARKER] Para #153
-       Text: "Day 193"
-       Why:  Matched day pattern: Day N
-    📌 [TITLE] Para #155
-       Text: "STUDY TOPIC JESUS AND THE SPIRIT. Part 8"
-       Why:  First non-day paragraph after Day marker, interpreted as title
-    💭 [DEVOTIONAL] Para #157
-       Text: "The Baptism Of Jesus. Matthew 3:13-16"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #159
-       Text: "Many people, both Christians and non Christians are living with an acute crisis ..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #161
-       Text: "‘Most Christians do not know who they are in Christ, to one degree of another. W..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #163
-       Text: "Knowing who we are before God is essential for a holy and effective life. Many o..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #165
-       Text: "As we are going to see from the life of Jesus, the role of the Holy Spirit in ou..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #166
-       Text: "Paul said it this way in Romans 8:15-16 ‘’So you have not received a spirit that..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #167
-       Text: "We need to get our minds around this. As it was for Jesus so it needs to be for ..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #169
-       Text: "We know that Jesus did his ministry through the power of the Spirit, see Acts 10..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #170
-       Text: "But this power of the Spirit for ministry was an expression of him knowing his F..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #171
-       Text: "‘’There was no identity crisis in the life of Jesus Christ. He knew who He was. ..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #173
-       Text: "The Holy Spirit at the Baptism of Jesus"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #175
-       Text: "1. Let’s consider the heart attitude as Jesus got baptised."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #177
-       Text: "a. Humility."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #178
-       Text: "Jesus went to John to be baptized. This is very strange because John was baptizi..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #179
-       Text: "We know that Jesus had lived a life free from sin, he lived a life in continual ..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #181
-       Text: "b. Prayer."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #182
-       Text: "Luke tells us, ‘As he was praying the heavens opened.’ we do not know what Jesus..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #184
-       Text: "Isaiah 64:1-4"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #185
-       Text: "‘Oh, that you would rend the heavens and come down, that the mountains would tre..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #187
-       Text: "It is interesting to note that the prayer recorded in Isaiah 64:1-4 is that God ..."
-       Why:  No special markers found, classified as devotional content
-    🙏 [PRAYER] Para #189
-       Text: "Prayer, Father please help me to know that my identity is in you, not in the wor..."
-       Why:  Matched prayer pattern: **Prayer**
-    📚 [BIBLE_READING] Para #190
-       Text: "Bible in a year reading plan: Psalm 112 – 115."
-       Why:  Matched Bible reading pattern: Bible in a year
-
-  💡 SUGGESTIONS TO FIX:
-     - Add 'Study Text: [Book Chapter:Verse]' line after the title
-       Example: 'Study Text: John 3:16-18'
-     - Add the actual scripture quote after the reference line
-
-
-📅 DAY 194: STUDY TOPIC JESUS AND THE SPIRIT. Part 9
-----------------------------------------
-  ❌ MISSING SECTIONS: scripture_ref, scripture_text
-
-  PARAGRAPH ANALYSIS (what the parser saw):
-    🔢 [DAY_MARKER] Para #192
-       Text: "Day 194"
-       Why:  Matched day pattern: Day N
-    📌 [TITLE] Para #194
-       Text: "STUDY TOPIC JESUS AND THE SPIRIT. Part 9"
-       Why:  First non-day paragraph after Day marker, interpreted as title
-    💭 [DEVOTIONAL] Para #196
-       Text: "The Holy Spirit in bodily form descended on him like a dove."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #198
-       Text: "I don’t think this was Jesus’ first experience of the Spirit. Although we are no..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #200
-       Text: "There has been a lot of debate about the significance of the Spirit descending o..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #202
-       Text: "Jesus lived his entire human life in a country that was under the aggressive aut..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #204
-       Text: "The voice of the Father"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #205
-       Text: "I don’t know if you have ever seen the film ‘The King’s Speech?’  It tells the s..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #207
-       Text: "‘My father was frightened of his mother; I was frightened of my father, and I am..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #209
-       Text: "Imagine [maybe you don’t have to imagine it.] being brought up in atmosphere of ..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #211
-       Text: "I wonder what you think of this quote by J I Packer."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #212
-       Text: "“You sum up the whole of New Testament religion if you describe it as the knowle..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #213
-       Text: "https://www.goodreads.com/quotes/958523-you-sum-up-the-whole-of-new-testament-re..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #215
-       Text: "Many of us are happy to relate to God as Lord, or Saviour, or King, but not fath..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #217
-       Text: "In the New Testament, Father was the word Jesus used most often when speaking ab..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #219
-       Text: "The word Abba that Jesus used in Mark 14:36 which reads. Abba, Father,” he said,..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #221
-       Text: "This is an incomplete understanding of the word. The word was also used by adult..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #223
-       Text: "Sometimes the voice of the Father is the most difficult voice to hear, we are mo..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #224
-       Text: "Sometimes we allow the lies of the enemy to control our minds, and we cannot rea..."
-       Why:  No special markers found, classified as devotional content
-    🙏 [PRAYER] Para #226
-       Text: "Prayer, Father thank you that you love and enjoy being my Father"
-       Why:  Matched prayer pattern: **Prayer**
-    📚 [BIBLE_READING] Para #228
-       Text: "Bible in a year reading plan: - Psalm 116-118"
-       Why:  Matched Bible reading pattern: Bible in a year
-
-  💡 SUGGESTIONS TO FIX:
-     - Add 'Study Text: [Book Chapter:Verse]' line after the title
-       Example: 'Study Text: John 3:16-18'
-     - Add the actual scripture quote after the reference line
-
-
-📅 DAY 195: STUDY TOPIC JESUS AND THE SPIRIT. Part 10
-----------------------------------------
-  ❌ MISSING SECTIONS: scripture_ref, scripture_text
-
-  PARAGRAPH ANALYSIS (what the parser saw):
-    🔢 [DAY_MARKER] Para #230
-       Text: "Day 195"
-       Why:  Matched day pattern: Day N
-    📌 [TITLE] Para #233
-       Text: "STUDY TOPIC JESUS AND THE SPIRIT. Part 10"
-       Why:  First non-day paragraph after Day marker, interpreted as title
-    💭 [DEVOTIONAL] Para #236
-       Text: "Through the ministry of the Spirit, the Father expressed his love by affirming J..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #238
-       Text: "As we have been saying, knowing who we are and accepting who we are can be a dif..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #240
-       Text: "Biblically a persons identity has nothing to do with what we do, or what we achi..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #242
-       Text: "For Jesus accepting his identity was about him being able to be the person his F..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #243
-       Text: "Most of the time when we find ourselves far from God, it can usually be traced b..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #245
-       Text: "The Father also expressed his pleasure with his Son."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #247
-       Text: "I find this amazing, God the Father did not think, ‘Jesus knows how I feel about..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #249
-       Text: "It would be very easy to read this incident in the life of Jesus, and think, its..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #252
-       Text: "In Psalm 2 7-9 we read 7 ‘I will proclaim the Lord’s decree:  He said to me, “Yo..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #254
-       Text: "The second passage that is alluded to is Genesis 22 look at what it says, Some t..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #256
-       Text: "The third passage is Isaiah 42:1 “Here is my servant, whom I uphold,"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #256
-       Text: "my chosen one in whom I delight. Isaiah 42:1-4 is the first reference of four th..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #258
-       Text: "As Jesus listened to his father speak, he not only heard affirming words of enco..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #261
-       Text: "‘There was no identity crisis in the life of Jesus Christ. He knew who He was. H..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #262
-       Text: "Howard G. Hendricks https://quotefancy.com/quote/1591744/Howard-G-Hendricks-Ther..."
-       Why:  No special markers found, classified as devotional content
-    🙏 [PRAYER] Para #263
-       Text: "Prayer, Father thank you we find the courage to do your will when we discover an..."
-       Why:  Matched prayer pattern: **Prayer**
-    📚 [BIBLE_READING] Para #264
-       Text: "Bible in a year reading plan Psalm 119:1-48"
-       Why:  Matched Bible reading pattern: Bible in a year
-
-  💡 SUGGESTIONS TO FIX:
-     - Add 'Study Text: [Book Chapter:Verse]' line after the title
-       Example: 'Study Text: John 3:16-18'
-     - Add the actual scripture quote after the reference line
-
-
-📅 DAY 196: STUDY TOPIC The Spirit in the life of Jesus part 1...
-----------------------------------------
-  ❌ MISSING SECTIONS: scripture_ref, scripture_text
-
-  PARAGRAPH ANALYSIS (what the parser saw):
-    🔢 [DAY_MARKER] Para #268
-       Text: "Day 196"
-       Why:  Matched day pattern: Day N
-    📌 [TITLE] Para #270
-       Text: "STUDY TOPIC The Spirit in the life of Jesus part 11"
-       Why:  First non-day paragraph after Day marker, interpreted as title
-    💭 [DEVOTIONAL] Para #272
-       Text: "The Holy Spirits involvement in Jesus’ temptation in the wilderness."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #274
-       Text: "It is very surprising what happened to Jesus after he experienced the Holy Spiri..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #275
-       Text: "It is as if Jesus as a man, needed to experience the life and work of the Spirit..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #276
-       Text: "Or to put it an other way, the work of the Spirit in Jesus’ personal life was a ..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #278
-       Text: "Jesus was submitted to the Spirit."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #279
-       Text: "As we have seen before. The word translated compelled is ekballo in Mark 1:12 is..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #282
-       Text: "We are not told how the Spirit did this. But as a man, Jesus made a conscious ch..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #284
-       Text: "The word for wilderness (eremos) means lonesome, solitary, uninhabited, uncultiv..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #285
-       Text: "In this remote, largely uninhabited area, Jesus might be more alone than anywher..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #287
-       Text: "I love the fact that Luke speaks about Jesus being loved by the Father before be..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #289
-       Text: "We must not overthink or allow our insecurities to prevent us from acting. Knowi..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #291
-       Text: "I think I have fallen into the trap of thinking, that the work of the Spirit in ..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #293
-       Text: "It is amazing that if you read through Luke’s gospel you will notice that Jesus ..."
-       Why:  No special markers found, classified as devotional content
-    🙏 [PRAYER] Para #295
-       Text: "Prayer, Father help me to accept the fact that sometimes the wilderness is compl..."
-       Why:  Matched prayer pattern: **Prayer**
-    📚 [BIBLE_READING] Para #297
-       Text: "Bible in a year reading plan: - Psalm 119:49-96"
-       Why:  Matched Bible reading pattern: Bible in a year
-
-  💡 SUGGESTIONS TO FIX:
-     - Add 'Study Text: [Book Chapter:Verse]' line after the title
-       Example: 'Study Text: John 3:16-18'
-     - Add the actual scripture quote after the reference line
-
-
-📅 DAY 197: STUDY TOPIC The Spirit in the life of Jesus part 1...
-----------------------------------------
-  ❌ MISSING SECTIONS: scripture_ref, scripture_text
-
-  PARAGRAPH ANALYSIS (what the parser saw):
-    🔢 [DAY_MARKER] Para #300
-       Text: "Day 197"
-       Why:  Matched day pattern: Day N
-    📌 [TITLE] Para #302
-       Text: "STUDY TOPIC The Spirit in the life of Jesus part 12"
-       Why:  First non-day paragraph after Day marker, interpreted as title
-    💭 [DEVOTIONAL] Para #304
-       Text: "There is something else we need to consider about the wilderness/ethmos. It was ..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #306
-       Text: "Back to our word ekballo in Mark 1:12. As we have mentioned before, it was mostl..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #308
-       Text: "It is interesting that Mark 1:12 uses the word ekballo for Jesus being led/drive..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #311
-       Text: "When we compare what Luke tells us about Jesus being led by the Spirit into the ..."
-       Why:  No special markers found, classified as devotional content
-    🙏 [PRAYER] Para #312
-       Text: "Prayer, Father thank you, like you did with Jesus, sometimes you want to lead us..."
-       Why:  Matched prayer pattern: **Prayer**
-    📚 [BIBLE_READING] Para #313
-       Text: "Bible in a year reading plan: - Psalm 119:97-144"
-       Why:  Matched Bible reading pattern: Bible in a year
-
-  💡 SUGGESTIONS TO FIX:
-     - Add 'Study Text: [Book Chapter:Verse]' line after the title
-       Example: 'Study Text: John 3:16-18'
-     - Add the actual scripture quote after the reference line
-
-
-📅 DAY 198: STUDY TOPIC The Spirit in the life of Jesus part 1...
-----------------------------------------
-  ❌ MISSING SECTIONS: scripture_ref, scripture_text
-
-  PARAGRAPH ANALYSIS (what the parser saw):
-    🔢 [DAY_MARKER] Para #318
-       Text: "Day 198"
-       Why:  Matched day pattern: Day N
-    📌 [TITLE] Para #320
-       Text: "STUDY TOPIC The Spirit in the life of Jesus part 13"
-       Why:  First non-day paragraph after Day marker, interpreted as title
-    💭 [DEVOTIONAL] Para #322
-       Text: "It may be good to ask the question, ‘What did it look like for Jesus in the wild..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #324
-       Text: "The gospel writers do not explicitly tell us but they do give us some clues: -"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #326
-       Text: "1.He was biblically minded."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #328
-       Text: "If you listen to what Jesus said at this time in the wilderness, all the words w..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #330
-       Text: "2. He was self controlled."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #332
-       Text: "This was a physically challenging time for Jesus, he was hungry and tired, livin..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #334
-       Text: "3. He trusted his Father."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #336
-       Text: "As we have said, Jesus had divine power, and with a word he could have turned th..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #338
-       Text: "This is both amazing and extremely relevant. Here was Jesus, the creator of the ..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #340
-       Text: "Like Jesus we need to learn what it means to be led by the Spirit, especially at..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #341
-       Text: "Maybe it is in the grit of our personal wildernesses that we learn what it means..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #342
-       Text: "Could it be that the wilderness is Gods training ground where we learn the ways ..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #343
-       Text: "Could it be that God-initiated spiritual warfare, is one of the things God choos..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #345
-       Text: "Let me conclude with a quote used by David Johnson in Gasping for breath"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #346
-       Text: "In his book, Backpacking with the saints, Belden Lane asks. ‘What happens when a..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #348
-       Text: "This is why it is so important to submit to the leading of the Spirit no matter ..."
-       Why:  No special markers found, classified as devotional content
-    🙏 [PRAYER] Para #350
-       Text: "Prayer, Father thank you that there is something holy about the vulnerability of..."
-       Why:  Matched prayer pattern: **Prayer**
-    📚 [BIBLE_READING] Para #352
-       Text: "Bible in a year reading plan Psalm 119:145-176"
-       Why:  Matched Bible reading pattern: Bible in a year
-
-  💡 SUGGESTIONS TO FIX:
-     - Add 'Study Text: [Book Chapter:Verse]' line after the title
-       Example: 'Study Text: John 3:16-18'
-     - Add the actual scripture quote after the reference line
-
-
-📅 DAY 199: STUDY TOPIC The Spirit in the life of Jesus part 1...
-----------------------------------------
-  ❌ MISSING SECTIONS: scripture_ref, scripture_text
-
-  PARAGRAPH ANALYSIS (what the parser saw):
-    🔢 [DAY_MARKER] Para #354
-       Text: "Day 199"
-       Why:  Matched day pattern: Day N
-    📌 [TITLE] Para #356
-       Text: "STUDY TOPIC The Spirit in the life of Jesus part 14"
-       Why:  First non-day paragraph after Day marker, interpreted as title
-    💭 [DEVOTIONAL] Para #358
-       Text: "The role of the Holy Spirit in the Ministry of Jesus."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #360
-       Text: "I wonder how you understand ministry? How would you define Christian ministry? W..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #362
-       Text: "On June 13th 1995 The Chicago Tribune ran a story about a man named"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #362
-       Text: "Russell Edward Herman died at the age of 67 and in his will he left trillions of..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #362
-       Text: "• $1.5 Billion for “projects” in southeastern Illinois"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #362
-       Text: "• $6 Trillion to the Federal Reserve Board to pay off the National Debt."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #362
-       Text: "• $6 Trillion to the U. S. Treasury to get the country back on track."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #362
-       Text: "• $2.41 Billion for national forests"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #362
-       Text: "• $2.41 Billion to the Ohio River Town of Cave-In Rock"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #362
-       Text: "• $189 Trillion for the “rehabilitation of states’ rights”"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #362
-       Text: "• $1 Million in American Gold Dollars to each person who has lived in Gallatin C..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #364
-       Text: "What was the catch?  Russell Edward Herman didn’t have trillions of dollars. He ..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #366
-       Text: "Although we can see the funny side of this, something like this can often happen..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #367
-       Text: "I don’t believe for one moment that people who see their ministry decline into s..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #368
-       Text: "However, I will never forget a missionary in France telling me he was happy ‘to ..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #369
-       Text: "Sadly many who are involved in ministry have succumb to the same attitude.  List..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #370
-       Text: "“I guess it comes down to a simple choice Billy, Get busy living or get busy dyi..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #372
-       Text: "Sadly some ministries have got busy dying. They have lots of activities, lots of..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #373
-       Text: "This is why this passage in Luke 4:14-21 is an essential requirement if we are g..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #375
-       Text: "All ministry requires a distinctiveness that can only be explained by the power ..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #376
-       Text: "It is good to ask the question, If a ministry is not empowered and sustained by ..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #378
-       Text: "With this is mind let’s look at our passage, Luke 4:14-21."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #380
-       Text: "‘’Jesus returned to Galilee in the power of the Spirit, and news about him sprea..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #381
-       Text: "“The Spirit of the Lord is on me,"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #381
-       Text: "because he has anointed me"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #381
-       Text: "to proclaim good news to the poor."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #381
-       Text: "He has sent me to proclaim freedom for the prisoners"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #381
-       Text: "and recovery of sight for the blind,"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #381
-       Text: "to set the oppressed free,"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #381
-       Text: "to proclaim the year of the Lord’s favour.”"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #383
-       Text: "Then he rolled up the scroll, gave it back to the attendant and sat down. The ey..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #384
-       Text: "What was Jesus saying here?"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #385
-       Text: "This was a proclamation from Jesus, letting the listeners know that His ministry..."
-       Why:  No special markers found, classified as devotional content
-    🙏 [PRAYER] Para #386
-       Text: "Prayer, Father help me to have a Spirit-filled ministry."
-       Why:  Matched prayer pattern: **Prayer**
-    📚 [BIBLE_READING] Para #387
-       Text: "Bible in a year reading plan: - Psalm 120-125"
-       Why:  Matched Bible reading pattern: Bible in a year
-
-  💡 SUGGESTIONS TO FIX:
-     - Add 'Study Text: [Book Chapter:Verse]' line after the title
-       Example: 'Study Text: John 3:16-18'
-     - Add the actual scripture quote after the reference line
-
-
-📅 DAY 200: STUDY TOPIC The Spirit in the life of Jesus part 1...
-----------------------------------------
-  ❌ MISSING SECTIONS: scripture_ref, scripture_text
-
-  PARAGRAPH ANALYSIS (what the parser saw):
-    🔢 [DAY_MARKER] Para #390
-       Text: "Day 200"
-       Why:  Matched day pattern: Day N
-    📌 [TITLE] Para #392
-       Text: "STUDY TOPIC The Spirit in the life of Jesus part 15"
-       Why:  First non-day paragraph after Day marker, interpreted as title
-    💭 [DEVOTIONAL] Para #394
-       Text: "The role of the Holy Spirit in the Ministry of Jesus (Luke 4 14-30)"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #396
-       Text: "Jesus chose to preach this sermon to those who thought they knew him best."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #398
-       Text: "Why would he do that?"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #399
-       Text: "He was teaching us that through the presence and power of the Spirit, God can us..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #401
-       Text: "Initially everyone was amazed at his teaching, however that soon changed!!"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #403
-       Text: "‘’All spoke well of him and were amazed at the gracious words that came from his..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #405
-       Text: "‘Isn’t this Joseph’s son?’"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #407
-       Text: "If we were to think about this, this must have taken a lot of courage on Jesus’ ..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #408
-       Text: "This was a significant moment in the life of Jesus. In the face being rejected, ..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #409
-       Text: "influenced more by the work of the Spirit in his life, than the wrong opinions, ..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #411
-       Text: "If we continually live out of our insecurities,  and have a constant need for th..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #413
-       Text: "‘’All the people in the synagogue were furious when they heard this. They got up..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #415
-       Text: "Even though Jesus’ ministry was Spirit led, that didn’t guarantee success or eff..."
-       Why:  No special markers found, classified as devotional content
-    🙏 [PRAYER] Para #417
-       Text: "Prayer, Father please help me to bring everything before you even my hurt and di..."
-       Why:  Matched prayer pattern: **Prayer**
-    📚 [BIBLE_READING] Para #418
-       Text: "Bible in a year plan Psalm 126-129"
-       Why:  Matched Bible reading pattern: Bible in a year
-
-  💡 SUGGESTIONS TO FIX:
-     - Add 'Study Text: [Book Chapter:Verse]' line after the title
-       Example: 'Study Text: John 3:16-18'
-     - Add the actual scripture quote after the reference line
-
-
-📅 DAY 201: STUDY TOPIC The Spirit in the life of Jesus part 1...
-----------------------------------------
-  ❌ MISSING SECTIONS: scripture_ref, scripture_text
-
-  PARAGRAPH ANALYSIS (what the parser saw):
-    🔢 [DAY_MARKER] Para #421
-       Text: "Day 201"
-       Why:  Matched day pattern: Day N
-    📌 [TITLE] Para #423
-       Text: "STUDY TOPIC The Spirit in the life of Jesus part 16"
-       Why:  First non-day paragraph after Day marker, interpreted as title
-    💭 [DEVOTIONAL] Para #425
-       Text: "The role of the Holy Spirit in the Ministry of Jesus"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #427
-       Text: "What does a Spirit filled ministry look like?"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #429
-       Text: "What can we learn from Jesus’ understanding of his ministry?"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #431
-       Text: "1. A Spirit filled ministry gives people a right understanding about God by reve..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #432
-       Text: "Before Jesus came, people had been wondering what God is really like... There ha..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #434
-       Text: "And then God became a man and we could see what He was like. He came for the poo..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #435
-       Text: "Jesus’ ministry, corrected and changed peoples understanding of God. Ministry sh..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #437
-       Text: "The bible has many verses that say we should be continually caring for the poor ..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #438
-       Text: "Deuteronomy 15:7"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #438
-       Text: "“But if there are any poor Israelites in your towns when you arrive in the land ..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #439
-       Text: "Deuteronomy 15:10"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #439
-       Text: "“Give generously to the poor, not grudgingly, for the Lord your God will bless y..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #440
-       Text: "Deuteronomy 15:11"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #440
-       Text: "“There will always be some in the land who are poor. That is why I am commanding..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #441
-       Text: "Deuteronomy 24:14"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #441
-       Text: "“Never take advantage of poor and destitute labourers, whether they are fellow I..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #442
-       Text: "Deuteronomy 27:19"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #442
-       Text: "“Cursed is the man who withholds justice from the alien, the fatherless or the w..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #443
-       Text: "Proverbs 14:31"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #443
-       Text: "“He who oppresses the poor shows contempt for their Maker, but whoever is kind t..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #445
-       Text: "Ezekiel 18:5-9"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #446
-       Text: "“Suppose there is a righteous man who does what is just and right. He does not e..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #447
-       Text: "The implications of these verses are, if we do not care for the poor we are guil..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #448
-       Text: "The power of the Spirit in our lives will always cause a connection with those w..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #450
-       Text: "2. A spirit filled ministry enhances our humanity by compensating for our limita..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #452
-       Text: "Let me read you a quote."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #454
-       Text: "‘Jesus was indeed a human being, a genuine human person, owning all the limitati..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #456
-       Text: "We have got limitations, sometimes we complain and moan about them. We often thi..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #457
-       Text: "Matthew 6:1-2, teaches us that giving to the poor is an act of righteousness, an..."
-       Why:  No special markers found, classified as devotional content
-    🙏 [PRAYER] Para #459
-       Text: "Prayer, Father may the Work of the Holy Spirit in me produce a continuous genero..."
-       Why:  Matched prayer pattern: **Prayer**
-    📚 [BIBLE_READING] Para #461
-       Text: "Bible in a year reading plan: Psalm 130-133"
-       Why:  Matched Bible reading pattern: Bible in a year
-
-  💡 SUGGESTIONS TO FIX:
-     - Add 'Study Text: [Book Chapter:Verse]' line after the title
-       Example: 'Study Text: John 3:16-18'
-     - Add the actual scripture quote after the reference line
-
-
-📅 DAY 202: STUDY TOPIC The Spirit in the life of Jesus part 1...
-----------------------------------------
-  ❌ MISSING SECTIONS: scripture_ref, scripture_text
-
-  PARAGRAPH ANALYSIS (what the parser saw):
-    🔢 [DAY_MARKER] Para #462
-       Text: "Day 202"
-       Why:  Matched day pattern: Day N
-    📌 [TITLE] Para #464
-       Text: "STUDY TOPIC The Spirit in the life of Jesus part 17"
-       Why:  First non-day paragraph after Day marker, interpreted as title
-    💭 [DEVOTIONAL] Para #466
-       Text: "A Spirit filled ministry redefines our understanding of the gospel."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #467
-       Text: "The problem with Luke 4:18-19, is that many people have over spiritualised it. S..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #469
-       Text: "When it comes to sharing the gospel there are two indispensable parts, there is ..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #471
-       Text: "When we reduce the ministry of the Spirit down to the words that we say, then we..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #473
-       Text: "For Jesus, the gospel was a radical expression of relevance, it was holistic, it..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #475
-       Text: "Life in the Spirit is explicitly incarnational and practical. It give us the abi..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #477
-       Text: "In 2008, David Knepprath and Josh Guisinger moved into the rough-and-tumble down..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #480
-       Text: "Life in the Spirit needs to be consistent with biblical truth."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #482
-       Text: "Jesus described his experience of the Spirit with biblical language. He quotes I..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #484
-       Text: "I think that there is a possibility that we have a too subjective understanding ..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #486
-       Text: "Life in the Spirit requires great courage."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #488
-       Text: "To live a Spirit filled life that will produce an effective ministry will mean t..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #489
-       Text: "This sermon of Jesus at Nazareth is a description and expectation of authentic m..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #491
-       Text: "Martin Niemöller (1892–1984) was a prominent Lutheran pastor in Germany. In the ..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #492
-       Text: "First they came for the Communists"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #492
-       Text: "And I did not speak out"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #492
-       Text: "Because I was not a Communist"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #492
-       Text: "Then they came for the Socialists"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #492
-       Text: "And I did not speak out"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #492
-       Text: "Because I was not a Socialist"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #492
-       Text: "Then they came for the trade unionists"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #492
-       Text: "And I did not speak out"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #492
-       Text: "Because I was not a trade unionist"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #492
-       Text: "Then they came for the Jews"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #492
-       Text: "And I did not speak out"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #492
-       Text: "Because I was not a Jew"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #492
-       Text: "Then they came for me"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #492
-       Text: "And there was no one left to speak out for me."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #493
-       Text: "https://hmd.org.uk/resource/first-they-came-by-pastor-martin-niemoller/"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #495
-       Text: "Jesus said, ‘“The Spirit of the Lord is upon me, for he has anointed me to bring..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #496
-       Text: "May it be the same for us."
-       Why:  No special markers found, classified as devotional content
-    🙏 [PRAYER] Para #498
-       Text: "Prayer, Father thank you that a Spirit’s life will cause us to be practical in o..."
-       Why:  Matched prayer pattern: **Prayer**
-    📚 [BIBLE_READING] Para #499
-       Text: "Bible in a year reading plan: Psalm 134-139"
+    📚 [BIBLE_READING] Para #155
+       Text: "Bible in a year reading plan: - Proverbs 7-10"
        Why:  Matched Bible reading pattern: Bible in a year
 
   💡 SUGGESTIONS TO FIX:

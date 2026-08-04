@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-18T21:54:20.962873",
-  "total_days": 215,
-  "complete_days": 161,
+  "generated": "2026-08-04T13:09:26.425146",
+  "total_days": 224,
+  "complete_days": 170,
   "incomplete_days": 54,
   "days": [
     {
@@ -2099,6 +2099,87 @@
       "title": "Learning How to Doubt. Part 2",
       "file": "day-215.json",
       "has_links": true,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 216,
+      "title": "Learning How to Doubt. Part 3",
+      "file": "day-216.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 217,
+      "title": "Learning How to Doubt. Part 4",
+      "file": "day-217.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 218,
+      "title": "The man born blind. Part 1",
+      "file": "day-218.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 219,
+      "title": "The man born blind. Part 2",
+      "file": "day-219.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 220,
+      "title": "The man born blind. Part 3",
+      "file": "day-220.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 221,
+      "title": "The man born blind. Part 4",
+      "file": "day-221.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 222,
+      "title": "Jesus and Nicodemus. Part 1",
+      "file": "day-222.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 223,
+      "title": "Jesus and Nicodemus. Part 2",
+      "file": "day-223.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 224,
+      "title": "Jesus and Nicodemus. Part 2",
+      "file": "day-224.json",
+      "has_links": false,
       "has_highlights": true,
       "is_complete": true,
       "missing_sections": []

@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-04T13:09:26.425146",
-  "total_days": 224,
-  "complete_days": 170,
+  "generated": "2026-08-16T08:30:09.193826",
+  "total_days": 228,
+  "complete_days": 174,
   "incomplete_days": 54,
   "days": [
     {
@@ -2179,6 +2179,42 @@
       "day": 224,
       "title": "Jesus and Nicodemus. Part 2",
       "file": "day-224.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 225,
+      "title": "Jesus and Nicodemus. Part 4",
+      "file": "day-225.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 226,
+      "title": "The danger of not recognising the Grace of God Part 1",
+      "file": "day-226.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 227,
+      "title": "The danger of not recognising the Grace of God Part 2",
+      "file": "day-227.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 228,
+      "title": "The danger of not recognising the Grace of God Part 3",
+      "file": "day-228.json",
       "has_links": false,
       "has_highlights": true,
       "is_complete": true,

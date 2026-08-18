@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-16T08:30:09.193826",
-  "total_days": 228,
-  "complete_days": 174,
+  "generated": "2026-08-18T21:43:38.132163",
+  "total_days": 233,
+  "complete_days": 179,
   "incomplete_days": 54,
   "days": [
     {
@@ -2215,6 +2215,51 @@
       "day": 228,
       "title": "The danger of not recognising the Grace of God Part 3",
       "file": "day-228.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 229,
+      "title": "Jesus before Pilate Part 1",
+      "file": "day-229.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 230,
+      "title": "Jesus before Pilate Part 2",
+      "file": "day-230.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 231,
+      "title": "Jesus before Pilate Part 3",
+      "file": "day-231.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 232,
+      "title": "Jesus\u2019 rebuke of Peter. Part 1",
+      "file": "day-232.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 233,
+      "title": "Jesus\u2019 rebuke of Peter. Part 2",
+      "file": "day-233.json",
       "has_links": false,
       "has_highlights": true,
       "is_complete": true,

@@ -133,6 +133,16 @@ You can also run it manually from **Actions → Process DOCX to data/** and pass
 python prepare_thoughts_v2.py "source-docx/YourFile.docx" data
 ```
 
+### Add a DOCX without opening GitHub
+
+`tools/gmail-to-github/` sets up a small Google Apps Script that watches your
+Gmail (and, optionally, a shared Drive folder) and commits new `.docx`
+attachments straight into `source-docx/` — which triggers the workflow above.
+
+Once configured, adding content is just: **forward the email to yourself**.
+Setup takes about ten minutes and needs no server or third-party service —
+see [tools/gmail-to-github/README.md](tools/gmail-to-github/README.md).
+
 ## 🎨 Customization
 
 ### Colors and Theming

@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-18T21:43:38.132163",
-  "total_days": 233,
-  "complete_days": 179,
+  "generated": "2026-08-20T18:36:28.714206",
+  "total_days": 238,
+  "complete_days": 184,
   "incomplete_days": 54,
   "days": [
     {
@@ -2260,6 +2260,51 @@
       "day": 233,
       "title": "Jesus\u2019 rebuke of Peter. Part 2",
       "file": "day-233.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 234,
+      "title": "Jesus\u2019 rebuke of Peter. Part 3",
+      "file": "day-234.json",
+      "has_links": false,
+      "has_highlights": false,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 235,
+      "title": "Jesus\u2019 rebuke of Peter. Part 4",
+      "file": "day-235.json",
+      "has_links": true,
+      "has_highlights": false,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 236,
+      "title": "Jesus\u2019 rebuke of Peter. Part 5",
+      "file": "day-236.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 237,
+      "title": "\u201cI have much more to say to you, more than you can now bear.\u00a0\u00a0But when he, the Spirit of truth,\u00a0comes, he will guide you into all the truth.\u00a0He will not speak on his own; he will speak only what he hears, and he will tell you what is yet to come.\u00a0He will glorify me because it is from me that he will receive what he will make known to you.\u00a01All that belongs to the Father is mine.\u00a0That is why I said the Spirit will receive from me what he will make known to you.\u201d",
+      "file": "day-237.json",
+      "has_links": false,
+      "has_highlights": false,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 238,
+      "title": "\u201cI have much more to say to you, more than you can now bear.\u00a0\u00a0But when he, the Spirit of truth,\u00a0comes, he will guide you into all the truth.\u00a0He will not speak on his own; he will speak only what he hears, and he will tell you what is yet to come.\u00a0He will glorify me because it is from me that he will receive what he will make known to you.\u00a01All that belongs to the Father is mine.\u00a0That is why I said the Spirit will receive from me what he will make known to you.\u201d",
+      "file": "day-238.json",
       "has_links": false,
       "has_highlights": true,
       "is_complete": true,

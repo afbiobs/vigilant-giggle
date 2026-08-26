@@ -1,9 +1,420 @@
 {
-  "generated": "2026-08-20T18:36:28.716112",
+  "generated": "2026-08-26T23:02:56.957137",
   "summary": {
     "total_entries": 5,
     "complete": 0,
-    "incomplete": 0
+    "incomplete": 4
   },
-  "issues": []
+  "issues": [
+    {
+      "day": 240,
+      "title": "STUDY TOPIC Loving righteousness Part 1",
+      "missing": [
+        "scripture_ref",
+        "scripture_text"
+      ],
+      "warnings": [],
+      "diagnostics": [
+        {
+          "para_index": 17,
+          "text_preview": "Day 240",
+          "classification": "DAY_MARKER",
+          "reason": "Matched day pattern: Day N"
+        },
+        {
+          "para_index": 19,
+          "text_preview": "STUDY TOPIC Loving righteousness Part 1",
+          "classification": "TITLE",
+          "reason": "First non-day paragraph after Day marker, interpreted as title"
+        },
+        {
+          "para_index": 21,
+          "text_preview": "One of the best known parts of the bible is what people call the ‘Sermon on the ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 23,
+          "text_preview": "When we hear the word ‘righteousness’ which is the word Matthew uses for holines...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 25,
+          "text_preview": "The word for righteousness is from the Greek word dikaiosyne which in the broad ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 26,
+          "text_preview": "We are going to look at how Jesus redefined righteousness and painted it in brig...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 28,
+          "text_preview": "Jesus’ ‘new take’ on righteousness.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 30,
+          "text_preview": "Righteousness requires an internal passion.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 32,
+          "text_preview": "We must approach to issue of righteousness with passionate hearts. Look and how ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 33,
+          "text_preview": "“Blessed are those who hunger and thirst for righteousness.” Matt 5:6.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 34,
+          "text_preview": "“But seek first the kingdom of God and his righteousness.” Matt 6:33.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 36,
+          "text_preview": "We need to develop an energetic and enthusiastic relationship with righteousness...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 38,
+          "text_preview": "Righteousness is satisfying.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 40,
+          "text_preview": "In hungering for righteousness we are making a very strong statement, we are ref...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 42,
+          "text_preview": "Righteous living will mean that we will guard our hearts and continually monitor...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 43,
+          "text_preview": "We are inclined to categorise sin, we think of wee sins, and big sins.  That is ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 45,
+          "text_preview": "Righteous living is not about appearance, or about ticking boxes, or about fulfi...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 47,
+          "text_preview": "Prayer, Father thank you we have been designed to love and enjoy righteousness.",
+          "classification": "PRAYER",
+          "reason": "Matched prayer pattern: **Prayer**"
+        },
+        {
+          "para_index": 49,
+          "text_preview": "Bible in a year reading plan: Isaiah 60 – 63",
+          "classification": "BIBLE_READING",
+          "reason": "Matched Bible reading pattern: Bible in a year"
+        }
+      ]
+    },
+    {
+      "day": 241,
+      "title": "STUDY TOPIC Loving righteousness Part 2",
+      "missing": [
+        "scripture_ref",
+        "scripture_text"
+      ],
+      "warnings": [],
+      "diagnostics": [
+        {
+          "para_index": 52,
+          "text_preview": "Day 241",
+          "classification": "DAY_MARKER",
+          "reason": "Matched day pattern: Day N"
+        },
+        {
+          "para_index": 54,
+          "text_preview": "STUDY TOPIC Loving righteousness Part 2",
+          "classification": "TITLE",
+          "reason": "First non-day paragraph after Day marker, interpreted as title"
+        },
+        {
+          "para_index": 56,
+          "text_preview": "Righteousness is expressed in whole hearted commitment,",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 57,
+          "text_preview": "In Matthew 5:48 Jesus said: -",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 58,
+          "text_preview": "“Be perfect therefore, as your heavenly Father is perfect.’’",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 60,
+          "text_preview": "Many read these words and think Jesus is asking us to live sinless lives. Howeve...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 62,
+          "text_preview": "Righteous living means that we won’t have to perform in order to gain acceptance...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 64,
+          "text_preview": "‘‘A hypocrite is not a person who falls short of their high ideas or occasionall...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 65,
+          "text_preview": "So to be a hypocrite is much more serious than living an inconsistent life, it i...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 67,
+          "text_preview": "Righteousness will produce in us a sense of security and well being.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 69,
+          "text_preview": "Righteousness results in a person feeling secure and loved, it enhances us as pe...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 71,
+          "text_preview": "“Ultimately our only reason for pleasing men around us is that we may please our...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 72,
+          "text_preview": "https://www.kingschurchlkld.com/sermon/righteousnessrewardandhypocrisy. Accessed...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 73,
+          "text_preview": "Doing spiritual “things” is not a guarantee or proof that we are spiritual peopl...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 74,
+          "text_preview": "So many Christians are too tired to live righteous lives. I have met so many Chr...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 76,
+          "text_preview": "Righteous living is really just an appropriate response to the love of God our F...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 78,
+          "text_preview": "Authentic righteousness is the result of being in a relationship with God as you...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 80,
+          "text_preview": "For too long we have lived with the idea that to be holy or righteous is a drab ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 82,
+          "text_preview": "Prayer, Father may the joy of righteousness fill my life.",
+          "classification": "PRAYER",
+          "reason": "Matched prayer pattern: **Prayer**"
+        },
+        {
+          "para_index": 84,
+          "text_preview": "Bible in a year reading plan: - Isaiah 64-66",
+          "classification": "BIBLE_READING",
+          "reason": "Matched Bible reading pattern: Bible in a year"
+        }
+      ]
+    },
+    {
+      "day": 242,
+      "title": "STUDY TOPIC Spiritual formation [the process of be...",
+      "missing": [
+        "scripture_ref",
+        "scripture_text"
+      ],
+      "warnings": [],
+      "diagnostics": [
+        {
+          "para_index": 87,
+          "text_preview": "Day 242",
+          "classification": "DAY_MARKER",
+          "reason": "Matched day pattern: Day N"
+        },
+        {
+          "para_index": 89,
+          "text_preview": "STUDY TOPIC Spiritual formation [the process of becoming like Jesus] part 1",
+          "classification": "TITLE",
+          "reason": "First non-day paragraph after Day marker, interpreted as title"
+        },
+        {
+          "para_index": 91,
+          "text_preview": "As we begin to look at spiritual formation, we need to start at the right place,...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 93,
+          "text_preview": "We need to start where the bible starts. We need to root our understanding of wh...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 95,
+          "text_preview": "Genesis 1:26 reads: - ‘’Then God said, “Let us make human beings in our image, t...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 96,
+          "text_preview": "The phrase ‘image of God’ is the first description of man, it is the first defin...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 98,
+          "text_preview": "Prayer, Father thank you that you you have always seen us much more than people ...",
+          "classification": "PRAYER",
+          "reason": "Matched prayer pattern: **Prayer**"
+        },
+        {
+          "para_index": 99,
+          "text_preview": "Bible in a year reading plan: -Jeremiah 1 – 3",
+          "classification": "BIBLE_READING",
+          "reason": "Matched Bible reading pattern: Bible in a year"
+        }
+      ]
+    },
+    {
+      "day": 243,
+      "title": "STUDY TOPIC Spiritual formation [the process of be...",
+      "missing": [
+        "scripture_ref",
+        "scripture_text"
+      ],
+      "warnings": [],
+      "diagnostics": [
+        {
+          "para_index": 102,
+          "text_preview": "Day 243",
+          "classification": "DAY_MARKER",
+          "reason": "Matched day pattern: Day N"
+        },
+        {
+          "para_index": 104,
+          "text_preview": "STUDY TOPIC Spiritual formation [the process of becoming like Jesus] part 2",
+          "classification": "TITLE",
+          "reason": "First non-day paragraph after Day marker, interpreted as title"
+        },
+        {
+          "para_index": 106,
+          "text_preview": "Understanding Eden.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 107,
+          "text_preview": "If you were to ask most Christians what they knew about the Garden of Eden you w...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 109,
+          "text_preview": "Notice that the creation story is told in a period of seven days. This is signif...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 111,
+          "text_preview": "The Garden was the unique place of God’s presence. Eden was the place where God ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 113,
+          "text_preview": "Ezekiel’s view of the Garden of Eden as the first sanctuary.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 114,
+          "text_preview": "In Ezekiel 28:13–18 the prophet draws a number of parallels between Eden and Isr...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 116,
+          "text_preview": "Before we move on let us think about this. God originally place mankind in a sac...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 118,
+          "text_preview": "“God’s purpose in creating Adam and Eve is summed up in what they could do for G...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 118,
+          "text_preview": "A.W. Tozer,  https://www.goodreads.com/work/quotes/6270565-the-purpose-of-man-de...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 121,
+          "text_preview": "When Moses said that all mankind was made in the image of God, it would have bee...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 123,
+          "text_preview": "Prayer, Father thank you no matter what others think about us, or what we think ...",
+          "classification": "PRAYER",
+          "reason": "Matched prayer pattern: **Prayer**"
+        },
+        {
+          "para_index": 125,
+          "text_preview": "Bible in a year reading plan: - Jeremiah 4-5",
+          "classification": "BIBLE_READING",
+          "reason": "Matched Bible reading pattern: Bible in a year"
+        }
+      ]
+    }
+  ]
 }

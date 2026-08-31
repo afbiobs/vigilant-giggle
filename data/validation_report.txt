@@ -1,76 +1,118 @@
 ======================================================================
 THOUGHT PROCESSOR - VALIDATION REPORT
 ======================================================================
-Generated: 2026-08-26 23:02:56
-Total entries processed: 5
-Complete entries: 1
-Entries with issues: 4
+Generated: 2026-08-31 19:31:38
+Total entries processed: 3
+Complete entries: 0
+Entries with issues: 3
 ======================================================================
 
 ENTRIES WITH MISSING SECTIONS OR WARNINGS:
 ----------------------------------------------------------------------
 
-📅 DAY 240: STUDY TOPIC Loving righteousness Part 1
+📅 DAY 244: STUDY TOPIC Spiritual formation [the process of be...
 ----------------------------------------
   ❌ MISSING SECTIONS: scripture_ref, scripture_text
 
   PARAGRAPH ANALYSIS (what the parser saw):
-    🔢 [DAY_MARKER] Para #17
-       Text: "Day 240"
+    🔢 [DAY_MARKER] Para #0
+       Text: "Day 244"
        Why:  Matched day pattern: Day N
-    📌 [TITLE] Para #19
-       Text: "STUDY TOPIC Loving righteousness Part 1"
+    📌 [TITLE] Para #2
+       Text: "STUDY TOPIC Spiritual formation [the process of becoming like Jesus] part 3"
        Why:  First non-day paragraph after Day marker, interpreted as title
-    💭 [DEVOTIONAL] Para #21
-       Text: "One of the best known parts of the bible is what people call the ‘Sermon on the ..."
+    💭 [DEVOTIONAL] Para #4
+       Text: "How are we to understand the image of God?"
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #23
-       Text: "When we hear the word ‘righteousness’ which is the word Matthew uses for holines..."
+    💭 [DEVOTIONAL] Para #6
+       Text: "The Image of God is not something you have, it is something much more profound, ..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #8
+       Text: "Most Christians believe in what is known as the substantive view of the image of..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #10
+       Text: "a. Some animals can be rational."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #11
+       Text: "Cameron Buckner, Assistant Professor of Philosophy at the University of Houston,..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #13
+       Text: "b. Can animals be moral?"
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #14
+       Text: "Eleanor, the matriarch of her family, is dying and unable to stand. Grace manage..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #15
+       Text: "Ian Douglas Hamilton, Bhalla, S., Wittemyer, G. & Vollrath, F., “Behavioural Rea..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #17
+       Text: "c. Satan, demons and angels, are creative, are moral, knowing the difference bet..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #19
+       Text: "d. What about people who are cognitively impaired?"
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #20
+       Text: "Those who have intellectual disabilities and restricted in the capacity to reaso..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #21
+       Text: "That is what Hitler believed, so he had death camps build to exterminate non Ary..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #22
+       Text: "Hitler set up a committee of physicians to prepare for the murder of mentally an..."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #25
-       Text: "The word for righteousness is from the Greek word dikaiosyne which in the broad ..."
+       Text: "5. In the creation story and the rest of the Hebrew bible there are many similar..."
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #26
-       Text: "We are going to look at how Jesus redefined righteousness and painted it in brig..."
+    💭 [DEVOTIONAL] Para #27
+       Text: "Created [Hebrew word bara] used for    Humans Genesis 1:27, Malachi 2:10"
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #28
-       Text: "Jesus’ ‘new take’ on righteousness."
+       Text: "Animals Genesis 1:27, Psalm 110:30"
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #29
+       Text: "Made [Hebrew word asah] used for       Humans Genesis 1:26"
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #30
-       Text: "Righteousness requires an internal passion."
+       Text: "Animals Genesis 1:25"
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #31
+       Text: "Soul [Hebrew word nephesh] used for     Humans Genesis 2:7, 9:5, 12:5"
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #32
-       Text: "We must approach to issue of righteousness with passionate hearts. Look and how ..."
+       Text: "Animals Genesis 1:20,30, 2:19, 9:4"
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #33
-       Text: "“Blessed are those who hunger and thirst for righteousness.” Matt 5:6."
+       Text: "Spirit [Hebrew word neshamah] used for  Both Genesis 6:17, 7:22"
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #34
-       Text: "“But seek first the kingdom of God and his righteousness.” Matt 6:33."
+    💭 [DEVOTIONAL] Para #35
+       Text: "Spirit of life"
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #36
-       Text: "We need to develop an energetic and enthusiastic relationship with righteousness..."
+       Text: "[Hebrew words rauch hayuyim] used for   Humans Genesis 2:7, 9:5"
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #37
+       Text: "Animals Genesis 1:20-24, 2:19,"
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #38
-       Text: "Righteousness is satisfying."
+       Text: "9:10,15."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #39
+       Text: "Flesh [Hebrew word basar] used for        Humans Genesis 2:7, 9:5."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #40
-       Text: "In hungering for righteousness we are making a very strong statement, we are ref..."
+       Text: "Animals Genesis 41:2-19,"
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #41
+       Text: "Exodus 21:28"
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #42
-       Text: "Righteous living will mean that we will guard our hearts and continually monitor..."
+       Text: "These similarities means that it is important that we have a proper understandin..."
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #43
-       Text: "We are inclined to categorise sin, we think of wee sins, and big sins.  That is ..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #45
-       Text: "Righteous living is not about appearance, or about ticking boxes, or about fulfi..."
-       Why:  No special markers found, classified as devotional content
-    🙏 [PRAYER] Para #47
-       Text: "Prayer, Father thank you we have been designed to love and enjoy righteousness."
+    🙏 [PRAYER] Para #44
+       Text: "Prayer, Father thank you that being made in your image is a lot more than having..."
        Why:  Matched prayer pattern: **Prayer**
-    📚 [BIBLE_READING] Para #49
-       Text: "Bible in a year reading plan: Isaiah 60 – 63"
+    📚 [BIBLE_READING] Para #45
+       Text: "Bible in a year reading plan: Jeremiah 6-8"
        Why:  Matched Bible reading pattern: Bible in a year
 
   💡 SUGGESTIONS TO FIX:
@@ -79,70 +121,91 @@ ENTRIES WITH MISSING SECTIONS OR WARNINGS:
      - Add the actual scripture quote after the reference line
 
 
-📅 DAY 241: STUDY TOPIC Loving righteousness Part 2
+📅 DAY 245: STUDY TOPIC Spiritual formation [the process of be...
 ----------------------------------------
   ❌ MISSING SECTIONS: scripture_ref, scripture_text
 
   PARAGRAPH ANALYSIS (what the parser saw):
-    🔢 [DAY_MARKER] Para #52
-       Text: "Day 241"
+    🔢 [DAY_MARKER] Para #50
+       Text: "Day 245"
        Why:  Matched day pattern: Day N
-    📌 [TITLE] Para #54
-       Text: "STUDY TOPIC Loving righteousness Part 2"
+    📌 [TITLE] Para #52
+       Text: "STUDY TOPIC Spiritual formation [the process of becoming like Jesus] part 4"
        Why:  First non-day paragraph after Day marker, interpreted as title
+    💭 [DEVOTIONAL] Para #54
+       Text: "How are we to understand the image of God? (cont’d)"
+       Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #56
-       Text: "Righteousness is expressed in whole hearted commitment,"
+       Text: "1. The image of God explains God’s purpose and our function."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #57
-       Text: "In Matthew 5:48 Jesus said: -"
+       Text: "When we read the Genesis account of creation we are inclined to think more about..."
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #58
-       Text: "“Be perfect therefore, as your heavenly Father is perfect.’’"
+    💭 [DEVOTIONAL] Para #59
+       Text: "Colossians 1:15"
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #60
-       Text: "Many read these words and think Jesus is asking us to live sinless lives. Howeve..."
+    💭 [DEVOTIONAL] Para #59
+       Text: "‘’He is the image of the invisible God, the firstborn of all creation.’’"
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #59
+       Text: "2 Corinthians 4:4"
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #59
+       Text: "‘’In whose case the god of this world has blinded the minds of the unbelieving s..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #59
+       Text: "Hebrews 1:3"
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #59
+       Text: "‘’And He is the radiance of His glory and the exact representation of His nature..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #59
+       Text: "Christ as the image of God, is a reflection of God that demonstrates God’s inten..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #61
+       Text: "2. A proper understanding of the image of God will determine how we treat others..."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #62
-       Text: "Righteous living means that we won’t have to perform in order to gain acceptance..."
+       Text: "If God created humans in His image, and every life has value, then we cannot ign..."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #64
-       Text: "‘‘A hypocrite is not a person who falls short of their high ideas or occasionall..."
+       Text: "Has God not told us? …"
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #65
-       Text: "So to be a hypocrite is much more serious than living an inconsistent life, it i..."
+       Text: "“Open your hand willingly to your poor and needy brother in your land” (Deut. 15..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #66
+       Text: "“Speak up for those who have no voice, for the justice of all who are dispossess..."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #67
-       Text: "Righteousness will produce in us a sense of security and well being."
+       Text: "“Pursue justice. Correct the oppressor. Defend the rights of the fatherless. Ple..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #68
+       Text: "Jesus taught that our response to the least of this world is in some measure an ..."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #69
-       Text: "Righteousness results in a person feeling secure and loved, it enhances us as pe..."
+       Text: "“I see Jesus in every human being. I say to myself, this is hungry Jesus, I must..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #70
+       Text: "Seeing others as people created in the image of God will cause you to treat them..."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #71
-       Text: "“Ultimately our only reason for pleasing men around us is that we may please our..."
+       Text: "So often the church has abandoned this perspective. We allow people’s sin and fa..."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #72
-       Text: "https://www.kingschurchlkld.com/sermon/righteousnessrewardandhypocrisy. Accessed..."
+       Text: "Sin may diminish or fade the image of God in someone, but it will never eradicat..."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #73
-       Text: "Doing spiritual “things” is not a guarantee or proof that we are spiritual peopl..."
+       Text: "According to James 3:9 to curse a person who is made in the image of God is wron..."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #74
-       Text: "So many Christians are too tired to live righteous lives. I have met so many Chr..."
+       Text: "If we were to take a step back, and think about people in our lives who have cau..."
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #76
-       Text: "Righteous living is really just an appropriate response to the love of God our F..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #78
-       Text: "Authentic righteousness is the result of being in a relationship with God as you..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #80
-       Text: "For too long we have lived with the idea that to be holy or righteous is a drab ..."
-       Why:  No special markers found, classified as devotional content
-    🙏 [PRAYER] Para #82
-       Text: "Prayer, Father may the joy of righteousness fill my life."
+    🙏 [PRAYER] Para #76
+       Text: "Prayer, Father thank you a persons sin cannot rob them of value."
        Why:  Matched prayer pattern: **Prayer**
-    📚 [BIBLE_READING] Para #84
-       Text: "Bible in a year reading plan: - Isaiah 64-66"
+    📚 [BIBLE_READING] Para #78
+       Text: "Bible in a year reading plan: - Jeremiah 9-11"
        Why:  Matched Bible reading pattern: Bible in a year
 
   💡 SUGGESTIONS TO FIX:
@@ -151,88 +214,34 @@ ENTRIES WITH MISSING SECTIONS OR WARNINGS:
      - Add the actual scripture quote after the reference line
 
 
-📅 DAY 242: STUDY TOPIC Spiritual formation [the process of be...
+📅 DAY 246: STUDY TOPIC Spiritual formation [the process of be...
 ----------------------------------------
   ❌ MISSING SECTIONS: scripture_ref, scripture_text
 
   PARAGRAPH ANALYSIS (what the parser saw):
-    🔢 [DAY_MARKER] Para #87
-       Text: "Day 242"
+    🔢 [DAY_MARKER] Para #79
+       Text: "Day 246"
        Why:  Matched day pattern: Day N
-    📌 [TITLE] Para #89
-       Text: "STUDY TOPIC Spiritual formation [the process of becoming like Jesus] part 1"
+    📌 [TITLE] Para #81
+       Text: "STUDY TOPIC Spiritual formation [the process of becoming like Jesus] part 5"
        Why:  First non-day paragraph after Day marker, interpreted as title
-    💭 [DEVOTIONAL] Para #91
-       Text: "As we begin to look at spiritual formation, we need to start at the right place,..."
+    💭 [DEVOTIONAL] Para #83
+       Text: "Seeing ourselves being created in the image of God will determine how we accept ..."
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #93
-       Text: "We need to start where the bible starts. We need to root our understanding of wh..."
+    💭 [DEVOTIONAL] Para #84
+       Text: "In today's culture, identity has never been more fluid or unstable. Increasingly..."
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #95
-       Text: "Genesis 1:26 reads: - ‘’Then God said, “Let us make human beings in our image, t..."
+    💭 [DEVOTIONAL] Para #86
+       Text: "Awareness of being created to be an image bearer of God, should prevent us from ..."
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #96
-       Text: "The phrase ‘image of God’ is the first description of man, it is the first defin..."
+    💭 [DEVOTIONAL] Para #87
+       Text: "‘Long ago even before he made the world, God loved us and choose in Christ to be..."
        Why:  No special markers found, classified as devotional content
-    🙏 [PRAYER] Para #98
-       Text: "Prayer, Father thank you that you you have always seen us much more than people ..."
+    🙏 [PRAYER] Para #89
+       Text: "Prayer, Father thank you that the call to live a holy life is the very essence o..."
        Why:  Matched prayer pattern: **Prayer**
-    📚 [BIBLE_READING] Para #99
-       Text: "Bible in a year reading plan: -Jeremiah 1 – 3"
-       Why:  Matched Bible reading pattern: Bible in a year
-
-  💡 SUGGESTIONS TO FIX:
-     - Add 'Study Text: [Book Chapter:Verse]' line after the title
-       Example: 'Study Text: John 3:16-18'
-     - Add the actual scripture quote after the reference line
-
-
-📅 DAY 243: STUDY TOPIC Spiritual formation [the process of be...
-----------------------------------------
-  ❌ MISSING SECTIONS: scripture_ref, scripture_text
-
-  PARAGRAPH ANALYSIS (what the parser saw):
-    🔢 [DAY_MARKER] Para #102
-       Text: "Day 243"
-       Why:  Matched day pattern: Day N
-    📌 [TITLE] Para #104
-       Text: "STUDY TOPIC Spiritual formation [the process of becoming like Jesus] part 2"
-       Why:  First non-day paragraph after Day marker, interpreted as title
-    💭 [DEVOTIONAL] Para #106
-       Text: "Understanding Eden."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #107
-       Text: "If you were to ask most Christians what they knew about the Garden of Eden you w..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #109
-       Text: "Notice that the creation story is told in a period of seven days. This is signif..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #111
-       Text: "The Garden was the unique place of God’s presence. Eden was the place where God ..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #113
-       Text: "Ezekiel’s view of the Garden of Eden as the first sanctuary."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #114
-       Text: "In Ezekiel 28:13–18 the prophet draws a number of parallels between Eden and Isr..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #116
-       Text: "Before we move on let us think about this. God originally place mankind in a sac..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #118
-       Text: "“God’s purpose in creating Adam and Eve is summed up in what they could do for G..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #118
-       Text: "A.W. Tozer,  https://www.goodreads.com/work/quotes/6270565-the-purpose-of-man-de..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #121
-       Text: "When Moses said that all mankind was made in the image of God, it would have bee..."
-       Why:  No special markers found, classified as devotional content
-    🙏 [PRAYER] Para #123
-       Text: "Prayer, Father thank you no matter what others think about us, or what we think ..."
-       Why:  Matched prayer pattern: **Prayer**
-    📚 [BIBLE_READING] Para #125
-       Text: "Bible in a year reading plan: - Jeremiah 4-5"
+    📚 [BIBLE_READING] Para #90
+       Text: "Bible in a year reading plan: - Jeremiah 12 -14"
        Why:  Matched Bible reading pattern: Bible in a year
 
   💡 SUGGESTIONS TO FIX:

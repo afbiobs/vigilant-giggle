@@ -1,393 +1,11 @@
 {
-  "generated": "2026-08-31T19:31:38.899813",
+  "generated": "2026-09-01T18:47:15.211600",
   "summary": {
-    "total_entries": 3,
+    "total_entries": 1,
     "complete": 0,
-    "incomplete": 3
+    "incomplete": 1
   },
   "issues": [
-    {
-      "day": 244,
-      "title": "STUDY TOPIC Spiritual formation [the process of be...",
-      "missing": [
-        "scripture_ref",
-        "scripture_text"
-      ],
-      "warnings": [],
-      "diagnostics": [
-        {
-          "para_index": 0,
-          "text_preview": "Day 244",
-          "classification": "DAY_MARKER",
-          "reason": "Matched day pattern: Day N"
-        },
-        {
-          "para_index": 2,
-          "text_preview": "STUDY TOPIC Spiritual formation [the process of becoming like Jesus] part 3",
-          "classification": "TITLE",
-          "reason": "First non-day paragraph after Day marker, interpreted as title"
-        },
-        {
-          "para_index": 4,
-          "text_preview": "How are we to understand the image of God?",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 6,
-          "text_preview": "The Image of God is not something you have, it is something much more profound, ...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 8,
-          "text_preview": "Most Christians believe in what is known as the substantive view of the image of...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 10,
-          "text_preview": "a. Some animals can be rational.",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 11,
-          "text_preview": "Cameron Buckner, Assistant Professor of Philosophy at the University of Houston,...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 13,
-          "text_preview": "b. Can animals be moral?",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 14,
-          "text_preview": "Eleanor, the matriarch of her family, is dying and unable to stand. Grace manage...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 15,
-          "text_preview": "Ian Douglas Hamilton, Bhalla, S., Wittemyer, G. & Vollrath, F., “Behavioural Rea...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 17,
-          "text_preview": "c. Satan, demons and angels, are creative, are moral, knowing the difference bet...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 19,
-          "text_preview": "d. What about people who are cognitively impaired?",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 20,
-          "text_preview": "Those who have intellectual disabilities and restricted in the capacity to reaso...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 21,
-          "text_preview": "That is what Hitler believed, so he had death camps build to exterminate non Ary...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 22,
-          "text_preview": "Hitler set up a committee of physicians to prepare for the murder of mentally an...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 25,
-          "text_preview": "5. In the creation story and the rest of the Hebrew bible there are many similar...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 27,
-          "text_preview": "Created [Hebrew word bara] used for    Humans Genesis 1:27, Malachi 2:10",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 28,
-          "text_preview": "Animals Genesis 1:27, Psalm 110:30",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 29,
-          "text_preview": "Made [Hebrew word asah] used for       Humans Genesis 1:26",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 30,
-          "text_preview": "Animals Genesis 1:25",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 31,
-          "text_preview": "Soul [Hebrew word nephesh] used for     Humans Genesis 2:7, 9:5, 12:5",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 32,
-          "text_preview": "Animals Genesis 1:20,30, 2:19, 9:4",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 33,
-          "text_preview": "Spirit [Hebrew word neshamah] used for  Both Genesis 6:17, 7:22",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 35,
-          "text_preview": "Spirit of life",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 36,
-          "text_preview": "[Hebrew words rauch hayuyim] used for   Humans Genesis 2:7, 9:5",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 37,
-          "text_preview": "Animals Genesis 1:20-24, 2:19,",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 38,
-          "text_preview": "9:10,15.",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 39,
-          "text_preview": "Flesh [Hebrew word basar] used for        Humans Genesis 2:7, 9:5.",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 40,
-          "text_preview": "Animals Genesis 41:2-19,",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 41,
-          "text_preview": "Exodus 21:28",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 42,
-          "text_preview": "These similarities means that it is important that we have a proper understandin...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 44,
-          "text_preview": "Prayer, Father thank you that being made in your image is a lot more than having...",
-          "classification": "PRAYER",
-          "reason": "Matched prayer pattern: **Prayer**"
-        },
-        {
-          "para_index": 45,
-          "text_preview": "Bible in a year reading plan: Jeremiah 6-8",
-          "classification": "BIBLE_READING",
-          "reason": "Matched Bible reading pattern: Bible in a year"
-        }
-      ]
-    },
-    {
-      "day": 245,
-      "title": "STUDY TOPIC Spiritual formation [the process of be...",
-      "missing": [
-        "scripture_ref",
-        "scripture_text"
-      ],
-      "warnings": [],
-      "diagnostics": [
-        {
-          "para_index": 50,
-          "text_preview": "Day 245",
-          "classification": "DAY_MARKER",
-          "reason": "Matched day pattern: Day N"
-        },
-        {
-          "para_index": 52,
-          "text_preview": "STUDY TOPIC Spiritual formation [the process of becoming like Jesus] part 4",
-          "classification": "TITLE",
-          "reason": "First non-day paragraph after Day marker, interpreted as title"
-        },
-        {
-          "para_index": 54,
-          "text_preview": "How are we to understand the image of God? (cont’d)",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 56,
-          "text_preview": "1. The image of God explains God’s purpose and our function.",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 57,
-          "text_preview": "When we read the Genesis account of creation we are inclined to think more about...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 59,
-          "text_preview": "Colossians 1:15",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 59,
-          "text_preview": "‘’He is the image of the invisible God, the firstborn of all creation.’’",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 59,
-          "text_preview": "2 Corinthians 4:4",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 59,
-          "text_preview": "‘’In whose case the god of this world has blinded the minds of the unbelieving s...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 59,
-          "text_preview": "Hebrews 1:3",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 59,
-          "text_preview": "‘’And He is the radiance of His glory and the exact representation of His nature...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 59,
-          "text_preview": "Christ as the image of God, is a reflection of God that demonstrates God’s inten...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 61,
-          "text_preview": "2. A proper understanding of the image of God will determine how we treat others...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 62,
-          "text_preview": "If God created humans in His image, and every life has value, then we cannot ign...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 64,
-          "text_preview": "Has God not told us? …",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 65,
-          "text_preview": "“Open your hand willingly to your poor and needy brother in your land” (Deut. 15...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 66,
-          "text_preview": "“Speak up for those who have no voice, for the justice of all who are dispossess...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 67,
-          "text_preview": "“Pursue justice. Correct the oppressor. Defend the rights of the fatherless. Ple...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 68,
-          "text_preview": "Jesus taught that our response to the least of this world is in some measure an ...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 69,
-          "text_preview": "“I see Jesus in every human being. I say to myself, this is hungry Jesus, I must...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 70,
-          "text_preview": "Seeing others as people created in the image of God will cause you to treat them...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 71,
-          "text_preview": "So often the church has abandoned this perspective. We allow people’s sin and fa...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 72,
-          "text_preview": "Sin may diminish or fade the image of God in someone, but it will never eradicat...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 73,
-          "text_preview": "According to James 3:9 to curse a person who is made in the image of God is wron...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 74,
-          "text_preview": "If we were to take a step back, and think about people in our lives who have cau...",
-          "classification": "DEVOTIONAL",
-          "reason": "No special markers found, classified as devotional content"
-        },
-        {
-          "para_index": 76,
-          "text_preview": "Prayer, Father thank you a persons sin cannot rob them of value.",
-          "classification": "PRAYER",
-          "reason": "Matched prayer pattern: **Prayer**"
-        },
-        {
-          "para_index": 78,
-          "text_preview": "Bible in a year reading plan: - Jeremiah 9-11",
-          "classification": "BIBLE_READING",
-          "reason": "Matched Bible reading pattern: Bible in a year"
-        }
-      ]
-    },
     {
       "day": 246,
       "title": "STUDY TOPIC Spiritual formation [the process of be...",
@@ -398,49 +16,145 @@
       "warnings": [],
       "diagnostics": [
         {
-          "para_index": 79,
+          "para_index": 0,
           "text_preview": "Day 246",
           "classification": "DAY_MARKER",
           "reason": "Matched day pattern: Day N"
         },
         {
-          "para_index": 81,
+          "para_index": 2,
           "text_preview": "STUDY TOPIC Spiritual formation [the process of becoming like Jesus] part 5",
           "classification": "TITLE",
           "reason": "First non-day paragraph after Day marker, interpreted as title"
         },
         {
-          "para_index": 83,
+          "para_index": 4,
           "text_preview": "Seeing ourselves being created in the image of God will determine how we accept ...",
           "classification": "DEVOTIONAL",
           "reason": "No special markers found, classified as devotional content"
         },
         {
-          "para_index": 84,
+          "para_index": 5,
           "text_preview": "In today's culture, identity has never been more fluid or unstable. Increasingly...",
           "classification": "DEVOTIONAL",
           "reason": "No special markers found, classified as devotional content"
         },
         {
-          "para_index": 86,
+          "para_index": 7,
           "text_preview": "Awareness of being created to be an image bearer of God, should prevent us from ...",
           "classification": "DEVOTIONAL",
           "reason": "No special markers found, classified as devotional content"
         },
         {
-          "para_index": 87,
+          "para_index": 9,
           "text_preview": "‘Long ago even before he made the world, God loved us and choose in Christ to be...",
           "classification": "DEVOTIONAL",
           "reason": "No special markers found, classified as devotional content"
         },
         {
-          "para_index": 89,
+          "para_index": 11,
+          "text_preview": "Perhaps one of the problems when it comes to our Christian experience, is that w...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 12,
+          "text_preview": "Could it be that we see holy as a word that describes haughty people; those who ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 13,
+          "text_preview": "We need to realise that true holiness is very different. Four times in the Old T...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 14,
+          "text_preview": "So holiness is a beautiful thing. Holiness brings a sense of well-being and whol...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 15,
+          "text_preview": "Why is it so difficult to live a holy life?",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 16,
+          "text_preview": "I think we believe (at least some of us do) that our lives are about us rather t...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 18,
+          "text_preview": "Understanding true holiness will help us live the life that God wants us to live...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 20,
+          "text_preview": "‘Be holy for I am holy.’  1 Peter 1:16.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 21,
+          "text_preview": "This reference is important for our understanding of holiness. 1 Peter is a lett...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 22,
+          "text_preview": "Try to put yourself in a situation where you are really struggling and life is n...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 24,
+          "text_preview": "To be holy means that you have been set apart for God.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 26,
+          "text_preview": "We have all experienced what it is like not to be picked for something, to be le...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 27,
+          "text_preview": "This verse is amazing. Before God made the universe, his big plan for our lives ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 28,
+          "text_preview": "If we are under great pressure, how is the fact that we have been chosen by God ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 30,
+          "text_preview": "Growing in holiness will help us have the spiritual resources to respond correct...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 31,
+          "text_preview": "Many Christians face unbearable heart breaking situations, and for some it is to...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 33,
           "text_preview": "Prayer, Father thank you that the call to live a holy life is the very essence o...",
           "classification": "PRAYER",
           "reason": "Matched prayer pattern: **Prayer**"
         },
         {
-          "para_index": 90,
+          "para_index": 34,
           "text_preview": "Bible in a year reading plan: - Jeremiah 12 -14",
           "classification": "BIBLE_READING",
           "reason": "Matched Bible reading pattern: Bible in a year"

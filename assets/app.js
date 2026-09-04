@@ -23,7 +23,9 @@ class ThoughtApp {
             prevBtn: document.getElementById('prev-btn'),
             nextBtn: document.getElementById('next-btn'),
             todayBtn: document.getElementById('today-btn'),
-            navBtn: document.getElementById('nav-btn'),
+            moreBtn: document.getElementById('more-btn'),
+            moreMenu: document.getElementById('more-menu'),
+            selectDayBtn: document.getElementById('select-day-btn'),
             closeMenuBtn: document.getElementById('close-menu-btn'),
             navMenu: document.getElementById('nav-menu'),
             menuBackdrop: document.getElementById('menu-backdrop'),
@@ -31,6 +33,8 @@ class ThoughtApp {
             listenBar: document.getElementById('listen-bar'),
             listenBtn: document.getElementById('listen-btn'),
             dayAudio: document.getElementById('day-audio'),
+            shareBtn: document.getElementById('share-btn'),
+            shareStatus: document.getElementById('share-status'),
             emailToggleBtn: document.getElementById('email-toggle-btn'),
             emailForm: document.getElementById('email-form'),
             emailInput: document.getElementById('email-input'),
@@ -279,8 +283,8 @@ class ThoughtApp {
             // Update content
             this.elements.thoughtContent.innerHTML = thought.html;
 
-            // Point the audio player at this day's recording
-            this.setupAudio(dayNum);
+            // Point the audio player at this day's recording, if one exists
+            await this.setupAudio(dayNum);
             
             // Update navigation buttons
             this.updateNavigationButtons();
@@ -362,18 +366,41 @@ class ThoughtApp {
     }
     
     /**
-     * Point the audio element at this day's MP3 and reset the player.
-     * Nothing is downloaded until the user presses Listen (preload="none").
+     * Check whether an audio recording exists for a given file, without
+     * downloading it.
      */
-    setupAudio(dayNum) {
+    async audioExists(url) {
+        try {
+            const response = await fetch(url, { method: 'HEAD', cache: 'no-store' });
+            return response.ok;
+        } catch (error) {
+            return false;
+        }
+    }
+
+    /**
+     * Point the audio element at this day's MP3 and reset the player.
+     * The Listen button only appears once a recording is confirmed to
+     * exist; nothing is downloaded until the user presses Listen
+     * (preload="none").
+     */
+    async setupAudio(dayNum) {
         const audio = this.elements.dayAudio;
         if (!audio) return;
 
         audio.pause();
         audio.hidden = true;
-        audio.src = `data/audio/day-${String(dayNum).padStart(3, '0')}.mp3`;
+        audio.removeAttribute('src');
+        this.elements.listenBar.hidden = true;
+        this.elements.listenBtn.hidden = true;
 
-        // Show the button again in case a previous day had no audio
+        const src = `data/audio/day-${String(dayNum).padStart(3, '0')}.mp3`;
+        const exists = await this.audioExists(src);
+
+        // The visible day may have changed while this check was in flight
+        if (this.currentDay !== dayNum || !exists) return;
+
+        audio.src = src;
         this.elements.listenBar.hidden = false;
         this.elements.listenBtn.hidden = false;
     }
@@ -392,6 +419,48 @@ class ThoughtApp {
             // No recording for this day (or playback blocked): hide the bar
             this.elements.listenBar.hidden = true;
             console.warn('Audio unavailable for this day:', error);
+        }
+    }
+
+    /**
+     * Share a link to the currently displayed day using the OS/browser
+     * share sheet when available, falling back to copying the link.
+     */
+    async shareThought() {
+        if (!this.currentDay) return;
+
+        const thought = this.cache.get(this.currentDay);
+        const title = thought && thought.title ? thought.title : `Day ${this.currentDay}`;
+
+        const url = new URL(window.location);
+        url.searchParams.set('day', this.currentDay);
+        const shareUrl = url.toString();
+
+        const shareData = {
+            title: `Knowing Jesus Daily — ${title}`,
+            text: `Day ${this.currentDay}: ${title}`,
+            url: shareUrl
+        };
+
+        this.elements.shareStatus.textContent = '';
+
+        if (navigator.share) {
+            try {
+                await navigator.share(shareData);
+            } catch (error) {
+                if (error.name !== 'AbortError') {
+                    console.warn('Share failed:', error);
+                }
+            }
+            return;
+        }
+
+        // No native share sheet available: fall back to the clipboard
+        try {
+            await navigator.clipboard.writeText(shareUrl);
+            this.elements.shareStatus.textContent = 'Link copied to clipboard.';
+        } catch (error) {
+            this.elements.shareStatus.textContent = shareUrl;
         }
     }
 
@@ -482,6 +551,9 @@ class ThoughtApp {
         // Listen button
         this.elements.listenBtn.addEventListener('click', () => this.startListening());
 
+        // Share this thought
+        this.elements.shareBtn.addEventListener('click', () => this.shareThought());
+
         // Email-me-this-thought
         this.elements.emailToggleBtn.addEventListener('click', () => {
             const form = this.elements.emailForm;
@@ -494,20 +566,42 @@ class ThoughtApp {
             this.sendThoughtEmail();
         });
 
-        // Menu toggle
-        this.elements.navBtn.addEventListener('click', () => this.openMenu());
+        // More-options menu (Information / References / Select a Day)
+        this.elements.moreBtn.addEventListener('click', () => {
+            if (this.elements.moreMenu.hidden) {
+                this.openMoreMenu();
+            } else {
+                this.closeMoreMenu();
+            }
+        });
+        this.elements.selectDayBtn.addEventListener('click', () => {
+            this.closeMoreMenu();
+            this.openMenu();
+        });
+        document.addEventListener('click', (e) => {
+            if (this.elements.moreMenu.hidden) return;
+            if (this.elements.moreMenu.contains(e.target) || this.elements.moreBtn.contains(e.target)) return;
+            this.closeMoreMenu();
+        });
+
+        // Day-select menu toggle
         this.elements.closeMenuBtn.addEventListener('click', () => this.closeMenu());
         this.elements.menuBackdrop.addEventListener('click', () => this.closeMenu());
-        
+
         // Keyboard navigation
         document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && !this.elements.moreMenu.hidden) {
+                this.closeMoreMenu();
+                return;
+            }
+
             if (this.elements.navMenu.classList.contains('active')) {
                 if (e.key === 'Escape') {
                     this.closeMenu();
                 }
                 return;
             }
-            
+
             if (e.key === 'ArrowLeft') {
                 this.gotoPreviousDay();
             } else if (e.key === 'ArrowRight') {
@@ -523,6 +617,23 @@ class ThoughtApp {
         });
     }
     
+    /**
+     * Open the header's "more options" dropdown (Information, References,
+     * Select a Day)
+     */
+    openMoreMenu() {
+        this.elements.moreMenu.hidden = false;
+        this.elements.moreBtn.setAttribute('aria-expanded', 'true');
+    }
+
+    /**
+     * Close the "more options" dropdown
+     */
+    closeMoreMenu() {
+        this.elements.moreMenu.hidden = true;
+        this.elements.moreBtn.setAttribute('aria-expanded', 'false');
+    }
+
     /**
      * Open navigation menu
      */

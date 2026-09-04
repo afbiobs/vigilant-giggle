@@ -130,30 +130,51 @@ body {
 }
 
 .header-actions {
+    position: relative;
     display: flex;
     gap: var(--spacing-xs);
     align-items: center;
 }
 
-.header-links {
+.more-menu {
+    position: absolute;
+    top: calc(100% + 0.5rem);
+    right: 0;
+    min-width: 180px;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius-sm);
+    box-shadow: 0 8px 24px var(--color-shadow);
+    padding: 0.35rem;
     display: flex;
-    align-items: center;
-    gap: 0.35rem;
+    flex-direction: column;
+    gap: 0.15rem;
+    z-index: 200;
 }
 
-.header-link {
-    color: var(--color-text-secondary);
+.more-menu[hidden] {
+    display: none;
+}
+
+.more-menu-item {
+    display: block;
+    width: 100%;
+    text-align: left;
+    background: transparent;
+    border: none;
+    color: var(--color-text-primary);
     text-decoration: none;
     font-weight: 600;
-    padding: 0.35rem 0.6rem;
-    border-radius: var(--border-radius-sm);
-    transition: all var(--transition-fast);
     font-size: var(--font-size-sm);
+    padding: 0.6rem 0.7rem;
+    border-radius: var(--border-radius-sm);
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    font-family: inherit;
 }
 
-.header-link:hover,
-.header-link:focus-visible {
-    color: var(--color-text-primary);
+.more-menu-item:hover,
+.more-menu-item:focus-visible {
     background: var(--color-border);
 }
 
@@ -211,7 +232,6 @@ body {
     color: var(--color-accent);
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    margin-bottom: var(--spacing-xs);
 }
 
 .date-full {
@@ -371,6 +391,18 @@ body {
     margin-top: var(--spacing-lg);
 }
 
+.action-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--spacing-sm);
+    width: 100%;
+}
+
+.action-buttons .email-toggle-button {
+    flex: 1 1 auto;
+}
+
 .email-toggle-button {
     display: flex;
     align-items: center;
@@ -496,6 +528,13 @@ body {
 .nav-today {
     flex: 1;
     max-width: 120px;
+}
+
+.nav-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-xs);
 }
 
 /* ========================================
@@ -897,12 +936,16 @@ body {
         flex-wrap: wrap;
     }
     
-    .nav-today {
+    .nav-center {
         order: -1;
         flex: 1 1 100%;
-        max-width: none;
     }
-    
+
+    .nav-today {
+        max-width: none;
+        width: 100%;
+    }
+
     .header-content {
         flex-direction: row;
         align-items: center;

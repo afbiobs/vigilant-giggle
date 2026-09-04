@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-01T18:47:15.209628",
-  "total_days": 246,
+  "generated": "2026-09-04T11:20:37.700511",
+  "total_days": 254,
   "complete_days": 185,
-  "incomplete_days": 61,
+  "incomplete_days": 69,
   "days": [
     {
       "day": 1,
@@ -2396,6 +2396,102 @@
       "title": "STUDY TOPIC Spiritual formation [the process of becoming like Jesus] part 5",
       "file": "day-246.json",
       "has_links": false,
+      "has_highlights": false,
+      "is_complete": false,
+      "missing_sections": [
+        "scripture_ref",
+        "scripture_text"
+      ]
+    },
+    {
+      "day": 247,
+      "title": "STUDY TOPIC Spiritual formation [the process of becoming like Jesus] part 7",
+      "file": "day-247.json",
+      "has_links": true,
+      "has_highlights": false,
+      "is_complete": false,
+      "missing_sections": [
+        "scripture_ref",
+        "scripture_text"
+      ]
+    },
+    {
+      "day": 248,
+      "title": "STUDY TOPIC Spiritual formation [The process of becoming like Jesus] part 8",
+      "file": "day-248.json",
+      "has_links": false,
+      "has_highlights": false,
+      "is_complete": false,
+      "missing_sections": [
+        "scripture_ref",
+        "scripture_text"
+      ]
+    },
+    {
+      "day": 249,
+      "title": "STUDY TOPIC Spiritual formation  [the process of becoming like Jesus.]   part 9",
+      "file": "day-249.json",
+      "has_links": true,
+      "has_highlights": true,
+      "is_complete": false,
+      "missing_sections": [
+        "scripture_ref",
+        "scripture_text"
+      ]
+    },
+    {
+      "day": 250,
+      "title": "STUDY TOPIC Spiritual formation [The process of becoming like Jesus] part 10",
+      "file": "day-250.json",
+      "has_links": false,
+      "has_highlights": false,
+      "is_complete": false,
+      "missing_sections": [
+        "scripture_ref",
+        "scripture_text"
+      ]
+    },
+    {
+      "day": 251,
+      "title": "STUDY TOPIC Spiritual formation [The process of becoming like Jesus]  part 11",
+      "file": "day-251.json",
+      "has_links": true,
+      "has_highlights": false,
+      "is_complete": false,
+      "missing_sections": [
+        "scripture_ref",
+        "scripture_text"
+      ]
+    },
+    {
+      "day": 252,
+      "title": "STUDY TOPIC Spiritual formation  [The process of becoming like Jesus]  part 12",
+      "file": "day-252.json",
+      "has_links": true,
+      "has_highlights": false,
+      "is_complete": false,
+      "missing_sections": [
+        "scripture_ref",
+        "scripture_text"
+      ]
+    },
+    {
+      "day": 253,
+      "title": "STUDY TOPIC Spiritual formation  [The process of becoming like Jesus] part 13",
+      "file": "day-253.json",
+      "has_links": false,
+      "has_highlights": false,
+      "is_complete": false,
+      "missing_sections": [
+        "scripture_ref",
+        "scripture_text"
+      ]
+    },
+    {
+      "day": 254,
+      "title": "STUDY TOPIC Spiritual formation  [ the process of becoming like Jesus] part 14",
+      "file": "day-254.json",
+      "has_links": true,
       "has_highlights": false,
       "is_complete": false,
       "missing_sections": [

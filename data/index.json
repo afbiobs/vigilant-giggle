@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-04T11:20:37.700511",
-  "total_days": 254,
-  "complete_days": 185,
-  "incomplete_days": 69,
+  "generated": "2026-09-11T14:18:18.883255",
+  "total_days": 264,
+  "complete_days": 192,
+  "incomplete_days": 72,
   "days": [
     {
       "day": 1,
@@ -2492,6 +2492,105 @@
       "title": "STUDY TOPIC Spiritual formation  [ the process of becoming like Jesus] part 14",
       "file": "day-254.json",
       "has_links": true,
+      "has_highlights": false,
+      "is_complete": false,
+      "missing_sections": [
+        "scripture_ref",
+        "scripture_text"
+      ]
+    },
+    {
+      "day": 255,
+      "title": "STUDY TOPIC Spiritual formation  [ the process of becoming like Jesus] part 15",
+      "file": "day-255.json",
+      "has_links": true,
+      "has_highlights": false,
+      "is_complete": false,
+      "missing_sections": [
+        "scripture_ref",
+        "scripture_text"
+      ]
+    },
+    {
+      "day": 256,
+      "title": "STUDY TOPIC Spiritual formation  [ the process of becoming like Jesus] part 16",
+      "file": "day-256.json",
+      "has_links": false,
+      "has_highlights": false,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 257,
+      "title": "STUDY TOPIC Spiritual formation  [ the process of becoming like Jesus] part 17",
+      "file": "day-257.json",
+      "has_links": true,
+      "has_highlights": false,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 258,
+      "title": "STUDY TOPIC Spiritual formation  [ the process of becoming like Jesus] part 18",
+      "file": "day-258.json",
+      "has_links": false,
+      "has_highlights": false,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 259,
+      "title": "The road less travelled part 1",
+      "file": "day-259.json",
+      "has_links": true,
+      "has_highlights": false,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 260,
+      "title": "The road less travelled part 2",
+      "file": "day-260.json",
+      "has_links": false,
+      "has_highlights": false,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 261,
+      "title": "The road less travelled part 3",
+      "file": "day-261.json",
+      "has_links": true,
+      "has_highlights": false,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 262,
+      "title": "The road less travelled part 4",
+      "file": "day-262.json",
+      "has_links": false,
+      "has_highlights": false,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 263,
+      "title": "Generosity part 1",
+      "file": "day-263.json",
+      "has_links": false,
+      "has_highlights": false,
+      "is_complete": false,
+      "missing_sections": [
+        "scripture_ref",
+        "scripture_text"
+      ]
+    },
+    {
+      "day": 264,
+      "title": "Generosity part 2",
+      "file": "day-264.json",
+      "has_links": false,
       "has_highlights": false,
       "is_complete": false,
       "missing_sections": [

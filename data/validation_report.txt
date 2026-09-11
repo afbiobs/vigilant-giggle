@@ -1,151 +1,100 @@
 ======================================================================
 THOUGHT PROCESSOR - VALIDATION REPORT
 ======================================================================
-Generated: 2026-09-04 11:20:37
-Total entries processed: 8
-Complete entries: 0
-Entries with issues: 8
+Generated: 2026-09-11 14:18:18
+Total entries processed: 10
+Complete entries: 7
+Entries with issues: 3
 ======================================================================
 
 ENTRIES WITH MISSING SECTIONS OR WARNINGS:
 ----------------------------------------------------------------------
 
-📅 DAY 247: STUDY TOPIC Spiritual formation [the process of be...
+📅 DAY 255: STUDY TOPIC Spiritual formation  [ the process of ...
 ----------------------------------------
   ❌ MISSING SECTIONS: scripture_ref, scripture_text
 
   PARAGRAPH ANALYSIS (what the parser saw):
     🔢 [DAY_MARKER] Para #0
-       Text: "Day 247"
+       Text: "Day 255"
        Why:  Matched day pattern: Day N
     📌 [TITLE] Para #2
-       Text: "STUDY TOPIC Spiritual formation [the process of becoming like Jesus] part 7"
+       Text: "STUDY TOPIC Spiritual formation  [ the process of becoming like Jesus] part 15"
        Why:  First non-day paragraph after Day marker, interpreted as title
-    💭 [DEVOTIONAL] Para #5
-       Text: "If I were to ask you the question, what does it mean to become like Jesus, to re..."
+    💭 [DEVOTIONAL] Para #4
+       Text: "I wonder will we make it?"
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #7
-       Text: "I reckon that most people would answer that question by talking about the Fruit ..."
+    💭 [DEVOTIONAL] Para #6
+       Text: "Author, former Desiring God contributor, former Philosophy professor at Moody Bi..."
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #9
-       Text: "Rick Warren wrote ‘Becoming like Christ does not mean losing your personality or..."
+    💭 [DEVOTIONAL] Para #8
+       Text: "I wonder will we make it?"
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #11
-       Text: "Rick Warren is absolutely correct, however, I think that this is an incomplete o..."
+    💭 [DEVOTIONAL] Para #10
+       Text: "Hillsong songwriter Marty Sampson wrote: “Time for some real talk… I’m genuinely..."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #12
-       Text: "So to be like Jesus is much more than a transformation of our behaviour or lifes..."
+       Text: "I wonder will we make it?"
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #13
-       Text: "The essence of Jesus’ life was cruciformity.(Cross-Shaped)"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #15
-       Text: "Cruciformity is having a life that is continually being shaped by the attitudes ..."
+    💭 [DEVOTIONAL] Para #14
+       Text: "Dave Gass, the former pastor at Grace Family Fellowship, pastor at Covenant Chur..."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #16
-       Text: "When Jesus tells us to take up our cross and follow him, he is asking us to thin..."
+       Text: "I don’t know you but when I hear of people who were once used by God, leaving th..."
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #18
-       Text: "Michael J. Gorman, in his book Cruciformity said: - “Faith is an inauguration in..."
+    💭 [DEVOTIONAL] Para #17
+       Text: "The second emotion I feel is fear, fear of not ending the race well. I often won..."
        Why:  No special markers found, classified as devotional content
-    🙏 [PRAYER] Para #20
-       Text: "Prayer, Father may the essence of my being be reshaped by holiness."
-       Why:  Matched prayer pattern: **Prayer**
-    📚 [BIBLE_READING] Para #22
-       Text: "Bible in a year reading plan: - Jeremiah 15 -17"
-       Why:  Matched Bible reading pattern: Bible in a year
-
-  💡 SUGGESTIONS TO FIX:
-     - Add 'Study Text: [Book Chapter:Verse]' line after the title
-       Example: 'Study Text: John 3:16-18'
-     - Add the actual scripture quote after the reference line
-
-
-📅 DAY 248: STUDY TOPIC Spiritual formation [The process of be...
-----------------------------------------
-  ❌ MISSING SECTIONS: scripture_ref, scripture_text
-
-  PARAGRAPH ANALYSIS (what the parser saw):
-    🔢 [DAY_MARKER] Para #24
-       Text: "Day 248"
-       Why:  Matched day pattern: Day N
-    📌 [TITLE] Para #26
-       Text: "STUDY TOPIC Spiritual formation [The process of becoming like Jesus] part 8"
-       Why:  First non-day paragraph after Day marker, interpreted as title
+    💭 [DEVOTIONAL] Para #19
+       Text: "How we cross the line is more important than how we started. We have no control ..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #20
+       Text: "Paul gives us five areas of relationships where we need to be intentional, where..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #21
+       Text: "Madame Chiang Kai-shek once wrote: "If the past has taught us anything it is tha..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #23
+       Text: "Let me try and explain the implications of this principle."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #24
+       Text: "[a] A harvest may be sown in secret but the harvest itself cannot be hidden."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #25
+       Text: "This is so important. The seeds we sow in private will eventually become evident..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #26
+       Text: "[b] We alone are responsible for the seed we sow. Nobody else can sow our seed. ..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #27
+       Text: "[c] Time might pass before the harvest ripens but it will come."
+       Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #28
-       Text: "What does it mean to develop a cross-shaped life?"
+       Text: "The harvest will take time, be it a good harvest or a bad harvest it will come, ..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #29
+       Text: "[d] The nature of the seed we sow will determine the harvest."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #30
-       Text: "To answer that question let us look at Philippians 2:5-11."
+       Text: "If we sow good seed like love, mercy, compassion, kindness and the like, we can ..."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #31
-       Text: "This is is a wonderful passage of scripture, and before we look at it we need to..."
+       Text: "[d] The harvest will always be greater/more than the seed that you sow. The seed..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #32
+       Text: "[e] You can do nothing about your past harvests but you can about future harvest..."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #33
-       Text: "1. This is a passage full of heavy, mind blowing theology, and it could be judge..."
+       Text: "[g] The sowing and reaping principle applies to every area of our lives. When we..."
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #34
-       Text: "As children of God, we need to know the mind of Christ just as much as He did. H..."
+    💭 [DEVOTIONAL] Para #35
+       Text: "‘I wonder will we make it?’"
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #36
-       Text: "2.The mindset that enabled Jesus to come to earth and die on a cross should shap..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #38
-       Text: "3.To have the same attitude as Jesus, does not require great intellect, theologi..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #39
-       Text: "The word attitude actually means a settled way of thinking; it is arrived at aft..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #41
-       Text: "4.The immediate context lets us know, that the specific attitude or mindset Paul..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #43
-       Text: "Let me try and grasp the mindset that directed Jesus’ life and destiny, and disc..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #45
-       Text: "Philippians 2v 5-8"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #46
-       Text: "5. In your relationships with one another, have the same mindset as Christ Jesus..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #47
-       Text: "6 Who, being in very nature God, did not consider equality with God something to..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #47
-       Text: "7. rather, he made himself nothing by taking the very nature of a servant,"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #47
-       Text: "being made in human likeness."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #47
-       Text: "8.And being found in appearance as a man, he humbled himself by becoming obedien..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #48
-       Text: "a. Jesus was prepared to let go."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #50
-       Text: "‘Who being in the very nature God did not consider equality with God something t..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #51
-       Text: "This simply means that Jesus did not think of his status as something to be clun..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #52
-       Text: "Every time we feel a need to hold onto a position of power, or every time we fee..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #53
-       Text: "We have all known or experienced people who can’t move on, who can’t step down. ..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #55
-       Text: "As we have said the word harpagmos carries the idea of keeping hold of something..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #57
-       Text: "People in Christian ministry can live with an inflated sense of self-importance ..."
-       Why:  No special markers found, classified as devotional content
-    🙏 [PRAYER] Para #59
-       Text: "Prayer, Father deliver me from any grasping or ‘I must have’ attitude"
+    🙏 [PRAYER] Para #37
+       Text: "Prayer, Father help me be intentional in sowing good seed."
        Why:  Matched prayer pattern: **Prayer**
-    📚 [BIBLE_READING] Para #61
-       Text: "Bible in a year reading plan: - Jeremiah 18-21"
+    📚 [BIBLE_READING] Para #39
+       Text: "Bible in a year reading plan: - Jeremiah 41-44"
        Why:  Matched Bible reading pattern: Bible in a year
 
   💡 SUGGESTIONS TO FIX:
@@ -154,424 +103,142 @@ ENTRIES WITH MISSING SECTIONS OR WARNINGS:
      - Add the actual scripture quote after the reference line
 
 
-📅 DAY 249: STUDY TOPIC Spiritual formation  [the process of b...
-----------------------------------------
-  ❌ MISSING SECTIONS: scripture_ref, scripture_text
-
-  PARAGRAPH ANALYSIS (what the parser saw):
-    🔢 [DAY_MARKER] Para #63
-       Text: "Day 249"
-       Why:  Matched day pattern: Day N
-    📌 [TITLE] Para #65
-       Text: "STUDY TOPIC Spiritual formation  [the process of becoming like Jesus.]   part 9"
-       Why:  First non-day paragraph after Day marker, interpreted as title
-    💭 [DEVOTIONAL] Para #67
-       Text: "Jesus was prepared to empty himself."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #69
-       Text: "Paul goes on to say that Jesus made himself nothing. "Made himself nothing" (NIV..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #70
-       Text: "The point Paul wants to make is that Jesus lived a poured out life. As a man, Je..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #71
-       Text: "To empty ourselves does not only mean that we pour out our lives for others in s..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #73
-       Text: "Author Leslie Ludy writes:-"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #74
-       Text: "‘God has not called us to build our lives around the pursuit of our own selfish ..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #76
-       Text: "Jesus understood that the only way to live was with the heart of a servant."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #77
-       Text: "Paul chooses a very specific term doulos, to describe how much Jesus emptied him..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #78
-       Text: "In other words, Jesus became a particular kind of man, a slave, the lowest posit..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #79
-       Text: "The Greeks felt only revulsion and contempt for the position of a slave. By law,..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #81
-       Text: "John McArthur says: - ‘They had no choice about anything. They owned nothing. Th..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #83
-       Text: "Look at these words: -"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #84
-       Text: "’Jesus knew that the Father had put all things under his power, and that he had ..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #86
-       Text: "In becoming a slave, Jesus was focusing his life; He was saying that as a son, h..."
-       Why:  No special markers found, classified as devotional content
-    🙏 [PRAYER] Para #88
-       Text: "Prayer, Father thank you that there is great freedom in being your slave."
-       Why:  Matched prayer pattern: **Prayer**
-    📚 [BIBLE_READING] Para #90
-       Text: "Bible in a year reading plan: - Jeremiah 22-23"
-       Why:  Matched Bible reading pattern: Bible in a year
-
-  💡 SUGGESTIONS TO FIX:
-     - Add 'Study Text: [Book Chapter:Verse]' line after the title
-       Example: 'Study Text: John 3:16-18'
-     - Add the actual scripture quote after the reference line
-
-
-📅 DAY 250: STUDY TOPIC Spiritual formation [The process of be...
-----------------------------------------
-  ❌ MISSING SECTIONS: scripture_ref, scripture_text
-
-  PARAGRAPH ANALYSIS (what the parser saw):
-    🔢 [DAY_MARKER] Para #91
-       Text: "Day 250"
-       Why:  Matched day pattern: Day N
-    📌 [TITLE] Para #93
-       Text: "STUDY TOPIC Spiritual formation [The process of becoming like Jesus] part 10"
-       Why:  First non-day paragraph after Day marker, interpreted as title
-    💭 [DEVOTIONAL] Para #95
-       Text: "Jesus humbled himself."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #96
-       Text: "Humility is seeing ourselves as God has made us. Accepting who we are and acknow..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #97
-       Text: "Often we are unable to live humble lives because we are driven by our insecuriti..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #98
-       Text: "Humility enhances, dignifies and highlights the glories of being human. For Jesu..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #100
-       Text: "When we think about our humanity, usually we make the mistake of starting at the..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #101
-       Text: "Being human is too big a thing and too wonderful a thing to be ultimately define..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #103
-       Text: "Jesus obeyed."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #104
-       Text: "There is a lot in the word that Paul uses for obedient that we miss in our Engli..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #106
-       Text: "f. Jesus was obedient to death."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #107
-       Text: "Jesus accepted that suffering was an unavoidable part of a life that was totally..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #109
-       Text: ""It is difficult after sixteen centuries and more, during which the cross has be..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #110
-       Text: "How was Jesus able to endure such pain and shame? How was he able to become so h..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #111
-       Text: "He was able because we are told in verse 6 “He did not consider equality with Go..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #113
-       Text: "The image of God is most clearly demonstrated through a cruciform live."
-       Why:  No special markers found, classified as devotional content
-    🙏 [PRAYER] Para #115
-       Text: "Prayer, Father thank you that humility is always consistent with our humanity."
-       Why:  Matched prayer pattern: **Prayer**
-    📚 [BIBLE_READING] Para #117
-       Text: "Bible in a year reading plan: - Jeremiah 24-26"
-       Why:  Matched Bible reading pattern: Bible in a year
-
-  💡 SUGGESTIONS TO FIX:
-     - Add 'Study Text: [Book Chapter:Verse]' line after the title
-       Example: 'Study Text: John 3:16-18'
-     - Add the actual scripture quote after the reference line
-
-
-📅 DAY 251: STUDY TOPIC Spiritual formation [The process of be...
-----------------------------------------
-  ❌ MISSING SECTIONS: scripture_ref, scripture_text
-
-  PARAGRAPH ANALYSIS (what the parser saw):
-    🔢 [DAY_MARKER] Para #119
-       Text: "Day 251"
-       Why:  Matched day pattern: Day N
-    📌 [TITLE] Para #121
-       Text: "STUDY TOPIC Spiritual formation [The process of becoming like Jesus]  part 11"
-       Why:  First non-day paragraph after Day marker, interpreted as title
-    💭 [DEVOTIONAL] Para #123
-       Text: "Becoming like Jesus, frees us from a life of shame as seen in the story of Creat..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #125
-       Text: "Apparently when Steve Jobs, the founder and director of Apple was giving any kin..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #126
-       Text: "Something like this is happening in the story of creation as recorded in Genesis..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #128
-       Text: "We could be tempted to skip over this verse or not really notice it, but this is..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #130
-       Text: "What’s interesting is that the author could have finished with any description a..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #132
-       Text: "As Curt Thompson puts it:"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #133
-       Text: "‘He could have said the man and woman were naked and really happy (who wouldn’t ..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #135
-       Text: "Shame has a dehumanising power that prevents us from having any kind of meaningf..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #137
-       Text: "Before we look at our text let me say a few general things about shame."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #139
-       Text: "Shame is different than guilt."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #141
-       Text: "The distinction between guilt and shame is important to understand."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #143
-       Text: "Imagine I commit a crime, I am put on trial, the judge knows that I am totally g..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #145
-       Text: "a. There are two main sources of shame."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #147
-       Text: "Shame is caused by the wrong things we have done. We have all done things that w..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #149
-       Text: "Shame is also caused by what others do to us.  Many people have been treated in ..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #151
-       Text: "Someone writing about the shame caused by others someone has said this."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #153
-       Text: "‘It had been locked away for 23 years and had wreaked havoc on my life and the r..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #154
-       Text: "https://www.dashhouse.com/beginning-shame-genesis-224-310-21/ 13/003/2025"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #156
-       Text: "Michael Lewis said “Shame can be defined simply as the feeling we have when we e..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #157
-       Text: "Michael Lewis, Shame: The Exposed Self (New York: Te Free Press, 1992), 2."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #159
-       Text: "Someone else has said:-"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #160
-       Text: "‘Shame is a conviction at the very core that one is defective and worthless. It ..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #161
-       Text: "https://lindagraham-mft.net/im-hiding-please-see-me-unmasking-shame/ accessed 13..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #163
-       Text: "When we read that Adam and his wife were naked and felt no shame, we must see th..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #165
-       Text: "We have been designed to live unashamed lives. We were made for a world without ..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #167
-       Text: "You could say that shame is the antithesis to the image of God. Being made in th..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #169
-       Text: "When God made Adam and Eve they wore no clothes. They came into the world naked,..."
-       Why:  No special markers found, classified as devotional content
-    🙏 [PRAYER] Para #171
-       Text: "Prayer, Father thank you that it is not your will that I live under shame."
-       Why:  Matched prayer pattern: **Prayer**
-    📚 [BIBLE_READING] Para #173
-       Text: "Bible in a year reading plan: - Jeremiah 27-29"
-       Why:  Matched Bible reading pattern: Bible in a year
-
-  💡 SUGGESTIONS TO FIX:
-     - Add 'Study Text: [Book Chapter:Verse]' line after the title
-       Example: 'Study Text: John 3:16-18'
-     - Add the actual scripture quote after the reference line
-
-
-📅 DAY 252: STUDY TOPIC Spiritual formation  [The process of b...
-----------------------------------------
-  ❌ MISSING SECTIONS: scripture_ref, scripture_text
-
-  PARAGRAPH ANALYSIS (what the parser saw):
-    🔢 [DAY_MARKER] Para #175
-       Text: "Day 252"
-       Why:  Matched day pattern: Day N
-    📌 [TITLE] Para #177
-       Text: "STUDY TOPIC Spiritual formation  [The process of becoming like Jesus]  part 12"
-       Why:  First non-day paragraph after Day marker, interpreted as title
-    💭 [DEVOTIONAL] Para #179
-       Text: "If we were to compare how Genesis records Adam and Eve after they disobeyed God ..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #180
-       Text: "Shame changes how we see ourselves."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #182
-       Text: "‘Then the eyes of both of them were opened, and they realized they were naked.’G..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #183
-       Text: "This is interesting, they had always been naked, nothing in their physical bodie..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #184
-       Text: "‘Adam and Eve had never felt guilt before. The guilt they encountered was a fear..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #186
-       Text: "In Genesis 2:25 we read that the man and his wife were naked and unashamed. By G..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #188
-       Text: "The guilt they were feeling led to a deep sense of shame and self reproach becau..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #190
-       Text: "Shame is something that often begins with illegitimate voices in our heads that ..."
-       Why:  No special markers found, classified as devotional content
-    🙏 [PRAYER] Para #192
-       Text: "Prayer, Father may I experience freedom from engraved shame."
-       Why:  Matched prayer pattern: **Prayer**
-    📚 [BIBLE_READING] Para #194
-       Text: "Bible in a year reading plan: - Jeremiah 30-32"
-       Why:  Matched Bible reading pattern: Bible in a year
-
-  💡 SUGGESTIONS TO FIX:
-     - Add 'Study Text: [Book Chapter:Verse]' line after the title
-       Example: 'Study Text: John 3:16-18'
-     - Add the actual scripture quote after the reference line
-
-
-📅 DAY 253: STUDY TOPIC Spiritual formation  [The process of b...
-----------------------------------------
-  ❌ MISSING SECTIONS: scripture_ref, scripture_text
-
-  PARAGRAPH ANALYSIS (what the parser saw):
-    🔢 [DAY_MARKER] Para #196
-       Text: "Day 253"
-       Why:  Matched day pattern: Day N
-    📌 [TITLE] Para #198
-       Text: "STUDY TOPIC Spiritual formation  [The process of becoming like Jesus] part 13"
-       Why:  First non-day paragraph after Day marker, interpreted as title
-    💭 [DEVOTIONAL] Para #200
-       Text: "Shame causes us to hide from God."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #202
-       Text: "‘When the man and his wife heard the sound of the Lord God as he was walking in ..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #204
-       Text: "This is one of the most emotional moments in the whole bible. The created turn t..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #206
-       Text: "The words “hid themselves” in verse 8 here comes from the Hebrew word “châbâ” an..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #208
-       Text: "What does it mean to hide from God? What does it look like?"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #210
-       Text: "a. Hiding from God is about us determining the terms of our relationship with hi..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #212
-       Text: "This hiding from God was actually an expression of perverted thinking. They were..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #214
-       Text: "One of the biggest threats to spiritual formation and authentic transformation i..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #216
-       Text: "We live in denial, we avoid truth, we refuse to take responsibility, we blame ot..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #218
-       Text: "b. They began to fear the voice they had heard so many times in the past; their ..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #219
-       Text: "(1) the emotional and intellectual anticipation of harm, what one feels when thi..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #220
-       Text: "(2) a very positive feeling of awe or reverence for God."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #222
-       Text: "I think it is evident from the context – afraid in Genesis 3:10 is the first typ..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #224
-       Text: "Hiding from God is about our inability to receive love. The convincing voice of ..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #226
-       Text: "The kind of relationship God wants with us, requires that we are free from the c..."
-       Why:  No special markers found, classified as devotional content
-    🙏 [PRAYER] Para #228
-       Text: "Prayer, Father am I hiding anything from you?"
-       Why:  Matched prayer pattern: **Prayer**
-    📚 [BIBLE_READING] Para #230
-       Text: "Bible in a year reading plan: - Jeremiah 33 – 36"
-       Why:  Matched Bible reading pattern: Bible in a year
-
-  💡 SUGGESTIONS TO FIX:
-     - Add 'Study Text: [Book Chapter:Verse]' line after the title
-       Example: 'Study Text: John 3:16-18'
-     - Add the actual scripture quote after the reference line
-
-
-📅 DAY 254: STUDY TOPIC Spiritual formation  [ the process of ...
+📅 DAY 263: Generosity part 1
 ----------------------------------------
   ❌ MISSING SECTIONS: scripture_ref, scripture_text
 
   PARAGRAPH ANALYSIS (what the parser saw):
     🔢 [DAY_MARKER] Para #233
-       Text: "Day 254"
+       Text: "Day 263"
        Why:  Matched day pattern: Day N
     📌 [TITLE] Para #235
-       Text: "STUDY TOPIC Spiritual formation  [ the process of becoming like Jesus] part 14"
+       Text: "Generosity part 1"
        Why:  First non-day paragraph after Day marker, interpreted as title
     💭 [DEVOTIONAL] Para #237
-       Text: "Shame is something we cannot deal with on our own. It is important to remember t..."
+       Text: "Have you ever felt lost in a crowd, maybe it has been at some sporting event, or..."
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #238
-       Text: "We can all identify with Adam and Eve, we have all tried to cover our shame and ..."
+    💭 [DEVOTIONAL] Para #239
+       Text: "I want us to meet someone who stood out from the crowd. The interesting thing is..."
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #240
-       Text: "As we read the rest of Genesis 3, we discover how God’s love of Adam and Eve hel..."
+    💭 [DEVOTIONAL] Para #241
+       Text: "He was a boy, The word John uses for you boy is paidarrion.  The only other time..."
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #242
-       Text: "The word coverings in this verse describes something like a loin cloth which cov..."
+    💭 [DEVOTIONAL] Para #243
+       Text: "He was poor. {we know he was poor because only poor people ate barley bread.}"
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #244
-       Text: "Can you see what God is doing here?"
+       Text: "So if you were trying to describe him what we know about him doesn’t really help..."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #246
-       Text: "He allows them time to discover that they were unable to cover their own shame. ..."
+       Text: "“Here is a boy with five barley loaves and two small fish.” His biography was as..."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #248
-       Text: "Through the death of an animal and the shedding of blood, God dresses Adam and E..."
+       Text: "This young boy has a lot to teach us about generosity."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #250
-       Text: "Here is the important part. Forgiveness removes our guilt. Once you are forgiven..."
+       Text: "Generosity means that we respond appropriately to the circumstances around us. T..."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #252
-       Text: "It is often difficult for someone to recognise their shame because it has become..."
+       Text: "I don’t think this young boy had any idea what Jesus was going to do; I don’t th..."
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #254
-       Text: "Through his death on the cross Jesus removed our guilt and shame. The removal of..."
+    💭 [DEVOTIONAL] Para #253
+       Text: "Jesus was thankful for the little this young boy had to give him. I can understa..."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #255
-       Text: "Shame is so rooted in our thinking that it requires the growth of transformed th..."
+       Text: "Think of the circumstances of your life, the place where you live, the people th..."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #257
-       Text: "In an essay on shame in the church  Dan Foster wrote:-"
+       Text: "Generosity will allow us to engage with the heart of Jesus. In giving his bread ..."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #259
-       Text: "‘Shame is used in the church to make people conform to the norms of the group. B..."
+       Text: "What difference would it make if we saw the world in which we lived through the ..."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #260
-       Text: "Guilt-based religion and shame work well to keep the troops in line because sham..."
+       Text: "Generosity will help us discover our full potential."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #261
-       Text: "Now here is the big take away. If we are living out of shame, then our default w..."
+       Text: "When we begin to live lives that are distinguished by generosity, that will brin..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #262
+       Text: "Generosity will affect how you view and manage your resources. Sometimes we try ..."
        Why:  No special markers found, classified as devotional content
     💭 [DEVOTIONAL] Para #263
-       Text: "As Christians we cannot become so accustomed to living with shame or even living..."
+       Text: "We all find it so easy to hold on to what we have got. Can you think of some gen..."
        Why:  No special markers found, classified as devotional content
-    🙏 [PRAYER] Para #265
-       Text: "Prayer, Father please deliver me from the pervasive effects of shame.’"
+    💭 [DEVOTIONAL] Para #265
+       Text: "Generosity is something God loves to bless."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #266
+       Text: "There is a line in the story that is often overlooked. ‘Jesus then took the loav..."
+       Why:  No special markers found, classified as devotional content
+    🙏 [PRAYER] Para #268
+       Text: "Prayer, Father thank you I am in the right place to be generous and I have all I..."
        Why:  Matched prayer pattern: **Prayer**
-    📚 [BIBLE_READING] Para #267
-       Text: "Bible in a year reading plan: - Jeremiah 37 – 40"
+    📚 [BIBLE_READING] Para #269
+       Text: "Bible in a year reading plan: - Ezekiel 13- 16"
+       Why:  Matched Bible reading pattern: Bible in a year
+
+  💡 SUGGESTIONS TO FIX:
+     - Add 'Study Text: [Book Chapter:Verse]' line after the title
+       Example: 'Study Text: John 3:16-18'
+     - Add the actual scripture quote after the reference line
+
+
+📅 DAY 264: Generosity part 2
+----------------------------------------
+  ❌ MISSING SECTIONS: scripture_ref, scripture_text
+
+  PARAGRAPH ANALYSIS (what the parser saw):
+    🔢 [DAY_MARKER] Para #270
+       Text: "Day 264"
+       Why:  Matched day pattern: Day N
+    📌 [TITLE] Para #272
+       Text: "Generosity part 2"
+       Why:  First non-day paragraph after Day marker, interpreted as title
+    💭 [DEVOTIONAL] Para #274
+       Text: "2 Corinthians 8:1-9"
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #275
+       Text: "‘’And now, brothers and sisters, we want you to know about the grace that God ha..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #276
+       Text: "Generosity is a familiar concept; hopefully there have been times in all our liv..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #277
+       Text: "Generosity is first and foremost a deep rooted characteristic that should be the..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #278
+       Text: "So we want to explore an example of generosity from the bible and try and grasp ..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #279
+       Text: "2 Corinthians 8-9 is probably the best exposition of generosity you are ever goi..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #280
+       Text: "Before we look at these verses I need to say a few things: -"
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #282
+       Text: "Paul is using the Macedonian churches (Philippi and Thessalonica) as an example ..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #283
+       Text: "Paul was not using the example of the Macedonian churches to make the Christians..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #284
+       Text: "When the translators translated 2 Corinthians 8-9 they used the word generous to..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #286
+       Text: "However, I don’t think God wants our generosity to be expressed in the same way ..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #287
+       Text: "The second word eulogia means to bless, to praise or celebrate. These two words ..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #288
+       Text: "Remember the point of this passage is to encourage the Church in Corinth to care..."
+       Why:  No special markers found, classified as devotional content
+    🙏 [PRAYER] Para #289
+       Text: "Prayer, Father may generosity be an indicator that you are changing my heart."
+       Why:  Matched prayer pattern: **Prayer**
+    📚 [BIBLE_READING] Para #291
+       Text: "Bible in a year reading plan: - Ezekiel 17-20"
        Why:  Matched Bible reading pattern: Bible in a year
 
   💡 SUGGESTIONS TO FIX:

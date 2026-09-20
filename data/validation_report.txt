@@ -1,244 +1,379 @@
 ======================================================================
 THOUGHT PROCESSOR - VALIDATION REPORT
 ======================================================================
-Generated: 2026-09-11 14:18:18
-Total entries processed: 10
-Complete entries: 7
-Entries with issues: 3
+Generated: 2026-09-20 19:22:57
+Total entries processed: 6
+Complete entries: 1
+Entries with issues: 5
 ======================================================================
 
 ENTRIES WITH MISSING SECTIONS OR WARNINGS:
 ----------------------------------------------------------------------
 
-📅 DAY 255: STUDY TOPIC Spiritual formation  [ the process of ...
+📅 DAY 265: Generosity part 4
 ----------------------------------------
   ❌ MISSING SECTIONS: scripture_ref, scripture_text
 
   PARAGRAPH ANALYSIS (what the parser saw):
     🔢 [DAY_MARKER] Para #0
-       Text: "Day 255"
+       Text: "Day 265"
        Why:  Matched day pattern: Day N
     📌 [TITLE] Para #2
-       Text: "STUDY TOPIC Spiritual formation  [ the process of becoming like Jesus] part 15"
+       Text: "Generosity part 4"
        Why:  First non-day paragraph after Day marker, interpreted as title
     💭 [DEVOTIONAL] Para #4
-       Text: "I wonder will we make it?"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #6
-       Text: "Author, former Desiring God contributor, former Philosophy professor at Moody Bi..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #8
-       Text: "I wonder will we make it?"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #10
-       Text: "Hillsong songwriter Marty Sampson wrote: “Time for some real talk… I’m genuinely..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #12
-       Text: "I wonder will we make it?"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #14
-       Text: "Dave Gass, the former pastor at Grace Family Fellowship, pastor at Covenant Chur..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #16
-       Text: "I don’t know you but when I hear of people who were once used by God, leaving th..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #17
-       Text: "The second emotion I feel is fear, fear of not ending the race well. I often won..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #19
-       Text: "How we cross the line is more important than how we started. We have no control ..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #20
-       Text: "Paul gives us five areas of relationships where we need to be intentional, where..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #21
-       Text: "Madame Chiang Kai-shek once wrote: "If the past has taught us anything it is tha..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #23
-       Text: "Let me try and explain the implications of this principle."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #24
-       Text: "[a] A harvest may be sown in secret but the harvest itself cannot be hidden."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #25
-       Text: "This is so important. The seeds we sow in private will eventually become evident..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #26
-       Text: "[b] We alone are responsible for the seed we sow. Nobody else can sow our seed. ..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #27
-       Text: "[c] Time might pass before the harvest ripens but it will come."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #28
-       Text: "The harvest will take time, be it a good harvest or a bad harvest it will come, ..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #29
-       Text: "[d] The nature of the seed we sow will determine the harvest."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #30
-       Text: "If we sow good seed like love, mercy, compassion, kindness and the like, we can ..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #31
-       Text: "[d] The harvest will always be greater/more than the seed that you sow. The seed..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #32
-       Text: "[e] You can do nothing about your past harvests but you can about future harvest..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #33
-       Text: "[g] The sowing and reaping principle applies to every area of our lives. When we..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #35
-       Text: "‘I wonder will we make it?’"
-       Why:  No special markers found, classified as devotional content
-    🙏 [PRAYER] Para #37
-       Text: "Prayer, Father help me be intentional in sowing good seed."
-       Why:  Matched prayer pattern: **Prayer**
-    📚 [BIBLE_READING] Para #39
-       Text: "Bible in a year reading plan: - Jeremiah 41-44"
-       Why:  Matched Bible reading pattern: Bible in a year
-
-  💡 SUGGESTIONS TO FIX:
-     - Add 'Study Text: [Book Chapter:Verse]' line after the title
-       Example: 'Study Text: John 3:16-18'
-     - Add the actual scripture quote after the reference line
-
-
-📅 DAY 263: Generosity part 1
-----------------------------------------
-  ❌ MISSING SECTIONS: scripture_ref, scripture_text
-
-  PARAGRAPH ANALYSIS (what the parser saw):
-    🔢 [DAY_MARKER] Para #233
-       Text: "Day 263"
-       Why:  Matched day pattern: Day N
-    📌 [TITLE] Para #235
-       Text: "Generosity part 1"
-       Why:  First non-day paragraph after Day marker, interpreted as title
-    💭 [DEVOTIONAL] Para #237
-       Text: "Have you ever felt lost in a crowd, maybe it has been at some sporting event, or..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #239
-       Text: "I want us to meet someone who stood out from the crowd. The interesting thing is..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #241
-       Text: "He was a boy, The word John uses for you boy is paidarrion.  The only other time..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #243
-       Text: "He was poor. {we know he was poor because only poor people ate barley bread.}"
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #244
-       Text: "So if you were trying to describe him what we know about him doesn’t really help..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #246
-       Text: "“Here is a boy with five barley loaves and two small fish.” His biography was as..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #248
-       Text: "This young boy has a lot to teach us about generosity."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #250
-       Text: "Generosity means that we respond appropriately to the circumstances around us. T..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #252
-       Text: "I don’t think this young boy had any idea what Jesus was going to do; I don’t th..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #253
-       Text: "Jesus was thankful for the little this young boy had to give him. I can understa..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #255
-       Text: "Think of the circumstances of your life, the place where you live, the people th..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #257
-       Text: "Generosity will allow us to engage with the heart of Jesus. In giving his bread ..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #259
-       Text: "What difference would it make if we saw the world in which we lived through the ..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #260
-       Text: "Generosity will help us discover our full potential."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #261
-       Text: "When we begin to live lives that are distinguished by generosity, that will brin..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #262
-       Text: "Generosity will affect how you view and manage your resources. Sometimes we try ..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #263
-       Text: "We all find it so easy to hold on to what we have got. Can you think of some gen..."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #265
-       Text: "Generosity is something God loves to bless."
-       Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #266
-       Text: "There is a line in the story that is often overlooked. ‘Jesus then took the loav..."
-       Why:  No special markers found, classified as devotional content
-    🙏 [PRAYER] Para #268
-       Text: "Prayer, Father thank you I am in the right place to be generous and I have all I..."
-       Why:  Matched prayer pattern: **Prayer**
-    📚 [BIBLE_READING] Para #269
-       Text: "Bible in a year reading plan: - Ezekiel 13- 16"
-       Why:  Matched Bible reading pattern: Bible in a year
-
-  💡 SUGGESTIONS TO FIX:
-     - Add 'Study Text: [Book Chapter:Verse]' line after the title
-       Example: 'Study Text: John 3:16-18'
-     - Add the actual scripture quote after the reference line
-
-
-📅 DAY 264: Generosity part 2
-----------------------------------------
-  ❌ MISSING SECTIONS: scripture_ref, scripture_text
-
-  PARAGRAPH ANALYSIS (what the parser saw):
-    🔢 [DAY_MARKER] Para #270
-       Text: "Day 264"
-       Why:  Matched day pattern: Day N
-    📌 [TITLE] Para #272
-       Text: "Generosity part 2"
-       Why:  First non-day paragraph after Day marker, interpreted as title
-    💭 [DEVOTIONAL] Para #274
        Text: "2 Corinthians 8:1-9"
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #275
+    💭 [DEVOTIONAL] Para #5
        Text: "‘’And now, brothers and sisters, we want you to know about the grace that God ha..."
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #276
-       Text: "Generosity is a familiar concept; hopefully there have been times in all our liv..."
+    💭 [DEVOTIONAL] Para #7
+       Text: "Paul had a lot to say about the heart behind their giving."
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #277
-       Text: "Generosity is first and foremost a deep rooted characteristic that should be the..."
+    💭 [DEVOTIONAL] Para #8
+       Text: "1.They gave because they had experienced the grace of God. ‘And now brothers we ..."
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #278
-       Text: "So we want to explore an example of generosity from the bible and try and grasp ..."
+    💭 [DEVOTIONAL] Para #9
+       Text: "The grace of God in someone’s life will always have a radical effect. Generosity..."
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #279
-       Text: "2 Corinthians 8-9 is probably the best exposition of generosity you are ever goi..."
+    💭 [DEVOTIONAL] Para #10
+       Text: "We discover that we are completely loved. No matter what we do, or don’t do God ..."
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #280
-       Text: "Before we look at these verses I need to say a few things: -"
+    💭 [DEVOTIONAL] Para #11
+       Text: "We will discover that the things we possess and the things we achieve can never ..."
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #282
-       Text: "Paul is using the Macedonian churches (Philippi and Thessalonica) as an example ..."
+    💭 [DEVOTIONAL] Para #12
+       Text: "We discover that all people are worth loving, because we are all made in the ima..."
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #283
-       Text: "Paul was not using the example of the Macedonian churches to make the Christians..."
+    💭 [DEVOTIONAL] Para #13
+       Text: "2.They gave despite their own pain. ‘Out of the most severe trial.’  The word “a..."
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #284
-       Text: "When the translators translated 2 Corinthians 8-9 they used the word generous to..."
+    💭 [DEVOTIONAL] Para #14
+       Text: "“For you, brethren, became imitators of the churches of God in Christ Jesus that..."
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #286
-       Text: "However, I don’t think God wants our generosity to be expressed in the same way ..."
+    💭 [DEVOTIONAL] Para #15
+       Text: "So, what was the nature of the ordeal that was afflicting the churches of Macedo..."
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #287
-       Text: "The second word eulogia means to bless, to praise or celebrate. These two words ..."
+    💭 [DEVOTIONAL] Para #16
+       Text: "These believers were in the most severe trial despite being filled with the grac..."
        Why:  No special markers found, classified as devotional content
-    💭 [DEVOTIONAL] Para #288
-       Text: "Remember the point of this passage is to encourage the Church in Corinth to care..."
+    💭 [DEVOTIONAL] Para #18
+       Text: "3.They gave out of overflowing joy."
        Why:  No special markers found, classified as devotional content
-    🙏 [PRAYER] Para #289
-       Text: "Prayer, Father may generosity be an indicator that you are changing my heart."
+    💭 [DEVOTIONAL] Para #19
+       Text: "They gave out of hearts that were filled with joy. Joy is more than an emotion, ..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #20
+       Text: "It is interesting to note that Jesus spoke most about his own joy on the night b..."
+       Why:  No special markers found, classified as devotional content
+    🙏 [PRAYER] Para #22
+       Text: "Prayer, Father help me understand that generosity has nothing to do with circums..."
        Why:  Matched prayer pattern: **Prayer**
-    📚 [BIBLE_READING] Para #291
-       Text: "Bible in a year reading plan: - Ezekiel 17-20"
+    📚 [BIBLE_READING] Para #24
+       Text: "Bible in a year reading plan: - Ezekiel 21-23"
+       Why:  Matched Bible reading pattern: Bible in a year
+
+  💡 SUGGESTIONS TO FIX:
+     - Add 'Study Text: [Book Chapter:Verse]' line after the title
+       Example: 'Study Text: John 3:16-18'
+     - Add the actual scripture quote after the reference line
+
+
+📅 DAY 266: Generosity part 5
+----------------------------------------
+  ❌ MISSING SECTIONS: scripture_ref, scripture_text
+
+  PARAGRAPH ANALYSIS (what the parser saw):
+    🔢 [DAY_MARKER] Para #26
+       Text: "Day 266"
+       Why:  Matched day pattern: Day N
+    📌 [TITLE] Para #28
+       Text: "Generosity part 5"
+       Why:  First non-day paragraph after Day marker, interpreted as title
+    💭 [DEVOTIONAL] Para #30
+       Text: "2 Corinthians 8:1-9"
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #31
+       Text: "‘’And now, brothers and sisters, we want you to know about the grace that God ha..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #33
+       Text: "As we have seen, the opportunity to be generous has nothing to do with the resou..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #35
+       Text: "Their generosity was not caused by external pressure but internal desire. ‘For I..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #37
+       Text: "Why would they be so eager to give?"
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #38
+       Text: "The love of God was so much at work in the hearts of these people that it could ..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #40
+       Text: "Their generosity to others, was consistent with giving themselves to the Lord. ‘..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #41
+       Text: "Let me ask us this question, when did you last give yourself to the Lord?"
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #42
+       Text: "I am not talking about conversion, but the continual ongoing giving of yourself ..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #43
+       Text: "Every one of us have opportunities and a need to live generous lives. We are nev..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #45
+       Text: "Our English word for generous comes from the Latin generosus which means ‘of nob..."
+       Why:  No special markers found, classified as devotional content
+    🙏 [PRAYER] Para #47
+       Text: "Prayer, Father may I have a generous character"
+       Why:  Matched prayer pattern: **Prayer**
+    📚 [BIBLE_READING] Para #49
+       Text: "Bible in a year reading plan: Ezekiel 24-27"
+       Why:  Matched Bible reading pattern: Bible in a year
+
+  💡 SUGGESTIONS TO FIX:
+     - Add 'Study Text: [Book Chapter:Verse]' line after the title
+       Example: 'Study Text: John 3:16-18'
+     - Add the actual scripture quote after the reference line
+
+
+📅 DAY 268: STUDY TOPIC Materialism part 2
+----------------------------------------
+  ❌ MISSING SECTIONS: scripture_ref, scripture_text
+
+  PARAGRAPH ANALYSIS (what the parser saw):
+    🔢 [DAY_MARKER] Para #87
+       Text: "Day 268"
+       Why:  Matched day pattern: Day N
+    📌 [TITLE] Para #89
+       Text: "STUDY TOPIC Materialism part 2"
+       Why:  First non-day paragraph after Day marker, interpreted as title
+    💭 [DEVOTIONAL] Para #91
+       Text: "Matthew 6:19-24 “Do not store up for yourselves treasures on earth, where moth a..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #92
+       Text: "How does Jesus define materialism?"
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #93
+       Text: "In verses 19-24 Jesus states three things that expose the true nature of materia..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #95
+       Text: "Materialism is the result of perverted values. Matthew 6:19-21"
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #96
+       Text: "“Do not store up for yourself treasures on earth, where moth and rust destroy an..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #97
+       Text: "Jesus is not banning possessions or condemning wealth; nor is he saying we shoul..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #99
+       Text: "In Jesus’ day, when the nation of Rome conquered a country, it took the contents..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #100
+       Text: "It defined: -"
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #101
+       Text: "a. What you could do in life."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #102
+       Text: "b. Who you could associate with."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #103
+       Text: "c. How well you ate."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #104
+       Text: "d. What kind of home you could live in."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #105
+       Text: "e. Your prestige in the community."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #106
+       Text: "f. Your perception of yourself."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #108
+       Text: "A person’s value and worth became related to how much wealth they had. Furthermo..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #110
+       Text: "Jesus exposes the folly of this thinking by giving three word pictures."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #112
+       Text: "Moth eaten clothes."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #113
+       Text: "Most of the garments that were prized in Jesus' day were made out of wool, which..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #115
+       Text: "Rusty goods"
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #116
+       Text: "The Greek word for 'rust' (*brosis*) actually means 'eating'; it could refer to ..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #118
+       Text: "Stolen goods"
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #119
+       Text: "In Jesus' day treasures were hidden in holes dug in the dirt floors of the home,..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #121
+       Text: "If we consider our material possessions as treasures then we are going to end up..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #123
+       Text: "To have our heart set on treasure on earth is the result of outright deception, ..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #125
+       Text: "Jesus says “But store up for yourself treasure in heaven.”"
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #126
+       Text: "What does this mean?"
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #128
+       Text: "It means that the things that are important to God become life shaping and motiv..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #129
+       Text: "It means that we will not look for life or fulfilment in the things we own, or i..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #130
+       Text: "It means that our emotional lives will be directed and controlled by a pursuit f..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #131
+       Text: "It means that we will have a strong compulsion to invest our lives in the needs ..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #132
+       Text: "In the days of the terrible Decian persecution in Rome, the Roman authorities br..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #133
+       Text: "Jesus goes on to say, “For where your treasure is there you heart will be also.”..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #134
+       Text: "“If a person’s real treasure, his ultimate aim in all his striving, is something..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #135
+       Text: "We may suppose that materialism is an undue desire for luxuries, but Jesus ident..."
+       Why:  No special markers found, classified as devotional content
+    🙏 [PRAYER] Para #137
+       Text: "Prayer, Father free my heart from any undue concern over the material essentials..."
+       Why:  Matched prayer pattern: **Prayer**
+    📚 [BIBLE_READING] Para #138
+       Text: "Bible in a year reading plan:- Ezekiel 32- 36"
+       Why:  Matched Bible reading pattern: Bible in a year
+
+  💡 SUGGESTIONS TO FIX:
+     - Add 'Study Text: [Book Chapter:Verse]' line after the title
+       Example: 'Study Text: John 3:16-18'
+     - Add the actual scripture quote after the reference line
+
+
+📅 DAY 269: STUDY TOPIC Materialism part 3
+----------------------------------------
+  ❌ MISSING SECTIONS: scripture_ref, scripture_text
+
+  PARAGRAPH ANALYSIS (what the parser saw):
+    🔢 [DAY_MARKER] Para #140
+       Text: "Day 269"
+       Why:  Matched day pattern: Day N
+    📌 [TITLE] Para #142
+       Text: "STUDY TOPIC Materialism part 3"
+       Why:  First non-day paragraph after Day marker, interpreted as title
+    💭 [DEVOTIONAL] Para #144
+       Text: "Matthew 6:19-24 “Do not store up for yourselves treasures on earth, where moth a..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #146
+       Text: "Materialism is the result of bad vision"
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #148
+       Text: "“The eye is the lamp of the body, if you eyes are good your whole body will be f..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #149
+       Text: "The poet William Blake correctly points out that we do not see with the eye but ..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #151
+       Text: "In the Message these verses read."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #152
+       Text: "“Your eyes are the window into your body. If you open your eyes wide in wonder a..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #153
+       Text: "The implications of these verses are staggering. If our perception of life is th..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #154
+       Text: "We become selfish."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #155
+       Text: "We encourage greed."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #156
+       Text: "People become dispensable like other commodities."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #157
+       Text: "What we have becomes more important than relationships."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #158
+       Text: "We evaluate others by what they have, not by who they are."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #159
+       Text: "Priorities become confused."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #160
+       Text: "Morals become corrupted."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #163
+       Text: "The point of these verses is that materialism is not some minor flaw in one’s th..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #164
+       Text: "This is why Paul could say “The love of money isthe ROOT of ALL evil.”"
+       Why:  No special markers found, classified as devotional content
+    🙏 [PRAYER] Para #166
+       Text: "Prayer, Father help me to recognise that to try and quench my thirst though mate..."
+       Why:  Matched prayer pattern: **Prayer**
+    📚 [BIBLE_READING] Para #168
+       Text: "Bible in a year reading plan: -Ezekiel 37 -41"
+       Why:  Matched Bible reading pattern: Bible in a year
+
+  💡 SUGGESTIONS TO FIX:
+     - Add 'Study Text: [Book Chapter:Verse]' line after the title
+       Example: 'Study Text: John 3:16-18'
+     - Add the actual scripture quote after the reference line
+
+
+📅 DAY 270: STUDY TOPIC Materialism part 4
+----------------------------------------
+  ❌ MISSING SECTIONS: scripture_ref, scripture_text
+
+  PARAGRAPH ANALYSIS (what the parser saw):
+    🔢 [DAY_MARKER] Para #172
+       Text: "Day 270"
+       Why:  Matched day pattern: Day N
+    📌 [TITLE] Para #174
+       Text: "STUDY TOPIC Materialism part 4"
+       Why:  First non-day paragraph after Day marker, interpreted as title
+    💭 [DEVOTIONAL] Para #176
+       Text: "Matthew 6:19-24 “Do not store up for yourselves treasures on earth, where moth a..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #178
+       Text: "Materialism is a form of idolatry Matthew 6:24"
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #179
+       Text: "“No one can serve two masters. Either he will hate the one and love the other, o..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #180
+       Text: "We need to remember whom Jesus is speaking to here. He wasn’t speaking to men an..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #181
+       Text: "It would be a mistake to think that Jesus is only addressing those who have a lo..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #182
+       Text: "To help us understand this, we need to look at the word used for money in this v..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #184
+       Text: "“The word mamon had a most curious and a most revealing history. It comes from a..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #186
+       Text: "It is impossible to be a Christian who is fully committed to God and be a materi..."
+       Why:  No special markers found, classified as devotional content
+    🙏 [PRAYER] Para #187
+       Text: "Prayer, Father please help me to put my trust in you and not my bank balance."
+       Why:  Matched prayer pattern: **Prayer**
+    📚 [BIBLE_READING] Para #189
+       Text: "Bible in a year reading plan: - Ezekiel 42 - 45"
        Why:  Matched Bible reading pattern: Bible in a year
 
   💡 SUGGESTIONS TO FIX:

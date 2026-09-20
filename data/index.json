@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-11T14:18:18.883255",
-  "total_days": 264,
-  "complete_days": 192,
-  "incomplete_days": 72,
+  "generated": "2026-09-20T19:22:57.773070",
+  "total_days": 270,
+  "complete_days": 193,
+  "incomplete_days": 77,
   "days": [
     {
       "day": 1,
@@ -2592,6 +2592,75 @@
       "file": "day-264.json",
       "has_links": false,
       "has_highlights": false,
+      "is_complete": false,
+      "missing_sections": [
+        "scripture_ref",
+        "scripture_text"
+      ]
+    },
+    {
+      "day": 265,
+      "title": "Generosity part 4",
+      "file": "day-265.json",
+      "has_links": false,
+      "has_highlights": false,
+      "is_complete": false,
+      "missing_sections": [
+        "scripture_ref",
+        "scripture_text"
+      ]
+    },
+    {
+      "day": 266,
+      "title": "Generosity part 5",
+      "file": "day-266.json",
+      "has_links": true,
+      "has_highlights": false,
+      "is_complete": false,
+      "missing_sections": [
+        "scripture_ref",
+        "scripture_text"
+      ]
+    },
+    {
+      "day": 267,
+      "title": "Materialism part 1",
+      "file": "day-267.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 268,
+      "title": "STUDY TOPIC Materialism part 2",
+      "file": "day-268.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": false,
+      "missing_sections": [
+        "scripture_ref",
+        "scripture_text"
+      ]
+    },
+    {
+      "day": 269,
+      "title": "STUDY TOPIC Materialism part 3",
+      "file": "day-269.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": false,
+      "missing_sections": [
+        "scripture_ref",
+        "scripture_text"
+      ]
+    },
+    {
+      "day": 270,
+      "title": "STUDY TOPIC Materialism part 4",
+      "file": "day-270.json",
+      "has_links": false,
+      "has_highlights": true,
       "is_complete": false,
       "missing_sections": [
         "scripture_ref",

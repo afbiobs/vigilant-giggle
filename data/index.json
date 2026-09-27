@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-20T19:22:57.773070",
-  "total_days": 270,
-  "complete_days": 193,
+  "generated": "2026-09-27T19:18:04.810934",
+  "total_days": 276,
+  "complete_days": 199,
   "incomplete_days": 77,
   "days": [
     {
@@ -2666,6 +2666,60 @@
         "scripture_ref",
         "scripture_text"
       ]
+    },
+    {
+      "day": 271,
+      "title": "\u2018\u2019Then they reached Jericho, and as Jesus and his disciples left town, a large crowd followed him. A blind beggar named Bartimaeus (son of Timaeus) was sitting beside the road.  When Bartimaeus heard that Jesus of Nazareth was nearby, he began to shout, \u201cJesus, Son of David, have mercy on me!\u201d  \u201cBe quiet!\u201d many of the people yelled at him. But he only shouted louder, \u201cSon of David, have mercy on me. When Jesus heard him, he stopped and said, \u201cTell him to come here.\u201d So they called the blind man. \u201cCheer up,\u201d they said. \u201cCome on, he\u2019s calling you!\u201d  Bartimaeus threw aside his coat, jumped up, and came to Jesus.  \u201cWhat do you want me to do for you?\u201d Jesus asked. \u201cMy rabbi,\u201d the blind man said, \u201cI want to see!\u201d  And Jesus said to him, \u201cGo, for your faith has healed you.\u201d Instantly the man could see, and he followed Jesus down the road.\u2019\u2019",
+      "file": "day-271.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 272,
+      "title": "The Context of this story.",
+      "file": "day-272.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 273,
+      "title": "At this time Peter got a revelation not only of Jesus, but also of himself.",
+      "file": "day-273.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 274,
+      "title": "Peter\u2019s denial of Jesus. Part 1",
+      "file": "day-274.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 275,
+      "title": "Peter\u2019s denial of Jesus. Part 2",
+      "file": "day-275.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 276,
+      "title": "What is evangelism? Part 1",
+      "file": "day-276.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
     }
   ]
 }

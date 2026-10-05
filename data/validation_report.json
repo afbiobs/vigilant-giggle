@@ -1,9 +1,414 @@
 {
-  "generated": "2026-09-27T19:18:04.813330",
+  "generated": "2026-10-05T21:34:39.028003",
   "summary": {
-    "total_entries": 6,
+    "total_entries": 14,
     "complete": 0,
-    "incomplete": 0
+    "incomplete": 2
   },
-  "issues": []
+  "issues": [
+    {
+      "day": 277,
+      "title": "What is evangelism? Part 2",
+      "missing": [
+        "bible_reading"
+      ],
+      "warnings": [],
+      "diagnostics": [
+        {
+          "para_index": 0,
+          "text_preview": "Day 277",
+          "classification": "DAY_MARKER",
+          "reason": "Matched day pattern: Day N"
+        },
+        {
+          "para_index": 2,
+          "text_preview": "STUDY TEXT Luke 10:1-16 What is evangelism? Part 2",
+          "classification": "STUDY_TEXT_HEADER",
+          "reason": "Matched study text pattern: study text"
+        },
+        {
+          "para_index": 4,
+          "text_preview": "‘’After this the Lord appointed seventy-two others and sent them two by two ahea...",
+          "classification": "SCRIPTURE_TEXT",
+          "reason": "First paragraph after scripture reference, interpreted as scripture text/quote"
+        },
+        {
+          "para_index": 6,
+          "text_preview": "The peace of evangelism.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 7,
+          "text_preview": "Jesus goes on to say:  ‘When you enter a house, first say, ‘Peace to this house....",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 8,
+          "text_preview": "This is one of those passages we could easily skip over and miss some important ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 9,
+          "text_preview": "People need to know about our peace, love and acceptance of them before they can...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 10,
+          "text_preview": "If we share the gospel in such a way that causes someone to feel threatened or i...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 12,
+          "text_preview": "It is possible to be vulnerable like ‘lambs among wolves,’ and have a deep sense...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 14,
+          "text_preview": "The conduct of the evangelist",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 15,
+          "text_preview": "We need to hold lightly to our religious traditions. Look at what Jesus said, ‘S...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 16,
+          "text_preview": "This was quite a radical thing to say to young Jews, who would only have eaten r...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 18,
+          "text_preview": "We need to assure people know that God cares for all of their lives.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 19,
+          "text_preview": "Jesus said, ‘Heal the sick who are there and tell them, ‘The kingdom of God has ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 20,
+          "text_preview": "How we respond to the rejection of the gospel is part of our evangelism.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 21,
+          "text_preview": "Doing evangelism the way Jesus instructed does not guarantee results, but it doe...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 22,
+          "text_preview": "‘Look at what Jesus said, ‘But when you enter a town and are not welcomed, go in...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 24,
+          "text_preview": "This verse raises an important issue that we need to think through. Is the criti...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 24,
+          "text_preview": "If we are shown rejection because we have shared the gospel, it is okay to share...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 25,
+          "text_preview": "We need to find culturally appropriate ways of expressing our sadness without co...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 27,
+          "text_preview": "Shaking of the dust of rejection.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 28,
+          "text_preview": "Rejection is a terrible and painful thing that can prevent us from moving forwar...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 29,
+          "text_preview": "So much of our pain comes from trying to change the way others feel about us. Sh...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 30,
+          "text_preview": "I wonder do we care enough to demonstrate our sadness when people reject the gos...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 31,
+          "text_preview": "Prayer, Father, please help me have a Godly character so I can share the gospel ...",
+          "classification": "PRAYER",
+          "reason": "Matched prayer pattern: **Prayer**"
+        },
+        {
+          "para_index": 32,
+          "text_preview": "Bible reading in a year plan: - Hosea 5-8.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        }
+      ]
+    },
+    {
+      "day": 281,
+      "title": "Parable of the sheep and the goats part 2",
+      "missing": [
+        "prayer"
+      ],
+      "warnings": [],
+      "diagnostics": [
+        {
+          "para_index": 137,
+          "text_preview": "Day 281",
+          "classification": "DAY_MARKER",
+          "reason": "Matched day pattern: Day N"
+        },
+        {
+          "para_index": 139,
+          "text_preview": "STUDY TEXT Matthew 25:31-46. Parable of the sheep and the goats part 2",
+          "classification": "STUDY_TEXT_HEADER",
+          "reason": "Matched study text pattern: study text"
+        },
+        {
+          "para_index": 141,
+          "text_preview": "“But when the Son of Man comes in his glory, and all the angels with him, then h...",
+          "classification": "SCRIPTURE_TEXT",
+          "reason": "First paragraph after scripture reference, interpreted as scripture text/quote"
+        },
+        {
+          "para_index": 143,
+          "text_preview": "Evidence of authentic Christianity.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 144,
+          "text_preview": "Writing about this passage, Ray Stedmen wrote,",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 145,
+          "text_preview": "‘The arresting thing about this is that Jesus is clearly saying that the ultimat...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 146,
+          "text_preview": "The deeds that Jesus mentions here are the fruit of salvation not the root; thes...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 147,
+          "text_preview": "All the deeds that Jesus mentions here are not hard to do; we don’t need a lot o...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 148,
+          "text_preview": "‘Caring for the needy in the Hebrew Scriptures, for example, is the second most ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 150,
+          "text_preview": "How we treat people in need is an indication of what kind of relationship we hav...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 151,
+          "text_preview": "‘For I was hungry and you gave me something to eat.  I was thirsty and you gave ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 152,
+          "text_preview": "Mother Teresa of Calcutta, whose nursing order of sisters had adopted precisely ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 153,
+          "text_preview": "‘In Jesus’ vision of the last days we discover that when He does come into our h...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 155,
+          "text_preview": "How are we treating Jesus?",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 157,
+          "text_preview": "There is a very interesting admission in this passage. Not once does Jesus refer...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 158,
+          "text_preview": "No matter how little or how much we have materially we are all responsible to re...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 159,
+          "text_preview": "We can only touch the heart of Jesus as we give ourselves to those in need. Read...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 160,
+          "text_preview": "As Christians we should be sacrificially investing ourselves in the lives of nee...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 161,
+          "text_preview": "Any indifference to the plight of the needy suggests that we almost approve of a...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 163,
+          "text_preview": "For evil to advance, all is needed is for good men to do nothing.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 165,
+          "text_preview": "What was the motive behind these people doing these deeds?",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 166,
+          "text_preview": "If we read the parable carefully you will notice that the righteous on Jesus’ ri...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 167,
+          "text_preview": "When did we see you a stranger and invite you in, and needing clothes we clothed...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 168,
+          "text_preview": "They were completely shocked by what Jesus had said.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 170,
+          "text_preview": "Their shock indicates a number of things.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 172,
+          "text_preview": "(a) They responded to the needs of others with no hidden agenda; they were not s...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 173,
+          "text_preview": "(b) Responding to the needs of others is a natural and spontaneous expression of...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 175,
+          "text_preview": "Why would righteous living motivate someone to reach out to needy people?",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 177,
+          "text_preview": "Righteousness is very fulfilling and satisfying, creating within a person a deep...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 178,
+          "text_preview": "Remember Jesus said ‘Blessed are they that hunger and thirst after righteousness...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 180,
+          "text_preview": "The condemnation of the goats on the left.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 182,
+          "text_preview": "The ruling religious leaders of Jesus’ day formed a counsel, known as the Sanhed...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 183,
+          "text_preview": "The goats of this parable didn’t see the needs around them, let alone recognise ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 184,
+          "text_preview": "‘Let us remember that these are people who honestly think they are sheep!  They ...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 185,
+          "text_preview": "“Jesus calls his followers to be a revolutionary, caring community, not comforta...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 187,
+          "text_preview": "The parable of the sheep and the goats says that our attitudes to people in need...",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 188,
+          "text_preview": "Father may I see all life as an opportunity to show Jesus’ love.",
+          "classification": "DEVOTIONAL",
+          "reason": "No special markers found, classified as devotional content"
+        },
+        {
+          "para_index": 190,
+          "text_preview": "Bible in a year reading plan: - Amos 1-4",
+          "classification": "BIBLE_READING",
+          "reason": "Matched Bible reading pattern: Bible in a year"
+        }
+      ]
+    }
+  ]
 }

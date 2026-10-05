@@ -1,10 +1,226 @@
 ======================================================================
 THOUGHT PROCESSOR - VALIDATION REPORT
 ======================================================================
-Generated: 2026-09-27 19:18:04
-Total entries processed: 6
-Complete entries: 6
-Entries with issues: 0
+Generated: 2026-10-05 21:34:39
+Total entries processed: 14
+Complete entries: 12
+Entries with issues: 2
 ======================================================================
 
-✅ All entries are complete! No issues found.
+ENTRIES WITH MISSING SECTIONS OR WARNINGS:
+----------------------------------------------------------------------
+
+📅 DAY 277: What is evangelism? Part 2
+----------------------------------------
+  ❌ MISSING SECTIONS: bible_reading
+
+  PARAGRAPH ANALYSIS (what the parser saw):
+    🔢 [DAY_MARKER] Para #0
+       Text: "Day 277"
+       Why:  Matched day pattern: Day N
+    📖 [STUDY_TEXT_HEADER] Para #2
+       Text: "STUDY TEXT Luke 10:1-16 What is evangelism? Part 2"
+       Why:  Matched study text pattern: study text
+    ✝️ [SCRIPTURE_TEXT] Para #4
+       Text: "‘’After this the Lord appointed seventy-two others and sent them two by two ahea..."
+       Why:  First paragraph after scripture reference, interpreted as scripture text/quote
+    💭 [DEVOTIONAL] Para #6
+       Text: "The peace of evangelism."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #7
+       Text: "Jesus goes on to say:  ‘When you enter a house, first say, ‘Peace to this house...."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #8
+       Text: "This is one of those passages we could easily skip over and miss some important ..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #9
+       Text: "People need to know about our peace, love and acceptance of them before they can..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #10
+       Text: "If we share the gospel in such a way that causes someone to feel threatened or i..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #12
+       Text: "It is possible to be vulnerable like ‘lambs among wolves,’ and have a deep sense..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #14
+       Text: "The conduct of the evangelist"
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #15
+       Text: "We need to hold lightly to our religious traditions. Look at what Jesus said, ‘S..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #16
+       Text: "This was quite a radical thing to say to young Jews, who would only have eaten r..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #18
+       Text: "We need to assure people know that God cares for all of their lives."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #19
+       Text: "Jesus said, ‘Heal the sick who are there and tell them, ‘The kingdom of God has ..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #20
+       Text: "How we respond to the rejection of the gospel is part of our evangelism."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #21
+       Text: "Doing evangelism the way Jesus instructed does not guarantee results, but it doe..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #22
+       Text: "‘Look at what Jesus said, ‘But when you enter a town and are not welcomed, go in..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #24
+       Text: "This verse raises an important issue that we need to think through. Is the criti..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #24
+       Text: "If we are shown rejection because we have shared the gospel, it is okay to share..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #25
+       Text: "We need to find culturally appropriate ways of expressing our sadness without co..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #27
+       Text: "Shaking of the dust of rejection."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #28
+       Text: "Rejection is a terrible and painful thing that can prevent us from moving forwar..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #29
+       Text: "So much of our pain comes from trying to change the way others feel about us. Sh..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #30
+       Text: "I wonder do we care enough to demonstrate our sadness when people reject the gos..."
+       Why:  No special markers found, classified as devotional content
+    🙏 [PRAYER] Para #31
+       Text: "Prayer, Father, please help me have a Godly character so I can share the gospel ..."
+       Why:  Matched prayer pattern: **Prayer**
+    💭 [DEVOTIONAL] Para #32
+       Text: "Bible reading in a year plan: - Hosea 5-8."
+       Why:  No special markers found, classified as devotional content
+
+  💡 SUGGESTIONS TO FIX:
+     - Add 'Bible in a year: [references]' or 'Bible reading plan: [refs]'
+
+
+📅 DAY 281: Parable of the sheep and the goats part 2
+----------------------------------------
+  ❌ MISSING SECTIONS: prayer
+
+  PARAGRAPH ANALYSIS (what the parser saw):
+    🔢 [DAY_MARKER] Para #137
+       Text: "Day 281"
+       Why:  Matched day pattern: Day N
+    📖 [STUDY_TEXT_HEADER] Para #139
+       Text: "STUDY TEXT Matthew 25:31-46. Parable of the sheep and the goats part 2"
+       Why:  Matched study text pattern: study text
+    ✝️ [SCRIPTURE_TEXT] Para #141
+       Text: "“But when the Son of Man comes in his glory, and all the angels with him, then h..."
+       Why:  First paragraph after scripture reference, interpreted as scripture text/quote
+    💭 [DEVOTIONAL] Para #143
+       Text: "Evidence of authentic Christianity."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #144
+       Text: "Writing about this passage, Ray Stedmen wrote,"
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #145
+       Text: "‘The arresting thing about this is that Jesus is clearly saying that the ultimat..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #146
+       Text: "The deeds that Jesus mentions here are the fruit of salvation not the root; thes..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #147
+       Text: "All the deeds that Jesus mentions here are not hard to do; we don’t need a lot o..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #148
+       Text: "‘Caring for the needy in the Hebrew Scriptures, for example, is the second most ..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #150
+       Text: "How we treat people in need is an indication of what kind of relationship we hav..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #151
+       Text: "‘For I was hungry and you gave me something to eat.  I was thirsty and you gave ..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #152
+       Text: "Mother Teresa of Calcutta, whose nursing order of sisters had adopted precisely ..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #153
+       Text: "‘In Jesus’ vision of the last days we discover that when He does come into our h..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #155
+       Text: "How are we treating Jesus?"
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #157
+       Text: "There is a very interesting admission in this passage. Not once does Jesus refer..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #158
+       Text: "No matter how little or how much we have materially we are all responsible to re..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #159
+       Text: "We can only touch the heart of Jesus as we give ourselves to those in need. Read..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #160
+       Text: "As Christians we should be sacrificially investing ourselves in the lives of nee..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #161
+       Text: "Any indifference to the plight of the needy suggests that we almost approve of a..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #163
+       Text: "For evil to advance, all is needed is for good men to do nothing."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #165
+       Text: "What was the motive behind these people doing these deeds?"
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #166
+       Text: "If we read the parable carefully you will notice that the righteous on Jesus’ ri..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #167
+       Text: "When did we see you a stranger and invite you in, and needing clothes we clothed..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #168
+       Text: "They were completely shocked by what Jesus had said."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #170
+       Text: "Their shock indicates a number of things."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #172
+       Text: "(a) They responded to the needs of others with no hidden agenda; they were not s..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #173
+       Text: "(b) Responding to the needs of others is a natural and spontaneous expression of..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #175
+       Text: "Why would righteous living motivate someone to reach out to needy people?"
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #177
+       Text: "Righteousness is very fulfilling and satisfying, creating within a person a deep..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #178
+       Text: "Remember Jesus said ‘Blessed are they that hunger and thirst after righteousness..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #180
+       Text: "The condemnation of the goats on the left."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #182
+       Text: "The ruling religious leaders of Jesus’ day formed a counsel, known as the Sanhed..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #183
+       Text: "The goats of this parable didn’t see the needs around them, let alone recognise ..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #184
+       Text: "‘Let us remember that these are people who honestly think they are sheep!  They ..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #185
+       Text: "“Jesus calls his followers to be a revolutionary, caring community, not comforta..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #187
+       Text: "The parable of the sheep and the goats says that our attitudes to people in need..."
+       Why:  No special markers found, classified as devotional content
+    💭 [DEVOTIONAL] Para #188
+       Text: "Father may I see all life as an opportunity to show Jesus’ love."
+       Why:  No special markers found, classified as devotional content
+    📚 [BIBLE_READING] Para #190
+       Text: "Bible in a year reading plan: - Amos 1-4"
+       Why:  Matched Bible reading pattern: Bible in a year
+
+  💡 SUGGESTIONS TO FIX:
+     - Add 'Prayer:- [prayer text]' or 'Prayer: [prayer text]'
+
+======================================================================
+END OF REPORT
+======================================================================

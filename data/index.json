@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-05T21:34:39.026567",
-  "total_days": 290,
-  "complete_days": 211,
+  "generated": "2026-10-20T06:16:13.482995",
+  "total_days": 300,
+  "complete_days": 221,
   "incomplete_days": 79,
   "days": [
     {
@@ -2846,6 +2846,96 @@
       "day": 290,
       "title": "Sleeping in the storm",
       "file": "day-290.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 291,
+      "title": "Grace to a broken women part 1",
+      "file": "day-291.json",
+      "has_links": true,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 292,
+      "title": "Grace to a broken women part 2",
+      "file": "day-292.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 293,
+      "title": "Grace to a broken women part 3",
+      "file": "day-293.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 294,
+      "title": "Grace to a broken women part 4",
+      "file": "day-294.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 295,
+      "title": "When people treat us superficially part 1",
+      "file": "day-295.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 296,
+      "title": "When people treat us superficially part 2",
+      "file": "day-296.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 297,
+      "title": "When people treat us superficially part 3",
+      "file": "day-297.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 298,
+      "title": "People who cannot manage their thirst. Part 1",
+      "file": "day-298.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 299,
+      "title": "People who cannot manage their thirst. Part 2",
+      "file": "day-299.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 300,
+      "title": "People who cannot manage their thirst. Part 3",
+      "file": "day-300.json",
       "has_links": false,
       "has_highlights": true,
       "is_complete": true,

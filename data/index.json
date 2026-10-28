@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-20T06:16:13.482995",
-  "total_days": 300,
-  "complete_days": 221,
+  "generated": "2026-10-28T23:01:29.063941",
+  "total_days": 307,
+  "complete_days": 228,
   "incomplete_days": 79,
   "days": [
     {
@@ -2937,6 +2937,69 @@
       "title": "People who cannot manage their thirst. Part 3",
       "file": "day-300.json",
       "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 301,
+      "title": "People who cannot manage their thirst. Part 4",
+      "file": "day-301.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 302,
+      "title": "When people are hostile towards us. Part 1",
+      "file": "day-302.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 303,
+      "title": "When people are hostile towards us. Part 2",
+      "file": "day-303.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 304,
+      "title": "When people are hostile towards us. Part 3",
+      "file": "day-304.json",
+      "has_links": true,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 305,
+      "title": "When people are hostile towards us. Part 4",
+      "file": "day-305.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 306,
+      "title": "Save me from my religion. Part 1",
+      "file": "day-306.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 307,
+      "title": "Save me from my religion. Part 2",
+      "file": "day-307.json",
+      "has_links": true,
       "has_highlights": true,
       "is_complete": true,
       "missing_sections": []

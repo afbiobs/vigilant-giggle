@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-28T23:01:29.063941",
-  "total_days": 307,
-  "complete_days": 228,
+  "generated": "2026-11-04T16:39:06.720080",
+  "total_days": 313,
+  "complete_days": 234,
   "incomplete_days": 79,
   "days": [
     {
@@ -3001,6 +3001,60 @@
       "file": "day-307.json",
       "has_links": true,
       "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 308,
+      "title": "Save me from my religion. Part 3",
+      "file": "day-308.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 309,
+      "title": "The wise men part 1",
+      "file": "day-309.json",
+      "has_links": false,
+      "has_highlights": false,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 310,
+      "title": "The wise men part 2",
+      "file": "day-310.json",
+      "has_links": false,
+      "has_highlights": false,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 311,
+      "title": "The wise men part 3",
+      "file": "day-311.json",
+      "has_links": false,
+      "has_highlights": false,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 312,
+      "title": "The wise men part 4",
+      "file": "day-312.json",
+      "has_links": false,
+      "has_highlights": false,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 313,
+      "title": "Shepherds encounter with the angels part 1",
+      "file": "day-313.json",
+      "has_links": true,
+      "has_highlights": false,
       "is_complete": true,
       "missing_sections": []
     }

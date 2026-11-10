@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-04T16:39:06.720080",
-  "total_days": 313,
-  "complete_days": 234,
+  "generated": "2026-11-10T12:53:40.999026",
+  "total_days": 317,
+  "complete_days": 238,
   "incomplete_days": 79,
   "days": [
     {
@@ -3055,6 +3055,42 @@
       "file": "day-313.json",
       "has_links": true,
       "has_highlights": false,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 314,
+      "title": "Shepherds encounter with the angels part 2",
+      "file": "day-314.json",
+      "has_links": false,
+      "has_highlights": false,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 315,
+      "title": "The tragic consequence when we struggle to receive the Grace of God. Part 1",
+      "file": "day-315.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 316,
+      "title": "The tragic consequence when we struggle to receive the Grace of God. Part 2",
+      "file": "day-316.json",
+      "has_links": true,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 317,
+      "title": "The tragic consequence when we struggle to receive the Grace of God. Part 3",
+      "file": "day-317.json",
+      "has_links": false,
+      "has_highlights": true,
       "is_complete": true,
       "missing_sections": []
     }

@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-10T12:53:40.999026",
-  "total_days": 317,
-  "complete_days": 238,
+  "generated": "2026-11-13T18:04:08.976597",
+  "total_days": 327,
+  "complete_days": 248,
   "incomplete_days": 79,
   "days": [
     {
@@ -3089,6 +3089,96 @@
       "day": 317,
       "title": "The tragic consequence when we struggle to receive the Grace of God. Part 3",
       "file": "day-317.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 318,
+      "title": "Jesus' Instruction for ministry. Part 1",
+      "file": "day-318.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 319,
+      "title": "Jesus' Instruction for ministry. Part 2",
+      "file": "day-319.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 320,
+      "title": "Jesus' Instruction for ministry. Part 3",
+      "file": "day-320.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 321,
+      "title": "Jesus' Instruction for ministry. Part 4",
+      "file": "day-321.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 322,
+      "title": "Jesus' Instruction for ministry. Part 5",
+      "file": "day-322.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 323,
+      "title": "Jesus' Instruction for ministry. Part 6",
+      "file": "day-323.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 324,
+      "title": "Jesus' Instruction for ministry. Part 7",
+      "file": "day-324.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 325,
+      "title": "Jesus' Instruction for ministry. Part 8",
+      "file": "day-325.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 326,
+      "title": "Jesus' Instruction for ministry. Part 9",
+      "file": "day-326.json",
+      "has_links": false,
+      "has_highlights": true,
+      "is_complete": true,
+      "missing_sections": []
+    },
+    {
+      "day": 327,
+      "title": "Jesus' Instruction for ministry. Part 10",
+      "file": "day-327.json",
       "has_links": false,
       "has_highlights": true,
       "is_complete": true,
